@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1026214
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1026214
+HARRIS WATER HEATERS INC
+6270 CROW CANYON RD
+CASTRO VALLEY, CA 94552
+Business Phone Number:(877) 946-8426
+Entity: Corporation
+Issue Date: 04/27/2017
+Reissue Date: 11/08/2018
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100414741, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: C752565689, Effective Date: 08/01/2026, Expire Date: 08/01/2027. Classification codes: 5187 - Description Unavailable; 8871 - Clerical Telecommuter Employees
+Miscellaneous Information: 11/08/2018 - LICENSE REISSUED TO ANOTHER ENTITY

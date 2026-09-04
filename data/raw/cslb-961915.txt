@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=961915
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:32 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  961915
+PRECISE PLUMBING
+1279 139TH AVE
+SAN LEANDRO, CA 94578
+Business Phone Number:(415) 823-3795
+Entity: Sole Ownership
+Issue Date: 06/08/2011
+Expire Date: 06/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: BUSINESS ALLIANCE INSURANCE COMPANY, Bond Number: G19033212953, Bond Amount: $25,000, Effective Date: 08/25/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/08/2025, Expire Date: None

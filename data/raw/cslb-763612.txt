@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=763612
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  763612
+HOT WATER INC
+2531 GRACELAND AVENUE
+SAN CARLOS, CA 94070
+Business Phone Number:(650) 631-8494
+Entity: Corporation
+Issue Date: 05/26/1999
+Expire Date: 05/31/2007
+License Status: This license is expired and not able to contract at this time. The license was canceled after expiration.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: WCL1155138, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 04/16/2007
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 046-0015612, Effective Date: 05/20/2005, Cancellation Date: 05/09/2006
+Miscellaneous Information: 10/06/2017 - LIC CANCELED AFTER EXPIRATION DATE; 10/06/2017 - SECRETARY OF STATE - DISSOLUTION

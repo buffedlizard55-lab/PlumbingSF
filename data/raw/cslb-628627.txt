@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=628627
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:21 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  628627
+CHUNG HING PLUMBING CORP
+2419 35TH AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 661-2382
+Entity: Corporation
+Issue Date: 09/14/1991
+Reissue Date: 09/26/2000
+Expire Date: 09/30/2006
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 6041650, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 10/07/2006
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/15/2005, Expire Date: None
+Miscellaneous Information: 09/26/2000 - LICENSE REISSUED TO ANOTHER ENTITY; 09/15/2006 - LICENSE CANCELLED PER REQUEST

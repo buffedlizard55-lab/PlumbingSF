@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=556995
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  556995
+RENSTROM PLUMBING & HEATING INC
+600 AMADOR SUITE 1
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 282-9370
+Entity: Corporation
+Issue Date: 02/14/1989
+Reissue Date: 03/03/1997
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1021438, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: MID-CENTURY INSURANCE COMPANY, Policy Number: A09507793, Effective Date: 11/05/2020, Expire Date: 11/05/2026. Classification codes: 5187 - Description Unavailable; 88101 - Description Unavailable
+Miscellaneous Information: 03/03/1997 - LICENSE REISSUED TO ANOTHER ENTITY

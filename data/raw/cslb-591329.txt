@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591329
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:35 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  591329
+JUST WATER HEATERS INC
+3400 INVESTMENT BOULEVARD
+HAYWARD, CA 94545
+Business Phone Number:(510) 293-2016
+Entity: Corporation
+Issue Date: 03/28/1990
+Expire Date: 02/13/2012
+License Status: This license is revoked and not able to contract at this time. The license was revoked after expiration. There is Complaint Disclosure information for this license.
+Classifications: C36 - PLUMBING
+Contractor's Bond: INTERNATIONAL FIDELITY INSURANCE COMPANY, Bond Number: 0370319, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 05/10/2011
+Workers' Compensation: ACE PROPERTY AND CASUALTY INSURANCE COMPANY, Policy Number: C46276863, Effective Date: 04/01/2010, Expire Date: 04/01/2011
+Miscellaneous Information: 02/13/2012 - SECRETARY OF STATE - DISSOLUTION

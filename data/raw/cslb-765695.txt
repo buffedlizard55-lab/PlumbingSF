@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=765695
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:21 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  765695
+DANIEL LARRATT PLUMBING INC
+944 TERMINAL WAY
+SAN CARLOS, CA 94070
+Business Phone Number:(650) 551-1200
+Entity: Corporation
+Issue Date: 07/13/1999
+Reissue Date: 08/28/2000
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1027396, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: OAK RIVER INSURANCE COMPANY, Policy Number: DAWC632226, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 5187 - Description Unavailable; 8742 - Salespersons-Outside; 8810 - Clerical Office Employees
+Miscellaneous Information: 08/28/2000 - LICENSE REISSUED TO ANOTHER ENTITY

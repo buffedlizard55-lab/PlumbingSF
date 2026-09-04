@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498866
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  498866
+O'CONNOR PLUMBING & FIRE PROTECTION INC
+360 SWIFT AVE
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(650) 344-4424
+Entity: Corporation
+Issue Date: 09/26/1986
+Reissue Date: 04/02/2026
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101050298, Bond Amount: $25,000, Effective Date: 04/02/2026
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9386001, Effective Date: 02/28/2026, Expire Date: 08/29/2027. Classification codes: 5187 - Description Unavailable; 5186 - Automatic Sprinkler Install-high wage; 8810 - Clerical Office Employees
+Miscellaneous Information: 08/18/2000 - LICENSE CANCELLED PER REQUEST; 04/02/2026 - LICENSE REISSUED TO ANOTHER ENTITY

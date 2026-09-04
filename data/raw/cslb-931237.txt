@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=931237
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:37 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  931237
+FAST WATER HEATER PARTNERS I L P
+11715 NORTH CREEK PARKWAY S
+C-106
+BOTHELL, WA 98011
+Business Phone Number:(425) 636-7058
+Entity: Partnership
+Issue Date: 04/14/2009
+Expire Date: 10/01/2013
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: DEVELOPERS SURETY AND INDEMNITY COMPANY, Bond Number: 359745C, Bond Amount: $12,500, Effective Date: 03/12/2009, Cancellation Date: 11/01/2013
+Workers' Compensation: TRUCK INSURANCE EXCHANGE, Policy Number: A09304455, Effective Date: 12/01/2011, Expire Date: 12/01/2013
+Miscellaneous Information: 10/02/2013 - LICENSE CANCELED PER REQUEST

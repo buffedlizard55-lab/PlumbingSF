@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=998725
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  998725
+J M PACIFIC BAY PLUMBING INC
+1555 YOSEMITE AVENUE SUITE 17
+SAN FRANCISCO, CA 94134
+Business Phone Number:(415) 928-9826
+Entity: Corporation
+Issue Date: 11/19/2014
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800267416, Bond Amount: $25,000, Effective Date: 09/01/2026
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: KWP1437672, Effective Date: 04/18/2026, Expire Date: 04/18/2027. Classification codes: 5183 - Description Unavailable; 5187 - Description Unavailable; 40533 - Description Unavailable

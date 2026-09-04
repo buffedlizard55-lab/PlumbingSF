@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=101436
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  101436
+WESTERN PLUMBING & HEATING CO INC
+888 MARIN STREET
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 647-0696
+Entity: Corporation
+Issue Date: 03/18/1948
+Expire Date: 08/07/2014
+License Status: This license is canceled and not able to contract.
+Classifications: B - GENERAL BUILDING; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C12 - EARTHWORK AND PAVING; C16 - FIRE PROTECTION; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING; C38 - REFRIGERATION; C43 - SHEET METAL; C60 - WELDING; C42 - SANITATION SYSTEM
+Contractor's Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: CLB2713377, Bond Amount: $12,500, Effective Date: 06/10/2011, Cancellation Date: 09/30/2013
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9041892, Effective Date: 01/15/2013, Expire Date: 03/31/2014
+Miscellaneous Information: 08/07/2014 - LICENSE CANCELED PER REQUEST

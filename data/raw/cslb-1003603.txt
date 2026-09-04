@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1003603
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:51 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1003603
+DLB PLUMBING
+55 CASTLEMONT AVE
+DALY CITY, CA 94015
+Business Phone Number:(415) 233-3663
+Entity: Sole Ownership
+Issue Date: 05/13/2015
+Expire Date: 05/31/2023
+License Status: This license is expired and not able to contract at this time. There may be a legal requirement to be met prior to renewal or reactivation of the license. The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NAVIGATORS INSURANCE COMPANY, Bond Number: NAV00031278, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 02/19/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/28/2022, Expire Date: None

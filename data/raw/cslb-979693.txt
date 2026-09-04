@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=979693
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:53 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  979693
+M C PLUMBING
+210 RANGEWOOD DRIVE
+PITTSBURG, CA 94565
+Business Phone Number:(925) 628-7622
+Entity: Sole Ownership
+Issue Date: 12/20/2012
+Expire Date: 12/31/2026
+License Status: License is under suspension for the following reasons: License is suspended for failure to comply with an outstanding civil judgment.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100915479, Bond Amount: $25,000, Effective Date: 12/09/2024
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/09/2024, Expire Date: None

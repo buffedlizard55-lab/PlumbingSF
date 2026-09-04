@@ -27,7 +27,7 @@ TIER_META = {
     "fallback-only": ("Fallback only", "Only relevant if concealed piping must actually be replaced."),
     "wrong-scale": ("Wrong scale", "Clean license, but not a residential service-call business."),
     "unverified": ("Not verified", "No CSLB license could be confirmed. Do not hire on this evidence."),
-    "do-not-hire": ("Do not hire", "CSLB license suspended, expired or canceled at the verification date."),
+    "do-not-hire": ("Do not hire", "CSLB license revoked, suspended, inactive, expired or canceled at the verification date."),
     "historical": ("Historical entity", "Superseded or canceled license, kept so permit history can be traced."),
 }
 
@@ -36,6 +36,8 @@ STATUS_META = {
     "suspended": ("SUSPENDED", "bad"),
     "expired": ("EXPIRED", "bad"),
     "canceled": ("CANCELED", "bad"),
+    "revoked": ("REVOKED", "bad"),
+    "inactive": ("INACTIVE", "bad"),
     "unknown": ("UNKNOWN", "warn"),
     "unverified": ("NOT VERIFIED", "warn"),
 }
@@ -347,14 +349,23 @@ def main() -> int:
     hireable = [x for x in entries if x["tier"] in ("recommended", "viable", "conditional")]
     not_hireable = [x for x in entries if x["tier"] in ("do-not-hire", "unverified", "wrong-scale", "historical")]
     fallback = [x for x in entries if x["tier"] == "fallback-only"]
-    batch1 = [x for x in entries if x.get("research_batch") == "2026-09-04-expansion-20"]
-    batch2 = [x for x in entries if x.get("research_batch") == "2026-09-04-expansion-50"]
-    expansion = batch1 + batch2
-    b2_status = {}
-    for x in batch2:
-        code = x["license"].get("status_code") or "?"
-        b2_status[code] = b2_status.get(code, 0) + 1
-    b2_reviewed = sum(1 for x in batch2 if x.get("ratings") or x.get("evidence"))
+    batch_order = [
+        ("2026-09-04-expansion-20", "20-entry pass"),
+        ("2026-09-04-expansion-50", "50-entry pass"),
+        ("2026-09-04-expansion-50-b3", "50-entry pass (b3)"),
+        ("2026-09-04-expansion-50-b4", "latest 50-entry pass (b4)"),
+    ]
+    batch_summaries = []
+    for code, label in batch_order:
+        bl = [x for x in entries if x.get("research_batch") == code]
+        st: dict[str, int] = {}
+        for x in bl:
+            c = x["license"].get("status_code") or "?"
+            st[c] = st.get(c, 0) + 1
+        reviewed = sum(1 for x in bl if x.get("ratings") or x.get("evidence"))
+        batch_summaries.append((code, label, bl, st, reviewed))
+    expansion = [x for x in entries if x.get("research_batch")]
+    expansion_count = sum(len(bl) for _, _, bl, _, _ in batch_summaries)
 
     criticals = []
     for en in entries:
@@ -609,7 +620,7 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="stats">
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
-    <div class="stat"><b>{len(expansion)}</b><span>newly researched entries ({len(batch1)} + {len(batch2)})</span></div>
+    <div class="stat"><b>{expansion_count}</b><span>newly researched entries (4 passes)</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
     <div class="stat"><b>{counts['active_verified_businesses']}</b><span>entries with a verified ACTIVE license</span></div>
     <div class="stat"><b>{len(hireable)}</b><span>hireable screening candidates</span></div>
@@ -649,16 +660,22 @@ footer.site p{{max-width:90ch}}
   snake the shower and stop before opening any wall or replacing concealed piping unless the landlord gives
   separate written authorization?&rdquo;</em> Do not infer experience from a generic bathtub-service category.</p>
   <div class="panel" style="margin-top:14px">
-    <h3>Latest 50-business verification pass (2026-09-04)</h3>
-    <p class="muted">{len(batch2)} additional businesses surfaced from San Francisco plumbing-permit records
-    were verified line by line against the official CSLB:
-    {' &middot; '.join(f'<b>{n}</b> {k}' for k, n in sorted(b2_status.items()))}.
-    {b2_reviewed} of them carry captured review evidence; the rest are license-verified only and must be
-    screened by phone. The {b2_status.get('expired', 0) + b2_status.get('canceled', 0) + b2_status.get('suspended', 0)}
-    not-hireable entries remain published as <em>do-not-hire warnings</em>, because several of these
-    brand names still advertise in San Francisco under licenses the state no longer honours. Open each entry's
-    CSLB record before booking. Nothing in this pass proves a firm has extracted a seized trip lever without
-    opening a wall.</p>
+    <h3>Expansion verification passes (2026-09-04)</h3>
+    <p class="muted">{expansion_count} additional businesses surfaced from San Francisco plumbing-permit
+    records were verified line by line against the official CSLB across four fixed passes:</p>
+    <table><thead><tr><th>Pass</th><th>Entries</th><th>CSLB status breakdown</th><th>Review evidence</th></tr></thead>
+    <tbody>{''.join(
+        '<tr><td>' + e(label) + '</td><td><b>' + str(len(bl)) + '</b></td><td>'
+        + ' &middot; '.join(f'<b>{n}</b> {k}' for k, n in sorted(st.items()))
+        + '</td><td>' + ('<b>' + str(rv) + '</b> with captured review evidence' if rv else 'license-verified only')
+        + '</td></tr>' for code, label, bl, st, rv in batch_summaries)}
+    </tbody></table>
+    <p class="muted">The latest pass (b4) carries no captured review-platform evidence: its 50 businesses are
+    license-verified against the official CSLB only and must be screened by phone. Non-hireable entries
+    (revoked, suspended, inactive, canceled or expired at the verification date) remain published as
+    <em>do-not-hire warnings</em>, because several of these brand names still advertise in San Francisco
+    under licenses the state no longer honours. Open each entry's CSLB record before booking. Nothing in
+    these passes proves a firm has extracted a seized trip lever without opening a wall.</p>
   </div>
 </div></section>
 
@@ -691,8 +708,8 @@ footer.site p{{max-width:90ch}}
   <div class="row" style="margin-top:8px">
     <button data-filter="all" aria-pressed="true">All hireable</button>
     <button data-filter="recommended" aria-pressed="false">First-screen leads</button>
-    <button data-filter="new" aria-pressed="false">New ({len(batch1)} + {len(batch2)})</button>
-    <button data-filter="new50" aria-pressed="false">Latest 50-entry pass</button>
+    <button data-filter="new" aria-pressed="false">New ({expansion_count})</button>
+    <button data-filter="newb4" aria-pressed="false">Latest 50-entry pass (b4)</button>
     <button data-filter="viable" aria-pressed="false">Verified &amp; viable</button>
     <button data-filter="conditional" aria-pressed="false">Partial fit</button>
     <button data-filter="flagged" aria-pressed="false">Flagged / not hireable</button>
@@ -832,7 +849,7 @@ footer.site p{{max-width:90ch}}
       : filter === 'flagged' ? HIREABLE.indexOf(t) < 0
       : filter === 'active' ? s === 'active'
       : filter === 'new' ? (c.dataset.batch || '').indexOf('2026-09-04-expansion') === 0
-      : filter === 'new50' ? c.dataset.batch === '2026-09-04-expansion-50'
+      : filter === 'newb4' ? c.dataset.batch === '2026-09-04-expansion-50-b4'
       : t === filter;
     if (!okFilter) return false;
     var term = (q.value || '').trim().toLowerCase();

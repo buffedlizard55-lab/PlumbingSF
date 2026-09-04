@@ -14,6 +14,8 @@ OUT = pathlib.Path(__file__).resolve().parent.parent / "data" / "_cslb_extract.j
 STATUS_MAP = [
     ("current and active", "active"),
     ("under suspension", "suspended"),
+    ("revoked", "revoked"),
+    ("inactive", "inactive"),
     ("is expired", "expired"),
     ("was canceled", "canceled"),
     ("canceled", "canceled"),

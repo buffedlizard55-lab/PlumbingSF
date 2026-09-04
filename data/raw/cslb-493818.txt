@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=493818
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:30 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  493818
+RODNEY CONKLIN PLUMBING & HEATING
+702 ANNA PLACE AY
+EL DORADO HILLS, CA 95762
+Business Phone Number:(650) 207-5899
+Entity: Sole Ownership
+Issue Date: 06/20/1986
+Expire Date: 06/30/2014
+License Status: This license is expired and not able to contract at this time.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC927932, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 07/31/2014
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 04/14/2003, Expire Date: None

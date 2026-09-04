@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=767866
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  767866
+EMERALD PLUMBING & FIRE PROTECTION INC
+P O BOX 2026
+BURLINGAME, CA 94011
+Business Phone Number:(650) 344-9370
+Entity: Corporation
+Issue Date: 08/25/1999
+Expire Date: 08/31/2013
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SCS6037725, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 10/04/2012
+Workers' Compensation: MARKEL INSURANCE COMPANY, Policy Number: MWC000642001, Effective Date: 07/01/2011, Expire Date: 07/01/2012
+Miscellaneous Information: 08/31/2013 - LICENSE CANCELED PER REQUEST

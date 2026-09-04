@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=837694
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:50 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  837694
+GOODRICH PLUMBING INC
+265 KENSINGTON WAY
+SAN FRANCISCO, CA 94127
+Business Phone Number:(415) 661-9138
+Entity: Corporation
+Issue Date: 05/05/2004
+Expire Date: 02/11/2025
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6060152, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 04/04/2025
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9020903, Effective Date: 08/17/2012, Cancellation Date: 01/04/2025
+Miscellaneous Information: 02/11/2025 - LICENSE CANCELED PER REQUEST; 02/11/2025 - SECRETARY OF STATE - DISSOLUTION

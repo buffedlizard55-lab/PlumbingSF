@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1066584
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:49 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1066584
+CASTLEWORKS HOME SERVICES COMPANY
+28358 CONSTELLATION RD STE 698
+VALENCIA, CA 91355
+Business Phone Number:(818) 481-7132
+Entity: Corporation
+Issue Date: 07/01/2020
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100654730, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STONINGTON INSURANCE COMPANY, Policy Number: 155000035, Effective Date: 11/23/2025, Expire Date: 11/23/2026. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees

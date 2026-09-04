@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=712728
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  712728
+HEATH PLUMBING & FIRE PROTECTION
+907 HARRISON STREET
+SAN FRANCISCO, CA 94107
+Business Phone Number:(415) 243-9600
+Entity: Corporation
+Issue Date: 09/22/1995
+Expire Date: 09/30/2001
+License Status: This license is expired and not able to contract at this time.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C16 - FIRE PROTECTION; C36 - PLUMBING
+Contractor's Bond: CONTRACTORS BONDING AND INSURANCE COMPANY, Bond Number: CB4608, Bond Amount: $7,500, Effective Date: 08/29/1995, Cancellation Date: 10/19/2001
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 03/15/2001, Expire Date: None

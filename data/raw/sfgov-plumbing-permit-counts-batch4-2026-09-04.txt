@@ -1,0 +1,22 @@
+SOURCE_URL: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$where=license_number%20in(...)
+DATASET: data.sfgov.org view k6kv-9kix "Plumbing Permits Contacts" - "Contacts of contractors for Plumbing Permits"; provenance official; license PDDL.
+CAPTURED_AT: 2026-09-04 (live Socrata API responses, fetched by fetch tool in this session)
+TYPE: Official government open-data aggregate - permit-row counts grouped by (firm_name, license_number) for the nine licenses of the 2026-09-04-expansion-50-b4 batch that fall below the top-300-by-volume capture. Verbatim JSON rows as returned.
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$where=license_number%20in(%27838680%27,%27837694%27,%27723992%27) | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"Joe Watterson Plumbing","license_number":"723992","count":"257"}
+,{"firm_name":"Slemish Plumbing","license_number":"723992","count":"269"}
+,{"firm_name":"Goodrich Plumbing Inc","license_number":"837694","count":"272"}
+,{"firm_name":"Real Plumbing And Heating","license_number":"838680","count":"276"}
+,{"firm_name":"Real Plumbing And Heating Inc","license_number":"838680","count":"42"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$where=license_number%20in(%27532819%27,%271003603%27,%27664620%27) | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"Dlb Plumbing","license_number":"1003603","count":"262"}
+,{"firm_name":"Superior Plumbing","license_number":"664620","count":"262"}
+,{"firm_name":"Wills Plumbing","license_number":"532819","count":"267"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$where=license_number%20in(%27868068%27,%27923951%27,%27979693%27) | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"M C Plumbing","license_number":"979693","count":"254"}
+,{"firm_name":"Plumb - In - Time Plumbing Services Inc.","license_number":"868068","count":"258"}
+,{"firm_name":"Alliance Plumbing Co","license_number":"923951","count":"256"}
+,{"firm_name":"Metro Mech. Inc. Dba: Illinois Metro","license_number":"868068","count":"13"}]

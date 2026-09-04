@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=933593
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  933593
+ALANSI'S ROOTER & PLUMBING
+1126 CUTTING BLVD
+RICHMOND, CA 94804
+Business Phone Number:(415) 497-8700
+Entity: Sole Ownership
+Issue Date: 06/08/2009
+Expire Date: 12/31/2029
+License Status: This license is inactive and not able to contract at this time. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30037183, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: HARTFORD FIRE INSURANCE COMPANY, Policy Number: 34WECAK7NT1, Effective Date: 03/03/2024, Expire Date: 03/03/2025

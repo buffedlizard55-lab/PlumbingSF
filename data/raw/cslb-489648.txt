@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=489648
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:22 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  489648
+KIWI PLUMBING INC
+71 B LIBERTY SHIP WAY
+SAUSALITO, CA 94965
+Business Phone Number:(415) 518-8066
+Entity: Corporation
+Issue Date: 04/10/1986
+Reissue Date: 05/11/2009
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800247004, Bond Amount: $25,000, Effective Date: 05/06/2026
+Workers' Compensation: EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600026726261, Effective Date: 03/16/2026, Expire Date: 03/16/2027. Classification codes: 5183 - Description Unavailable; 5187 - Description Unavailable; 8810 - Clerical Office Employees
+Miscellaneous Information: 05/11/2009 - LICENSE REISSUED TO ANOTHER ENTITY

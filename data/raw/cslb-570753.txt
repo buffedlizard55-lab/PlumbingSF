@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=570753
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:29 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  570753
+RICKY'S PLUMBING COMPANY
+3550 CABRILLO STREET
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 876-0333
+Entity: Sole Ownership
+Issue Date: 06/13/1989
+Expire Date: 06/30/2005
+License Status: This license is expired and not able to contract at this time. The license was canceled after expiration.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10116723, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 02/17/2005
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1226550, Effective Date: 10/15/1991, Expire Date: 01/18/2007
+Miscellaneous Information: 09/16/2005 - LICENSE CANCELLED PER REQUEST
