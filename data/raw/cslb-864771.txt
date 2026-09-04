@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=864771
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:05:24 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  864771
+FERGAL BURKE PLUMBING
+437 DELLBROOK AVENUE
+SAN FRANCISCO, CA 94131
+Business Phone Number:(415) 806-5584
+Entity: Sole Ownership
+Issue Date: 09/24/2005
+Expire Date: 09/30/2023
+License Status: This license is expired and not able to contract at this time.
+Additional Status: The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: W150420486, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 04/15/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/06/2021, Expire Date: None

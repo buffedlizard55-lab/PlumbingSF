@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=862601
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:09:12 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  862601
+STALLION ROOTER & PLUMBING INC
+790 SOUTH AMPHLETT BOULEVARD
+SAN MATEO, CA 94402-1401
+Business Phone Number:(415) 200-7545
+Entity: Corporation
+Issue Date: 08/08/2005
+Reissue Date: 10/25/2010
+Expire Date: 09/21/2012
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: SURETEC INSURANCE COMPANY, Bond Number: 100287, Bond Amount: $12,500, Effective Date: 10/25/2010, Cancellation Date: 11/24/2012
+Bond of Qualifying Individual: The qualifying individual KARAPET SHAMILYAN certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 10/25/2010
+Workers' Compensation: SOUTHERN INSURANCE COMPANY, Policy Number: WSI003526702, Effective Date: 12/06/2010, Expire Date: 12/06/2011
+Miscellaneous Information: 10/25/2010 - LICENSE REISSUED TO ANOTHER ENTITY; 09/21/2012 - SECRETARY OF STATE - DISSOLUTION

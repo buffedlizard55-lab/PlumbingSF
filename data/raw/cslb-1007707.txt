@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1007707
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:04:53 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1007707
+MAXIMUS PLUMBING
+24591 2ND ST
+HAYWARD, CA 94541
+Business Phone Number:(650) 995-1050
+Entity: Sole Ownership
+Issue Date: 09/28/2015
+Expire Date: 09/30/2027
+License Status: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101015643, Bond Amount: $25,000, Effective Date: 11/25/2025, Cancellation Date: 05/24/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/01/2025, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

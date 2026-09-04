@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=343610
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:06:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  343610
+DAVID CHU PLUMBING
+1530 29TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 269-3861
+Entity: Sole Ownership
+Issue Date: 09/12/1977
+Expire Date: 02/29/2028
+License Status: This license is inactive and not able to contract at this time.
+Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC464621, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 05/13/2021
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/07/2018, Cancellation Date: 03/01/2020
+Miscellaneous Information: 10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED

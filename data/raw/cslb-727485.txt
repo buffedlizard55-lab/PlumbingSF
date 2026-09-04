@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=727485
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:42 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  727485
+SCOTT'S PLUMBING
+3145 GEARY BLVD #336
+SAN FRANCISCO, CA 94118
+Business Phone Number:(415) 261-0879
+Entity: Sole Ownership
+Issue Date: 09/12/1996
+Expire Date: 10/31/2012
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100142450, Bond Amount: $12,500, Effective Date: 10/14/2010, Cancellation Date: 12/02/2011
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/28/1996, Expire Date: None

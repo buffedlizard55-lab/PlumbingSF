@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=595176
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:07:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  595176
+SNC PLUMBING & FIRE PROTECTION INC
+1595 FAIRFAX AVENUE STE A
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 282-0688
+Entity: Corporation
+Issue Date: 05/30/1990
+Expire Date: 04/19/2012
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: GCL1154848, Bond Amount: $12,500, Effective Date: 10/29/2007, Cancellation Date: 12/04/2009
+Bond of Qualifying Individual: The qualifying individual STEVEN NGOON CHU certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 05/30/1990
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 571-0004312, Effective Date: 07/01/2008, Cancellation Date: 07/01/2012
+Miscellaneous Information: 04/19/2012 - LICENSE CANCELED PER REQUEST

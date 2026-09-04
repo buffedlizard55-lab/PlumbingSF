@@ -1,0 +1,348 @@
+RESEARCH_BATCH: 2026-09-04-expansion-50-b6
+NOTE: Concise verbatim excerpts from review-platform pages fetched DIRECTLY on 2026-09-04 with the fetch tool (no scraping proxy). Only the businesses whose CSLB license number could be tied to the page (Thumbtack "License verified" C36 badge plus a CSLB record match by exact business name and city, or a BBB profile that prints the CSLB license number) carry rating aggregates. Everything not present in a block below is NOT claimed. Yelp and Google remained blocked (HTTP 403) for automated access on this date and are linked for manual review only. Reddit remained blocked (HTTP 403 on old./www./.json) and no Reddit quotation is used as evidence.
+CANDIDATE SOURCING: Thumbtack San Francisco category pages (plumbers, drain-cleaning, drain-unclogging), BBB search "plumber near San Francisco, CA", and the SF open-data plumbing-permit contact dataset filtered to contractor address zip 94122/94116 (Outer Sunset / Parkside) - see data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/drain-unclogging | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+The 10 Best Drain Uncloggers in San Francisco, CA 2026
+Drain uncloggings near San Francisco, CA
+16 near you
+
+AMX Plumbing - Top Pro - Excellent 4.9 (69) - In high demand - Licensed pro - 101 hires on Thumbtack - Serves San Francisco, CA
+
+Discount Plumbing Rooter Services - Great 4.7 (55) - Great value - Licensed pro - 51 hires on Thumbtack - Serves San Francisco, CA
+
+Plumbing & Rooter Service (Antonio Cárcamo Reyes - Top Pro - Excellent 4.9 (509) - Great value - 1156 hires on Thumbtack - 178 similar jobs done near you
+Stephen M. says, "They both worked diligently to get my drain unclogged using multiple tools in the process. I would recommend working with this business."
+
+Prosper construction development - Excellent 4.9 (71) - Licensed pro - Serves San Francisco, CA
+Shoane C. says, "Great company I truly recommend them and I will be in touch with this company soon."
+(profile link: https://www.thumbtack.com/ca/san-francisco/general-contractors/prosper-construction-development/service/339550527742099628)
+
+ASAP Plumbing Pros - Top Pro - Exceptional 5.0 (386) - In high demand - Licensed pro - 605 hires on Thumbtack - 227 similar jobs done near you
+
+Drain Geeks - Excellent 4.9 (9) - 8 hires on Thumbtack - Serves San Francisco, CA
+Mitesh S. says, "On time, friendly, fixed the drain. The trifecta."
+
+Reviews for San Francisco drain uncloggings on Thumbtack
+From Scott S. - Integrity First Plumbing, Inc. - Friendly, on time, effective, unclogged a stubborn outdoor drain.
+(profile link: https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645)
+From Alfonso A. - ASAP Plumbing Pros - Did a great job unclogging my dishwasher drain.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/plumbers | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+The Best Plumbers in San Francisco, CA
+Reviews for San Francisco plumbers on Thumbtack
+From Gary C. - RAPID FLOW PLUMBING & ROOTER - Our favorite plumber
+From Tin And Matea K. - Costello's Plumbing - The drain snake the plumber used left scratches on the tub.
+From Bryant H. - ASAP Plumbing Pros - Made quick work of a clogged shower drain that other plumbers had been hesitant to tackle.
+From Lillian W. - ASAP Plumbing Pros - Having been a realtor & homeowner for decades, I have dealt with ton of plumbers - and Don is one of the most professional and nicest plumbers I have ever met. He was easy to communicate with, was very accommodating to my emergency and worked neatly and quickly.
+From Aly I. - I Rooter & Plumbing - Great working with Dwayne. Don't think twice about working with him. Best plumber I've worked with.
+From Gabriella M. - Ray's Service One Plumbing - Ray was exceptionally quick and efficient our plumbing needs. Think what a great plumber should be and Ray was that!
+From Chad S. - Maximus Plumbing & Heating - Great plumbers would use again.
+From Duncan C. - JC PLUMBING - Plumber was patient and thorough. Not rushing. Taking the time to do it correctly.
+There are 1136 five star Plumbers in San Francisco, CA on Thumbtack.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+AS PLUS PLUMBING CORP
+Excellent 4.9
+(165)
+Licensed
+Select a service: Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair; Sink or Faucet Installation or Replacement; Plumbing Pipe Installation or Replacement; Water Heater Repair or Maintenance; Septic System Repair, Maintenance or Inspection; Water Heater Installation or Replacement; Toilet Repair; Toilet Installation or Replacement; Sink or Faucet Repair; Shower and Bathtub Repair; Water Treatment Repair or Maintenance; Sump Pump Installation or Replacement; Garbage Disposal Installation; Garbage Disposal Repair; Gas Line Installation; Emergency Plumbing
+About
+At AS PLUS PLUMBING CORP, we're dedicated to providing reliable, affordable plumbing service you can trust. For over 10 years, we've built a strong reputation in the <LOCATION> area by delivering honest work, clear communication, and quality results for every customer.
+We handle both residential and commercial plumbing, from garbage disposal installation and repair to toilet repairs, drain and sewer cleaning, and new construction plumbing. We're fully licensed (C-36) and insured in <LOCATION>, so you can feel confident your property is in good hands.
+Overview
+Hired 250 times
+Background checked
+License verified
+4 employees
+11 years in business
+Credentials
+License verified
+C36 – Plumbing Contractor
+License state: CA
+Background checked
+Passed by Marco Mas on Aug 2, 2022.
+Reviews
+Customers rated this pro highly for work quality, professionalism, and responsiveness.
+Excellent 4.9
+165 reviews
+5 97% / 4 1% / 3 1% / 2 0% / 1 1%
+David W. - Jan 12, 2024 - Hired on Thumbtack
+Smooth experience working with Marco. Showed up on time, did great work with my garbagedisposal removal, and had all the replacement parts ready. Would recommend!
+Sanh T. - Nov 12, 2024 - Hired on Thumbtack
+Marco was professional and efficient. He replaced the garbagedisposal within 30 min and left no mess. Definitely recommend Marco for plumbing work.
+Emma L. - Sep 16, 2022 - Hired on Thumbtack
+Macro is super professional and responsive. We had some leaking issues with the garbagedisposal and came he came to place on time, diagnose the issues, replace the disposal and clean up everything. All done in ~ an hour.
+Kristen H. - Nov 13, 2022 - Hired on Thumbtack
+Marco showed up same-day and fixed my garbagedisposal in probably 10-15 minutes. Completely worth it as I don't think I could have done it myself.
+FAQs
+What is your typical process for working with a new customer?
+give free inspection, clean & professional is for all customers and type of work.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+I Rooter & Plumbing
+Great 4.8
+(97)
+Licensed
+Water Heater Repair or Maintenance • 94121
+Select a service: Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair; Sink or Faucet Installation or Replacement; Plumbing Pipe Installation or Replacement; Water Heater Repair or Maintenance; Heating System Repair or Maintenance; Septic System Installation or Replacement; Septic System Repair, Maintenance or Inspection; Water Heater Installation or Replacement; Toilet Repair; Toilet Installation or Replacement; Sink or Faucet Repair; Water Treatment Repair or Maintenance; Garbage Disposal Installation; Gas Line Installation
+About
+Licensed Plumbing Contractor with over 14 years of commercial and residential plumbing experience.
+• Free Estimates- on-site visit,
+• Flat-rate, competitive pricing — I charge by the job, not by the hour
+• install new plumbing for shower, tub, sink toilet or new laundry hook up.
+Install new plumbing for water heaters
+Located locally and serving the surrounding area. Contact me to schedule your visit or discuss your project.
+Overview
+Hired 145 times
+Background checked
+License verified
+1 employee
+14 years in business
+Business hours: Sun 8:00 am - 7:00 pm; Mon 8:00 am - 7:00 pm
+Top Pro status: 2025, 2024, 2023, 2021, 2020, 2019
+Credentials
+License verified
+C36 – Plumbing Contractor
+License state: CA
+Background checked
+Passed by Dwayne Pettway on Feb 25, 2021.
+Reviews
+Customers rated this pro highly for professionalism, work quality, and responsiveness.
+Great 4.8
+97 reviews
+5 95% / 4 1% / 3 0% / 2 1% / 1 3%
+Larry C. - 2 weeks ago - Hired on Thumbtack
+I have hired Dwayne a couple of times now and always appreciated his help to fix plumbing issues and/or necessary maintenance work.
+This time was no different with quick back-and-forth to figure out the timing for the visit and Dwayne came on time and quickly fixed the toilet that was leaking water from the tank to the bowl as well as doing the annual descaling of the tankless waterheater.
+Ryan A. - Oct 1, 2025 - Hired on Thumbtack
+Was able to come out immediately for an urgent plumbing issue and had things resolved very quickly. Very good communication and the work was great! Highly recommend!
+Details: Yes, repair is urgent • Only one drain has issues • Clogging • Leaking (problem area known) • House
+Plumbing Drain Repair
+Ashley B. - Apr 14, 2024 - Hired on Thumbtack
+Dwayne repaired an eroded pipe in our garage and did a wonderful job. He took the time to explain the issue and quoted a very fair price for the work being done. Communication was always straight forward with him and he got the job done efficiently. Would recommend him and will be using him again in for future plumbing needs.
+Details: Yes, repair is urgent • No, the building is not currently flooded • Leaking pipes • Part of a larger issue with the plumbing system • House
+FAQs
+Pricing is Flat-Rate and not subject to change once (unless due to unforeseeable circumstances). quote is accepted.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+Integrity First Plumbing, Inc.
+Exceptional 5.0
+(26)
+Bathroom Remodel • 94134
+Select a service: Plumbing Drain Repair; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair; Sink or Faucet Installation or Replacement; Plumbing Pipe Installation or Replacement; Water Heater Repair or Maintenance; Bathroom Remodel; Water Heater Installation or Replacement; Toilet Repair; Toilet Installation or Replacement; Sink or Faucet Repair; Shower and Bathtub Repair; Garbage Disposal Installation; Gas Line Installation; Emergency Plumbing
+About
+Here at Integrity First Plumbing Inc. we pride ourselves in quality workmanship with honest prices. Whether you have a plumbing emergency, a simple problem or a complete remodel you can depend on us to evaluate the situation, diagnose any problems and give you not just a competitive estimate ,but the best estimate hands down.. All work is done by experienced professionals .We are a Small Company 1 or 2 Man Job Always so our overhead is low.
+Overview
+Hired 26 times
+Background checked
+3 employees
+12 years in business
+Business hours: This pro hasn't listed their business hours.
+Top Pro status: 2019, 2018
+(No "License verified" credential block is shown on this Thumbtack profile.)
+Reviews
+Customers rated this pro highly for responsiveness, work quality, and professionalism.
+Exceptional 5.0
+26 reviews
+5 96% / 4 4% / 3 0% / 2 0% / 1 0%
+Andrew F. - Feb 24, 2019 - Hired on Thumbtack
+Had an issue that he scoured the city (on his on volition) to find a part to fix.
+Exceptional work, highly responsive, and dedicated every time we've had an issue. Very happy with the results and quality of work. I've hired him multiple times already. He is now my go to for future issues.
+Details: Shower • One handle controls both hot and cold water • 1 shower or bathtub • Leaking faucet or shower head • Less than a week ago • Condo/Apartment • Renter
+Shower and Bathtub Repair
+Joanne E. - Oct 27, 2018 - Hired on Thumbtack
+I would use them again; Clay the owner was present at the job site and had an assistant with him. I was grateful they were able to come in the evening and were punctual. After they unclogged the kitchen sink they checked the bathroom and made sure there was no problem and I was not charged for the extra work. I highly recommend them. Great job guys! Joanne
+Details: Two to seven days • Bathroom • Shower or bathtub • Condo/Apartment
+Emergency Plumbing
+Praneeth W. - Jun 13, 2018 - Hired on Thumbtack
+Showed up on time, fixed the issue I was having. Work seemed thorough. Somewhat pricey I thought for the hour of work but knowing work was done well was peace of mind
+Details: No, the building is not currently flooded • Basement • Laundry room • Only one drain has issues • Slow draining • A month ago or longer • House • Owner
+Plumbing Drain Repair
+Michael S. - Apr 30, 2018 - Hired on Thumbtack
+Clay was on time, professional and got the job done. He had the right equipment and saw the problem right away. He cleaned up afterwards and honored his original quote even though the fix was probably more work than expected.
+
+===== SOURCE: https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+RAPID FLOW PLUMBING & ROOTER
+Excellent 4.9
+(85)
+Top Pro
+Licensed
+Select a service: Shower and Bathtub Installation or Replacement; Water Damage Cleanup and Restoration; Plumbing Pipe Repair; Sink or Faucet Installation or Replacement; Plumbing Pipe Installation or Replacement; Water Heater Repair or Maintenance; Water Heater Installation or Replacement; Toilet Repair; Toilet Installation or Replacement; Sink or Faucet Repair; Shower and Bathtub Repair; Garbage Disposal Installation; Plumbing Inspection; Gas Line Installation; Emergency Plumbing
+About
+With 18 years in business, we take pride in doing plumbing work the right way—safe, reliable, and always up to code for any inspector. As a licensed plumbing contractor, we handle everything from pipe repairs and replacements to gas line installation, plumbing inspections, and emergency plumbing needs.
+We're a small team of three, which means you get personal attention, clear communication, and workmanship we stand behind.
+Overview
+Current Top Pro
+Hired 125 times
+Background checked
+License verified
+3 employees
+18 years in business
+Business hours: Sun 7:00 am - 8:00 pm; Mon 8:00 am - 7:00 pm
+Top Pro status: 2024, 2018, 2017
+Credentials
+License verified
+C36 – Plumbing Contractor
+License state: CA
+Background checked
+Passed by Joe Navarro on Jul 16, 2025.
+Reviews
+Customers rated this pro highly for professionalism, work quality, and responsiveness.
+Excellent 4.9
+85 reviews
+5 98% / 4 1% / 3 0% / 2 0% / 1 1%
+Elaine K. - Jun 25, 2026 - Hired on Thumbtack
+Jose responded quickly and he and his team were extremely professional. They fixed our sink and also helped us fix other minor issues as a bonus.
+Details: No, repair is not urgent • No, the building is not currently flooded • Drain issues • Sink • Condo or apartment
+Plumbing Pipe Repair
+Iris L. - Jun 11, 2026 - Hired on Thumbtack
+Jose did an outstanding job helping us with a clogged kitchen drain. He arrived on time, was professional and courteous throughout the entire service call, and quickly diagnosed and resolved the issue. He took the time to explain what was causing the problem and made sure everything was working properly before leaving. It's clear that he takes pride in his work and values customer satisfaction. I highly recommend Jose to anyone looking for a reliable and knowledgeable plumber. Thank you again for the excellent service!
+Details: Yes, repair is urgent • No, the building is not currently flooded • Drain issues • Sink • House
+Plumbing Pipe Repair
+Diane Z. - Mar 18, 2026 - Hired on Thumbtack
+We had a good experience working with Jose. Appreciated the clear communication both via text and in-person. Initially we thought we just had a clog but Jose found that we needed to replace the pipes. We were able to pivot and change the scope of the project in a fast and fair way. Work was done quickly and professionally with cleanup afterward.
+Details: No, repair is not urgent • No, the building is not currently flooded • Drain issues • House
+Plumbing Pipe Repair
+
+===== SOURCE: https://www.thumbtack.com/ca/san-bruno/affordable-plumbing-services/lgm-plumbing-rooter/service/462928282454630407 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+LGM PLUMBING & ROOTER
+Exceptional 5.0
+(95)
+Licensed
+Garbage Disposal Repair • 94066
+Select a service: Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair; Sink or Faucet Installation or Replacement; Plumbing Pipe Installation or Replacement; Water Heater Repair or Maintenance; Water Heater Installation or Replacement; Toilet Repair; Toilet Installation or Replacement; Sink or Faucet Repair; Shower and Bathtub Repair; Sump Pump Installation or Replacement; Garbage Disposal Repair; Gas Line Installation; Emergency Plumbing
+About
+LGM PLUMBING & ROOTER is an honest and friendly solution to your plumbing needs. Free estimates.
+Overview
+Hired 166 times
+Background checked
+License verified
+1 employee
+4 years in business
+Business hours: Sun Closed; Mon 8:00 am - 5:00 pm
+Top Pro status: 2024, 2023
+Credentials
+License verified
+C36 – Plumbing Contractor
+License state: CA
+Background checked
+Passed by Luis Matamoros Torres on Sep 1, 2022.
+Reviews
+Customers rated this pro highly for responsiveness, professionalism, and work quality.
+Exceptional 5.0
+95 reviews
+5 100% / 4 0% / 3 0% / 2 0% / 1 0%
+Hari A. - Jul 23, 2024 - Hired on Thumbtack
+I hired Luis to replace the kitchen faucet and he was punctual, efficient and professional. Would hire him again for future plumbing work and highly recommend him
+Details: Yes, repair is urgent • Only one drain has issues • Leaking (problem area known) • Condo/Apartment
+Plumbing Drain Repair
+Olivia J. - Jul 2, 2024 - Hired on Thumbtack
+Luis responded quickly to my inquiry, was able to provide an immediate quote for the work, and he came the same day! He was extraordinarily nice, honest, and professional. He even gave advise on a separate issue to help me trouble shoot prior to paying for the service to fix it. Would highly recommend hiring Luis and his team!
+Amanda S. - Feb 17, 2023 - Hired on Thumbtack
+Luis showed up on time, assessed our kitchen sink, fixed it SUPER quickly and gave tips on how to avoid having it clog like that again. He even showed where's an easier place to snake in the future if we wanted to attempt (since my husband attempted to prior to us calling a plumber). Thanks Luis for the prompt and quick service.
+Details: No, repair is not urgent • Clogging • Slow draining • Gurgling sounds • House
+Plumbing Drain Repair
+
+===== SOURCE: https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA&page=1 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+Search results for Plumber near San Francisco, CA | Better Business Bureau
+PHE Plumbing, Inc. - Plumber, Plumbing Renovation, Commercial Plumber - BBB Accredited Business - BBB Rating: A- - Serving: Alameda County, CA; Contra Costa County, CA; Marin County, CA; Napa County, CA; San Francisco County, CA; San Mateo County, CA; Solano County, CA; Sonoma County, CA - (415) 310-9716 - San Francisco, CA 94127
+Ace Plumbing and Rooter, Inc. - Plumber, Drainage Contractors, Sewer Cleaning - BBB Accredited Business - BBB Rating: A+ - Serving: San Francisco County, CA - (415) 824-6444 - 1090 Bryant St, San Francisco, CA 94103-4417
+Service Star Plumbing - Plumber, Water Heater Installation, Drain Cleaning - BBB Accredited Business - BBB Rating: A+ - Serving: Alameda County, CA; Contra Costa County, CA; Marin County, CA; Napa County, CA; San Francisco County, CA; San Mateo County, CA; Solano County, CA; Sonoma County, CA; CA; USA - (415) 320-6378 - San Francisco, CA 94124-2512
+Shedrick The Plumber - Plumber, Plumbing Renovation, Water Leak Detectors - BBB Accredited Business - BBB Rating: A+ - Serving: Alameda County, CA; Contra Costa County, CA; Marin County, CA; Napa County, CA; San Francisco County, CA; San Mateo County, CA; Solano County, CA; Sonoma County, CA - (415) 573-6555 - San Francisco, CA 94124-2318
+Bay Metro Corporation - General Contractor, Plumber, Bathroom Remodel - BBB Accredited Business - BBB Rating: A+ - Serving: Alameda County, CA; Contra Costa County, CA; Marin County, CA; Napa County, CA; San Francisco County, CA; San Mateo County, CA; Solano County, CA; Sonoma County, CA; CA; USA - (415) 626-4067 - 2339 3rd St Ste 5, San Francisco, CA 94107-3137
+
+===== SOURCE: https://www.bbb.org/us/ca/san-francisco/profile/plumber/shedrick-the-plumber-1116-925187 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+Business Profile
+Plumber
+Shedrick The Plumber
+BBB Accredited Business
+A+ Rated by BBB
+(415) 573-6555
+About This Business
+Shedrick The Plumber offers general plumbing services.
+BBB Accredited Since: 6/5/2024
+Years in Business: 16
+Business Details
+BBB File Opened: 10/29/2020
+Business Started: 6/22/2010
+Type of Entity: Sole Proprietorship
+Business Management: Mr. Shedrick Ferguson, Owner
+Number of Employees: 4
+Additional Websites: yelp.com/biz/shedrick-the-plumber-san-francisco ; nextdoor.com/pages/shedrick-the-plumber-san-francisco-ca/
+Licensing information
+BBB records show a license number of 949110 for this business, issued by Contractors State License Board. The expiration date of this license is 6/30/2028.
+Business Categories: Plumber, Plumbing Renovation, Water Leak Detectors, Sewer Contractors, Tankless Water Heaters, Commercial Plumber, Leak Detection, Water Heater Installation, Pipe Fitter, Drain Cleaning, Water Leak Repair
+
+===== SOURCE: https://www.bbb.org/us/ca/san-francisco/profile/plumber/service-star-plumbing-1116-935024 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+Business Profile
+Plumber
+Service Star Plumbing
+BBB Accredited Business
+A+ Rated by BBB
+(415) 320-6378
+About This Business
+Service Star Plumbing offers residential and commercial plumbing services, water heater installation, drain cleaning, re-piping, and drainage repair.
+BBB Accredited Since: 8/29/2022
+Years in Business: 5
+Business Details
+BBB File Opened: 8/15/2022
+Business Started: 8/6/2021
+Type of Entity: Sole Proprietorship
+Business Management: Mr. Bennyson L De La Cruz, Owner
+Number of Employees: 2
+Additional Websites: yelp.com/biz/service-star-plumbing-san-francisco
+Licensing information
+BBB records show a license number of 1079325 for this business, issued by Contractors State License Board. The expiration date of this license is 8/31/2027.
+Business Categories: Plumber, Water Heater Installation, Drain Cleaning
+
+===== SOURCE: https://www.bbb.org/us/ca/san-francisco/profile/general-contractor/bay-metro-corporation-1116-75127 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-platform =====
+Business Profile
+General Contractor
+Bay Metro Corporation
+BBB Accredited Business
+A+ Rated by BBB
+Visit Website: https://www.baymetrocorp.com/
+(415) 626-4067
+About This Business
+Bay Metro Corporation is a San Francisco based General Contractor specializing in residential remodeling and home improvements.
+BBB Accredited Since: 7/27/2005
+Years in Business: 22
+Products and Services: Home Improvements, Insurance Claim Repairs, Residential Remodeling
+Business Details
+BBB File Opened: 7/25/2005
+Business Started: 6/1/2004
+Business Incorporated: 7/26/2004
+Type of Entity: Corporation
+Business Management: Mr. Manny Gonzalez, President
+Number of Employees: 3
+Additional Websites: bureaumembers.com/baymetrocorporation/ ; homeadvisor.com/rated.BayMetroCorporation.5938578.html ; yelp.com/biz/bay-metro-corporation-san-francisco ; angi.com/companylist/us/ca/san-francisco/bay-metro-corp-reviews-3771547.htm
+Licensing information
+BBB records show a license number of 850352 for this business, issued by Contractors State License Board. The expiration date of this license is 11/30/2026.
+Business Categories: General Contractor, Plumber, Bathroom Remodel, Kitchen Remodel, Water Damage Restoration, Fire Damage Restoration
+
+===== SOURCE: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/NameSearch.aspx?NextName=DRAIN+GEEKS | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+Contractor Name Search Results
+(Alphabetical CSLB business-name listing starting at "DRAIN GEEKS". The listing runs DRAIN GO, DRAIN GREAT, DRAIN GUARD ... DRAIN MAN PLUMBING, DRAIN MASTER ... with NO "DRAIN GEEKS" entry. Drain Geeks (Thumbtack, San Francisco 94112, owner Patrick Tharp, "since 2019") therefore has no CSLB business-name record under that name; a search at "THARP PATRICK" likewise returns no Patrick Tharp licence (THARP'S AIR CONDITIONING & HEATING, Oceanside, Inactive is the nearest entry). No licence is attributed to Drain Geeks in this project.)
+
+===== SOURCE: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/NameSearch.aspx?NextName=CARCAMO | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+Contractor Name Search Results
+CARCAMO ELISEO | DBA | 772381 | LOS ANGELES | Active
+CARCAMO JOSE | Previous | 960216 | RESEDA | Inactive
+CARCAMO ROBERTO | DBA | 1056599 | BAKERSFIELD | Active
+CARCAMO'S TILING SERVICE | Previous | 787850 | LANCASTER | Active
+(No San Francisco / Daly City "Cárcamo" plumbing licence appears; the Thumbtack listing "Plumbing & Rooter Service (Antonio Cárcamo Reyes" carries no "Licensed pro" badge and no SF permit rows exist under CARCAMO. No licence is attributed to that listing in this project.)
+
+===== SOURCE: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/NameSearch.aspx?NextName=I+ROOTER | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+Contractor Name Search Results
+I ROOTER & PLUMBING | DBA | 1052114 | SAN FRANCISCO | Active
+I ROOTER PLUMBING | DBA | 1055784 | CATHEDRAL CITY | Active
+
+===== SOURCE: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/NameSearch.aspx?NextName=INTEGRITY+FIRST+PLUMBING | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+Contractor Name Search Results
+INTEGRITY FIRST PLUMBING | Previous | 1006178 | SAN FRANCISCO | Active
+INTEGRITY FIRST PLUMBING INC | DBA | 1006178 | SAN FRANCISCO | Active
+
+===== SOURCE: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/NameSearch.aspx?NextName=AS+PLUS+PLUMBING | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+Contractor Name Search Results
+AS PLUS PLUMBING CORP | DBA | 1134965 | SAN FRANCISCO | Active

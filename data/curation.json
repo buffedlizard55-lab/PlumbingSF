@@ -3883,9 +3883,26 @@
             "clean work area",
             "condo/apartment"
           ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Tin And Matea K.",
+          "text": "The drain snake the plumber used left scratches on the tub.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "negative: drain snaking damaged tub finish",
+            "ask about tub protection during cabling"
+          ]
         }
       ],
       "flags": [
+        {
+          "severity": "warn",
+          "label": "Tub scratched by drain snake — one direct Thumbtack review (2026-09-04 capture)",
+          "detail": "The Thumbtack San Francisco plumbers page (fetched directly 2026-09-04) shows a review from Tin And Matea K.: \"The drain snake the plumber used left scratches on the tub.\" For a job whose whole point is clearing a tub/shower drain without collateral damage in a rental, ask this firm how they protect the tub finish when cabling through the overflow, and ask the landlord whether cosmetic damage would be charged to you."
+        },
         {
           "severity": "warn",
           "label": "Anomalous workers-comp classification codes",
@@ -17186,6 +17203,3490 @@
           "access": "manual-review"
         }
       ]
+    },
+    {
+      "key": "1134965",
+      "id": "as-plus-plumbing-corp",
+      "display_name": "AS Plus Plumbing Corp",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; Thumbtack 4.9 (165 reviews); 11 SF permits, 11 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 378-3747",
+      "address_display": "338 BRIGHT STREET, SAN FRANCISCO, CA 94132",
+      "website": null,
+      "sf_permits": 11,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.9",
+          "count": "165",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack business scope",
+          "author": null,
+          "text": "Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain repair advertised",
+            "shower and bathtub work advertised"
+          ]
+        },
+        {
+          "platform": "Thumbtack credentials",
+          "author": null,
+          "text": "License verified\nC36 – Plumbing Contractor\nLicense state: CA",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "platform-verified C36 licence"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Kristen H.",
+          "text": "Marco showed up same-day and fixed my garbagedisposal in probably 10-15 minutes.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "same-day response",
+            "small repair, not remodel"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PP20260826149",
+          "detail": "SF DBI permit PP20260826149 description (verbatim from data.sfgov.org a6aw-rudh): \"g/f common area: install new automatic seismic gas shut off valve.\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1134965",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1134965",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1134965.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/as-plus-plumbing-corp/service/376764330441498624",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for AS Plus Plumbing Corp",
+          "url": "https://www.yelp.com/search?find_desc=AS%20Plus%20Plumbing%20Corp&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for AS Plus Plumbing Corp",
+          "url": "https://www.google.com/search?q=AS%20Plus%20Plumbing%20Corp+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Thumbtack profile: Hired 250 times, 4 employees, 11 years in business, Top Pro 2022-2023; services list includes Emergency Plumbing."
+    },
+    {
+      "key": "1052114",
+      "id": "i-rooter-plumbing",
+      "display_name": "I Rooter & Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; Thumbtack 4.8 (97 reviews); 21 SF permits, 4 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 910-0068",
+      "address_display": "3739 BALBOA, 161, SAN FRANCISCO, CA 94121",
+      "website": null,
+      "sf_permits": 21,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "documented-adjacent",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.8",
+          "count": "97",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack business scope",
+          "author": null,
+          "text": "Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain repair advertised",
+            "shower and bathtub work advertised"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Ryan A.",
+          "text": "Was able to come out immediately for an urgent plumbing issue and had things resolved very quickly.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "urgent drain clog resolved quickly",
+            "single-drain clogging job"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Flat-rate, competitive pricing — I charge by the job, not by the hour",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "flat-rate pricing"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PW20250630290",
+          "detail": "SF DBI permit PW20250630290 description (verbatim from data.sfgov.org a6aw-rudh): \"work category: 2pb; channel drain install\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1052114",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1052114",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1052114.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/i-rooter-plumbing/service/357706607642730513",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for I Rooter & Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=I%20Rooter%20%26%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for I Rooter & Plumbing",
+          "url": "https://www.google.com/search?q=I%20Rooter%20%26%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Thumbtack profile: Hired 145 times, 1 employee, 14 years in business, Top Pro 2019-2025, hours Sun-Mon 8:00 am - 7:00 pm; owner-operator Dwayne Pettway per background-check line. Address of record 3739 Balboa (Outer Richmond, 94121), about 2 miles from 94122."
+    },
+    {
+      "key": "1115649",
+      "id": "rapid-flow-plumbing-rooter-inc",
+      "display_name": "Rapid Flow Plumbing & Rooter Inc",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; Thumbtack 4.9 (85 reviews); 25 SF permits, 25 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 866-8401",
+      "address_display": "230 EDINBURGH ST, SAN FRANCISCO, CA 94112",
+      "website": null,
+      "sf_permits": 25,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "documented-adjacent",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.9",
+          "count": "85",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack business scope",
+          "author": null,
+          "text": "Shower and Bathtub Repair; Garbage Disposal Installation; Plumbing Inspection; Gas Line Installation; Emergency Plumbing",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "shower and bathtub repair advertised",
+            "plumbing inspection advertised",
+            "emergency plumbing advertised"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Iris L.",
+          "text": "Jose did an outstanding job helping us with a clogged kitchen drain. He arrived on time, was professional and courteous throughout the entire service call, and quickly diagnosed and resolved the issue.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "clogged drain diagnosed and cleared",
+            "explained the cause"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Diane Z.",
+          "text": "Initially we thought we just had a clog but Jose found that we needed to replace the pipes. We were able to pivot and change the scope of the project in a fast and fair way.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "scope escalated from clog to pipe replacement - confirm no-wall-opening limit up front"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Permits filed under two business names on one licence",
+          "detail": "SF permit contacts list 'Rapid Flow Plumbing & Rooter Inc' (5 rows) and 'Navta Construction Inc' (20 rows) under licence 1115649. CSLB shows the licence as RAPID FLOW PLUMBING & ROOTER INC with B and C36 classifications. Not an irregularity in itself; noted so the name on the invoice matches the licence."
+        },
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PW20260812207",
+          "detail": "SF DBI permit PW20260812207 description (verbatim from data.sfgov.org a6aw-rudh): \"plumbing installation for two bathroom sinks one shower valve move plumbing for one shower pan\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1115649",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1115649",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1115649.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/water-heater-installation/rapid-flow-plumbing-rooter/service/268900941950780660",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Rapid Flow Plumbing & Rooter Inc",
+          "url": "https://www.yelp.com/search?find_desc=Rapid%20Flow%20Plumbing%20%26%20Rooter%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Rapid Flow Plumbing & Rooter Inc",
+          "url": "https://www.google.com/search?q=Rapid%20Flow%20Plumbing%20%26%20Rooter%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Thumbtack profile: Current Top Pro, Hired 125 times, 3 employees, 18 years in business, hours Sun 7:00 am - 8:00 pm. SF permits are filed under both 'Rapid Flow Plumbing & Rooter Inc' (5) and 'Navta Construction Inc' (20) on this licence number."
+    },
+    {
+      "key": "1095188",
+      "id": "lgm-plumbing-rooter",
+      "display_name": "LGM Plumbing & Rooter",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; Thumbtack 5.0 (95 reviews); 7 SF permits, 5 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(650) 243-7921",
+      "address_display": "205 FOREST LANE, SAN BRUNO, CA 94066",
+      "website": null,
+      "sf_permits": 7,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "documented-adjacent",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "5.0",
+          "count": "95",
+          "url": "https://www.thumbtack.com/ca/san-bruno/affordable-plumbing-services/lgm-plumbing-rooter/service/462928282454630407",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack business scope",
+          "author": null,
+          "text": "Plumbing Drain Repair; Water Treatment System Installation or Replacement; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair",
+          "url": "https://www.thumbtack.com/ca/san-bruno/affordable-plumbing-services/lgm-plumbing-rooter/service/462928282454630407",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain repair advertised",
+            "shower and bathtub work advertised"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Amanda S.",
+          "text": "Luis showed up on time, assessed our kitchen sink, fixed it SUPER quickly and gave tips on how to avoid having it clog like that again. He even showed where's an easier place to snake in the future",
+          "url": "https://www.thumbtack.com/ca/san-bruno/affordable-plumbing-services/lgm-plumbing-rooter/service/462928282454630407",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "slow-draining / clogging drain cleared",
+            "explained snaking access point"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1095188",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1095188",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1095188.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-bruno/affordable-plumbing-services/lgm-plumbing-rooter/service/462928282454630407",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for LGM Plumbing & Rooter",
+          "url": "https://www.yelp.com/search?find_desc=LGM%20Plumbing%20%26%20Rooter&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for LGM Plumbing & Rooter",
+          "url": "https://www.google.com/search?q=LGM%20Plumbing%20%26%20Rooter+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Thumbtack profile: Hired 166 times, 1 employee (owner Luis Matamoros Torres per background-check line), 4 years in business, Top Pro 2023-2024, Sunday closed. Based in San Bruno (94066); 7 SF permits incl. one filed 07/17/2026."
+    },
+    {
+      "key": "1006178",
+      "id": "integrity-first-plumbing-inc",
+      "display_name": "Integrity First Plumbing Inc",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; Thumbtack 5.0 (26 reviews); 0 SF permits. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 724-1100",
+      "address_display": "1485 BAYSHORE BLVD 457 MB195, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 0,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "documented-adjacent",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "5.0",
+          "count": "26",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack business scope",
+          "author": null,
+          "text": "Plumbing Drain Repair; Shower and Bathtub Installation or Replacement; Plumbing Pipe Repair",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain repair advertised",
+            "shower and bathtub work advertised"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Praneeth W.",
+          "text": "Showed up on time, fixed the issue I was having. Work seemed thorough. Somewhat pricey I thought for the hour of work but knowing work was done well was peace of mind",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "slow-draining single drain cleared",
+            "price noted as somewhat high"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Joanne E.",
+          "text": "After they unclogged the kitchen sink they checked the bathroom and made sure there was no problem and I was not charged for the extra work.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain unclogged",
+            "checked adjoining fixtures at no charge"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "No Thumbtack licence badge and no SF permits under this licence",
+          "detail": "The Thumbtack profile shows no 'License verified' credential and its reviews stop in 2019; the SF permit dataset has zero rows for licence 1006178 (only 'Integrity First Construction Inc', a different licence, 1055539, in Fremont). The CSLB record itself is active and San Francisco based. Ask them to confirm licence 1006178 by name before booking."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1006178",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1006178",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1006178.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-cleaning/integrity-first-plumbing-inc/service/307330201449660645",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Integrity First Plumbing Inc",
+          "url": "https://www.yelp.com/search?find_desc=Integrity%20First%20Plumbing%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Integrity First Plumbing Inc",
+          "url": "https://www.google.com/search?q=Integrity%20First%20Plumbing%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Thumbtack profile: Hired 26 times, 3 employees, 12 years in business, Top Pro 2018-2019; the profile shows NO 'License verified' credential and its reviews date from 2018-2019. Licence 1006178 was matched through the CSLB name search (INTEGRITY FIRST PLUMBING INC, San Francisco, Active). No SF plumbing permits are filed under this licence."
+    },
+    {
+      "key": "1099380",
+      "id": "jc-plumbing-rooter",
+      "display_name": "JC Plumbing & Rooter",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 2 SF permits. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 947-9675",
+      "address_display": "19264 MEDFORD CT, HAYWARD, CA 94541",
+      "website": null,
+      "sf_permits": 2,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "No SF plumbing permits filed since 2024",
+          "detail": "The licence has 2 SF plumbing-permit contact rows all-time, but none numbered 2024-2026 (latest PP20231108948). Drain clearing does not need a permit, so this only means the firm is not currently pulling permitted work in the city; ask whether they still take SF service calls."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1099380",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1099380",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1099380.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for JC Plumbing & Rooter",
+          "url": "https://www.yelp.com/search?find_desc=JC%20Plumbing%20%26%20Rooter&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for JC Plumbing & Rooter",
+          "url": "https://www.google.com/search?q=JC%20Plumbing%20%26%20Rooter+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Surfaced by the Thumbtack SF plumbers review strip ('JC PLUMBING', pinole) and matched to SF permit rows 'Jc Plumbing & Rooter' 1099380. Based in Hayward; only 2 SF permits (latest 2023)."
+    },
+    {
+      "key": "1022293",
+      "id": "rays-service-one-plumbing",
+      "display_name": "Rays Service One Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 1 SF permits. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(510) 677-4690",
+      "address_display": "5735 AVENAL AVE UNIT 102, OAKLAND, CA 94605",
+      "website": null,
+      "sf_permits": 1,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "No SF plumbing permits filed since 2024",
+          "detail": "The licence has 1 SF plumbing-permit contact rows all-time, but none numbered 2024-2026 (latest PP20171006316). Drain clearing does not need a permit, so this only means the firm is not currently pulling permitted work in the city; ask whether they still take SF service calls."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1022293",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1022293",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1022293.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Rays Service One Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Rays%20Service%20One%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Rays Service One Plumbing",
+          "url": "https://www.google.com/search?q=Rays%20Service%20One%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Surfaced by the Thumbtack SF plumbers review strip ('Ray's Service One', san-pablo) and matched to SF permit row 'Rays Service One Plumbing' 1022293. Based in Oakland; a single SF permit (2017)."
+    },
+    {
+      "key": "1007707",
+      "id": "maximus-plumbing",
+      "display_name": "Maximus Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence license is under suspension for the following reasons: license is under contractors bond suspension — do not book; 3 historical SF permits.",
+      "phone_display": "(650) 995-1050",
+      "address_display": "24591 2ND ST, HAYWARD, CA 94541",
+      "website": null,
+      "sf_permits": 3,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE SUSPENDED — do not book",
+          "detail": "CSLB shows: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status. Expire date on record: 09/30/2027. A contractor whose licence is suspended cannot legally contract for plumbing work in California; the 3 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "warn",
+          "label": "Suspension may be temporary — re-check CSLB before ruling out",
+          "detail": "The CSLB status text says the suspension can lift retroactively once a bond is processed. If you want this business, re-load the CSLB record on the day you call and ask for proof of bond."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1007707",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1007707",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1007707.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Maximus Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Maximus%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Maximus Plumbing",
+          "url": "https://www.google.com/search?q=Maximus%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Surfaced by the Thumbtack SF plumbers review strip ('Maximus Plumbing & Heating', san-carlos) and matched to SF permit rows 'Maximus Plumbing' 1007707."
+    },
+    {
+      "key": "1041020",
+      "id": "prosper-construction-development-inc",
+      "display_name": "Prosper Construction Development Inc",
+      "dba": null,
+      "tier": "wrong-scale",
+      "headline": "Active licence but B - GENERAL BUILDING only — a general contractor, not a C36 plumber; wrong licence for this job.",
+      "phone_display": "(415) 617-5536",
+      "address_display": "1599 DELORES STREET, SAN FRANCISCO, CA 94110",
+      "website": null,
+      "sf_permits": 176,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "thumbtack",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "no-evidence",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.9",
+          "count": "71",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-unclogging",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "No C36 plumbing classification",
+          "detail": "CSLB classifications are B - GENERAL BUILDING. This licence does not carry C36 (plumbing), so it is not the right licence for a drain-clearing service call even though the business pulls SF plumbing permits as a general contractor."
+        },
+        {
+          "severity": "warn",
+          "label": "Thumbtack 'Licensed pro' badge refers to a B (general building) licence",
+          "detail": "Thumbtack lists Prosper construction development as a Licensed pro on its drain-unclogging page, but the CSLB licence 1041020 carries only B - GENERAL BUILDING. Hire a C36 plumber for a drain and overflow-linkage job."
+        },
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PP20260828194",
+          "detail": "SF DBI permit PP20260828194 description (verbatim from data.sfgov.org a6aw-rudh): \"26 ft french drain in back of home at east side\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1041020",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1041020",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1041020.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Thumbtack profile (fetched directly)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/drain-unclogging",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Prosper Construction Development Inc",
+          "url": "https://www.yelp.com/search?find_desc=Prosper%20Construction%20Development%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Prosper Construction Development Inc",
+          "url": "https://www.google.com/search?q=Prosper%20Construction%20Development%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Thumbtack profile (not fetched - manual review)",
+          "url": "https://www.thumbtack.com/ca/san-francisco/general-contractors/prosper-construction-development/service/339550527742099628",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "Listed on Thumbtack's SF drain-unclogging page as 'Licensed pro' (4.9, 71 reviews). CSLB shows a B - GENERAL BUILDING licence only, no C36; 176 SF plumbing permits incl. 38 since 2024, latest a french drain (PP20260828194)."
+    },
+    {
+      "key": "949110",
+      "id": "shedrick-the-plumber",
+      "display_name": "Shedrick The Plumber",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; BBB A+; 116 SF permits, 19 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 573-6555",
+      "address_display": "1349 PHELPS ST, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 116,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "bbb",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shedrick-the-plumber-1116-925187",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "Business Categories: Plumber, Plumbing Renovation, Water Leak Detectors, Sewer Contractors, Tankless Water Heaters, Commercial Plumber, Leak Detection, Water Heater Installation, Pipe Fitter, Drain Cleaning, Water Leak Repair",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shedrick-the-plumber-1116-925187",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "drain cleaning listed",
+            "leak detection listed"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "BBB records show a license number of 949110 for this business, issued by Contractors State License Board. The expiration date of this license is 6/30/2028.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shedrick-the-plumber-1116-925187",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt",
+          "job_signals": [
+            "BBB-printed licence number matches CSLB"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PW20260902766",
+          "detail": "SF DBI permit PW20260902766 description (verbatim from data.sfgov.org a6aw-rudh): \"work category: 1p; replaced shower pan\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 949110",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=949110",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-949110.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "BBB business profile (fetched directly)",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shedrick-the-plumber-1116-925187",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Shedrick The Plumber",
+          "url": "https://www.yelp.com/search?find_desc=Shedrick%20The%20Plumber&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Shedrick The Plumber",
+          "url": "https://www.google.com/search?q=Shedrick%20The%20Plumber+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "BBB: Accredited since 6/5/2024, A+, 16 years in business, sole proprietorship, owner Shedrick Ferguson, 4 employees; service area includes San Francisco County. 116 SF permits incl. 19 since 2024; latest PW20260902766 'replaced shower pan' (filed 2026-09-02)."
+    },
+    {
+      "key": "1079325",
+      "id": "service-star-plumbing",
+      "display_name": "Service Star Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence license is under suspension for the following reasons: license is under contractors bond suspension — do not book; 12 historical SF permits.",
+      "phone_display": null,
+      "address_display": "2035 CARROLL AVE, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 12,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "bbb",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/service-star-plumbing-1116-935024",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE SUSPENDED — do not book",
+          "detail": "CSLB shows: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status. Expire date on record: 08/31/2027. A contractor whose licence is suspended cannot legally contract for plumbing work in California; the 12 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "warn",
+          "label": "Suspension may be temporary — re-check CSLB before ruling out",
+          "detail": "The CSLB status text says the suspension can lift retroactively once a bond is processed. If you want this business, re-load the CSLB record on the day you call and ask for proof of bond."
+        },
+        {
+          "severity": "warn",
+          "label": "BBB A+ accreditation while CSLB licence is suspended",
+          "detail": "BBB prints licence 1079325 with an 8/31/2027 expiry and an A+ rating, but the CSLB record fetched the same day shows a contractor's-bond suspension (bond cancelled 07/29/2026). Platform badges lag the licensing board."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1079325",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1079325",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1079325.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "BBB business profile (fetched directly)",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/service-star-plumbing-1116-935024",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Service Star Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Service%20Star%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Service Star Plumbing",
+          "url": "https://www.google.com/search?q=Service%20Star%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "BBB: Accredited since 8/29/2022, A+, owner Bennyson L De La Cruz, 2 employees, service area includes San Francisco County; BBB prints licence 1079325 - but CSLB shows that licence UNDER SUSPENSION (contractor's bond) at the verification date."
+    },
+    {
+      "key": "850352",
+      "id": "bay-metro-corporation",
+      "display_name": "Bay Metro Corporation",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; BBB A+; 104 SF permits, 14 since 2024. Review evidence is adjacent (drain clearing), not the exact overflow-linkage task — screen by phone.",
+      "phone_display": "(415) 626-4067",
+      "address_display": "2339 THIRD STREET #5, SAN FRANCISCO, CA 94107",
+      "website": "https://www.baymetrocorp.com/",
+      "sf_permits": 104,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "bbb",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/general-contractor/bay-metro-corporation-1116-75127",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [],
+      "sources": [
+        {
+          "label": "CSLB license record 850352",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=850352",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-850352.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "BBB business profile (fetched directly)",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/general-contractor/bay-metro-corporation-1116-75127",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/research-expansion50-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Bay Metro Corporation",
+          "url": "https://www.yelp.com/search?find_desc=Bay%20Metro%20Corporation&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Bay Metro Corporation",
+          "url": "https://www.google.com/search?q=Bay%20Metro%20Corporation+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "research_note": "BBB: Accredited since 7/27/2005, A+, 22 years, president Manny Gonzalez, 3 employees; described as a General Contractor specializing in residential remodeling. Holds B + C36; workers-comp classes are carpentry/wallboard. Not a drain-service business."
+    },
+    {
+      "key": "467912",
+      "id": "tai-lam-mak",
+      "display_name": "Tai Lam Mak",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 584 SF permits, 9 since 2024. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 823-6691",
+      "address_display": "1310 MURCHISON DRIVE, MILLBRAE, CA 94030",
+      "website": null,
+      "sf_permits": 584,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [],
+      "sources": [
+        {
+          "label": "CSLB license record 467912",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=467912",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-467912.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Tai Lam Mak",
+          "url": "https://www.yelp.com/search?find_desc=Tai%20Lam%20Mak&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Tai Lam Mak",
+          "url": "https://www.google.com/search?q=Tai%20Lam%20Mak+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "324708",
+      "id": "hawk-n-lee-design-construction-company",
+      "display_name": "Hawk N Lee Design & Construction Company",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 214 SF permits, 10 since 2024; based in 94122/94116. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 823-1685",
+      "address_display": "1032 IRVING STREET #930, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 214,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1032 IRVING STREET #930 / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        },
+        {
+          "severity": "info",
+          "label": "Most recent SF permit: PW20260409992",
+          "detail": "SF DBI permit PW20260409992 description (verbatim from data.sfgov.org a6aw-rudh): \"replace all hot and cold water galvanized pipes to copper\". Shows the kind of work the firm currently pulls permits for."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 324708",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=324708",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-324708.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Hawk N Lee Design & Construction Company",
+          "url": "https://www.yelp.com/search?find_desc=Hawk%20N%20Lee%20Design%20%26%20Construction%20Company&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Hawk N Lee Design & Construction Company",
+          "url": "https://www.google.com/search?q=Hawk%20N%20Lee%20Design%20%26%20Construction%20Company+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "576600",
+      "id": "michael-kuenzli-plumbing-co",
+      "display_name": "Michael Kuenzli Plumbing Co",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 66 SF permits; based in 94122/94116. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 310-0435",
+      "address_display": "1234 21 AVENUE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 66,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "No SF plumbing permits filed since 2024",
+          "detail": "The licence has 66 SF plumbing-permit contact rows all-time, but none numbered 2024-2026 (latest PP20160617383). Drain clearing does not need a permit, so this only means the firm is not currently pulling permitted work in the city; ask whether they still take SF service calls."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1234 21 AVENUE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 576600",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=576600",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-576600.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Michael Kuenzli Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Michael%20Kuenzli%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Michael Kuenzli Plumbing Co",
+          "url": "https://www.google.com/search?q=Michael%20Kuenzli%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "714879",
+      "id": "landers-plumbing",
+      "display_name": "Landers' Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 67 SF permits; based in 94122/94116. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 867-5301",
+      "address_display": "365 DORANTES AVENUE, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 67,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "No SF plumbing permits filed since 2024",
+          "detail": "The licence has 67 SF plumbing-permit contact rows all-time, but none numbered 2024-2026 (latest PW20201013450). Drain clearing does not need a permit, so this only means the firm is not currently pulling permitted work in the city; ask whether they still take SF service calls."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 365 DORANTES AVENUE / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 714879",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=714879",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-714879.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Landers' Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Landers%27%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Landers' Plumbing",
+          "url": "https://www.google.com/search?q=Landers%27%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "660208",
+      "id": "t-t-plumbing-construction-co",
+      "display_name": "T T Plumbing & Construction Co",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 138 SF permits, 2 since 2024; based in 94122/94116. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 515-7491",
+      "address_display": "2355 47TH AVENUE, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 138,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 2355 47TH AVENUE / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 660208",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=660208",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-660208.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for T T Plumbing & Construction Co",
+          "url": "https://www.yelp.com/search?find_desc=T%20T%20Plumbing%20%26%20Construction%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for T T Plumbing & Construction Co",
+          "url": "https://www.google.com/search?q=T%20T%20Plumbing%20%26%20Construction%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "887553",
+      "id": "glenn-s-plumbing",
+      "display_name": "Glenn's Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 102 SF permits, 7 since 2024; based in 94122/94116. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 290-1749",
+      "address_display": "1460 41ST AVENUE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 102,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1460 41ST AVENUE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 887553",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=887553",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-887553.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Glenn's Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Glenn%27s%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Glenn's Plumbing",
+          "url": "https://www.google.com/search?q=Glenn%27s%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "343610",
+      "id": "david-chu-plumbing",
+      "display_name": "David Chu Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence inactive and not able to contract at this time — do not book; 122 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 269-3861",
+      "address_display": "1530 29TH AVENUE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 122,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE INACTIVE — do not book",
+          "detail": "CSLB shows: This license is inactive and not able to contract at this time. Expire date on record: 02/29/2028. A contractor whose licence is inactive cannot legally contract for plumbing work in California; the 122 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1530 29TH AVENUE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 343610",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=343610",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-343610.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for David Chu Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=David%20Chu%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for David Chu Plumbing",
+          "url": "https://www.google.com/search?q=David%20Chu%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "497973",
+      "id": "tung-lee-plumbing-company",
+      "display_name": "Tung Lee Plumbing Company",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence inactive and not able to contract at this time — do not book; 91 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 665-6129",
+      "address_display": "2671 21ST AVENUE, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 91,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE INACTIVE — do not book",
+          "detail": "CSLB shows: This license is inactive and not able to contract at this time. Expire date on record: 09/30/2028. A contractor whose licence is inactive cannot legally contract for plumbing work in California; the 91 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 2671 21ST AVENUE / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 497973",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=497973",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-497973.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Tung Lee Plumbing Company",
+          "url": "https://www.yelp.com/search?find_desc=Tung%20Lee%20Plumbing%20Company&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Tung Lee Plumbing Company",
+          "url": "https://www.google.com/search?q=Tung%20Lee%20Plumbing%20Company+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "425733",
+      "id": "wing-s-plumbing-co",
+      "display_name": "Wing's Plumbing Co",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence inactive and not able to contract at this time — do not book; 82 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 527-8983",
+      "address_display": "1654 23RD AVE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 82,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE INACTIVE — do not book",
+          "detail": "CSLB shows: This license is inactive and not able to contract at this time. Expire date on record: 11/30/2028. A contractor whose licence is inactive cannot legally contract for plumbing work in California; the 82 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1654 23RD AVE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 425733",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=425733",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-425733.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Wing's Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Wing%27s%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Wing's Plumbing Co",
+          "url": "https://www.google.com/search?q=Wing%27s%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "641991",
+      "id": "robert-s-plumbing",
+      "display_name": "Robert's Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 251 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 564-0690",
+      "address_display": "1501 TARAVAL STREET #122, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 251,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 04/30/2022. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 251 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1501 TARAVAL STREET #122 / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 641991",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=641991",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-641991.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Robert's Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Robert%27s%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Robert's Plumbing",
+          "url": "https://www.google.com/search?q=Robert%27s%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "502603",
+      "id": "chow-s-plumbing-co",
+      "display_name": "Chow's Plumbing Co",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 222 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 665-8886",
+      "address_display": "2431 16TH AVENUE, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 222,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 12/31/2014. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 222 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 2431 16TH AVENUE / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 502603",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=502603",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-502603.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Chow's Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Chow%27s%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Chow's Plumbing Co",
+          "url": "https://www.google.com/search?q=Chow%27s%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "486546",
+      "id": "w-j-plumbing-co-winson-wah-lau",
+      "display_name": "W & J Plumbing Co (Winson Wah Lau)",
+      "dba": "W & J Plumbing Co",
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 181 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 509-3732",
+      "address_display": "1346 26TH AVENUE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 181,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 02/29/2016. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 181 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is DBA W & J PLUMBING CO / 1346 26TH AVENUE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 486546",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=486546",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-486546.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for W & J Plumbing Co (Winson Wah Lau)",
+          "url": "https://www.yelp.com/search?find_desc=W%20%26%20J%20Plumbing%20Co%20%28Winson%20Wah%20Lau%29&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for W & J Plumbing Co (Winson Wah Lau)",
+          "url": "https://www.google.com/search?q=W%20%26%20J%20Plumbing%20Co%20%28Winson%20Wah%20Lau%29+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "520892",
+      "id": "meridian-plumbing-company-inc",
+      "display_name": "Meridian Plumbing Company Inc",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 105 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 531-0109",
+      "address_display": "1245 27TH AVENUE, SAN FRANCISCO, CA 94122",
+      "website": null,
+      "sf_permits": 105,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 10/28/2011. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 105 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 1245 27TH AVENUE / SAN FRANCISCO, CA 94122 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 520892",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=520892",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-520892.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Meridian Plumbing Company Inc",
+          "url": "https://www.yelp.com/search?find_desc=Meridian%20Plumbing%20Company%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Meridian Plumbing Company Inc",
+          "url": "https://www.google.com/search?q=Meridian%20Plumbing%20Company%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "689900",
+      "id": "rhino-rooter",
+      "display_name": "Rhino Rooter",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 92 historical SF permits, Outer Sunset based.",
+      "phone_display": "(415) 665-4357",
+      "address_display": "2336 21ST AVENUE, SAN FRANCISCO, CA 94116",
+      "website": null,
+      "sf_permits": 92,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-outer-sunset",
+      "outer_sunset_based": true,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 06/30/1998. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 92 historical SF permit rows do not change that. Do not book."
+        },
+        {
+          "severity": "info",
+          "label": "Based in the Outer Sunset / Parkside (94122 / 94116)",
+          "detail": "CSLB address of record is 2336 21ST AVENUE / SAN FRANCISCO, CA 94116 and SF permit contacts list the same zip - the business is based in the tenant's own neighbourhood. Locality is a convenience signal, not a skill signal."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 689900",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=689900",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-689900.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Rhino Rooter",
+          "url": "https://www.yelp.com/search?find_desc=Rhino%20Rooter&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Rhino Rooter",
+          "url": "https://www.google.com/search?q=Rhino%20Rooter+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "684197",
+      "id": "k-c-plumbing-co",
+      "display_name": "K C Plumbing Co",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 61 historical SF permits.",
+      "phone_display": "(415) 710-8126",
+      "address_display": "3821 FOLSOM ST, SAN FRANCISCO, CA 94110-6135",
+      "website": null,
+      "sf_permits": 61,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 02/28/2018. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 61 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 684197",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=684197",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-684197.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for K C Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=K%20C%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for K C Plumbing Co",
+          "url": "https://www.google.com/search?q=K%20C%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "439862",
+      "id": "abe-s-plumbing",
+      "display_name": "Abe's Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 153 historical SF permits.",
+      "phone_display": "(510) 652-7280",
+      "address_display": "5487 KALES AVENUE, OAKLAND, CA 94618",
+      "website": null,
+      "sf_permits": 153,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 05/31/2009. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 153 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 439862",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=439862",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-439862.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Abe's Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Abe%27s%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Abe's Plumbing",
+          "url": "https://www.google.com/search?q=Abe%27s%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "319594",
+      "id": "franks-all-city-plumbing-co",
+      "display_name": "Franks All City Plumbing Co",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 198 historical SF permits.",
+      "phone_display": "(415) 407-2140",
+      "address_display": "2560 TURNBERRY DRIVE, SAN BRUNO, CA 94066",
+      "website": null,
+      "sf_permits": 198,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 10/31/2018. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 198 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 319594",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=319594",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-319594.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Franks All City Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Franks%20All%20City%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Franks All City Plumbing Co",
+          "url": "https://www.google.com/search?q=Franks%20All%20City%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "595176",
+      "id": "snc-plumbing-fire-protection-inc",
+      "display_name": "SNC Plumbing & Fire Protection Inc",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 193 historical SF permits.",
+      "phone_display": "(415) 282-0688",
+      "address_display": "1595 FAIRFAX AVENUE STE A, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 193,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 04/19/2012. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 193 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 595176",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=595176",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-595176.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for SNC Plumbing & Fire Protection Inc",
+          "url": "https://www.yelp.com/search?find_desc=SNC%20Plumbing%20%26%20Fire%20Protection%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for SNC Plumbing & Fire Protection Inc",
+          "url": "https://www.google.com/search?q=SNC%20Plumbing%20%26%20Fire%20Protection%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "611082",
+      "id": "allen-mechanical-plumbing-co",
+      "display_name": "Allen Mechanical Plumbing Co",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 163 SF permits. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 559-1051",
+      "address_display": "2236 DERRY WAY, SO SAN FRANCISCO, CA 94080-5505",
+      "website": null,
+      "sf_permits": 163,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "No SF plumbing permits filed since 2024",
+          "detail": "The licence has 163 SF plumbing-permit contact rows all-time, but none numbered 2024-2026 (latest PW20200722158). Drain clearing does not need a permit, so this only means the firm is not currently pulling permitted work in the city; ask whether they still take SF service calls."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 611082",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=611082",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-611082.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Allen Mechanical Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Allen%20Mechanical%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Allen Mechanical Plumbing Co",
+          "url": "https://www.google.com/search?q=Allen%20Mechanical%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "762214",
+      "id": "oran-plumbing-corp",
+      "display_name": "Oran Plumbing Corp",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 580 SF permits, 33 since 2024. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 307-8198",
+      "address_display": "95 EL PLAZUELA ST, SAN FRANCISCO, CA 94127",
+      "website": null,
+      "sf_permits": 580,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "License reissued to another entity",
+          "detail": "CSLB shows Reissue Date 05/07/2014 and Miscellaneous Information '05/07/2014 - LICENSE REISSUED TO ANOTHER ENTITY'. The licence number predates the current business entity."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 762214",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=762214",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-762214.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Oran Plumbing Corp",
+          "url": "https://www.yelp.com/search?find_desc=Oran%20Plumbing%20Corp&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Oran Plumbing Corp",
+          "url": "https://www.google.com/search?q=Oran%20Plumbing%20Corp+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "632743",
+      "id": "calplumbing-co",
+      "display_name": "Calplumbing Co",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 305 SF permits, 4 since 2024. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 221-4633",
+      "address_display": "P O BOX 31042, SAN FRANCISCO, CA 94131",
+      "website": null,
+      "sf_permits": 305,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp exempt (no employees certified)",
+          "detail": "CSLB shows the licence exempt from workers' compensation because the licensee certified it has no employees. That is normal for an owner-operator; if a second worker shows up, ask who employs them."
+        },
+        {
+          "severity": "info",
+          "label": "Address of record is a PO box",
+          "detail": "CSLB lists P O BOX 31042 / SAN FRANCISCO, CA 94131; a PO box is legitimate for a sole owner but means there is no shop to visit. Ask where the business is based."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 632743",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=632743",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-632743.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Calplumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=Calplumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Calplumbing Co",
+          "url": "https://www.google.com/search?q=Calplumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "863544",
+      "id": "urgent-rooter-and-plumbing-inc",
+      "display_name": "Urgent Rooter And Plumbing Inc",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 155 SF permits, 3 since 2024. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 505-8810",
+      "address_display": "135 DARIEN WAY, SAN FRANCISCO, CA 94127",
+      "website": null,
+      "sf_permits": 155,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [],
+      "sources": [
+        {
+          "label": "CSLB license record 863544",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=863544",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-863544.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Urgent Rooter And Plumbing Inc",
+          "url": "https://www.yelp.com/search?find_desc=Urgent%20Rooter%20And%20Plumbing%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Urgent Rooter And Plumbing Inc",
+          "url": "https://www.google.com/search?q=Urgent%20Rooter%20And%20Plumbing%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "863322",
+      "id": "stellar-plumbing-inc",
+      "display_name": "Stellar Plumbing Inc",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 licence verified on CSLB; 199 SF permits, 6 since 2024. No review-platform evidence captured for this pass — screen by phone using the linked Yelp/Google searches.",
+      "phone_display": "(415) 508-0080",
+      "address_display": "23 SAN BRUNO AVENUE, BRISBANE, CA 94005",
+      "website": null,
+      "sf_permits": 199,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "License reissued to another entity",
+          "detail": "CSLB shows Reissue Date 03/24/2008 and Miscellaneous Information '03/24/2008 - LICENSE REISSUED TO ANOTHER ENTITY'. The licence number predates the current business entity."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 863322",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=863322",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-863322.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Stellar Plumbing Inc",
+          "url": "https://www.yelp.com/search?find_desc=Stellar%20Plumbing%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Stellar Plumbing Inc",
+          "url": "https://www.google.com/search?q=Stellar%20Plumbing%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "1016070",
+      "id": "mr-rooter-plumbing",
+      "display_name": "Mr Rooter Plumbing",
+      "dba": "Mr Rooter Plumbing",
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 234 historical SF permits.",
+      "phone_display": "(415) 730-0937",
+      "address_display": "540 BARNERELD AVE STE D, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 234,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 07/31/2024. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 234 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1016070",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1016070",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1016070.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Mr Rooter Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Mr%20Rooter%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Mr Rooter Plumbing",
+          "url": "https://www.google.com/search?q=Mr%20Rooter%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "864771",
+      "id": "fergal-burke-plumbing",
+      "display_name": "Fergal Burke Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 219 historical SF permits.",
+      "phone_display": "(415) 806-5584",
+      "address_display": "437 DELLBROOK AVENUE, SAN FRANCISCO, CA 94131",
+      "website": null,
+      "sf_permits": 219,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 09/30/2023. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 219 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 864771",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=864771",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-864771.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Fergal Burke Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Fergal%20Burke%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Fergal Burke Plumbing",
+          "url": "https://www.google.com/search?q=Fergal%20Burke%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "846565",
+      "id": "service-rooter",
+      "display_name": "Service Rooter",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 71 historical SF permits.",
+      "phone_display": "(415) 386-8267",
+      "address_display": "471 24TH AVENUE, SAN FRANCISCO, CA 94121",
+      "website": null,
+      "sf_permits": 71,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 09/30/2010. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 71 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 846565",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=846565",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-846565.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Service Rooter",
+          "url": "https://www.yelp.com/search?find_desc=Service%20Rooter&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Service Rooter",
+          "url": "https://www.google.com/search?q=Service%20Rooter+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "825292",
+      "id": "frisco-plumbing",
+      "display_name": "Frisco Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 126 historical SF permits.",
+      "phone_display": "(415) 822-8935",
+      "address_display": "1218 GILMAN AVE, SAN FRANCISCO, CA 94124",
+      "website": null,
+      "sf_permits": 126,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 04/30/2010. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 126 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 825292",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=825292",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-825292.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Frisco Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Frisco%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Frisco Plumbing",
+          "url": "https://www.google.com/search?q=Frisco%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "805919",
+      "id": "professor-plumb",
+      "display_name": "Professor Plumb",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 160 historical SF permits.",
+      "phone_display": "(415) 621-4673",
+      "address_display": "1310 POTRERO AVENUE, SAN FRANCISCO, CA 94112",
+      "website": null,
+      "sf_permits": 160,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 03/12/2018. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 160 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 805919",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=805919",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-805919.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Professor Plumb",
+          "url": "https://www.yelp.com/search?find_desc=Professor%20Plumb&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Professor Plumb",
+          "url": "https://www.google.com/search?q=Professor%20Plumb+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "785492",
+      "id": "rl-plumbing",
+      "display_name": "RL Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence inactive and not able to contract at this time — do not book; 348 historical SF permits.",
+      "phone_display": "(415) 756-2371",
+      "address_display": "1759 VIEW DRIVE, SAN LEANDRO, CA 94577",
+      "website": null,
+      "sf_permits": 348,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE INACTIVE — do not book",
+          "detail": "CSLB shows: This license is inactive and not able to contract at this time. Expire date on record: 12/31/2029. A contractor whose licence is inactive cannot legally contract for plumbing work in California; the 348 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 785492",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=785492",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-785492.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for RL Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=RL%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for RL Plumbing",
+          "url": "https://www.google.com/search?q=RL%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "849533",
+      "id": "i-k-k-a-plumbing",
+      "display_name": "I K K A Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 79 historical SF permits.",
+      "phone_display": "(415) 786-1221",
+      "address_display": "555 JOHN MUIR DRIVE APT B416, SAN FRANCISCO, CA 94132",
+      "website": null,
+      "sf_permits": 79,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 11/30/2014. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 79 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 849533",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=849533",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-849533.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for I K K A Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=I%20K%20K%20A%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for I K K A Plumbing",
+          "url": "https://www.google.com/search?q=I%20K%20K%20A%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "727485",
+      "id": "scott-s-plumbing",
+      "display_name": "Scott's Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 46 historical SF permits.",
+      "phone_display": "(415) 261-0879",
+      "address_display": "3145 GEARY BLVD #336, SAN FRANCISCO, CA 94118",
+      "website": null,
+      "sf_permits": 46,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 10/31/2012. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 46 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 727485",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=727485",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-727485.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Scott's Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Scott%27s%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Scott's Plumbing",
+          "url": "https://www.google.com/search?q=Scott%27s%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "832898",
+      "id": "artisan-plumbing",
+      "display_name": "Artisan Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 59 historical SF permits.",
+      "phone_display": "(415) 760-1089",
+      "address_display": "251 GREENSHIRE LANE, DARDENNE PRAIRIE, MO 63368",
+      "website": null,
+      "sf_permits": 59,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 02/29/2012. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 59 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 832898",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=832898",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-832898.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Artisan Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Artisan%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Artisan Plumbing",
+          "url": "https://www.google.com/search?q=Artisan%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "862601",
+      "id": "stallion-rooter-plumbing-inc",
+      "display_name": "Stallion Rooter & Plumbing Inc",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 69 historical SF permits.",
+      "phone_display": "(415) 200-7545",
+      "address_display": "790 SOUTH AMPHLETT BOULEVARD, SAN MATEO, CA 94402-1401",
+      "website": null,
+      "sf_permits": 69,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 09/21/2012. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 69 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 862601",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=862601",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-862601.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Stallion Rooter & Plumbing Inc",
+          "url": "https://www.yelp.com/search?find_desc=Stallion%20Rooter%20%26%20Plumbing%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Stallion Rooter & Plumbing Inc",
+          "url": "https://www.google.com/search?q=Stallion%20Rooter%20%26%20Plumbing%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "876588",
+      "id": "arka-plumbing",
+      "display_name": "Arka Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 26 historical SF permits.",
+      "phone_display": "(415) 516-0214",
+      "address_display": "318 MICHELLE LANE, DALY CITY, CA 94015",
+      "website": null,
+      "sf_permits": 26,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 04/30/2010. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 26 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 876588",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876588",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-876588.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Arka Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Arka%20Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Arka Plumbing",
+          "url": "https://www.google.com/search?q=Arka%20Plumbing+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "781784",
+      "id": "honest-plumbing-services",
+      "display_name": "Honest Plumbing Services",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 40 historical SF permits.",
+      "phone_display": "(415) 255-6301",
+      "address_display": "2114 MISSION STREET # 3, SAN FRANCISCO, CA 94103",
+      "website": null,
+      "sf_permits": 40,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 07/31/2008. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 40 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 781784",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=781784",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-781784.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Honest Plumbing Services",
+          "url": "https://www.yelp.com/search?find_desc=Honest%20Plumbing%20Services&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Honest Plumbing Services",
+          "url": "https://www.google.com/search?q=Honest%20Plumbing%20Services+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "430557",
+      "id": "san-francisco-lone-star-plumbing-inc",
+      "display_name": "San Francisco Lone Star Plumbing Inc",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence canceled and not able to contract — do not book; 333 historical SF permits.",
+      "phone_display": "(415) 641-9234",
+      "address_display": "1126 CHURCH ST, SAN FRANCISCO, CA 94114",
+      "website": null,
+      "sf_permits": 333,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows: This license is canceled and not able to contract. Expire date on record: 04/01/2010. A contractor whose licence is canceled cannot legally contract for plumbing work in California; the 333 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 430557",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=430557",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-430557.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for San Francisco Lone Star Plumbing Inc",
+          "url": "https://www.yelp.com/search?find_desc=San%20Francisco%20Lone%20Star%20Plumbing%20Inc&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for San Francisco Lone Star Plumbing Inc",
+          "url": "https://www.google.com/search?q=San%20Francisco%20Lone%20Star%20Plumbing%20Inc+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "740992",
+      "id": "pipetech",
+      "display_name": "Pipetech",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence expired and not able to contract at this time — do not book; 163 historical SF permits.",
+      "phone_display": "(415) 282-0300",
+      "address_display": "4181 24TH ST SUITE A, SAN FRANCISCO, CA 94114",
+      "website": null,
+      "sf_permits": 163,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB shows: This license is expired and not able to contract at this time. Expire date on record: 10/31/2005. A contractor whose licence is expired cannot legally contract for plumbing work in California; the 163 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 740992",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=740992",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-740992.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for Pipetech",
+          "url": "https://www.yelp.com/search?find_desc=Pipetech&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for Pipetech",
+          "url": "https://www.google.com/search?q=Pipetech+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "385567",
+      "id": "george-v-salet-jr-plumbing-co",
+      "display_name": "George V Salet Jr Plumbing Co",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CSLB shows this licence inactive and not able to contract at this time — do not book; 324 historical SF permits.",
+      "phone_display": "(850) 355-4006",
+      "address_display": "215 SUNSHINE DRIVE, PACIFICA, CA 94044",
+      "website": null,
+      "sf_permits": 324,
+      "research_batch": "2026-09-04-expansion-50-b6",
+      "discovery": "sfgov-permits",
+      "outer_sunset_based": false,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE INACTIVE — do not book",
+          "detail": "CSLB shows: This license is inactive and not able to contract at this time. Expire date on record: 12/31/2029. A contractor whose licence is inactive cannot legally contract for plumbing work in California; the 324 historical SF permit rows do not change that. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 385567",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=385567",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-385567.txt"
+        },
+        {
+          "label": "SF plumbing-permit contact rows for this licence (all-time, every firm-name spelling)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(...)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp - manual review search for George V Salet Jr Plumbing Co",
+          "url": "https://www.yelp.com/search?find_desc=George%20V%20Salet%20Jr%20Plumbing%20Co&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews - manual review for George V Salet Jr Plumbing Co",
+          "url": "https://www.google.com/search?q=George%20V%20Salet%20Jr%20Plumbing%20Co+San+Francisco+plumber+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
     }
   ],
   "legal": {
@@ -17365,7 +20866,7 @@
         "source": "data.sfgov.org Socrata API (resource k6kv-9kix)",
         "tier": "official-gov",
         "access": "direct",
-        "note": "Fetched successfully. 56 firm/license/permit-count rows."
+        "note": "Fetched successfully. Per-licence permit-row counts for every batch; pass b6 additionally captured latest-permit numbers, 2024-2026 activity, a6aw-rudh permit descriptions and the contractor-address-zip 94122/94116 aggregate (data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt)."
       },
       {
         "source": "leginfo.legislature.ca.gov",
@@ -17395,13 +20896,13 @@
         "source": "bbb.org",
         "tier": "official-platform",
         "access": "direct",
-        "note": "Fetched successfully for search results and individual business profiles."
+        "note": "Fetched successfully for search results and individual business profiles. Pass b6 fetched the 'plumber near San Francisco, CA' search and three profiles; BBB-printed CSLB licence numbers were cross-checked against the CSLB record the same day (one A+ accredited firm turned out to be under bond suspension)."
       },
       {
         "source": "thumbtack.com",
         "tier": "official-platform",
         "access": "direct",
-        "note": "Direct current pages captured on 2026-09-04 for selected businesses. Inherited now-dead profile URLs were removed from published evidence."
+        "note": "Direct current pages captured on 2026-09-04. Pass b6 fetched the SF category pages (plumbers / drain-cleaning / drain-unclogging) and individual pro profiles; ratings, review counts, 'License verified - C36' credentials and review text were captured verbatim in data/raw/research-expansion50-b6-2026-09-04.txt. Inherited now-dead profile URLs were removed earlier."
       },
       {
         "source": "yelp.com",
@@ -17413,7 +20914,7 @@
         "source": "reddit.com",
         "tier": "community",
         "access": "blocked",
-        "note": "BLOCKED - HTTP 403. Inherited placeholder-style thread URLs and their quotations were removed; no Reddit quotation is published as candidate evidence."
+        "note": "BLOCKED - HTTP 403 on old.reddit.com, www.reddit.com and the .json endpoints (re-tested 2026-09-04 for pass b6). Only search-engine snippets were visible; no Reddit quotation is used as candidate evidence. Inherited placeholder-style thread URLs were removed earlier."
       },
       {
         "source": "Google Maps / Google Business Profile",
@@ -17426,6 +20927,12 @@
         "tier": "n/a",
         "access": "blocked",
         "note": "Outbound HTTP from the shell returned connection failures to cslb.ca.gov and duckduckgo.com, so all capture was done through the fetch/search tools."
+      },
+      {
+        "source": "cslb.ca.gov NameSearch.aspx",
+        "tier": "official-gov",
+        "access": "direct",
+        "note": "GET NameSearch.aspx?NextName=<name> returns an alphabetical business-name listing; used in pass b6 to resolve Thumbtack pros to licence numbers and to confirm that 'Drain Geeks' and the 'Cárcamo' listing have no CSLB business-name record. ZipCodeSearch is POST-only and was not usable."
       }
     ],
     "trust_tiers": [

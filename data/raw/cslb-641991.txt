@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=641991
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:05:24 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  641991
+ROBERT'S PLUMBING
+1501 TARAVAL STREET #122
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 564-0690
+Entity: Sole Ownership
+Issue Date: 04/11/1992
+Expire Date: 04/30/2022
+License Status: This license is expired and not able to contract at this time.
+Additional Status: The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: BUSINESS ALLIANCE INSURANCE COMPANY, Bond Number: G100811594182, Bond Amount: $15,000, Effective Date: 08/10/2020, Cancellation Date: 08/11/2021
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/22/2020, Expire Date: None

@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=689900
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:06:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  689900
+RHINO ROOTER
+2336 21ST AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 665-4357
+Entity: Partnership
+Issue Date: 06/07/1994
+Expire Date: 06/30/1998
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: FRONTIER PACIFIC INSURANCE COMPANY, Bond Number: 923314, Bond Amount: $7,500, Effective Date: 05/31/1994, Cancellation Date: 07/04/1998
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1416110, Effective Date: 02/09/1998, Cancellation Date: 06/26/2001
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

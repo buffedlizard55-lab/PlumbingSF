@@ -23,8 +23,11 @@ STATUS_MAP = [
 
 
 def field(text: str, label: str) -> str | None:
-    m = re.search(rf"^{re.escape(label)}:\s*(.+)$", text, re.M)
-    return m.group(1).strip() if m else None
+    # Match only to the end of the label's own line; an empty value (e.g. a
+    # CSLB record with no business phone) must not swallow the next line.
+    m = re.search(rf"^{re.escape(label)}:[^\S\n]*(.*)$", text, re.M)
+    value = m.group(1).strip() if m else None
+    return value or None
 
 
 def parse(path: pathlib.Path) -> dict:

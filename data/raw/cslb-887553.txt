@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=887553
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:10:12 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  887553
+GLENN'S PLUMBING
+1460 41ST AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 290-1749
+Entity: Sole Ownership
+Issue Date: 11/21/2006
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10136814, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/31/2024, Expire Date: None

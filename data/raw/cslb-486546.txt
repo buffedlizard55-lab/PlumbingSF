@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=486546
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:07:05 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  486546
+WINSON WAH LAU
+DBA W & J PLUMBING CO
+1346 26TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 509-3732
+Entity: Sole Ownership
+Issue Date: 02/04/1986
+Expire Date: 02/29/2016
+License Status: This license is expired and not able to contract at this time.
+Classifications: B - GENERAL BUILDING; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC925562, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 03/02/2016
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/25/2016, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

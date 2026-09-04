@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=781784
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:09:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  781784
+HONEST PLUMBING SERVICES
+2114 MISSION STREET # 3
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 255-6301
+Entity: Sole Ownership
+Issue Date: 07/19/2000
+Expire Date: 07/31/2008
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6050929, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 06/04/2009
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/03/2003, Expire Date: None

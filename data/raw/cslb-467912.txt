@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=467912
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:06:11 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  467912
+TAI LAM MAK
+1310 MURCHISON DRIVE
+MILLBRAE, CA 94030
+Business Phone Number:(415) 823-6691
+Entity: Sole Ownership
+Issue Date: 01/10/1985
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C10 - ELECTRICAL; C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800205835, Bond Amount: $25,000, Effective Date: 08/29/2025
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9158342, Effective Date: 05/04/2016, Expire Date: 05/04/2027. Classification codes: 5140 - Electrical Wiring-high wage; 5403 - Carpentry-low wage; 5190 - Electrical Wiring-low wage

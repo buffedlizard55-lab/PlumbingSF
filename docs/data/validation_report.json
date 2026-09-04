@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-04T04:06:34Z",
-  "entries": 257,
-  "cslb_records_checked": 259,
-  "active_verified_businesses": 172,
-  "raw_capture_files": 274,
-  "quotes_verified": 114,
-  "ratings_verified": 106,
+  "generated_at": "2026-09-04T20:10:07Z",
+  "entries": 307,
+  "cslb_records_checked": 309,
+  "active_verified_businesses": 193,
+  "raw_capture_files": 326,
+  "quotes_verified": 131,
+  "ratings_verified": 115,
   "errors": [],
   "warnings": [],
   "status": "PASS"
