@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=998449
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  998449
+ZH MECHANICAL INC
+56 NEWTON STREET
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 671-9138
+Entity: Corporation
+Issue Date: 11/06/2014
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100997984, Bond Amount: $25,000, Effective Date: 09/29/2025
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SWC1512255, Effective Date: 10/05/2024, Expire Date: 10/05/2026. Classification codes: 5183 - Description Unavailable; 5538 - Description Unavailable; 5542 - Description Unavailable

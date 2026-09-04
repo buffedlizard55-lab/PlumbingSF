@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=704593
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  704593
+APOLLO HEATING & VENTILATING
+1005 GENEVA AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 585-3635
+Entity: Partnership
+Issue Date: 03/29/1995
+Expire Date: 05/19/2020
+License Status: This license was canceled on the death of the contractor.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: CLB2706633, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 07/08/2025
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1227376, Effective Date: 03/20/1995, Cancellation Date: 01/14/2022

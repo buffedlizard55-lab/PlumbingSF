@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=927862
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  927862
+PIONEER FIRE INC
+1130 INDUSTRIAL AVE STE 5
+PETALUMA, CA 94952
+Business Phone Number:(707) 762-3473
+Entity: Corporation
+Issue Date: 01/26/2009
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100058945, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: INSURANCE COMPANY OF THE WEST, Policy Number: WPL507628202, Effective Date: 03/01/2026, Expire Date: 03/01/2027. Classification codes: 5186 - Automatic Sprinkler Install-high wage; 5185 - Automatic Sprinkler Install-low wage; 8810 - Clerical Office Employees

@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=577621
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:39 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  577621
+COSCO FIRE PROTECTION INC
+dba COSCO FIRE PROTECTION
+27101 PUERTA REAL SUITE 250
+MISSION VIEJO, CA 92691
+Business Phone Number:(949) 542-8200
+Entity: Corporation
+Issue Date: 09/22/1989
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C10 - ELECTRICAL; C16 - FIRE PROTECTION; B - GENERAL BUILDING
+Contractor's Bond: WESTCHESTER FIRE INSURANCE COMPANY, Bond Number: K08926104, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: ACE AMERICAN INSURANCE COMPANY, Policy Number: WLRC7280353A, Effective Date: 01/01/2026, Expire Date: 01/01/2027. Classification codes: 5186 - Automatic Sprinkler Install-high wage; 8810 - Clerical Office Employees; 7605 - Security/Fire Alarm Install/Repair

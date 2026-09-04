@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=486084
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  486084
+ASSOCIATED HEATING OF S F
+5786 MISSION STREET
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 585-0145
+Entity: Sole Ownership
+Issue Date: 01/27/1986
+Expire Date: 01/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1036244, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9330105, Effective Date: 01/01/2023, Expire Date: 01/01/2027. Classification codes: 55421 - Sheet Metal Work-high wage; 55381 - Sheet Metal Work-low wage; 88101 - Description Unavailable

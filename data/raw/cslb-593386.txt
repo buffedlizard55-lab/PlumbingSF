@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=593386
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:12 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  593386
+LEI'S CONSTRUCTION COMPANY
+616 ROLPH STREET
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 531-8611
+Entity: Sole Ownership
+Issue Date: 05/10/1990
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C36 - PLUMBING; C10 - ELECTRICAL
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800274044, Bond Amount: $25,000, Effective Date: 09/01/2026
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1855819, Effective Date: 12/02/2006, Expire Date: 09/19/2026. Classification codes: 5403 - Carpentry-low wage; 5183 - Description Unavailable; 5190 - Electrical Wiring-low wage

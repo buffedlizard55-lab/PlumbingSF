@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=381449
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:46 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  381449
+A VALENTE & SONS INC
+1877 UNION STREET
+SAN FRANCISCO, CA 94123
+Business Phone Number:(415) 346-8092
+Entity: Corporation
+Issue Date: 09/13/1979
+Expire Date: 09/30/2015
+License Status: This license is expired and not able to contract at this time.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING; C42 - SANITATION SYSTEM; C43 - SHEET METAL
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6305250, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 10/08/2015
+Workers' Compensation: REPUBLIC INDEMNITY COMPANY OF AMERICA, Policy Number: 18303003, Effective Date: 04/01/2015, Expire Date: 04/01/2016

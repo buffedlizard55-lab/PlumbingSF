@@ -353,7 +353,8 @@ def main() -> int:
         ("2026-09-04-expansion-20", "20-entry pass"),
         ("2026-09-04-expansion-50", "50-entry pass"),
         ("2026-09-04-expansion-50-b3", "50-entry pass (b3)"),
-        ("2026-09-04-expansion-50-b4", "latest 50-entry pass (b4)"),
+        ("2026-09-04-expansion-50-b4", "50-entry pass (b4)"),
+        ("2026-09-04-expansion-50-b5", "latest 50-entry pass (b5)"),
     ]
     batch_summaries = []
     for code, label in batch_order:
@@ -620,7 +621,7 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="stats">
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
-    <div class="stat"><b>{expansion_count}</b><span>newly researched entries (4 passes)</span></div>
+    <div class="stat"><b>{expansion_count}</b><span>newly researched entries (5 passes)</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
     <div class="stat"><b>{counts['active_verified_businesses']}</b><span>entries with a verified ACTIVE license</span></div>
     <div class="stat"><b>{len(hireable)}</b><span>hireable screening candidates</span></div>
@@ -662,7 +663,7 @@ footer.site p{{max-width:90ch}}
   <div class="panel" style="margin-top:14px">
     <h3>Expansion verification passes (2026-09-04)</h3>
     <p class="muted">{expansion_count} additional businesses surfaced from San Francisco plumbing-permit
-    records were verified line by line against the official CSLB across four fixed passes:</p>
+    records were verified line by line against the official CSLB across five fixed passes:</p>
     <table><thead><tr><th>Pass</th><th>Entries</th><th>CSLB status breakdown</th><th>Review evidence</th></tr></thead>
     <tbody>{''.join(
         '<tr><td>' + e(label) + '</td><td><b>' + str(len(bl)) + '</b></td><td>'
@@ -670,7 +671,7 @@ footer.site p{{max-width:90ch}}
         + '</td><td>' + ('<b>' + str(rv) + '</b> with captured review evidence' if rv else 'license-verified only')
         + '</td></tr>' for code, label, bl, st, rv in batch_summaries)}
     </tbody></table>
-    <p class="muted">The latest pass (b4) carries no captured review-platform evidence: its 50 businesses are
+    <p class="muted">The latest passes (b4 and b5) carry no captured review-platform evidence: their 50 businesses each are
     license-verified against the official CSLB only and must be screened by phone. Non-hireable entries
     (revoked, suspended, inactive, canceled or expired at the verification date) remain published as
     <em>do-not-hire warnings</em>, because several of these brand names still advertise in San Francisco
@@ -709,7 +710,8 @@ footer.site p{{max-width:90ch}}
     <button data-filter="all" aria-pressed="true">All hireable</button>
     <button data-filter="recommended" aria-pressed="false">First-screen leads</button>
     <button data-filter="new" aria-pressed="false">New ({expansion_count})</button>
-    <button data-filter="newb4" aria-pressed="false">Latest 50-entry pass (b4)</button>
+    <button data-filter="newb4" aria-pressed="false">50-entry pass (b4)</button>
+    <button data-filter="newb5" aria-pressed="false">Latest 50-entry pass (b5)</button>
     <button data-filter="viable" aria-pressed="false">Verified &amp; viable</button>
     <button data-filter="conditional" aria-pressed="false">Partial fit</button>
     <button data-filter="flagged" aria-pressed="false">Flagged / not hireable</button>
@@ -850,6 +852,7 @@ footer.site p{{max-width:90ch}}
       : filter === 'active' ? s === 'active'
       : filter === 'new' ? (c.dataset.batch || '').indexOf('2026-09-04-expansion') === 0
       : filter === 'newb4' ? c.dataset.batch === '2026-09-04-expansion-50-b4'
+      : filter === 'newb5' ? c.dataset.batch === '2026-09-04-expansion-50-b5'
       : t === filter;
     if (!okFilter) return false;
     var term = (q.value || '').trim().toLowerCase();

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=235989
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  235989
+ACE FURNACE COMPANY INC
+P O BOX 295
+SOUTH SAN FRANCISCO, CA 94083
+Business Phone Number:(415) 661-8000
+Entity: Corporation
+Issue Date: 07/12/1965
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100232559, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: CONTINENTAL CASUALTY COMPANY, Policy Number: 8035628062, Effective Date: 08/21/2025, Expire Date: 08/21/2027

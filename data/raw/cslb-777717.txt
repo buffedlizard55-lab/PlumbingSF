@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=777717
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:39 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  777717
+R L H FIRE PROTECTION INC
+P O BOX 42470
+BAKERSFIELD, CA 93384
+Business Phone Number:(661) 322-9344
+Entity: Corporation
+Issue Date: 04/20/2000
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION; C10 - ELECTRICAL; A - GENERAL ENGINEERING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 9036168, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UB6Y88003A2625G, Effective Date: 08/01/2026, Expire Date: 08/01/2027. Classification codes: 5186 - Automatic Sprinkler Install-high wage; 5185 - Automatic Sprinkler Install-low wage; 6315 - Description Unavailable

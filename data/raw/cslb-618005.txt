@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=618005
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  618005
+STEPHEN FITZSIMON
+226 MONTE VISTA AVE
+LARKSPUR, CA 94939
+Business Phone Number:(415) 309-7095
+Entity: Sole Ownership
+Issue Date: 04/17/1991
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100740658, Bond Amount: $25,000, Effective Date: 04/12/2023
+Workers' Compensation: EMPLOYERS PREFERRED INSURANCE COMPANY, Policy Number: EIG602593801, Effective Date: 07/01/2026, Expire Date: 07/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage

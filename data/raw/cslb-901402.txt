@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=901402
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  901402
+K M C DESIGN GROUP INC
+DBA K M C PLUMBING CO
+32 CAMBRIDGE COURT
+DANVILLE, CA 94526
+Business Phone Number:(925) 382-6764
+Entity: Corporation
+Issue Date: 08/03/2007
+Expire Date: 08/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 66631416, Bond Amount: $25,000, Effective Date: 07/02/2023
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UBC57042972626G, Effective Date: 03/11/2026, Expire Date: 03/11/2027. Classification codes: 5187 - Description Unavailable; 5183 - Description Unavailable; 8810 - Clerical Office Employees

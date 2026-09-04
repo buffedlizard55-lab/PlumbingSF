@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=218804
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  218804
+N J COHEN INC
+P O BOX 1756
+BURLINGAME, CA 94011
+Business Phone Number:(650) 558-1400
+Entity: Corporation
+Issue Date: 07/09/1963
+Expire Date: 08/31/2009
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC686830, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 10/01/2009
+Workers' Compensation: TOWER INSURANCE CO OF NEW YORK DBA TOWER SELECT INSURANCE CO, Policy Number: TSIWD7082722100, Effective Date: 10/01/2008, Expire Date: 10/01/2009

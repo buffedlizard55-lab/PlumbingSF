@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=618294
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  618294
+D & S LEONG ASSOCIATES INC
+1660 JERROLD AVE #B
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 221-3838
+Entity: Corporation
+Issue Date: 04/23/1991
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C16 - FIRE PROTECTION; C36 - PLUMBING; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 9050634, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9239173, Effective Date: 10/01/2018, Expire Date: 10/01/2026. Classification codes: 51871 - Plumbing-high wage; 51861 - Description Unavailable

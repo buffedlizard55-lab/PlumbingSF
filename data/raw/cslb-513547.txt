@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=513547
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  513547
+O K L S INC
+dba OKELL'S FIREPLACE
+1231 UNIVERSITY DRIVE
+MENLO PARK, CA 94025
+Business Phone Number:(415) 760-6569
+Entity: Corporation
+Issue Date: 07/01/1987
+Expire Date: 07/31/2027
+License Status: This license is inactive and not able to contract at this time.
+Classifications: C-61 / D34 - PREFABRICATED EQUIPMENT
+Contractor's Bond: SURETEC INSURANCE COMPANY, Bond Number: 148122, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 06/29/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9105033, Effective Date: 07/01/2014, Cancellation Date: 08/05/2022

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=960198
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:24 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  960198
+GOLDEN GATE FIRE PROTECTION INC
+133 KISSLING STREET
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 500-1621
+Entity: Corporation
+Issue Date: 04/21/2011
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100938838, Bond Amount: $25,000, Effective Date: 03/11/2025
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UB1Y0225672626G, Effective Date: 03/18/2026, Expire Date: 03/18/2027. Classification codes: 5185 - Automatic Sprinkler Install-low wage; 5186 - Automatic Sprinkler Install-high wage; 8742 - Salespersons-Outside

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=171203
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:24 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  171203
+CORNELY COMPANY
+65 DORMAN AVENUE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 252-1800
+Entity: Corporation
+Issue Date: 10/28/1957
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C36 - PLUMBING; C10 - ELECTRICAL
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 61976759, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9324907, Effective Date: 10/01/2022, Expire Date: 10/01/2026. Classification codes: 3726 - Boiler Install/Service/Repair; 8810 - Clerical Office Employees

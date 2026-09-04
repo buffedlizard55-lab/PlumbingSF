@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=454647
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:24 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  454647
+BLAZE FIREPLACES OF NORTHERN CALIFORNIA INC
+dba BLAZE
+1675 ROLLINS RD SUITE F AND F1
+BURLINGAME, CA 94010
+Business Phone Number:(415) 495-2002
+Entity: Corporation
+Issue Date: 04/03/1984
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-61 / D34 - PREFABRICATED EQUIPMENT; C-61 / D28 - DOORS, GATES AND ACTIVATING DEVICES
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 791101C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: CITIZENS INSURANCE COMPANY OF AMERICA, Policy Number: WBFJ60332902, Effective Date: 12/01/2025, Expire Date: 12/01/2026. Classification codes: 8742 - Salespersons-Outside; 8018 - Stores-wholesale; 8810 - Clerical Office Employees

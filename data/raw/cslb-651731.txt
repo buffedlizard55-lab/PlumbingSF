@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=651731
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  651731
+BING'S HEATING & COOLING CO
+2026 34TH AVE
+SAN FRANCISCO, CA 95116
+Business Phone Number:(415) 309-6127
+Entity: Sole Ownership
+Issue Date: 08/05/1992
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67294806, Bond Amount: $25,000, Effective Date: 04/01/2025
+Workers' Compensation: CONTINENTAL CASUALTY COMPANY, Policy Number: 8035933741, Effective Date: 06/19/2026, Expire Date: 06/19/2027. Classification codes: 51873 - Heating/Air Conditioning Equip-high wage; 51833 - Heating/Air Conditioning Equip-low wage

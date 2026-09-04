@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=169169
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:39 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  169169
+C R REICHEL ENGINEERING CO INC
+718 NATOMA STREET
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 431-7100
+Entity: Corporation
+Issue Date: 07/10/1957
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C10 - ELECTRICAL; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C34 - PIPELINE; C36 - PLUMBING; C42 - SANITATION SYSTEM; C16 - FIRE PROTECTION
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 980612C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9074387, Effective Date: 10/01/2013, Expire Date: 10/01/2026. Classification codes: 5187 - Description Unavailable; 8810 - Clerical Office Employees; 5183 - Description Unavailable

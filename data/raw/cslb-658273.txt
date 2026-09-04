@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=658273
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:30 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  658273
+J E BROWN COMPANY MECHANICAL CONTRACTORS
+78 SHOTWELL STREET
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 626-4044
+Entity: Corporation
+Issue Date: 11/10/1992
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C16 - FIRE PROTECTION; C36 - PLUMBING; C-61 / D12 - SYNTHETIC PRODUCTS
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 63096487, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: MID-CENTURY INSURANCE COMPANY, Policy Number: A09526563, Effective Date: 11/21/2025, Expire Date: 11/21/2026. Classification codes: 3726 - Boiler Install/Service/Repair; 5187 - Description Unavailable; 5183 - Description Unavailable

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=580087
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  580087
+DRESSER/AREIA CONSTRUCTION INC
+3940 VALLEY AVENUE
+PLEASANTON, CA 94566
+Business Phone Number:(925) 485-1711
+Entity: Corporation
+Issue Date: 10/30/1989
+Expire Date: 10/31/2003
+License Status: This license is expired and not able to contract at this time.
+Classifications: A - GENERAL ENGINEERING; C36 - PLUMBING; B - GENERAL BUILDING
+Contractor's Bond: INDEMNITY COMPANY OF CALIFORNIA, Bond Number: 989262C, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 12/12/2003
+Workers' Compensation: AMERICAN PROTECTION INSURANCE COMPANY, Policy Number: 5BR086107, Effective Date: 07/31/2002, Expire Date: 07/31/2003
