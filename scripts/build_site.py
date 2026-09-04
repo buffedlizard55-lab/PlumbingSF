@@ -842,8 +842,43 @@ footer.site p{{max-width:90ch}}
     for f in ("master_list.csv", "plumbers.json", "validation_report.json"):
         (DOCS / "data" / f).write_bytes((ROOT / "data" / f).read_bytes())
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
+    (ROOT / ".nojekyll").write_text("", encoding="utf-8")
+
+    # The repo's GitHub Pages site may be configured either as
+    #   branch=<this branch>, path=/docs   (canonical - docs/index.html is the root)
+    # or
+    #   branch=main, path=/                (repo root is the site)
+    # This stub makes the second configuration work too, at the cost of one
+    # redirect hop. It is never served in the first configuration.
+    (ROOT / "index.html").write_text("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verified San Francisco Plumbers &mdash; redirecting</title>
+<meta http-equiv="refresh" content="0; url=docs/index.html">
+<link rel="canonical" href="docs/index.html">
+<script>location.replace("docs/index.html" + location.search + location.hash);</script>
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f6f7f9;
+font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#12171f}
+.box{text-align:center;padding:32px}
+a{color:#0b5fa5;font-weight:600}
+code{background:#eef1f5;padding:.15em .4em;border-radius:4px;font-size:.85em}
+</style>
+</head>
+<body>
+<div class="box">
+<p><strong>Verified San Francisco Plumbers</strong></p>
+<p>The site lives at <a href="docs/index.html"><code>docs/index.html</code></a>.</p>
+<p>If you are not redirected, <a href="docs/index.html">click here</a>.</p>
+</div>
+</body>
+</html>
+""", encoding="utf-8")
 
     print(f"docs/index.html  {len(page):,} bytes")
+    print("index.html       redirect stub for Pages configured at path=/")
     print(f"  {len(hireable)} hireable cards, {len(not_hireable)} flagged, "
           f"{len(fallback)} fallback")
     print(f"  {len(criticals)} critical findings surfaced")

@@ -287,12 +287,20 @@ python3 scripts/build_site.py
 
 ## Deploying
 
-The site is plain static HTML with no build step at serve time.
+The site is plain static HTML with no build step at serve time. The build emits the site to `docs/`
+and also writes a small root `index.html` redirect stub plus `.nojekyll`, so the site works under
+**either** Pages configuration:
 
-1. Push this branch.
-2. In the repository: **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
-   branch `arena/01a06996-plumbingsf`, path `/docs`.
-3. The site appears at `https://<user>.github.io/PlumbingSF/`.
+| Pages source | What serves | Notes |
+|---|---|---|
+| branch `arena/01a06996-plumbingsf`, path `/docs` | `docs/index.html` directly | Canonical. No redirect hop. |
+| branch `main`, path `/` | root `index.html` → redirects to `docs/index.html` | Works as soon as this branch is merged, with no settings change. |
+
+To set the canonical configuration: **Settings → Pages → Build and deployment → Source: Deploy from
+a branch**, branch `arena/01a06996-plumbingsf`, path `/docs`. This requires repository admin rights —
+the automation token used to build this work can push but cannot change Pages settings.
+
+The site is published at `https://buffedlizard55-lab.github.io/PlumbingSF/`.
 
 `.github/workflows/ci.yml` runs the full extract → build → **validate** → site pipeline on every push
 and pull request and **fails the build if any quote or license field cannot be traced to a capture**.
