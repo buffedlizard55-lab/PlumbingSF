@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=877300
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:39:27 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  877300
+JIN'S PLUMBING INC
+832 GRAFTON AVE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 307-0186
+Entity: Corporation
+Issue Date: 05/04/2006
+Reissue Date: 07/31/2006
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10135425, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECJW2332, Effective Date: 02/10/2026, Expire Date: 02/10/2027. Classification codes: 5183 - Description Unavailable.
+Miscellaneous Information: 07/31/2006 - LICENSE REISSUED TO ANOTHER ENTITY

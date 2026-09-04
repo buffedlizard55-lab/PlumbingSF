@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=475627
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  475627
+WREN PLUMBING INC
+dba REHN GEORGE PLUMBING COMPANY
+751 CALIFORNIA WAY
+EMERALD HILLS, CA 94062
+Business Phone Number:(650) 366-7803
+Entity: Corporation
+Issue Date: 06/26/1985
+Expire Date: 06/30/2021
+License Status: This license is expired and not able to contract at this time.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: SURETEC INDEMNITY COMPANY, Bond Number: 130942, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 06/07/2017
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/01/2015, Cancellation Date: 07/01/2017
+Miscellaneous Information: 10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED

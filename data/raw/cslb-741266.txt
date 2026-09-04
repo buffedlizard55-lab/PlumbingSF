@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=741266
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:46 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  741266
+SWEENEY PLUMBING INC
+1308 PANACHE TERRACE
+SUNNYVALE, CA 94087
+Business Phone Number:(415) 828-4651
+Entity: Corporation
+Issue Date: 10/09/1997
+Reissue Date: 09/15/2005
+Expire Date: 08/12/2017
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10130743, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 07/06/2017
+Workers' Compensation: NORGUARD INSURANCE COMPANY, Policy Number: SWWC601848, Effective Date: 03/28/2015, Expire Date: 03/28/2016
+Miscellaneous Information: 09/15/2005 - LICENSE REISSUED TO ANOTHER ENTITY; 08/12/2017 - SECRETARY OF STATE - DISSOLUTION
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

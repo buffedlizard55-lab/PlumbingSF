@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=586693
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:42 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  586693
+LEE PLUMBING CO
+2407 21ST AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 681-9323
+Entity: Sole Ownership
+Issue Date: 01/24/1990
+Reissue Date: 04/08/2025
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67399197, Bond Amount: $25,000, Effective Date: 02/26/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/12/2025, Expire Date: None
+Miscellaneous Information: 04/08/2025 - LICENSE REISSUED TO A FAMILY MEMBER

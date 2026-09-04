@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=524073
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:44 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  524073
+RELIABLE PLUMBING CO
+75 LUPINE AVE
+SAN FRANCISCO, CA 94118
+Business Phone Number:(415) 726-3227
+Entity: Sole Ownership
+Issue Date: 02/08/1988
+Expire Date: 02/29/2024
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 9066484, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 04/03/2024
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 11/30/2022, Expire Date: None

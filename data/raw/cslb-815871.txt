@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=815871
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  815871
+CARY WING PLUMBING & FIRE PROTECTION INC
+11 N HUMBOLDT ST
+SAN MATEO, CA 94401
+Business Phone Number:(650) 619-4150
+Entity: Corporation
+Issue Date: 12/13/2002
+Reissue Date: 10/29/2003
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF628068, Bond Amount: $25,000, Effective Date: 06/26/2024
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: KWP1445296, Effective Date: 05/11/2026, Expire Date: 05/11/2027. Classification codes: 51831 - Plumbing-low wage; 5185 - Automatic Sprinkler Install-low wage; 55382 - Heating/Air Conditioning Duct-low wage.
+Miscellaneous Information: 10/29/2003 - LICENSE REISSUED TO ANOTHER ENTITY

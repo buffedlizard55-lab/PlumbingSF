@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=841080
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  841080
+PERFORMANCE PLUMBING
+2668 LEIX WAY
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 831-0348
+Entity: Sole Ownership
+Issue Date: 06/19/2004
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1037464, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: TES4703413, Effective Date: 12/11/2025, Expire Date: 12/11/2026. Classification codes: 5183 - Description Unavailable; 5187 - Description Unavailable.

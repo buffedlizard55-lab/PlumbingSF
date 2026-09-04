@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=949094
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:44 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  949094
+NEIGHBORHOOD PLUMBING
+2049 OFARRELL ST APT 4
+SAN FRANCISCO, CA 94115
+Business Phone Number:(415) 368-5668
+Entity: Sole Ownership
+Issue Date: 06/22/2010
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100808407, Bond Amount: $25,000, Effective Date: 11/14/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/17/2026, Expire Date: None

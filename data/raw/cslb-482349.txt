@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=482349
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  482349
+KAVANAUGH & WILPITZ INC
+dba MALCOLM PLUMBING CO
+76 - 14TH ST
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 621-1985
+Entity: Corporation
+Issue Date: 11/07/1985
+Expire Date: 11/30/2007
+License Status: This license is expired and not able to contract at this time. Additional Status: The license was canceled after expiration.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION ; C46 - SOLAR
+Contractor's Bond: INDEMNITY COMPANY OF CALIFORNIA, Bond Number: 913188C, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 08/09/2007
+Workers' Compensation: FARMERS INSURANCE EXCHANGE, Policy Number: A19127578, Effective Date: 01/01/2006, Expire Date: 01/01/2007
+Miscellaneous Information: 02/26/2008 - LICENSE CANCELLED PER REQUEST

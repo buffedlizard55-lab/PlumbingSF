@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=859973
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:03 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  859973
+PRO PLUMBING
+145 BARNEVELD AVE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 994-3468
+Entity: Sole Ownership
+Issue Date: 06/04/2005
+Expire Date: 06/30/2023
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. There may be a legal requirement to be met prior to renewal or reactivation of the license. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: WESCO INSURANCE COMPANY, Bond Number: 04WB030029, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 08/04/2017
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/22/2017, Cancellation Date: 07/01/2019
+Miscellaneous Information: 10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED

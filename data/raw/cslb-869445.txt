@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=869445
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  869445
+DINAMIT PLUMBING
+1709 KESTREL CT
+OLIVEHURST, CA 95961
+Business Phone Number:(530) 354-6976
+Entity: Sole Ownership
+Issue Date: 12/14/2005
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF625388, Bond Amount: $25,000, Effective Date: 03/15/2024
+Workers' Compensation: FARMERS INSURANCE EXCHANGE, Policy Number: A09518085, Effective Date: 08/21/2026, Expire Date: 08/21/2027. Classification codes: 5188 - Description Unavailable; 5183 - Description Unavailable; 8810 - Clerical Office Employees.

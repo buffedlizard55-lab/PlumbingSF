@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=795046
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:39:26 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  795046
+CHRIS' PLUMBING INC
+1336 WEST WINTON AVENUE
+HAYWARD, CA 94545
+Business Phone Number:(510) 346-8402
+Entity: Corporation
+Issue Date: 05/14/2001
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6044102, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: C&3874300, Effective Date: 01/01/2026, Expire Date: 01/01/2027
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

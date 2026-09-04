@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=944315
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:58:20 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  944315
+ANSWER PLUMBING INC
+1040 STEINER STREET #3
+SAN FRANCISCO, CA 94115
+Business Phone Number:(415) 722-0959
+Entity: Corporation
+Issue Date: 03/10/2010
+Reissue Date: 05/27/2016
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 670572C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/01/2026, Expire Date: None

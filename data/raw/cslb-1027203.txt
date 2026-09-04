@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1027203
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:56 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1027203
+CITY PREFERRED PLUMBING INC
+dba CITY PREFERRED PLUMBING
+1 EMBARCADERO CENTER STE 1200
+SAN FRANCISCO, CA 94111
+Business Phone Number:(415) 306-0866
+Entity: Corporation
+Issue Date: 05/24/2017
+Reissue Date: 08/14/2017
+Expire Date: 08/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NATIONWIDE MUTUAL INSURANCE COMPANY, Bond Number: 7901326101, Bond Amount: $25,000, Effective Date: 08/08/2026
+Workers' Compensation: VALLEY FORGE INSURANCE COMPANY, Policy Number: 8038038830, Effective Date: 04/30/2026, Expire Date: 04/30/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.
+Miscellaneous Information: 08/14/2017 - LICENSE REISSUED TO ANOTHER ENTITY

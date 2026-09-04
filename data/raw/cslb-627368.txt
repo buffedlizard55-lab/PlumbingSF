@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627368
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  627368
+AFFORDABLE WATER HEATERS AND PLUMBING INC
+28358 CONSTELLATION ROAD #698
+VALENCIA, CA 91355
+Business Phone Number:(855) 345-9087
+Entity: Corporation
+Issue Date: 09/04/1991
+Reissue Date: 09/09/1998
+Expire Date: 09/30/2020
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 255147C, Bond Amount: $15,000, Effective Date: 08/26/2019, Cancellation Date: 07/17/2021
+Workers' Compensation: INSURANCE COMPANY OF THE WEST, Policy Number: WPH505635300, Effective Date: 07/08/2020, Expire Date: 07/08/2021
+Miscellaneous Information: 09/09/1998 - LICENSE REISSUED TO ANOTHER ENTITY
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

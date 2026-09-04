@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=839447
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:05 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  839447
+FENG K PLUMBING CO
+1654 23RD AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 939-8822
+Entity: Sole Ownership
+Issue Date: 05/28/2004
+Expire Date: 05/31/2028
+License Status: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30125689, Bond Amount: $25,000, Effective Date: 07/23/2023, Cancellation Date: 09/01/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/11/2026, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=391483
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:41:56 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  391483
+PARKS PLUMBING AND HEATING
+624-1/2 PRECITA AVENUE
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 601-6732
+Entity: Sole Ownership
+Issue Date: 07/07/1980
+Expire Date: 08/11/2015
+License Status: This license was canceled on the death of the contractor.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: SURETEC INDEMNITY COMPANY, Bond Number: 221200, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 02/21/2016
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9065916, Effective Date: 08/01/2013, Cancellation Date: 09/18/2015
