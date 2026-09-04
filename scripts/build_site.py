@@ -605,8 +605,8 @@ footer.site p{{max-width:90ch}}
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
     <div class="stat"><b>{len(expansion)}</b><span>new de-duplicated entries in this expansion</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
-    <div class="stat"><b>{counts['active_verified_businesses']}</b><span>verified ACTIVE and hireable</span></div>
-    <div class="stat"><b>{rep['quotes_verified']}</b><span>quotes checked verbatim</span></div>
+    <div class="stat"><b>{counts['active_verified_businesses']}</b><span>entries with a verified ACTIVE license</span></div>
+    <div class="stat"><b>{rep['quotes_verified']}</b><span>source excerpts checked verbatim</span></div>
     <div class="stat"><b>{len(criticals)}</b><span>critical irregularities flagged</span></div>
   </div>
 </div></div>
@@ -703,8 +703,8 @@ footer.site p{{max-width:90ch}}
 
 <section id="rights"><div class="wrap">
   <h2>Your rights as a San Francisco tenant</h2>
-  <p class="sub">This is a rent-controlled rental, so the tenant is not the person who signs the plumbing
-  contract. The cited government text, tenant-advocacy guidance and labelled legal summaries are linked for
+  <p class="sub">This is a rent-controlled rental, so coordinate repair authority and any expanded scope with the landlord
+  or property manager. The cited government text, tenant-advocacy guidance and labelled legal summaries are linked for
   direct review. Not legal advice &mdash; the San Francisco Tenants Union and Housing Rights Committee
   both offer free counselling.</p>
   <h3>Habitability</h3>
