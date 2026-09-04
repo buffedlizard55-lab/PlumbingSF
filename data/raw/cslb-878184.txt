@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=878184
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  878184
+IN & OUT PLUMBING AND CONSTRUCTION INC
+184 HARBOR WAY
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(650) 589-4855
+Entity: Corporation
+Issue Date: 05/22/2006
+Reissue Date: 11/14/2018
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed. There is Complaint Disclosure information for this license.
+Classifications: A - GENERAL ENGINEERING; B - GENERAL BUILDING; C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: CA6056893, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: EMPLOYERS COMPENSATION INSURANCE COMPANY, Policy Number: EIG635016300, Effective Date: 03/18/2026, Expire Date: 03/18/2027. Classification codes: 5187; 5183; 8810 - Clerical Office Employees.

@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1054611
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1054611
+CHOSEN ROOTER & PLUMBING INC
+338 N CANAL ST STE 12
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 702-9919
+Entity: Corporation
+Issue Date: 06/12/2019
+Reissue Date: 06/11/2020
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NATIONWIDE MUTUAL INSURANCE COMPANY, Bond Number: 7901245938, Bond Amount: $25,000, Effective Date: 04/27/2025
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: KWP1449995, Effective Date: 06/17/2026, Expire Date: 06/17/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.
+Miscellaneous Information: 06/11/2020 - LICENSE REISSUED TO ANOTHER ENTITY

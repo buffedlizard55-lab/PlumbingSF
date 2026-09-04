@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1017368
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1017368
+PLUMBING PURE INC
+319 27TH AVE 1
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 359-6095
+Entity: Corporation
+Issue Date: 08/18/2016
+Expire Date: 08/31/2024
+License Status: This license is expired and not able to contract at this time. Before the license can be renewed active or reactivated, the corporation's status at the Secretary of State's Office must be returned to active.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 66338537, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: PIE INSURANCE COMPANY (THE), Policy Number: WCPI1666765001, Effective Date: 09/21/2025, Expire Date: 09/21/2026

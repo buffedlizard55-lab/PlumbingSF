@@ -51,7 +51,7 @@ ALLOWED_HOSTS = {
     "leginfo.legislature.ca.gov", "codelibrary.amlegal.com", "sfgov.org",
     # review platforms of record
     "www.bbb.org", "bbb.org", "www.thumbtack.com", "thumbtack.com",
-    "www.yelp.com", "yelp.com", "www.google.com", "google.com", "maps.google.com",
+    "www.yelp.com", "yelp.com", "m.yelp.com", "www.google.com", "google.com", "maps.google.com",
     # tenant advocacy / legal
     "sftu.org", "www.sftu.org", "www.hrcsf.org", "hrcsf.org",
     "tenantlawgroupsf.com", "www.tenantlawgroupsf.com",
@@ -60,6 +60,8 @@ ALLOWED_HOSTS = {
     "www.consumeraffairs.com", "consumeraffairs.com", "www.angi.com", "angi.com",
     "local.yahoo.com", "www.buildzoom.com", "buildzoom.com", "www.nextdoor.com",
     "nextdoor.com", "www.expertise.com", "expertise.com",
+    # manufacturer technical guidance
+    "www.oatey.com", "oatey.com", "support.gerber-us.com", "www.gerber-us.com",
     # community
     "www.reddit.com", "reddit.com", "old.reddit.com",
     # vendor sites (self-reported; labelled as such in the data)
@@ -75,6 +77,18 @@ ALLOWED_HOSTS = {
 HIREABLE_TIERS = {"recommended", "viable", "conditional"}
 FIT_VOCAB = {"documented", "documented-adjacent", "advertised",
              "unknown", "no-evidence", "no"}
+SOURCE_ACCESS_VOCAB = {"direct", "indirect-search-snippet", "indirect-aggregator",
+                       "blocked", "manual-review"}
+SOURCE_TIER_VOCAB = {"official-gov", "official-platform", "manufacturer",
+                     "tenant-advocacy-org", "third-party-aggregator", "community",
+                     "vendor-self-reported"}
+LAYERED_AGGREGATOR_HOSTS = {"www.expertise.com", "expertise.com"}
+EXPANSION_BATCH = "2026-09-04-expansion-20"
+EXPANSION_LICENSES = {
+    "976019", "1054611", "996627", "988995", "875126", "828747", "1051650",
+    "1027286", "1017368", "982663", "841229", "977638", "888630", "1042922",
+    "1036915", "1018923", "922974", "1047052", "786183", "878184",
+}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -92,6 +106,13 @@ def norm(text: str) -> str:
     """Whitespace-normalise so a quote can be matched across line wrapping."""
     return re.sub(r"\s+", " ", text.replace("\u2014", "-").replace("\u2019", "'")
                   .replace("\u201c", '"').replace("\u201d", '"')).strip()
+
+
+def identity_norm(text: str) -> str:
+    """Loose business-name identity only; never used for factual text parity."""
+    value = norm(text).lower().replace("&", " and ")
+    value = re.sub(r"\b(inc|incorporated|llc|corporation)\b", "", value)
+    return re.sub(r"[^a-z0-9]", "", value)
 
 
 class RawLibrary:
@@ -151,6 +172,37 @@ class RawLibrary:
             return True, "file" if matched_url_block else "file-only"
         return False, "missing" if matched_url_block else "missing-and-no-block"
 
+    def candidate_section(self, rel: str, business_name: str,
+                          source_url: str) -> str | None:
+        """Return the candidate paragraph inside one exact URL's source block.
+
+        Expansion captures deliberately separate candidate records with blank
+        lines. Binding facts to that paragraph prevents a common-page score
+        such as 5.0 from being accidentally attributed to the wrong business.
+        """
+        target = identity_norm(business_name)
+        selected = ""
+        parts = re.split(r"^===== SOURCE: ", self.texts.get(rel, ""), flags=re.M)
+        for part in parts[1:]:
+            header, _, body = part.partition("\n")
+            captured_url = header.split(" | ", 1)[0].split(" ", 1)[0]
+            if captured_url.rstrip("/") == source_url.rstrip("/"):
+                selected = body
+                break
+        lines = selected.splitlines()
+        for index, line in enumerate(lines):
+            if line.startswith("====="):
+                continue
+            candidate = identity_norm(line)
+            if len(candidate) >= 6 and (target in candidate or candidate in target):
+                section = [line]
+                for following in lines[index + 1:]:
+                    if not following.strip():
+                        break
+                    section.append(following)
+                return norm("\n".join(section))
+        return None
+
 
 def check_url(label: str, url: str | None) -> None:
     if not url:
@@ -166,6 +218,22 @@ def check_url(label: str, url: str | None) -> None:
     if host not in ALLOWED_HOSTS:
         err(f"{label}: host {host!r} is not on the visited-domain allow-list "
             f"({url}). Add it only if the page was actually fetched.")
+
+
+def access_compatible(declared: str | None, captured: str | None, url: str) -> bool:
+    """Whether item-level and page-fetch access labels can both be true.
+
+    A directly fetched aggregator page can display a Yelp/Google aggregate. The
+    page capture is direct, while the rating datum remains indirect-aggregator.
+    That layered case is allowed only for aggregator hosts named here.
+    """
+    if not declared or not captured:
+        return True
+    if declared.split("-", 1)[0] == captured.split("-", 1)[0]:
+        return True
+    host = urlparse(url).hostname or ""
+    return (declared == "indirect-aggregator" and captured == "direct" and
+            host in LAYERED_AGGREGATOR_HOSTS)
 
 
 def check_quote(lib: RawLibrary, where: str, text: str, raw: str, url: str,
@@ -240,8 +308,12 @@ def main() -> int:
                 referenced_raw.add(s["raw"])
                 if not lib.has_file(s["raw"]):
                     err(f"{name}: source points at missing capture {s['raw']}")
-            if not s.get("tier"):
-                err(f"{name}: source without trust tier: {s.get('url')}")
+            if s.get("tier") not in SOURCE_TIER_VOCAB:
+                err(f"{name}: source trust tier {s.get('tier')!r} is invalid: "
+                    f"{s.get('url')}")
+            if s.get("access") not in SOURCE_ACCESS_VOCAB:
+                err(f"{name}: source access {s.get('access')!r} is invalid: "
+                    f"{s.get('url')}")
 
         if num and not lic.get("verified", True):
             # Explicitly unverified candidate: no capture exists by design.
@@ -264,8 +336,10 @@ def main() -> int:
                 if not rec:
                     err(f"{name}: license {num} absent from data/_cslb_extract.json")
                 else:
-                    for field in ("legal_name", "status_code", "entity", "expire_date",
-                                  "issue_date", "classifications", "cslb_phone"):
+                    for field in ("legal_name", "status_raw", "status_code", "entity",
+                                  "expire_date", "issue_date", "reissue_date",
+                                  "classifications", "cslb_address", "cslb_phone",
+                                  "workers_comp_code", "workers_comp_raw", "misc", "bond"):
                         if lic.get(field) != rec.get(field):
                             err(f"{name}: license field {field} does not match the "
                                 f"official capture ({lic.get(field)!r} vs {rec.get(field)!r})")
@@ -298,12 +372,31 @@ def main() -> int:
             err(f"{name}: tier 'do-not-hire' but CSLB license is active - "
                 f"move it to a hireable tier or explain in a flag")
 
-        # job_fit vocabulary
+        # job_fit vocabulary and conservative evidence semantics
         for k, v in e["job_fit"].items():
             if v not in FIT_VOCAB:
                 err(f"{name}: job_fit[{k}] = {v!r} is not in the declared vocabulary")
             if k not in doc["fit_labels"]:
                 err(f"{name}: job_fit key {k!r} has no label in fit_labels")
+        positive_fit = any(v in {"documented", "documented-adjacent", "advertised"}
+                           for v in e["job_fit"].values())
+        if positive_fit and not e.get("evidence"):
+            err(f"{name}: positive job-fit values have no retained source evidence")
+        if e["job_fit"].get("tub_overflow_access") == "documented":
+            err(f"{name}: no retained source proves the exact seized trip-lever task")
+        if e["job_fit"].get("snake_shower") == "documented":
+            ev_text = " ".join(
+                [ev.get("text", "") for ev in e.get("evidence", [])] +
+                [signal for ev in e.get("evidence", [])
+                 for signal in ev.get("job_signals", [])]
+            ).lower()
+            if "shower" not in ev_text:
+                err(f"{name}: exact documented shower-drain fit lacks shower evidence")
+        if e["tier"] == "recommended":
+            if e["job_fit"].get("snake_shower") not in {"documented", "documented-adjacent"}:
+                err(f"{name}: first-screen tier requires direct exact/adjacent drain evidence")
+            if e["job_fit"].get("tub_overflow_access") not in {"advertised", "documented-adjacent"}:
+                err(f"{name}: first-screen tier requires at least adjacent/advertised tub scope")
 
         # permit cross-check
         if num and lic.get("verified", True) and \
@@ -380,6 +473,98 @@ def main() -> int:
         if n > 1:
             err(f"license {num} is the primary license of {n} different entries")
 
+    # The requested expansion is a fixed, reviewable batch. Keeping this gate
+    # explicit prevents a later rebuild from silently dropping, replacing, or
+    # double-counting one of the 20 researched businesses.
+    expansion = [e for e in doc["entries"] if e.get("research_batch") == EXPANSION_BATCH]
+    expansion_nums = {str(e["license"].get("number")) for e in expansion}
+    if len(expansion) != 20:
+        err(f"expansion batch: expected exactly 20 entries, found {len(expansion)}")
+    if expansion_nums != EXPANSION_LICENSES:
+        err("expansion batch: license set differs from the fixed researched set "
+            f"(missing {sorted(EXPANSION_LICENSES - expansion_nums)}, "
+            f"extra {sorted(expansion_nums - EXPANSION_LICENSES)})")
+    if len(expansion_nums) != len(expansion):
+        err("expansion batch: duplicate primary license")
+
+    non_expansion_licenses: set[str] = set()
+    for e in doc["entries"]:
+        if e.get("research_batch") == EXPANSION_BATCH:
+            continue
+        if e["license"].get("number"):
+            non_expansion_licenses.add(str(e["license"]["number"]))
+        non_expansion_licenses.update(str(o["number"]) for o in e.get("other_licenses", []))
+    overlap = expansion_nums & non_expansion_licenses
+    if overlap:
+        err(f"expansion batch duplicates an existing primary/sibling license: {sorted(overlap)}")
+
+    def name_key(value: str) -> str:
+        value = value.lower().replace("incorporated", "").replace("inc", "")
+        return re.sub(r"[^a-z0-9]", "", value)
+    old_name_keys = {name_key(e["display_name"]) for e in doc["entries"]
+                     if e.get("research_batch") != EXPANSION_BATCH}
+    duplicate_names = {e["display_name"] for e in expansion
+                       if name_key(e["display_name"]) in old_name_keys}
+    if duplicate_names:
+        err(f"expansion batch duplicates existing normalized names: {sorted(duplicate_names)}")
+
+    expansion_statuses = Counter(e["license"].get("status_code") for e in expansion)
+    if expansion_statuses != Counter({"active": 17, "suspended": 2, "expired": 1}):
+        err(f"expansion batch: unexpected CSLB status summary {dict(expansion_statuses)}")
+    review_hosts = {"www.yelp.com", "yelp.com", "m.yelp.com", "www.thumbtack.com",
+                    "thumbtack.com", "www.google.com", "google.com",
+                    "www.expertise.com", "expertise.com"}
+    for e in expansion:
+        name = e["display_name"]
+        if not any((urlparse(s.get("url", "")).hostname or "") in review_hosts
+                   for s in e.get("sources", [])):
+            err(f"{name}: expansion entry has no review/source-review link")
+        if e["job_fit"].get("tub_overflow_access") == "documented":
+            err(f"{name}: expansion sources do not support exact documented trip-lever work")
+        for item in e.get("evidence", []) + e.get("ratings", []):
+            raw_rel = item.get("raw", "")
+            if raw_rel != "data/raw/research-expansion-2026-09-04.txt":
+                continue
+            section = lib.candidate_section(raw_rel, name, item.get("url", ""))
+            if not section:
+                err(f"{name}: no candidate-labelled paragraph in expansion capture")
+                continue
+            if item.get("text") and norm(item["text"]) not in section:
+                err(f"{name}: evidence occurs in the source block but not its "
+                    "candidate-labelled paragraph")
+            for field in ("score", "count"):
+                if item.get(field) is not None and norm(str(item[field])) not in section:
+                    err(f"{name}: rating {field} {item[field]!r} is not in its "
+                        "candidate-labelled paragraph")
+            if " via expertise" in item.get("platform", "").lower():
+                platform = item["platform"].lower().split(" via ", 1)[0]
+                if platform not in section.lower():
+                    err(f"{name}: Expertise paragraph does not name rating platform {platform}")
+
+    expansion_by_num = {str(e["license"].get("number")): e for e in expansion}
+    required_flags = {
+        "1027286": ("bond", "workers"),
+        "1042922": ("bond",),
+        "1017368": ("expired",),
+        "878184": ("complaint",),
+        "1018923": ("classification",),
+        "922974": ("reissued",),
+        "1047052": ("reissued",),
+    }
+    for num, needles in required_flags.items():
+        text = " ".join(f"{f.get('label', '')} {f.get('detail', '')}".lower()
+                        for f in expansion_by_num.get(num, {}).get("flags", []))
+        if not all(n in text for n in needles):
+            err(f"expansion license {num}: required irregularity flag missing "
+                f"terms {needles}")
+    for num in ("1027286", "1042922", "1017368"):
+        item = expansion_by_num.get(num)
+        if item and not any(f.get("severity") == "critical" for f in item["flags"]):
+            err(f"expansion license {num}: non-hireable status lacks a critical flag")
+    complaint = expansion_by_num.get("878184")
+    if complaint and "complaint disclosure" not in complaint["license"].get("status_raw", "").lower():
+        err("expansion license 878184: CSLB complaint disclosure was not preserved")
+
     # legal citations reference their captures too
     def _walk(node):
         if isinstance(node, dict):
@@ -427,17 +612,19 @@ def main() -> int:
                                  "indirect-aggregator", "blocked"):
             err(f"access_log: invalid access value {row['access']!r}")
 
-    # indirect datapoints in the data must not be labelled direct
+    # Item-level access and page-fetch access must agree. One layered case is
+    # intentional: a directly fetched Expertise page displaying an indirect
+    # Yelp/Google/Thumbtack aggregate.
     for e in doc["entries"]:
         for r in e.get("ratings", []):
             raw_rel = r.get("raw", "")
-            for b in lib.blocks.get(raw_rel, []):
-                if b["url"].rstrip("/") == (r.get("url") or "").rstrip("/"):
-                    if b["access"] and r.get("access") and \
-                            b["access"].split("-")[0] != r["access"].split("-")[0]:
-                        err(f"{e['display_name']} rating: data says access "
-                            f"{r['access']!r} but the capture header says "
-                            f"{b['access']!r}")
+            blocks = [b for b in lib.blocks.get(raw_rel, [])
+                      if b["url"].rstrip("/") == (r.get("url") or "").rstrip("/")]
+            if blocks and not any(access_compatible(r.get("access"), b.get("access"),
+                                                    r.get("url", "")) for b in blocks):
+                err(f"{e['display_name']} rating: data access {r.get('access')!r} "
+                    f"does not agree with capture access "
+                    f"{sorted({b.get('access') for b in blocks})}")
 
     # ---- 8. coverage ----------------------------------------------------
     n_active = len(active_businesses)

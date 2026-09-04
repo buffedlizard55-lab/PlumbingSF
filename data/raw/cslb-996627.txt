@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=996627
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  996627
+5 STAR PLUMBING & ROOTER
+811 SAN JOSE AVENUE
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 410-4420
+Entity: Corporation
+Issue Date: 09/11/2014
+Reissue Date: 11/17/2025
+Expire Date: 11/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING; B - GENERAL BUILDING; C36 - PLUMBING
+Contractor's Bond: BUSINESS ALLIANCE INSURANCE COMPANY, Bond Number: G19033210211, Bond Amount: $25,000, Effective Date: 11/17/2025
+Workers' Compensation: PIE INSURANCE COMPANY (THE), Policy Number: WCPI3067048000, Effective Date: 10/17/2025, Expire Date: 10/17/2026
+Miscellaneous Information: 11/17/2025 - LICENSE REISSUED TO ANOTHER ENTITY

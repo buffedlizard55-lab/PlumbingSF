@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=786183
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  786183
+SMELLY MEL'S PLUMBING INC
+300 SHAW ROAD
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 758-6237
+Entity: Corporation
+Issue Date: 10/20/2000
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING; C36 - PLUMBING; B - GENERAL BUILDING; C16 - FIRE PROTECTION
+Contractor's Bond: SWISS RE CORPORATE SOLUTIONS AMERICA INSURANCE CORPORATION, Bond Number: 2382614, Bond Amount: $25,000, Effective Date: 07/01/2026
+Workers' Compensation: EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600023644251, Effective Date: 10/27/2025, Expire Date: 10/27/2026. Classification codes: 8810 - Clerical Office Employees; 5183; 5187.

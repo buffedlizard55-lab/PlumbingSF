@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=976019
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  976019
+ARCH PLUMBING INC
+121 QUINT STREET
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 375-0302
+Entity: Corporation
+Issue Date: 08/23/2012
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; C16 - FIRE PROTECTION; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C10 - ELECTRICAL
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100981665, Bond Amount: $25,000, Effective Date: 07/31/2025
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WC051664165CA, Effective Date: 07/01/2026, Expire Date: 07/01/2027. Classification codes: 5183; 5140 - Electrical Wiring-high wage; 5184 - Steam Pipe/Boiler Insulation.

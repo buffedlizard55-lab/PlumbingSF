@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1047052
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1047052
+INFINITY PLUMBING & ROOTER INC
+945 TARAVAL STREET #358
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 730-3182
+Entity: Corporation
+Issue Date: 11/20/2018
+Reissue Date: 10/06/2021
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100605314, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: MARKEL INSURANCE COMPANY, Policy Number: MWC018046206, Effective Date: 02/01/2026, Expire Date: 02/01/2027. Classification code: 5187 - Description Unavailable.
+Miscellaneous Information: 10/06/2021 - LICENSE REISSUED TO ANOTHER ENTITY
