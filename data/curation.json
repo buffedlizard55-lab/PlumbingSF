@@ -7968,6 +7968,222 @@
           "access": "manual-review"
         }
       ]
+    },
+    {
+      "key": "591929",
+      "id": "j-b-lind-plumbing-company",
+      "display_name": "J B Lind Plumbing Company",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 04/11/1990, Sole Ownership entity based in Glen Ellen. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(208) 408-9280",
+      "address_display": "P O Box 1626, Glen Ellen, CA 95442",
+      "website": null,
+      "sf_permits": 495,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "3.7",
+          "count": "19",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "Custom residential, restaurant specialists, commercial plumbing, hospitals, clinical offices, dental offices, instantaneous heaters, hydronic heating, service work, drain cleaning",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "drain cleaning listed as a standing specialty",
+            "3rd-generation SF/Marin firm est. 1989"
+          ]
+        },
+        {
+          "platform": "Yelp",
+          "author": "Scott + Quinn B.",
+          "text": "We have no hesitation recommending Robby and his team to anyone who is looking for a reliable plumbing at a reasonable price.",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "recommendation highlight echoed in 4 reviews"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Licensee of record now based in Glen Ellen (Sonoma Co.)",
+          "detail": "CSLB shows a Glen Ellen PO box and an out-of-state (208) business phone, though the active license (issued 1990) and Yelp listing still serve San Francisco and Marin. Dispatch radius and current SF availability must be confirmed by phone for this job."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 591929",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591929",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-591929.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for J B Lind Plumbing Company",
+          "url": "https://www.yelp.com/search?find_desc=J+B+Lind+Plumbing+Company&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for J B Lind Plumbing Company",
+          "url": "https://www.google.com/search?q=J+B+Lind+Plumbing+Company+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "718576",
+      "id": "brosnan-plumbing",
+      "display_name": "Brosnan Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 02/06/1996, Sole Ownership entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 810-2031",
+      "address_display": "973 Shotwell Street, San Francisco, CA 94110",
+      "website": null,
+      "sf_permits": 494,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "5.0",
+          "count": "6",
+          "url": "https://m.yelp.com/biz/brosnan-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Three similar Brosnan names in the Bay Area",
+          "detail": "The 5.0/6 Yelp listing uses the exact legal name on this license and is in San Francisco, but 'Brosnan Plumbing Rooter Inc' (South SF) and 'Joseph Brosnan plumbing' (Redwood City) hold different licenses - confirm at booking that the crew arriving is the 973 Shotwell St licensee."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 718576",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=718576",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-718576.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Brosnan Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Brosnan+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Brosnan Plumbing",
+          "url": "https://www.google.com/search?q=Brosnan+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "498578",
+      "id": "p-c-plumbing-heating",
+      "display_name": "P C Plumbing & Heating",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 09/30/2021).",
+      "phone_display": "(650) 302-8821",
+      "address_display": "2309 Poppy Drive, Burlingame, CA 94010",
+      "website": null,
+      "sf_permits": 472,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED 2021 — do not book",
+          "detail": "CSLB shows the license expired 09/30/2021 and states it will need a contractors bond to renew active or reactivate and must meet the workers compensation requirements; the $15,000 bond was cancelled 09/02/2017 and the workers-comp policy lapsed 10/16/2017. The permit-history firm name 'Right Rooter/P.C. Plumbing' is not the licensee name on file."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 498578",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498578",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-498578.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for P C Plumbing & Heating",
+          "url": "https://www.yelp.com/search?find_desc=P+C+Plumbing+&+Heating&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for P C Plumbing & Heating",
+          "url": "https://www.google.com/search?q=P+C+Plumbing+&+Heating+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
     }
   ],
   "legal": {
@@ -8141,7 +8357,7 @@
         "source": "cslb.ca.gov (www2.cslb.ca.gov LicenseDetail.aspx)",
         "tier": "official-gov",
         "access": "direct",
-        "note": "Fetched successfully. 57 license records captured, including all 20 records in the 2026-09-04 expansion."
+        "note": "Fetched successfully. 109 license records captured in total, including all 50 records (plus one sibling and one successor license) in the 2026-09-04 expansion-50 pass; one extended fetch outage required re-tries."
       },
       {
         "source": "data.sfgov.org Socrata API (resource k6kv-9kix)",
@@ -8341,6 +8557,14 @@
           "reason": "Inherited profile URLs returned unavailable; replaced where possible by current direct captures."
         }
       ]
+    },
+    "expansion_2026_09_04_b2": {
+      "requested": 50,
+      "added": 50,
+      "batch": "2026-09-04-expansion-50",
+      "duplicate_check": "Passed against every existing primary license, sibling license, id, and normalized display name before append.",
+      "status_summary": "31 current and active; 19 not hireable (8 canceled, 9 expired, 2 suspended). Non-hireable entries are retained as do-not-hire warnings because several of these business names still surface on live listings, permit records, or successor entities.",
+      "review_policy": "Published review content is limited to indirect search-snippet captures recorded verbatim in data/raw/research-expansion50-2026-09-04.txt and, for licenses, to direct CSLB page captures in data/raw/. No quote is published without its capture."
     }
   }
 }

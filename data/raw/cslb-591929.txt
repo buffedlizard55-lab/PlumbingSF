@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591929
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:02:48 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  591929
+J B LIND PLUMBING COMPANY
+P O BOX 1626
+GLEN ELLEN, CA 95442
+Business Phone Number:(208) 408-9280
+Entity: Sole Ownership
+Issue Date: 04/11/1990
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101075830, Bond Amount: $25,000, Effective Date: 06/04/2026
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4683923, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.

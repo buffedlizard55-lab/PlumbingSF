@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:44:27Z",
+  "generated_at": "2026-09-04T02:04:26Z",
   "verified_at": "2026-09-04",
   "job": {
     "summary": "Slow-draining bathtub (~20% of normal flow) and shower (~60-80%) in a c.1940 San Francisco house, likely original galvanized drain piping. The bathtub overflow trip lever is stuck and the tub is not accessible from below.",
@@ -186,7 +186,7 @@
         "source": "cslb.ca.gov (www2.cslb.ca.gov LicenseDetail.aspx)",
         "tier": "official-gov",
         "access": "direct",
-        "note": "Fetched successfully. 57 license records captured, including all 20 records in the 2026-09-04 expansion."
+        "note": "Fetched successfully. 109 license records captured in total, including all 50 records (plus one sibling and one successor license) in the 2026-09-04 expansion-50 pass; one extended fetch outage required re-tries."
       },
       {
         "source": "data.sfgov.org Socrata API (resource k6kv-9kix)",
@@ -386,18 +386,26 @@
           "reason": "Inherited profile URLs returned unavailable; replaced where possible by current direct captures."
         }
       ]
+    },
+    "expansion_2026_09_04_b2": {
+      "requested": 50,
+      "added": 50,
+      "batch": "2026-09-04-expansion-50",
+      "duplicate_check": "Passed against every existing primary license, sibling license, id, and normalized display name before append.",
+      "status_summary": "31 current and active; 19 not hireable (8 canceled, 9 expired, 2 suspended). Non-hireable entries are retained as do-not-hire warnings because several of these business names still surface on live listings, permit records, or successor entities.",
+      "review_policy": "Published review content is limited to indirect search-snippet captures recorded verbatim in data/raw/research-expansion50-2026-09-04.txt and, for licenses, to direct CSLB page captures in data/raw/. No quote is published without its capture."
     }
   },
   "counts": {
-    "entries": 104,
-    "active_verified_businesses": 73,
+    "entries": 107,
+    "active_verified_businesses": 75,
     "expansion_batches": {
       "2026-09-04-expansion-20": 20,
-      "2026-09-04-expansion-50": 47
+      "2026-09-04-expansion-50": 50
     },
-    "cslb_records_captured": 106,
-    "raw_capture_files": 119,
-    "flagged_not_hireable": 31
+    "cslb_records_captured": 109,
+    "raw_capture_files": 122,
+    "flagged_not_hireable": 32
   },
   "fit_labels": {
     "snake_shower": "Snake / clear the shower drain",
@@ -6557,6 +6565,112 @@
       "rank": 51
     },
     {
+      "id": "brosnan-plumbing",
+      "display_name": "Brosnan Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 02/06/1996, Sole Ownership entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 810-2031",
+      "address_display": "973 Shotwell Street, San Francisco, CA 94110",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "718576",
+        "legal_name": "BROSNAN PLUMBING",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "02/06/1996",
+        "reissue_date": null,
+        "expire_date": "02/29/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "exempt",
+        "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/05/2026, Expire Date: None",
+        "cslb_address": "973 SHOTWELL STREET / SAN FRANCISCO, CA 94110",
+        "cslb_phone": "(415) 810-2031",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=718576",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:58 PM\")",
+        "raw_file": "data/raw/cslb-718576.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 494,
+      "sf_permits_curated": 494,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "5.0",
+          "count": "6",
+          "url": "https://m.yelp.com/biz/brosnan-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Three similar Brosnan names in the Bay Area",
+          "detail": "The 5.0/6 Yelp listing uses the exact legal name on this license and is in San Francisco, but 'Brosnan Plumbing Rooter Inc' (South SF) and 'Joseph Brosnan plumbing' (Redwood City) hold different licenses - confirm at booking that the crew arriving is the 973 Shotwell St licensee."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 718576",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=718576",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-718576.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Brosnan Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Brosnan+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Brosnan Plumbing",
+          "url": "https://www.google.com/search?q=Brosnan+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 52
+    },
+    {
       "id": "sewer-rat-plumbing-inc",
       "display_name": "Sewer Rat Plumbing Inc.",
       "dba": null,
@@ -6682,7 +6796,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 52
+      "rank": 53
     },
     {
       "id": "a-g-quality-plumbing",
@@ -6804,7 +6918,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 53
+      "rank": 54
     },
     {
       "id": "citywide-plumbing",
@@ -6903,7 +7017,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 54
+      "rank": 55
     },
     {
       "id": "genteel-plumbing",
@@ -6990,7 +7104,7 @@
           "raw": "data/raw/cslb-1025814.txt"
         }
       ],
-      "rank": 55
+      "rank": 56
     },
     {
       "id": "pipeline-plumbing",
@@ -7089,7 +7203,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 56
+      "rank": 57
     },
     {
       "id": "24-7-rooter-and-plumbing",
@@ -7201,7 +7315,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 57
+      "rank": 58
     },
     {
       "id": "in-out-plumbing-construction",
@@ -7330,7 +7444,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 58
+      "rank": 59
     },
     {
       "id": "red-wrench-plumbing",
@@ -7444,7 +7558,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 59
+      "rank": 60
     },
     {
       "id": "hydro-plumbing-rooter-inc",
@@ -7566,7 +7680,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 60
+      "rank": 61
     },
     {
       "id": "infinity-plumbing-rooter",
@@ -7712,7 +7826,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 61
+      "rank": 62
     },
     {
       "id": "smelly-mel-s-plumbing",
@@ -7844,7 +7958,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 62
+      "rank": 63
     },
     {
       "id": "madden-plumbing-llc",
@@ -7991,7 +8105,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 63
+      "rank": 64
     },
     {
       "id": "demakas-plumbing-heating",
@@ -8123,7 +8237,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 64
+      "rank": 65
     },
     {
       "id": "north-south-plumbing-inc",
@@ -8268,7 +8382,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 65
+      "rank": 66
     },
     {
       "id": "fault-line-plumbing-inc",
@@ -8393,7 +8507,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 66
+      "rank": 67
     },
     {
       "id": "feerick-plumbing-inc",
@@ -8518,7 +8632,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 67
+      "rank": 68
     },
     {
       "id": "t-and-h-plumbing-co-inc",
@@ -8637,7 +8751,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 68
+      "rank": 69
     },
     {
       "id": "san-yi-plumbing",
@@ -8734,7 +8848,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 69
+      "rank": 70
     },
     {
       "id": "p-p-plumbing-jim-parr",
@@ -8831,7 +8945,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 70
+      "rank": 71
     },
     {
       "id": "andrew-lee",
@@ -8928,7 +9042,137 @@
           "access": "manual-review"
         }
       ],
-      "rank": 71
+      "rank": 72
+    },
+    {
+      "id": "j-b-lind-plumbing-company",
+      "display_name": "J B Lind Plumbing Company",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 04/11/1990, Sole Ownership entity based in Glen Ellen. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(208) 408-9280",
+      "address_display": "P O Box 1626, Glen Ellen, CA 95442",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "591929",
+        "legal_name": "J B LIND PLUMBING COMPANY",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "04/11/1990",
+        "reissue_date": null,
+        "expire_date": "04/30/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "06/04/2026",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4683923, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.",
+        "cslb_address": "P O BOX 1626 / GLEN ELLEN, CA 95442",
+        "cslb_phone": "(208) 408-9280",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591929",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:48 PM\")",
+        "raw_file": "data/raw/cslb-591929.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 495,
+      "sf_permits_curated": 495,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "3.7",
+          "count": "19",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "Custom residential, restaurant specialists, commercial plumbing, hospitals, clinical offices, dental offices, instantaneous heaters, hydronic heating, service work, drain cleaning",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "drain cleaning listed as a standing specialty",
+            "3rd-generation SF/Marin firm est. 1989"
+          ]
+        },
+        {
+          "platform": "Yelp",
+          "author": "Scott + Quinn B.",
+          "text": "We have no hesitation recommending Robby and his team to anyone who is looking for a reliable plumbing at a reasonable price.",
+          "url": "https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "recommendation highlight echoed in 4 reviews"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Licensee of record now based in Glen Ellen (Sonoma Co.)",
+          "detail": "CSLB shows a Glen Ellen PO box and an out-of-state (208) business phone, though the active license (issued 1990) and Yelp listing still serve San Francisco and Marin. Dispatch radius and current SF availability must be confirmed by phone for this job."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 591929",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591929",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-591929.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for J B Lind Plumbing Company",
+          "url": "https://www.yelp.com/search?find_desc=J+B+Lind+Plumbing+Company&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for J B Lind Plumbing Company",
+          "url": "https://www.google.com/search?q=J+B+Lind+Plumbing+Company+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 73
     },
     {
       "id": "precision-rooter-and-drain",
@@ -9036,7 +9280,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 72
+      "rank": 74
     },
     {
       "id": "repipe-specialists",
@@ -9133,7 +9377,7 @@
           "raw": "data/raw/reviews-company-sites.txt"
         }
       ],
-      "rank": 73
+      "rank": 75
     },
     {
       "id": "arb-inc",
@@ -9223,7 +9467,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 74
+      "rank": 76
     },
     {
       "id": "crusader-plumbing",
@@ -9316,7 +9560,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 75
+      "rank": 77
     },
     {
       "id": "kenneth-asire-plumbing",
@@ -9439,7 +9683,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 76
+      "rank": 78
     },
     {
       "id": "heise-s-plumbing-heating-air-conditioning",
@@ -9599,7 +9843,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 77
+      "rank": 79
     },
     {
       "id": "bright-ideas-plumbing",
@@ -9730,7 +9974,7 @@
           "raw": "data/raw/research-audit-2026-09-04.txt"
         }
       ],
-      "rank": 78
+      "rank": 80
     },
     {
       "id": "ace-plumbing-and-rooter",
@@ -9852,7 +10096,7 @@
           "raw": "data/raw/reviews-aggregators.txt"
         }
       ],
-      "rank": 79
+      "rank": 81
     },
     {
       "id": "chung-wah-plumbing-co-inc",
@@ -9966,7 +10210,7 @@
           "raw": "data/raw/cslb-889172.txt"
         }
       ],
-      "rank": 80
+      "rank": 82
     },
     {
       "id": "servadei-service",
@@ -10061,7 +10305,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 81
+      "rank": 83
     },
     {
       "id": "o-grady-plumbing-heating-draining",
@@ -10198,7 +10442,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 82
+      "rank": 84
     },
     {
       "id": "strong-plumbing-plugbusters",
@@ -10317,7 +10561,7 @@
           "raw": "data/raw/cslb-615837.txt"
         }
       ],
-      "rank": 83
+      "rank": 85
     },
     {
       "id": "fireman-plumbing",
@@ -10419,7 +10663,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 84
+      "rank": 86
     },
     {
       "id": "fast-response-plumbing",
@@ -10509,7 +10753,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 85
+      "rank": 87
     },
     {
       "id": "chen-s-plumbing-inc",
@@ -10630,7 +10874,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 86
+      "rank": 88
     },
     {
       "id": "shing-plumbing-llc",
@@ -10769,7 +11013,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 87
+      "rank": 89
     },
     {
       "id": "stan-plumbing",
@@ -10914,7 +11158,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 88
+      "rank": 90
     },
     {
       "id": "mr-peter-s-plumbing",
@@ -11011,7 +11255,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 89
+      "rank": 91
     },
     {
       "id": "gateway-plumbing",
@@ -11101,7 +11345,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 90
+      "rank": 92
     },
     {
       "id": "best-plumbing-choice",
@@ -11198,7 +11442,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 91
+      "rank": 93
     },
     {
       "id": "gucho-plumbing",
@@ -11318,7 +11562,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 92
+      "rank": 94
     },
     {
       "id": "ray-calegari-plumbing-inc",
@@ -11415,7 +11659,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 93
+      "rank": 95
     },
     {
       "id": "asia-plumbing",
@@ -11512,7 +11756,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 94
+      "rank": 96
     },
     {
       "id": "thomas-friel-plumbing-inc",
@@ -11609,7 +11853,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 95
+      "rank": 97
     },
     {
       "id": "excellent-plumbing",
@@ -11706,7 +11950,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 96
+      "rank": 98
     },
     {
       "id": "sberlo-plumbing-inc",
@@ -11803,7 +12047,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 97
+      "rank": 99
     },
     {
       "id": "drouet-plumbing-inc",
@@ -11900,7 +12144,104 @@
           "access": "manual-review"
         }
       ],
-      "rank": 98
+      "rank": 100
+    },
+    {
+      "id": "p-c-plumbing-heating",
+      "display_name": "P C Plumbing & Heating",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 09/30/2021).",
+      "phone_display": "(650) 302-8821",
+      "address_display": "2309 Poppy Drive, Burlingame, CA 94010",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "498578",
+        "legal_name": "P C PLUMBING & HEATING",
+        "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.",
+        "status_code": "expired",
+        "entity": "Sole Ownership",
+        "classifications": "C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING",
+        "issue_date": "09/22/1986",
+        "reissue_date": "09/22/1997",
+        "expire_date": "09/30/2021",
+        "bond": {
+          "carrier": "SURETEC INDEMNITY COMPANY",
+          "amount": "$15,000",
+          "effective": "01/01/2016",
+          "cancellation": "09/02/2017"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9071381, Effective Date: 10/16/2015, Expire Date: 10/16/2017",
+        "cslb_address": "2309 POPPY DRIVE / BURLINGAME, CA 94010",
+        "cslb_phone": "(650) 302-8821",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498578",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:58 PM\")",
+        "raw_file": "data/raw/cslb-498578.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 472,
+      "sf_permits_curated": 472,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED 2021 — do not book",
+          "detail": "CSLB shows the license expired 09/30/2021 and states it will need a contractors bond to renew active or reactivate and must meet the workers compensation requirements; the $15,000 bond was cancelled 09/02/2017 and the workers-comp policy lapsed 10/16/2017. The permit-history firm name 'Right Rooter/P.C. Plumbing' is not the licensee name on file."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 498578",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498578",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-498578.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for P C Plumbing & Heating",
+          "url": "https://www.yelp.com/search?find_desc=P+C+Plumbing+&+Heating&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for P C Plumbing & Heating",
+          "url": "https://www.google.com/search?q=P+C+Plumbing+&+Heating+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 101
     },
     {
       "id": "american-alliance-plumbing-drain-cleaning-drain-patrol",
@@ -12002,7 +12343,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 99
+      "rank": 102
     },
     {
       "id": "mr-rooter-sf-sfgdl",
@@ -12085,7 +12426,7 @@
           "raw": "data/raw/cslb-974194.txt"
         }
       ],
-      "rank": 100
+      "rank": 103
     },
     {
       "id": "aqua-stat-plumbing-inc",
@@ -12190,7 +12531,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 101
+      "rank": 104
     },
     {
       "id": "eric-brand-plumbing",
@@ -12278,7 +12619,7 @@
           "raw": "data/raw/cslb-920294.txt"
         }
       ],
-      "rank": 102
+      "rank": 105
     },
     {
       "id": "plumbing-pure-inc",
@@ -12383,7 +12724,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 103
+      "rank": 106
     },
     {
       "id": "discount-plumbing-inc-canceled",
@@ -12478,7 +12819,7 @@
           "raw": "data/raw/cslb-755272.txt"
         }
       ],
-      "rank": 104
+      "rank": 107
     }
   ]
 }

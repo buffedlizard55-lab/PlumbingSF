@@ -374,6 +374,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:16 PM\")",
     "raw_file": "data/raw/cslb-492385.txt"
   },
+  "498578": {
+    "license_number": "498578",
+    "legal_name": "P C PLUMBING & HEATING",
+    "cslb_address": "2309 POPPY DRIVE / BURLINGAME, CA 94010",
+    "cslb_phone": "(650) 302-8821",
+    "entity": "Sole Ownership",
+    "issue_date": "09/22/1986",
+    "reissue_date": "09/22/1997",
+    "expire_date": "09/30/2021",
+    "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.",
+    "status_code": "expired",
+    "classifications": "C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "SURETEC INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "09/02/2017"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9071381, Effective Date: 10/16/2015, Expire Date: 10/16/2017",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498578",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:58 PM\")",
+    "raw_file": "data/raw/cslb-498578.txt"
+  },
   "500445": {
     "license_number": "500445",
     "legal_name": "CHUNG WAH PLUMBING CO INC",
@@ -598,6 +623,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=582534",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:37:31 PM\")",
     "raw_file": "data/raw/cslb-582534.txt"
+  },
+  "591929": {
+    "license_number": "591929",
+    "legal_name": "J B LIND PLUMBING COMPANY",
+    "cslb_address": "P O BOX 1626 / GLEN ELLEN, CA 95442",
+    "cslb_phone": "(208) 408-9280",
+    "entity": "Sole Ownership",
+    "issue_date": "04/11/1990",
+    "reissue_date": null,
+    "expire_date": "04/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "06/04/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4683923, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=591929",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:48 PM\")",
+    "raw_file": "data/raw/cslb-591929.txt"
   },
   "592813": {
     "license_number": "592813",
@@ -998,6 +1048,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=712335",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:36 PM\")",
     "raw_file": "data/raw/cslb-712335.txt"
+  },
+  "718576": {
+    "license_number": "718576",
+    "legal_name": "BROSNAN PLUMBING",
+    "cslb_address": "973 SHOTWELL STREET / SAN FRANCISCO, CA 94110",
+    "cslb_phone": "(415) 810-2031",
+    "entity": "Sole Ownership",
+    "issue_date": "02/06/1996",
+    "reissue_date": null,
+    "expire_date": "02/29/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/05/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=718576",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:58 PM\")",
+    "raw_file": "data/raw/cslb-718576.txt"
   },
   "728650": {
     "license_number": "728650",

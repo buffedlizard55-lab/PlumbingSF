@@ -1,17 +1,12 @@
 {
-  "generated_at": "2026-09-04T01:44:27Z",
-  "entries": 104,
-  "cslb_records_checked": 106,
-  "active_verified_businesses": 73,
-  "raw_capture_files": 119,
-  "quotes_verified": 96,
-  "ratings_verified": 85,
-  "errors": [
-    "2026-09-04-expansion-50: expected exactly 50 entries, found 47",
-    "2026-09-04-expansion-50: license set differs from the fixed researched set (missing ['498578', '591929', '718576'], extra [])"
-  ],
-  "warnings": [
-    "2026-09-04-expansion-50: expansion gate not finalized (status summary and required flags are not enforced yet)"
-  ],
-  "status": "FAIL"
+  "generated_at": "2026-09-04T02:04:26Z",
+  "entries": 107,
+  "cslb_records_checked": 109,
+  "active_verified_businesses": 75,
+  "raw_capture_files": 122,
+  "quotes_verified": 98,
+  "ratings_verified": 87,
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
 }

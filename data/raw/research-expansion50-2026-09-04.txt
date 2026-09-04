@@ -217,3 +217,14 @@ Note: lead-generation marketing page; the quoted endorsement is not tied to a ve
 Golden State Plumbing — License: 616148
 Golden State plumbing in San Francisco, CA | Photos | Reviews | 450 building permits. Recent work: Work category: 1p; replace existing broken deck drain with new. Golden State plumbing, 2323 Clement, San Francisco, CA (Employee: Lambert Yuk Lam Lee) holds a Plumbing, Fire Protection, General Building license according to the California license board. Their BuildZoom score of 102 ranks in the top 11% of 336,931 California licensed contractors. Their license was verified as active when we last checked.
 Note: BuildZoom shows license 616148 and the CSLB address 2323 Clement - same entity.
+
+===== SOURCE: https://www.yelp.com/biz/j-b-lind-plumbing-company-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+J B Lind Plumbing Company — License: 591929
+# J B Lind Plumbing Company 3.7 (19 reviews) Claimed Plumbing Open 7:00 AM - 3:30 PM Specialties: Custom residential, restaurant specialists, commercial plumbing, hospitals, clinical offices, dental offices, instantaneous heaters, hydronic heating, service work, drain cleaning Established in 1989. 3rd generation family owned plumbing company focused on quality and punctuality. Known for our commercial and high end residential work in the San Francisco and Marin areas
+Review highlight: Scott + Quinn B. We have no hesitation recommending Robby and his team to anyone who is looking for a reliable plumbing at a reasonable price.
+Note: recent job photos on the listing are captioned Glen Ellen, California - the CSLB record now shows a Glen Ellen PO box, consistent with a business that moved but still serves SF and Marin.
+
+===== SOURCE: https://m.yelp.com/biz/brosnan-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Brosnan Plumbing — License: 718576
+# Brosnan Plumbing 5.0 (6 reviews) Plumbing Open • 8:00 am - 5:00 pm
+Note: 'Brosnan Plumbing Rooter Inc' (South San Francisco) and 'Joseph Brosnan plumbing' (Redwood City, BuildZoom) are separately licensed entities; this 5.0 (6 reviews) San Francisco page uses the exact legal name on license 718576 and is attributed on that basis, to be confirmed at booking.

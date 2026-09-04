@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=498578
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:02:58 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  498578
+P C PLUMBING & HEATING
+2309 POPPY DRIVE
+BURLINGAME, CA 94010
+Business Phone Number:(650) 302-8821
+Entity: Sole Ownership
+Issue Date: 09/22/1986
+Reissue Date: 09/22/1997
+Expire Date: 09/30/2021
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING
+Contractor's Bond: SURETEC INDEMNITY COMPANY, Bond Number: 229022, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 09/02/2017
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9071381, Effective Date: 10/16/2015, Expire Date: 10/16/2017
