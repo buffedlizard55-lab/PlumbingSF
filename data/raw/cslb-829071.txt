@@ -1,0 +1,21 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=829071
+CAPTURED_AT: 2026-09-03T16:27:30Z (page states "Data current as of 9/3/2026 4:27:30 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  829071
+ACE PLUMBING & ROOTER
+1090 BRYANT STREET
+SAN FRANCISCO, CA 94103-4417
+Business Phone Number:(415) 824-6444
+Entity: Corporation
+Issue Date: 12/18/2003
+Reissue Date: 06/07/2007
+Expire Date: 06/30/2027
+License Status: License is under suspension for the following reasons: - License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; B - GENERAL BUILDING ; C10 - ELECTRICAL
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30130261, Bond Amount: $25,000, Effective Date: 11/07/2023, Cancellation Date: 09/01/2026
+Bond of Qualifying Individual: The qualifying individual JONATHAN NEIL MILLINGTON certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 11/18/2025
+Workers' Compensation: FINANCIAL PACIFIC INSURANCE COMPANY, Policy Number: 10147545585, Effective Date: 07/13/2026, Expire Date: 07/13/2027
+Miscellaneous Information: 06/07/2007 - LICENSE REISSUED TO ANOTHER ENTITY

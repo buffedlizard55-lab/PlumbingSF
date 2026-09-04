@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133310
+CAPTURED_AT: 2026-09-03T16:31:22Z (page states "Data current as of 9/3/2026 4:31:22 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1133310
+ASAP PLUMBING PROS LLC
+550 PALM AVE
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 728-6391
+Entity: Ltd Liability
+Issue Date: 02/19/2025
+Expire Date: 02/28/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NATIONWIDE MUTUAL INSURANCE COMPANY, Bond Number: 7901232147, Bond Amount: $25,000, Effective Date: 01/28/2025
+LLC EMPLOYEE/WORKER BOND: JET INSURANCE COMPANY, Bond Number: JT025219, Bond Amount: $100,000, Effective Date: 01/28/2026
+Bond of Qualifying Individual: The qualifying individual DONALD ST CHENG ... Effective Date: 02/19/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/28/2025, Expire Date: None
+Liability Insurance: UFG SPECIALTY INSURANCE COMPANY, Policy Number: 10185999790, Amount: $1,000,000, Effective 09/01/2026, Expires 09/01/2027

@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1144424
+CAPTURED_AT: 2026-09-03T16:29:11Z (page states "Data current as of 9/3/2026 4:29:11 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1144424
+DISCOUNT PLUMBING ROOTER SD LLC
+1325 HOWARD AVE #710
+BURLINGAME, CA 94010
+Business Phone Number:(650) 991-2100
+Entity: Ltd Liability
+Issue Date: 10/01/2025
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING ; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100994939, Bond Amount: $25,000, Effective Date: 09/18/2025
+LLC EMPLOYEE/WORKER BOND: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101638544, Bond Amount: $100,000, Effective Date: 09/18/2025
+Bond of Qualifying Individual: 100994938 for JOSEPH MICHAEL MAGDALENO $25,000 with AMERICAN CONTRACTORS INDEMNITY COMPANY. Effective Date: 09/18/2025
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WC051663618, Effective Date: 07/01/2026, Expire Date: 07/01/2027
+Liability Insurance: MITSUI SUMITOMO INSURANCE COMPANY OF AMERICA, Policy Number: TSLBGL000167000, Amount: $2,000,000, Effective 09/25/2025, Expires 09/25/2026

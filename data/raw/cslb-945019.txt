@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=945019
+CAPTURED_AT: 2026-09-03T16:32:18Z (page states "Data current as of 9/3/2026 4:32:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  945019
+E M S PLUMBING
+1009 RHODE ISLAND STREET
+SAN FRANCISCO, CA 94107
+Business Phone Number:(415) 596-0883
+Entity: Sole Ownership
+Issue Date: 03/29/2010
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67450984, Bond Amount: $25,000, Effective Date: 05/01/2025
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4776647, Effective Date: 04/18/2026, Expire Date: 04/18/2027

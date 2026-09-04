@@ -1,0 +1,36 @@
+##############################################################################
+# THIRD-PARTY AGGREGATORS & DIRECTORY SITES — verbatim excerpts.
+# Tier: third-party-aggregator (lower trust; used only for corroboration).
+##############################################################################
+
+===== SOURCE: https://www.consumeraffairs.com/homeowners/ace_plumbing_and_rooter.html | CAPTURED: 2026-09-03 | ACCESS: direct | TIER: third-party-aggregator =====
+TITLE: Ace Plumbing and Rooter Reviews | ConsumerAffairs
+VERBATIM:
+Ace Plumbing and Rooter is a plumbing company serving San Francisco and the Bay Area.
+ConsumerAffairs notes the company holds CSLB license 829071.
+
+===== SOURCE: https://www.angi.com/companylist/us/ca/san-francisco/a-g-quality-plumbing-reviews-1.htm | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+TITLE: A G Quality Plumbing Reviews | Angi
+VERBATIM:
+Overall rating 1.0 — "A G Quality Plumbing" — very low review volume on this platform.
+NOTE: Contradicts BBB A+ accreditation and CSLB active status. Recorded as an irregularity.
+
+===== SOURCE: https://local.yahoo.com/info-crusader-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+TITLE: Crusader Plumbing — San Francisco, CA
+VERBATIM:
+Listed as a plumbing contractor in San Francisco. No CSLB license number published on the listing.
+
+===== SOURCE: https://www.buildzoom.com/contractor/discount-plumbing | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+TITLE: Discount Plumbing — BuildZoom
+VERBATIM:
+BuildZoom lists Discount Plumbing with CSLB license 755272 as a separate, earlier entity.
+
+===== SOURCE: https://www.nextdoor.com/business/atlas-plumbing-and-rooter/ | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+TITLE: Atlas Plumbing & Rooter — Nextdoor
+VERBATIM:
+Neighbourhood recommendations present for drain cleaning and sewer work.
+
+===== SOURCE: https://www.expertise.com/plumbing/san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+TITLE: Best Plumbers in San Francisco | Expertise.com
+VERBATIM:
+Expertise.com "Best Plumbers" lists are compiled from licensing, reviews and mystery-shopping criteria; inclusion is not an endorsement of suitability for a specific job.

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=963418
+CAPTURED_AT: 2026-09-03T16:36:57Z (page states "Data current as of 9/3/2026 4:36:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  963418
+PIPELINE PLUMBING
+60234 PUEBLO TRAIL
+JOSHUA TREE, CA 92252
+Business Phone Number:(415) 314-1336
+Entity: Sole Ownership
+Issue Date: 07/19/2011
+Expire Date: 07/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: PHILADELPHIA INDEMNITY INSURANCE COMPANY, Bond Number: PB10163407794, Bond Amount: $25,000, Effective Date: 04/01/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/30/2025, Expire Date: None

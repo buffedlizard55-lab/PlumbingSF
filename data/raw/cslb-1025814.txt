@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1025814
+CAPTURED_AT: 2026-09-03T16:27:46Z (page states "Data current as of 9/3/2026 4:27:46 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1025814
+THE GENTEEL PLUMBERS INC
+1181 REVERE AVE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(833) 436-8335
+Entity: Corporation
+Issue Date: 04/14/2017
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; B - GENERAL BUILDING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100343809, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual GRAHAM WINSOR JONES ... Effective Date: 04/14/2017
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4729399, Effective Date: 01/24/2026, Expire Date: 01/24/2027

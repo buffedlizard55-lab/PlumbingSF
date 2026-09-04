@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=392967
+CAPTURED_AT: 2026-09-03T16:54:03Z (page states "Data current as of 9/3/2026 4:54:03 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  392967
+AYOOB & PEERY PLUMBING CO INC
+975 INDIANA ST
+SAN FRANCISCO, CA 94107
+Business Phone Number:(415) 550-0975
+Entity: Corporation
+Issue Date: 09/08/1980
+Expire Date: 09/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C36 - PLUMBING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6062590, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual PETER VINCENT MCHUGH certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 11/06/2020
+Workers' Compensation: This license has workers compensation insurance with the TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Policy Number: UB1X0022612626G, Effective Date: 08/31/2026, Expire Date: 08/31/2027
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

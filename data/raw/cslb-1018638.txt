@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1018638
+CAPTURED_AT: 2026-09-03T16:36:56Z (page states "Data current as of 9/3/2026 4:36:56 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1018638
+BRIGHT IDEAS PLUMBING AND ROOTER
+3 CONCORD STREET
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 298-1428
+Entity: Sole Ownership
+Issue Date: 09/23/2016
+Expire Date: 09/30/2024
+License Status: This license is expired and not able to contract at this time.
+Additional Status: The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 66826838, Bond Amount: $25,000, Effective Date: 10/13/2023, Cancellation Date: 03/27/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/18/2022, Expire Date: None

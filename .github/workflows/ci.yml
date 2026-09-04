@@ -1,0 +1,52 @@
+name: verify-and-build
+
+# The whole point of this repo is that nothing is asserted without a captured
+# source. This workflow runs that gate on every push and pull request: if any
+# quote, license field or CSLB status cannot be found verbatim in data/raw/,
+# the build fails and the site is not produced.
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Parse official CSLB captures
+        run: python3 scripts/extract_cslb.py
+
+      - name: Merge license facts with the curated layer
+        run: python3 scripts/build_data.py
+
+      - name: Validate every claim against its capture
+        run: python3 scripts/validate.py
+
+      - name: Render the site (refuses to run if validation failed)
+        run: python3 scripts/build_site.py
+
+      - name: Upload the built site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: docs/
+          if-no-files-found: error
+
+      - name: Upload the validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: data/validation_report.json
+          if-no-files-found: warn

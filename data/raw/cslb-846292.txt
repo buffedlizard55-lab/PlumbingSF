@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=846292
+CAPTURED_AT: 2026-09-03T16:35:54Z (page states "Data current as of 9/3/2026 4:35:54 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  846292
+GATEWAY PLUMBING
+121 FRANCISCO DRIVE
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 336-9155
+Entity: Sole Ownership
+Issue Date: 09/11/2004
+Expire Date: 09/30/2026
+License Status: License is under suspension for the following reasons: - License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30129474, Bond Amount: $25,000, Effective Date: 09/30/2023, Cancellation Date: 09/01/2026
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 76WEGAD8CT3, Effective Date: 10/29/2024, Expire Date: 10/29/2026

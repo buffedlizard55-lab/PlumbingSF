@@ -1,0 +1,21 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=868994
+CAPTURED_AT: 2026-09-03T16:27:08Z (page states "Data current as of 9/3/2026 4:27:08 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  868994
+ATLAS PLUMBING & ROOTER
+3311 MISSION STREET UNIT 165
+SAN FRANCISCO, CA 94110
+Business Phone Number:(650) 871-9863
+Entity: Corporation
+Issue Date: 12/08/2005
+Reissue Date: 03/25/2008
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1047817, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual CARLOS JOEL LEDESMA certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 08/25/2015
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WC051666394CA, Effective Date: 07/01/2026, Expire Date: 07/01/2027
+Miscellaneous Information: 03/25/2008 - LICENSE REISSUED TO ANOTHER ENTITY

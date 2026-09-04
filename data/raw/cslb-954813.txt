@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=954813
+CAPTURED_AT: 2026-09-03T16:32:17Z (page states "Data current as of 9/3/2026 4:32:17 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  954813
+24 / 7 ROOTER AND PLUMBING SERVICES INC
+dba A & R PLUMBING
+1070 QUESADA AVE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 586-6851
+Entity: Corporation
+Issue Date: 11/18/2010
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C-61 / D56 - TRENCHING ONLY ; A - GENERAL ENGINEERING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100141802, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: 100871188 for WILLIAM JAVIER MENDIETA in the amount of $25,000 with AMERICAN CONTRACTORS INDEMNITY COMPANY. Effective Date: 07/03/2024
+Workers' Compensation: NORGUARD INSURANCE COMPANY, Policy Number: TWWC635243, Effective Date: 07/01/2026, Expire Date: 07/01/2027

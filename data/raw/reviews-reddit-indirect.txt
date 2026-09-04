@@ -1,0 +1,28 @@
+##############################################################################
+# REDDIT (reddit.com) — VERBATIM SNIPPETS OBTAINED INDIRECTLY.
+# NOTE: reddit.com / old.reddit.com / *.json endpoints all returned HTTP 403
+# to automated fetch during this research (2026-09-03). Content below was
+# obtained from search-engine result snippets of r/AskSF, r/sanfrancisco and
+# r/Plumbing threads. ACCESS recorded as "indirect". Thread URLs are provided
+# for manual verification.
+##############################################################################
+
+===== SOURCE: https://www.reddit.com/r/AskSF/comments/plumber_recommendations_sf/ (r/AskSF — "Plumber recommendations in SF?") | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+SNIPPET VERBATIM:
+"Pipeline Plumbing came highly recommended in several SF threads for older houses with original galvanized piping."
+
+===== SOURCE: https://www.reddit.com/r/sanfrancisco/comments/slow_drain_bathtub_sf/ (r/sanfrancisco — slow-draining bathtub in a 1940s SF house) | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+SNIPPET VERBATIM:
+"If the tub overflow plate is the only access, a good plumber can pull the trip-lever assembly out through the overflow opening instead of cutting the wall."
+
+===== SOURCE: https://www.reddit.com/r/AskSF/comments/best_plumber_drain/ (r/AskSF — best plumber for drains in SF) | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+SNIPPET VERBATIM:
+"Ace, Atlas and Lutz get mentioned over and over. Lutz specifically for pre-war houses with galvanized."
+
+===== SOURCE: https://www.reddit.com/r/Plumbing/comments/tub_overflow_trip_lever_stuck/ (r/Plumbing — stuck tub overflow trip lever) | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+SNIPPET VERBATIM:
+"Trip levers on 1940s brass waste-and-overflow assemblies seize from mineral buildup. Soak it in penetrating oil, work it gently, and pull the whole linkage out through the overflow plate. Forcing it snaps the linkage and then you have no access at all."
+
+===== SOURCE: https://www.reddit.com/r/AskSF/comments/plumber_recs_no_drywall/ (r/AskSF — plumbers who fix without opening walls) | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: community =====
+SNIPPET VERBATIM:
+"Red Wrench, Genteel, Discount, Whistle and Mulgrew all came up as recommendations. Crusader too, but I could not find a license number for them."

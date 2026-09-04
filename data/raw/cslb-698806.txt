@@ -1,0 +1,21 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=698806
+CAPTURED_AT: 2026-09-03T16:33:37Z (page states "Data current as of 9/3/2026 4:33:37 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  698806
+MAGIC PLUMBING
+dba MAGIC PLUMBING HEATING & COOLING
+2261 MARKET STREET 120
+SAN FRANCISCO, CA 94114
+Business Phone Number:(415) 441-2255
+Entity: Corporation
+Issue Date: 11/10/1994
+Reissue Date: 03/10/1999
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800211450, Bond Amount: $25,000, Effective Date: 01/08/2026
+Bond of Qualifying Individual: The qualifying individual PAUL DAMIAN ROWE ... Effective Date: 03/10/1999
+Workers' Compensation: SENTINEL INSURANCE COMPANY LTD, Policy Number: 57WECCA1P1X, Effective Date: 04/27/2026, Expire Date: 04/27/2027
+Miscellaneous Information: 03/10/1999 - LICENSE REISSUED TO ANOTHER ENTITY
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=755272
+CAPTURED_AT: 2026-09-03T16:29:13Z (page states "Data current as of 9/3/2026 4:29:13 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  755272
+DISCOUNT PLUMBING INC
+1325 HOWARD AVE BLDG 710
+BURLINGAME, CA 94010
+Business Phone Number:(650) 991-2100
+Entity: Corporation
+Issue Date: 10/15/1998
+Reissue Date: 10/26/2001
+Expire Date: 09/13/2025
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1029890, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual JOSEPH MICHAEL MAGDALENO no longer owns 10 percent or more of the voting stock/membership interest of this company; therefore, a Bond of Qualifying Individual is required. Effective Date: 06/19/2025, Cancellation Date: 07/19/2026
+Workers' Compensation: A I U INSURANCE COMPANY, Policy Number: 020396018, Effective Date: 04/01/2025, Expire Date: 04/01/2026
+Miscellaneous Information: 10/26/2001 - LICENSE REISSUED TO ANOTHER ENTITY ; 09/13/2025 - SECRETARY OF STATE - CONVERSION
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

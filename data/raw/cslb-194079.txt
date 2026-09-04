@@ -1,0 +1,21 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=194079
+CAPTURED_AT: 2026-09-03T16:54:03Z (page states "Data current as of 9/3/2026 4:54:03 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  194079
+ARB INC
+7515 IRVINE CENTER DRIVE
+SUITE #200
+IRVINE, CA 92618
+Business Phone Number:(949) 454-7106
+Entity: Corporation
+Issue Date: 07/21/1960
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; B - GENERAL BUILDING ; C36 - PLUMBING ; C51 - STEEL, STRUCTURAL
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 929548825, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: This license filed Bond of Qualifying Individual number 929641885 for SHANE DEWAYNE BRANDON in the amount of $25,000 with WESTERN SURETY COMPANY. Effective Date: 01/01/2023. Also K41742680 for LAWRENCE MASAYUKI JANSEN ($25,000, FEDERAL INSURANCE COMPANY, 06/23/2023) and 929590055 for CHRISTOPHER DAVID ANDERSON ($25,000, WESTERN SURETY COMPANY, 01/01/2023). NOTE: There are 6 qualifiers (with bonding information) for this license. Up to 3 are displayed on this page.
+Workers' Compensation: This license has workers compensation insurance with the TWIN CITY FIRE INSURANCE COMPANY, Policy Number: 37WNQU3411, Effective Date: 02/28/2026, Expire Date: 02/28/2027
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.
