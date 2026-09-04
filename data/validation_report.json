@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-04T01:41:11Z",
-  "entries": 88,
-  "cslb_records_checked": 90,
-  "active_verified_businesses": 65,
-  "raw_capture_files": 103,
-  "quotes_verified": 87,
-  "ratings_verified": 84,
+  "generated_at": "2026-09-04T01:44:27Z",
+  "entries": 104,
+  "cslb_records_checked": 106,
+  "active_verified_businesses": 73,
+  "raw_capture_files": 119,
+  "quotes_verified": 96,
+  "ratings_verified": 85,
   "errors": [
-    "2026-09-04-expansion-50: expected exactly 50 entries, found 31",
-    "2026-09-04-expansion-50: license set differs from the fixed researched set (missing ['287477', '415114', '487017', '498578', '529553', '536715', '546047', '554666', '591929', '596143', '616148', '633153', '672815', '705333', '718576', '738608', '760600', '882242', '884462'], extra [])"
+    "2026-09-04-expansion-50: expected exactly 50 entries, found 47",
+    "2026-09-04-expansion-50: license set differs from the fixed researched set (missing ['498578', '591929', '718576'], extra [])"
   ],
   "warnings": [
     "2026-09-04-expansion-50: expansion gate not finalized (status summary and required flags are not enforced yet)"

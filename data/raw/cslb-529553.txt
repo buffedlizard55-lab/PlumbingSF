@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=529553
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  529553
+JIM PARR
+dba P P PLUMBING
+141 ROSS WAY
+SAN BRUNO, CA 94066
+Business Phone Number:(415) 816-3893
+Entity: Sole Ownership
+Issue Date: 05/06/1988
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: CA6025243, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: AMERICAN STATES INSURANCE COMPANY, Policy Number: KWC1444457, Effective Date: 03/31/2026, Expire Date: 03/31/2027. Classification codes: 5183 - Description Unavailable; 5187 - Description Unavailable.

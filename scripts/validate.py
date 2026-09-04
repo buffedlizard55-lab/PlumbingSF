@@ -72,6 +72,7 @@ ALLOWED_HOSTS = {
     "pro.porch.com", "www.glassdoor.com", "glassdoor.com",
     "www.checkbook.org", "checkbook.org", "www.homeadvisor.com", "homeadvisor.com",
     "manta.com", "www.manta.com", "thebluebook.com", "www.thebluebook.com",
+    "www.licensed.contractors", "licensed.contractors",
     # vendor sites (self-reported; labelled as such in the data)
     "www.atlasplumbingandrooter.com", "www.aceplumbingandrooter.com",
     "discovercabrillo.com", "www.redwrenchplumbing.com", "advancedplumbingsf.com",

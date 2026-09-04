@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=536715
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:50 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  536715
+SUNNY'S PLUMBING INC
+1786 35TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 716-3817
+Entity: Corporation
+Issue Date: 07/29/1988
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101934888, Bond Amount: $25,000, Effective Date: 07/07/2026
+Bond of Qualifying Individual: qualifying individual YUK SUN LEE certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 05/14/1993
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/10/2026, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

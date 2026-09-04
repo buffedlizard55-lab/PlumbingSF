@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=596143
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  596143
+GARY CHAN PLUMBING
+268 ONONDAGA AVE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 298-9332
+Entity: Sole Ownership
+Issue Date: 06/13/1990
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67479878, Bond Amount: $25,000, Effective Date: 04/19/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/13/2026, Expire Date: None

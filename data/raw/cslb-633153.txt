@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633153
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:49 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  633153
+EXCELLENT PLUMBING
+1355 33RD AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 819-8992
+Entity: Sole Ownership
+Issue Date: 12/10/1991
+Expire Date: 12/31/2013
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100194232, Bond Amount: $12,500, Effective Date: 04/26/2012, Cancellation Date: 06/05/2014
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1947128, Effective Date: 03/06/2010, Cancellation Date: 04/12/2013

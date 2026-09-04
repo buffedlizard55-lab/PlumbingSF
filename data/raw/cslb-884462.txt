@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=884462
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:17 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  884462
+ALLIANCE PLUMBING WORKS INC
+522 40TH AVENUE
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 850-5022
+Entity: Corporation
+Issue Date: 09/19/2006
+Expire Date: 09/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING ; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100872760, Bond Amount: $25,000, Effective Date: 07/12/2024
+Bond of Qualifying Individual: qualifying individual SAMUEL JOE LEUNG owns 10 percent or more of the voting stock; no BQI bond required. Effective Date: 09/19/2006
+Workers' Compensation: EMPLOYERS PREFERRED INSURANCE COMPANY, Policy Number: EIG568424802, Effective Date: 08/27/2026, Expire Date: 08/27/2027. Classification codes: 51871 - Plumbing-high wage.
