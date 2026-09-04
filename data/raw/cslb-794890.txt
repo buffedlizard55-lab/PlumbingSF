@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=794890
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:08 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  794890
+ALL VALLEY PLUMBING INC
+42329 OSGOOD RD #C
+FREMONT, CA 94539
+Business Phone Number:(510) 661-9095
+Entity: Corporation
+Issue Date: 05/09/2001
+Reissue Date: 02/28/2011
+Expire Date: 01/25/2019
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 63020370, Bond Amount: $15,000, Effective Date: 02/28/2017, Cancellation Date: 04/16/2018
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/28/2017, Expire Date: None
+Miscellaneous Information: 02/28/2011 - LICENSE REISSUED TO ANOTHER ENTITY; 01/25/2019 - SECRETARY OF STATE - DISSOLUTION

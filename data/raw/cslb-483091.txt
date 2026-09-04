@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=483091
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:39:25 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  483091
+HATY INC
+dba F & S PLUMBING LTD
+849 CABRILLO STREET
+SAN FRANCISCO, CA 94118
+Business Phone Number:(415) 668-2247
+Entity: Corporation
+Issue Date: 11/21/1985
+Expire Date: 01/31/2023
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30054737, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 07/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9047053, Effective Date: 03/01/2019, Expire Date: 03/01/2023
+Miscellaneous Information: 01/31/2023 - LICENSE CANCELED PER REQUEST

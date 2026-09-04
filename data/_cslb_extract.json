@@ -149,6 +149,31 @@
     "captured_at": "2026-09-03T16:54:46Z (page states \"Data current as of 9/3/2026 4:54:46 PM\")",
     "raw_file": "data/raw/cslb-323223.txt"
   },
+  "323631": {
+    "license_number": "323631",
+    "legal_name": "CHUCK VOUTSELAS PLUMBING LLC",
+    "cslb_address": "1732 INDIAN VALLEY RD / NOVATO, CA 94947",
+    "cslb_phone": "(415) 309-6603",
+    "entity": "Ltd Liability",
+    "issue_date": "08/10/1976",
+    "reissue_date": "11/13/2019",
+    "expire_date": "11/30/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "B - GENERAL BUILDING ; C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "NORTH RIVER INSURANCE COMPANY (THE)",
+      "amount": "$25,000",
+      "effective": "09/20/2024",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "AMTRUST INSURANCE COMPANY, Policy Number: KWC1425190, Effective Date: 12/29/2025, Expire Date: 01/01/2027. Classification codes: 8871 - Clerical Telecommuter Employees.",
+    "misc": "11/13/2019 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=323631",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:04 PM\")",
+    "raw_file": "data/raw/cslb-323631.txt"
+  },
   "327664": {
     "license_number": "327664",
     "legal_name": "BELLANTI PLUMBING INC",
@@ -174,6 +199,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:30 PM\")",
     "raw_file": "data/raw/cslb-327664.txt"
   },
+  "329705": {
+    "license_number": "329705",
+    "legal_name": "TONY NG PLUMBING CO",
+    "cslb_address": "1332 HYDE ST / SAN FRANCISCO, CA 94109",
+    "cslb_phone": "(415) 722-2256",
+    "entity": "Sole Ownership",
+    "issue_date": "01/05/1977",
+    "reissue_date": null,
+    "expire_date": "05/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING ; A - GENERAL ENGINEERING ; C16 - FIRE PROTECTION",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 04/16/2025, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=329705",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:43 PM\")",
+    "raw_file": "data/raw/cslb-329705.txt"
+  },
   "349523": {
     "license_number": "349523",
     "legal_name": "DEMAKAS PLUMBING & HEATING INC",
@@ -198,6 +248,81 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=349523",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:35 PM\")",
     "raw_file": "data/raw/cslb-349523.txt"
+  },
+  "375432": {
+    "license_number": "375432",
+    "legal_name": "J S PLUMBING CO",
+    "cslb_address": "2434 17TH AVENUE / SAN FRANCISCO, CA 94116",
+    "cslb_phone": "(415) 665-0105",
+    "entity": "Sole Ownership",
+    "issue_date": "05/18/1979",
+    "reissue_date": null,
+    "expire_date": "05/31/2019",
+    "status_raw": "This license is expired and not able to contract at this time.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "04/05/2019"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 03/29/2017, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=375432",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:43 PM\")",
+    "raw_file": "data/raw/cslb-375432.txt"
+  },
+  "383601": {
+    "license_number": "383601",
+    "legal_name": "LEDDA PLUMBING INC",
+    "cslb_address": "200 VALLEY DR #8 / BRISBANE, CA 94005",
+    "cslb_phone": "(415) 468-2850",
+    "entity": "Corporation",
+    "issue_date": "11/02/1979",
+    "reissue_date": null,
+    "expire_date": "05/31/2012",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$12,500",
+      "effective": "01/15/2010",
+      "cancellation": "02/14/2014"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 1969709, Effective Date: 08/10/2011, Cancellation Date: 06/18/2012",
+    "misc": "05/31/2012 - LICENSE CANCELED PER REQUEST",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=383601",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:24 PM\")",
+    "raw_file": "data/raw/cslb-383601.txt"
+  },
+  "391483": {
+    "license_number": "391483",
+    "legal_name": "PARKS PLUMBING AND HEATING",
+    "cslb_address": "624-1/2 PRECITA AVENUE / SAN FRANCISCO, CA 94110",
+    "cslb_phone": "(415) 601-6732",
+    "entity": "Sole Ownership",
+    "issue_date": "07/07/1980",
+    "reissue_date": null,
+    "expire_date": "08/11/2015",
+    "status_raw": "This license was canceled on the death of the contractor.",
+    "status_code": "canceled",
+    "classifications": "C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING ; C16 - FIRE PROTECTION",
+    "bond": {
+      "carrier": "SURETEC INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "02/21/2016"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9065916, Effective Date: 08/01/2013, Cancellation Date: 09/18/2015",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=391483",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:56 PM\")",
+    "raw_file": "data/raw/cslb-391483.txt"
   },
   "392967": {
     "license_number": "392967",
@@ -274,6 +399,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:42:49 PM\")",
     "raw_file": "data/raw/cslb-415114.txt"
   },
+  "421774": {
+    "license_number": "421774",
+    "legal_name": "LEV'S PLUMBING CO",
+    "cslb_address": "74 MIRALOMA DRIVE / SAN FRANCISCO, CA 94127",
+    "cslb_phone": "(415) 566-6910",
+    "entity": "Sole Ownership",
+    "issue_date": "04/23/1982",
+    "reissue_date": null,
+    "expire_date": "04/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "10/19/2025",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 03/16/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=421774",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:27 PM\")",
+    "raw_file": "data/raw/cslb-421774.txt"
+  },
   "422136": {
     "license_number": "422136",
     "legal_name": "AMERICAN ALLIANCE ALWAYS AVAILABLE",
@@ -299,6 +449,56 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:15 PM\")",
     "raw_file": "data/raw/cslb-422136.txt"
   },
+  "440780": {
+    "license_number": "440780",
+    "legal_name": "BILL BRAGG PLUMBING",
+    "cslb_address": "620A GUERRERO ST / SAN FRANCISCO, CA 94110",
+    "cslb_phone": "(415) 894-7231",
+    "entity": "Sole Ownership",
+    "issue_date": "05/31/1983",
+    "reissue_date": null,
+    "expire_date": "05/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "09/01/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 76WEGAN1Y6X, Effective Date: 09/01/2025, Expire Date: 09/01/2026. Classification codes: 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=440780",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:26 PM\")",
+    "raw_file": "data/raw/cslb-440780.txt"
+  },
+  "443156": {
+    "license_number": "443156",
+    "legal_name": "CITY FRONT PLUMBING INC",
+    "cslb_address": "50 TIBURON STREET UNIT 25 / SAN RAFAEL, CA 94901",
+    "cslb_phone": "(415) 454-6737",
+    "entity": "Corporation",
+    "issue_date": "07/19/1983",
+    "reissue_date": "11/10/1999",
+    "expire_date": "11/30/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "MERCHANTS BONDING COMPANY (MUTUAL)",
+      "amount": "$25,000",
+      "effective": "09/22/2024",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Policy Number: UBB612261252SG, Effective Date: 09/01/2026, Expire Date: 09/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8810 - Clerical Office Employees.",
+    "misc": "11/10/1999 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=443156",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:05 PM\")",
+    "raw_file": "data/raw/cslb-443156.txt"
+  },
   "453536": {
     "license_number": "453536",
     "legal_name": "FERGUSON PLUMBING INC",
@@ -323,6 +523,106 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=453536",
     "captured_at": "2026-09-03T16:31:23Z (page states \"Data current as of 9/3/2026 4:31:23 PM\")",
     "raw_file": "data/raw/cslb-453536.txt"
+  },
+  "475627": {
+    "license_number": "475627",
+    "legal_name": "WREN PLUMBING INC",
+    "cslb_address": "dba REHN GEORGE PLUMBING COMPANY / 751 CALIFORNIA WAY / EMERALD HILLS, CA 94062",
+    "cslb_phone": "(650) 366-7803",
+    "entity": "Corporation",
+    "issue_date": "06/26/1985",
+    "reissue_date": null,
+    "expire_date": "06/30/2021",
+    "status_raw": "This license is expired and not able to contract at this time.",
+    "status_code": "expired",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "SURETEC INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "06/07/2017"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/01/2015, Cancellation Date: 07/01/2017",
+    "misc": "10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=475627",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:55 PM\")",
+    "raw_file": "data/raw/cslb-475627.txt"
+  },
+  "482349": {
+    "license_number": "482349",
+    "legal_name": "KAVANAUGH & WILPITZ INC",
+    "cslb_address": "dba MALCOLM PLUMBING CO / 76 - 14TH ST / SAN FRANCISCO, CA 94103",
+    "cslb_phone": "(415) 621-1985",
+    "entity": "Corporation",
+    "issue_date": "11/07/1985",
+    "reissue_date": null,
+    "expire_date": "11/30/2007",
+    "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license was canceled after expiration.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION ; C46 - SOLAR",
+    "bond": {
+      "carrier": "INDEMNITY COMPANY OF CALIFORNIA",
+      "amount": "$12,500",
+      "effective": "01/01/2007",
+      "cancellation": "08/09/2007"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "FARMERS INSURANCE EXCHANGE, Policy Number: A19127578, Effective Date: 01/01/2006, Expire Date: 01/01/2007",
+    "misc": "02/26/2008 - LICENSE CANCELLED PER REQUEST",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=482349",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:57 PM\")",
+    "raw_file": "data/raw/cslb-482349.txt"
+  },
+  "483091": {
+    "license_number": "483091",
+    "legal_name": "HATY INC",
+    "cslb_address": "dba F & S PLUMBING LTD / 849 CABRILLO STREET / SAN FRANCISCO, CA 94118",
+    "cslb_phone": "(415) 668-2247",
+    "entity": "Corporation",
+    "issue_date": "11/21/1985",
+    "reissue_date": null,
+    "expire_date": "01/31/2023",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "HUDSON INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": "07/01/2023"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9047053, Effective Date: 03/01/2019, Expire Date: 03/01/2023",
+    "misc": "01/31/2023 - LICENSE CANCELED PER REQUEST",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=483091",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:25 PM\")",
+    "raw_file": "data/raw/cslb-483091.txt"
+  },
+  "486122": {
+    "license_number": "486122",
+    "legal_name": "PLUMBWORKS INC",
+    "cslb_address": "DBA CHRIS GOODWIN PLUMBING / 494 SILVER AVE UNIT A / HALF MOON BAY, CA 94019",
+    "cslb_phone": "(415) 681-1309",
+    "entity": "Corporation",
+    "issue_date": "01/28/1986",
+    "reissue_date": "08/21/2003",
+    "expire_date": "06/29/2021",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "SURETEC INSURANCE COMPANY",
+      "amount": "$15,000",
+      "effective": "07/01/2020",
+      "cancellation": "09/09/2022"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/14/2020, Expire Date: None",
+    "misc": "08/21/2003 - LICENSE REISSUED TO ANOTHER ENTITY; 06/29/2021 - LICENSE CANCELED PER REQUEST",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=486122",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:57 PM\")",
+    "raw_file": "data/raw/cslb-486122.txt"
   },
   "487017": {
     "license_number": "487017",
@@ -449,6 +749,31 @@
     "captured_at": "2026-09-03T16:33:11Z (page states \"Data current as of 9/3/2026 4:33:11 PM\")",
     "raw_file": "data/raw/cslb-503971.txt"
   },
+  "524073": {
+    "license_number": "524073",
+    "legal_name": "RELIABLE PLUMBING CO",
+    "cslb_address": "75 LUPINE AVE / SAN FRANCISCO, CA 94118",
+    "cslb_phone": "(415) 726-3227",
+    "entity": "Sole Ownership",
+    "issue_date": "02/08/1988",
+    "reissue_date": null,
+    "expire_date": "02/29/2024",
+    "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": "04/03/2024"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 11/30/2022, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=524073",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:44 PM\")",
+    "raw_file": "data/raw/cslb-524073.txt"
+  },
   "529553": {
     "license_number": "529553",
     "legal_name": "JIM PARR",
@@ -574,6 +899,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:41:18 PM\")",
     "raw_file": "data/raw/cslb-554666.txt"
   },
+  "562240": {
+    "license_number": "562240",
+    "legal_name": "AMORES PLUMBING COMPANY",
+    "cslb_address": "111 SHELTERWOOD LN / DANVILLE, CA 94506",
+    "cslb_phone": "(415) 823-4432",
+    "entity": "Corporation",
+    "issue_date": "03/27/1989",
+    "reissue_date": "08/13/2004",
+    "expire_date": "08/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9358853, Effective Date: 05/01/2024, Expire Date: 05/01/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.",
+    "misc": "08/13/2004 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=562240",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:54 PM\")",
+    "raw_file": "data/raw/cslb-562240.txt"
+  },
   "562479": {
     "license_number": "562479",
     "legal_name": "SHING PLUMBING LLC",
@@ -623,6 +973,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=582534",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:37:31 PM\")",
     "raw_file": "data/raw/cslb-582534.txt"
+  },
+  "586693": {
+    "license_number": "586693",
+    "legal_name": "LEE PLUMBING CO",
+    "cslb_address": "2407 21ST AVENUE / SAN FRANCISCO, CA 94116",
+    "cslb_phone": "(415) 681-9323",
+    "entity": "Sole Ownership",
+    "issue_date": "01/24/1990",
+    "reissue_date": "04/08/2025",
+    "expire_date": "04/30/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "WESTERN SURETY COMPANY",
+      "amount": "$25,000",
+      "effective": "02/26/2025",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/12/2025, Expire Date: None",
+    "misc": "04/08/2025 - LICENSE REISSUED TO A FAMILY MEMBER",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=586693",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:42 PM\")",
+    "raw_file": "data/raw/cslb-586693.txt"
   },
   "591929": {
     "license_number": "591929",
@@ -674,6 +1049,56 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:14 PM\")",
     "raw_file": "data/raw/cslb-592813.txt"
   },
+  "593285": {
+    "license_number": "593285",
+    "legal_name": "HEISE'S PLUMBING",
+    "cslb_address": "3271 16TH STREET / SAN FRANCISCO, CA 94103",
+    "cslb_phone": "(415) 552-0720",
+    "entity": "Partnership",
+    "issue_date": "05/09/1990",
+    "reissue_date": null,
+    "expire_date": "01/01/2002",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "SURETY COMPANY OF THE PACIFIC",
+      "amount": "$7,500",
+      "effective": "07/01/1994",
+      "cancellation": "06/01/2002"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 229-0019777, Effective Date: 04/10/1998, Expire Date: 01/01/2002",
+    "misc": "01/01/2002 - LIC CANCELLED-PARTNER DISASSOCIATED",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=593285",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:58 PM\")",
+    "raw_file": "data/raw/cslb-593285.txt"
+  },
+  "596026": {
+    "license_number": "596026",
+    "legal_name": "LARRATT BROS PLUMBING INC",
+    "cslb_address": "88 ELMIRA ST UNIT A / SAN FRANCISCO, CA 94124",
+    "cslb_phone": "(650) 873-5794",
+    "entity": "Corporation",
+    "issue_date": "06/13/1990",
+    "reissue_date": "07/28/1994",
+    "expire_date": "07/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECBZ1EDZ, Effective Date: 02/16/2026, Expire Date: 02/16/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8810 - Clerical Office Employees.",
+    "misc": "07/28/1994 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=596026",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:31 PM\")",
+    "raw_file": "data/raw/cslb-596026.txt"
+  },
   "596143": {
     "license_number": "596143",
     "legal_name": "GARY CHAN PLUMBING",
@@ -698,6 +1123,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=596143",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:41:19 PM\")",
     "raw_file": "data/raw/cslb-596143.txt"
+  },
+  "608924": {
+    "license_number": "608924",
+    "legal_name": "DI MAGGIO PLUMBING",
+    "cslb_address": "2594 32ND AVENUE / SAN FRANCISCO, CA 94116",
+    "cslb_phone": "(415) 566-6377",
+    "entity": "Sole Ownership",
+    "issue_date": "01/08/1991",
+    "reissue_date": null,
+    "expire_date": "01/31/2023",
+    "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "HUDSON INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": "02/04/2023"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/11/2021, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=608924",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:58 PM\")",
+    "raw_file": "data/raw/cslb-608924.txt"
   },
   "613784": {
     "license_number": "613784",
@@ -799,6 +1249,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:15 PM\")",
     "raw_file": "data/raw/cslb-619642.txt"
   },
+  "627368": {
+    "license_number": "627368",
+    "legal_name": "AFFORDABLE WATER HEATERS AND PLUMBING INC",
+    "cslb_address": "28358 CONSTELLATION ROAD #698 / VALENCIA, CA 91355",
+    "cslb_phone": "(855) 345-9087",
+    "entity": "Corporation",
+    "issue_date": "09/04/1991",
+    "reissue_date": "09/09/1998",
+    "expire_date": "09/30/2020",
+    "status_raw": "This license is expired and not able to contract at this time.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "OHIO CASUALTY INSURANCE COMPANY (THE)",
+      "amount": "$15,000",
+      "effective": "08/26/2019",
+      "cancellation": "07/17/2021"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "INSURANCE COMPANY OF THE WEST, Policy Number: WPH505635300, Effective Date: 07/08/2020, Expire Date: 07/08/2021",
+    "misc": "09/09/1998 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=627368",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:57 PM\")",
+    "raw_file": "data/raw/cslb-627368.txt"
+  },
   "629538": {
     "license_number": "629538",
     "legal_name": "TWO GUYS PLUMBING INC",
@@ -849,6 +1324,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:42:49 PM\")",
     "raw_file": "data/raw/cslb-633153.txt"
   },
+  "633904": {
+    "license_number": "633904",
+    "legal_name": "ROTO-ROOTER SEWER & DRAIN",
+    "cslb_address": "3840 BAYSHORE BLVD / BRISBANE, CA 94005",
+    "cslb_phone": "(415) 656-2130",
+    "entity": "Sole Ownership",
+    "issue_date": "12/17/1991",
+    "reissue_date": null,
+    "expire_date": "12/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9073831, Effective Date: 10/01/2013, Expire Date: 10/01/2026. Classification codes: 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633904",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:57 PM\")",
+    "raw_file": "data/raw/cslb-633904.txt"
+  },
   "665412": {
     "license_number": "665412",
     "legal_name": "CHEN'S PLUMBING INC",
@@ -898,6 +1398,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=672815",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:41:19 PM\")",
     "raw_file": "data/raw/cslb-672815.txt"
+  },
+  "685330": {
+    "license_number": "685330",
+    "legal_name": "R GONZALEZ VENTURES INC",
+    "cslb_address": "DBA GOLDEN GATE PLUMBING & ROOTER / 9333 A VIKING PLACE / ROSEVILLE, CA 95747",
+    "cslb_phone": "(916) 782-9391",
+    "entity": "Corporation",
+    "issue_date": "03/15/1994",
+    "reissue_date": "12/21/2010",
+    "expire_date": "12/24/2012",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C27 - LANDSCAPING ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "WESCO INSURANCE COMPANY",
+      "amount": "$12,500",
+      "effective": "08/21/2012",
+      "cancellation": "09/24/2014"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "EVEREST NATIONAL INSURANCE COMPANY, Policy Number: 76000068461, Effective Date: 02/01/2012, Expire Date: 02/01/2014",
+    "misc": "12/24/2012 - LICENSE CANCELED PER REQUEST",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=685330",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:05 PM\")",
+    "raw_file": "data/raw/cslb-685330.txt"
   },
   "690001": {
     "license_number": "690001",
@@ -1074,6 +1599,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:02:58 PM\")",
     "raw_file": "data/raw/cslb-718576.txt"
   },
+  "724165": {
+    "license_number": "724165",
+    "legal_name": "JOHN L PLUMBING INC",
+    "cslb_address": "1164 GRAND TETON DRIVE / PACIFICA, CA 94044",
+    "cslb_phone": "(415) 517-7260",
+    "entity": "Corporation",
+    "issue_date": "06/19/1996",
+    "reissue_date": "12/20/2000",
+    "expire_date": "11/26/2016",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "12/09/2016"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9099864, Effective Date: 05/17/2014, Cancellation Date: 09/07/2015",
+    "misc": "12/20/2000 - LICENSE REISSUED TO ANOTHER ENTITY; 11/26/2016 - SECRETARY OF STATE - DISSOLUTION",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=724165",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:45 PM\")",
+    "raw_file": "data/raw/cslb-724165.txt"
+  },
   "728650": {
     "license_number": "728650",
     "legal_name": "BACON PLUMBING CO INC",
@@ -1148,6 +1698,81 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=738608",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:41:18 PM\")",
     "raw_file": "data/raw/cslb-738608.txt"
+  },
+  "741266": {
+    "license_number": "741266",
+    "legal_name": "SWEENEY PLUMBING INC",
+    "cslb_address": "1308 PANACHE TERRACE / SUNNYVALE, CA 94087",
+    "cslb_phone": "(415) 828-4651",
+    "entity": "Corporation",
+    "issue_date": "10/09/1997",
+    "reissue_date": "09/15/2005",
+    "expire_date": "08/12/2017",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "07/06/2017"
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "NORGUARD INSURANCE COMPANY, Policy Number: SWWC601848, Effective Date: 03/28/2015, Expire Date: 03/28/2016",
+    "misc": "09/15/2005 - LICENSE REISSUED TO ANOTHER ENTITY; 08/12/2017 - SECRETARY OF STATE - DISSOLUTION",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=741266",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:46 PM\")",
+    "raw_file": "data/raw/cslb-741266.txt"
+  },
+  "741904": {
+    "license_number": "741904",
+    "legal_name": "WATER HEATER SPECIALISTS",
+    "cslb_address": "P O BOX 4358 / FOSTER CITY, CA 94404",
+    "cslb_phone": "(650) 570-5070",
+    "entity": "Sole Ownership",
+    "issue_date": "10/28/1997",
+    "reissue_date": null,
+    "expire_date": "10/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TWP4733825, Effective Date: 01/17/2026, Expire Date: 01/17/2027. Classification codes: 8810 - Clerical Office Employees; 5187 - Description Unavailable; 5183 - Description Unavailable.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=741904",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:28 PM\")",
+    "raw_file": "data/raw/cslb-741904.txt"
+  },
+  "743369": {
+    "license_number": "743369",
+    "legal_name": "FRIENDLY PLUMBER",
+    "cslb_address": "P O BOX 590634 / SAN FRANCISCO, CA 94159",
+    "cslb_phone": "(415) 242-8818",
+    "entity": "Sole Ownership",
+    "issue_date": "12/02/1997",
+    "reissue_date": null,
+    "expire_date": "12/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "PLATTE RIVER INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "03/19/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/20/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=743369",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:09 PM\")",
+    "raw_file": "data/raw/cslb-743369.txt"
   },
   "746000": {
     "license_number": "746000",
@@ -1274,6 +1899,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:29 PM\")",
     "raw_file": "data/raw/cslb-751576.txt"
   },
+  "751710": {
+    "license_number": "751710",
+    "legal_name": "T T LEE CORP",
+    "cslb_address": "DBA ALLEN LEE PLUMBING / 1260 ROBLE ROAD / MILLBRAE, CA 94030",
+    "cslb_phone": "(415) 279-2878",
+    "entity": "Corporation",
+    "issue_date": "07/14/1998",
+    "reissue_date": null,
+    "expire_date": "07/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "SECURITY NATIONAL INSURANCE COMPANY, Policy Number: KWP1417987, Effective Date: 12/20/2025, Expire Date: 12/20/2026. Classification codes: 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=751710",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:41 PM\")",
+    "raw_file": "data/raw/cslb-751710.txt"
+  },
   "755272": {
     "license_number": "755272",
     "legal_name": "DISCOUNT PLUMBING INC",
@@ -1299,6 +1949,31 @@
     "captured_at": "2026-09-03T16:29:13Z (page states \"Data current as of 9/3/2026 4:29:13 PM\")",
     "raw_file": "data/raw/cslb-755272.txt"
   },
+  "756097": {
+    "license_number": "756097",
+    "legal_name": "P O P PLUMBING INC",
+    "cslb_address": "1270 TUOLUMNE ROAD / MILLBRAE, CA 96030",
+    "cslb_phone": "(415) 730-0348",
+    "entity": "Corporation",
+    "issue_date": "11/10/1998",
+    "reissue_date": "01/27/1999",
+    "expire_date": "01/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION",
+    "bond": {
+      "carrier": "MERCHANTS BONDING COMPANY (MUTUAL)",
+      "amount": "$25,000",
+      "effective": "11/06/2024",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "NORGUARD INSURANCE COMPANY, Policy Number: POWC781593, Effective Date: 01/30/2026, Expire Date: 01/30/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=756097",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:29 PM\")",
+    "raw_file": "data/raw/cslb-756097.txt"
+  },
   "760600": {
     "license_number": "760600",
     "legal_name": "DUGGAN PLUMBING INC",
@@ -1323,6 +1998,81 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=760600",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 6:41:19 PM\")",
     "raw_file": "data/raw/cslb-760600.txt"
+  },
+  "771776": {
+    "license_number": "771776",
+    "legal_name": "L R PLUMBING",
+    "cslb_address": "2162 19TH AVE / SAN FRANCISCO, CA 94116",
+    "cslb_phone": "(415) 481-8850",
+    "entity": "Sole Ownership",
+    "issue_date": "11/23/1999",
+    "reissue_date": null,
+    "expire_date": "11/30/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "09/10/2025",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/05/2025, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=771776",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:27 PM\")",
+    "raw_file": "data/raw/cslb-771776.txt"
+  },
+  "773207": {
+    "license_number": "773207",
+    "legal_name": "TROMBORG ROYAL PLUMBING & HEATING",
+    "cslb_address": "7 WASHINGTON STREET / DALY CITY, CA 94014",
+    "cslb_phone": "(650) 755-3110",
+    "entity": "Sole Ownership",
+    "issue_date": "01/03/2000",
+    "reissue_date": null,
+    "expire_date": "01/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "B - GENERAL BUILDING ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "MERCHANTS BONDING COMPANY (MUTUAL)",
+      "amount": "$25,000",
+      "effective": "02/12/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/07/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773207",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:45 PM\")",
+    "raw_file": "data/raw/cslb-773207.txt"
+  },
+  "782787": {
+    "license_number": "782787",
+    "legal_name": "GARCIA PLUMBING AND MECHANICAL COMPANY INC",
+    "cslb_address": "237 GAMBIER STREET / SAN FRANCISCO, CA 94134",
+    "cslb_phone": "(415) 333-1737",
+    "entity": "Corporation",
+    "issue_date": "08/10/2000",
+    "reissue_date": "02/09/2001",
+    "expire_date": "02/28/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "NORTH RIVER INSURANCE COMPANY (THE)",
+      "amount": "$25,000",
+      "effective": "09/27/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "WESCO INSURANCE COMPANY, Policy Number: WWC3872842, Effective Date: 06/19/2026, Expire Date: 06/19/2027",
+    "misc": "02/09/2001 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=782787",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:58 PM\")",
+    "raw_file": "data/raw/cslb-782787.txt"
   },
   "786183": {
     "license_number": "786183",
@@ -1373,6 +2123,81 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=787733",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:36 PM\")",
     "raw_file": "data/raw/cslb-787733.txt"
+  },
+  "794890": {
+    "license_number": "794890",
+    "legal_name": "ALL VALLEY PLUMBING INC",
+    "cslb_address": "42329 OSGOOD RD #C / FREMONT, CA 94539",
+    "cslb_phone": "(510) 661-9095",
+    "entity": "Corporation",
+    "issue_date": "05/09/2001",
+    "reissue_date": "02/28/2011",
+    "expire_date": "01/25/2019",
+    "status_raw": "This license is canceled and not able to contract.",
+    "status_code": "canceled",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "WESTERN SURETY COMPANY",
+      "amount": "$15,000",
+      "effective": "02/28/2017",
+      "cancellation": "04/16/2018"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/28/2017, Expire Date: None",
+    "misc": "02/28/2011 - LICENSE REISSUED TO ANOTHER ENTITY; 01/25/2019 - SECRETARY OF STATE - DISSOLUTION",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=794890",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:08 PM\")",
+    "raw_file": "data/raw/cslb-794890.txt"
+  },
+  "795046": {
+    "license_number": "795046",
+    "legal_name": "CHRIS' PLUMBING INC",
+    "cslb_address": "1336 WEST WINTON AVENUE / HAYWARD, CA 94545",
+    "cslb_phone": "(510) 346-8402",
+    "entity": "Corporation",
+    "issue_date": "05/14/2001",
+    "reissue_date": null,
+    "expire_date": "05/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "An employee service group holds the workers compensation insurance. Policy Number: C&3874300, Effective Date: 01/01/2026, Expire Date: 01/01/2027",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=795046",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:26 PM\")",
+    "raw_file": "data/raw/cslb-795046.txt"
+  },
+  "815871": {
+    "license_number": "815871",
+    "legal_name": "CARY WING PLUMBING & FIRE PROTECTION INC",
+    "cslb_address": "11 N HUMBOLDT ST / SAN MATEO, CA 94401",
+    "cslb_phone": "(650) 619-4150",
+    "entity": "Corporation",
+    "issue_date": "12/13/2002",
+    "reissue_date": "10/29/2003",
+    "expire_date": "10/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING",
+    "bond": {
+      "carrier": "NORTH RIVER INSURANCE COMPANY (THE)",
+      "amount": "$25,000",
+      "effective": "06/26/2024",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "AMTRUST INSURANCE COMPANY, Policy Number: KWP1445296, Effective Date: 05/11/2026, Expire Date: 05/11/2027. Classification codes: 51831 - Plumbing-low wage; 5185 - Automatic Sprinkler Install-low wage; 55382 - Heating/Air Conditioning Duct-low wage.",
+    "misc": "10/29/2003 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=815871",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:57 PM\")",
+    "raw_file": "data/raw/cslb-815871.txt"
   },
   "818560": {
     "license_number": "818560",
@@ -1549,6 +2374,81 @@
     "captured_at": "2026-09-03T16:27:30Z (page states \"Data current as of 9/3/2026 4:27:30 PM\")",
     "raw_file": "data/raw/cslb-829071.txt"
   },
+  "839447": {
+    "license_number": "839447",
+    "legal_name": "FENG K PLUMBING CO",
+    "cslb_address": "1654 23RD AVENUE / SAN FRANCISCO, CA 94122",
+    "cslb_phone": "(415) 939-8822",
+    "entity": "Sole Ownership",
+    "issue_date": "05/28/2004",
+    "reissue_date": null,
+    "expire_date": "05/31/2028",
+    "status_raw": "License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.",
+    "status_code": "suspended",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "HUDSON INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "07/23/2023",
+      "cancellation": "09/01/2026"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/11/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=839447",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:05 PM\")",
+    "raw_file": "data/raw/cslb-839447.txt"
+  },
+  "841080": {
+    "license_number": "841080",
+    "legal_name": "PERFORMANCE PLUMBING",
+    "cslb_address": "2668 LEIX WAY / SOUTH SAN FRANCISCO, CA 94080",
+    "cslb_phone": "(415) 831-0348",
+    "entity": "Sole Ownership",
+    "issue_date": "06/19/2004",
+    "reissue_date": null,
+    "expire_date": "06/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "AMTRUST INSURANCE COMPANY, Policy Number: TES4703413, Effective Date: 12/11/2025, Expire Date: 12/11/2026. Classification codes: 5183 - Description Unavailable; 5187 - Description Unavailable.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=841080",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:57 PM\")",
+    "raw_file": "data/raw/cslb-841080.txt"
+  },
+  "841206": {
+    "license_number": "841206",
+    "legal_name": "S & G PLUMBING INC",
+    "cslb_address": "961 WASHINGTON STREET / SAN CARLOS, CA 94070",
+    "cslb_phone": "(650) 595-4050",
+    "entity": "Corporation",
+    "issue_date": "06/21/2004",
+    "reissue_date": null,
+    "expire_date": "06/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "09/01/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9051239, Effective Date: 04/08/2013, Expire Date: 04/08/2027. Classification codes: 51871 - Plumbing-high wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=841206",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:41 PM\")",
+    "raw_file": "data/raw/cslb-841206.txt"
+  },
   "841229": {
     "license_number": "841229",
     "legal_name": "MANNY'S PLUMBING & ROOTER",
@@ -1573,6 +2473,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=841229",
     "captured_at": "2026-09-04T00:00:00Z (page states \"Data current as of 9/3/2026\")",
     "raw_file": "data/raw/cslb-841229.txt"
+  },
+  "845259": {
+    "license_number": "845259",
+    "legal_name": "JA PLUMBING INC",
+    "cslb_address": "2241 28TH AVENUE / SAN FRANCISCO, CA 94116",
+    "cslb_phone": "(415) 286-0676",
+    "entity": "Corporation",
+    "issue_date": "08/24/2004",
+    "reissue_date": null,
+    "expire_date": "08/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "01/22/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "MARKEL INSURANCE COMPANY, Policy Number: MWC0007374, Effective Date: 07/13/2024, Expire Date: 07/13/2027. Classification codes: 51831 - Plumbing-low wage.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=845259",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:07 PM\")",
+    "raw_file": "data/raw/cslb-845259.txt"
   },
   "846292": {
     "license_number": "846292",
@@ -1624,6 +2549,31 @@
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:34 PM\")",
     "raw_file": "data/raw/cslb-857357.txt"
   },
+  "859973": {
+    "license_number": "859973",
+    "legal_name": "PRO PLUMBING",
+    "cslb_address": "145 BARNEVELD AVE / SAN FRANCISCO, CA 94122",
+    "cslb_phone": "(415) 994-3468",
+    "entity": "Sole Ownership",
+    "issue_date": "06/04/2005",
+    "reissue_date": null,
+    "expire_date": "06/30/2023",
+    "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. There may be a legal requirement to be met prior to renewal or reactivation of the license. The license will need to meet the workers compensation requirements to renew active or reactivate.",
+    "status_code": "expired",
+    "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION",
+    "bond": {
+      "carrier": "WESCO INSURANCE COMPANY",
+      "amount": "$15,000",
+      "effective": "01/01/2016",
+      "cancellation": "08/04/2017"
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/22/2017, Cancellation Date: 07/01/2019",
+    "misc": "10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=859973",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:03 PM\")",
+    "raw_file": "data/raw/cslb-859973.txt"
+  },
   "868994": {
     "license_number": "868994",
     "legal_name": "ATLAS PLUMBING & ROOTER",
@@ -1649,6 +2599,31 @@
     "captured_at": "2026-09-03T16:27:08Z (page states \"Data current as of 9/3/2026 4:27:08 PM\")",
     "raw_file": "data/raw/cslb-868994.txt"
   },
+  "869445": {
+    "license_number": "869445",
+    "legal_name": "DINAMIT PLUMBING",
+    "cslb_address": "1709 KESTREL CT / OLIVEHURST, CA 95961",
+    "cslb_phone": "(530) 354-6976",
+    "entity": "Sole Ownership",
+    "issue_date": "12/14/2005",
+    "reissue_date": null,
+    "expire_date": "12/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "NORTH RIVER INSURANCE COMPANY (THE)",
+      "amount": "$25,000",
+      "effective": "03/15/2024",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "FARMERS INSURANCE EXCHANGE, Policy Number: A09518085, Effective Date: 08/21/2026, Expire Date: 08/21/2027. Classification codes: 5188 - Description Unavailable; 5183 - Description Unavailable; 8810 - Clerical Office Employees.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=869445",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:55 PM\")",
+    "raw_file": "data/raw/cslb-869445.txt"
+  },
   "875126": {
     "license_number": "875126",
     "legal_name": "ALBERT HALL INC",
@@ -1673,6 +2648,56 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=875126",
     "captured_at": "2026-09-04T00:00:00Z (page states \"Data current as of 9/3/2026\")",
     "raw_file": "data/raw/cslb-875126.txt"
+  },
+  "876212": {
+    "license_number": "876212",
+    "legal_name": "A B PLUMBING",
+    "cslb_address": "12909 SKYLINE BLVD / OAKLAND, CA 94619",
+    "cslb_phone": "(415) 333-5566",
+    "entity": "Sole Ownership",
+    "issue_date": "04/14/2006",
+    "reissue_date": null,
+    "expire_date": "04/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "JET INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "07/02/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/22/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876212",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:06 PM\")",
+    "raw_file": "data/raw/cslb-876212.txt"
+  },
+  "877300": {
+    "license_number": "877300",
+    "legal_name": "JIN'S PLUMBING INC",
+    "cslb_address": "832 GRAFTON AVE / SAN FRANCISCO, CA 94112",
+    "cslb_phone": "(415) 307-0186",
+    "entity": "Corporation",
+    "issue_date": "05/04/2006",
+    "reissue_date": "07/31/2006",
+    "expire_date": "07/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECJW2332, Effective Date: 02/10/2026, Expire Date: 02/10/2027. Classification codes: 5183 - Description Unavailable.",
+    "misc": "07/31/2006 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=877300",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:39:27 PM\")",
+    "raw_file": "data/raw/cslb-877300.txt"
   },
   "878184": {
     "license_number": "878184",
@@ -1773,6 +2798,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885083",
     "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:35 PM\")",
     "raw_file": "data/raw/cslb-885083.txt"
+  },
+  "887869": {
+    "license_number": "887869",
+    "legal_name": "C & H PLUMBING CO",
+    "cslb_address": "39 1ST AVE / DALY CITY, CA 94014",
+    "cslb_phone": "(510) 388-8126",
+    "entity": "Sole Ownership",
+    "issue_date": "12/02/2006",
+    "reissue_date": null,
+    "expire_date": "12/31/2026",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "WESTERN SURETY COMPANY",
+      "amount": "$25,000",
+      "effective": "04/07/2025",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 11/15/2024, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=887869",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:58 PM\")",
+    "raw_file": "data/raw/cslb-887869.txt"
   },
   "888630": {
     "license_number": "888630",
@@ -1899,6 +2949,31 @@
     "captured_at": "2026-09-03T16:30:21Z (page states \"Data current as of 9/3/2026 4:30:21 PM\")",
     "raw_file": "data/raw/cslb-920294.txt"
   },
+  "920624": {
+    "license_number": "920624",
+    "legal_name": "WEST BAY PLUMBING",
+    "cslb_address": "130 RAE AVE / SAN FRANCISCO, CA 94112",
+    "cslb_phone": "(415) 335-5732",
+    "entity": "Sole Ownership",
+    "issue_date": "08/11/2008",
+    "reissue_date": null,
+    "expire_date": "08/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "05/24/2025",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/09/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=920624",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:07 PM\")",
+    "raw_file": "data/raw/cslb-920624.txt"
+  },
   "922974": {
     "license_number": "922974",
     "legal_name": "HYDRO PLUMBING & ROOTER INC",
@@ -1924,6 +2999,56 @@
     "captured_at": "2026-09-04T00:00:00Z (page states \"Data current as of 9/3/2026\")",
     "raw_file": "data/raw/cslb-922974.txt"
   },
+  "932219": {
+    "license_number": "932219",
+    "legal_name": "RIFF RAFF PLUMBING",
+    "cslb_address": "446 36 ST / OAKLAND, CA 94609",
+    "cslb_phone": "(415) 706-6112",
+    "entity": "Sole Ownership",
+    "issue_date": "05/04/2009",
+    "reissue_date": null,
+    "expire_date": "05/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "09/01/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 04/10/2025, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=932219",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:43:08 PM\")",
+    "raw_file": "data/raw/cslb-932219.txt"
+  },
+  "944315": {
+    "license_number": "944315",
+    "legal_name": "ANSWER PLUMBING INC",
+    "cslb_address": "1040 STEINER STREET #3 / SAN FRANCISCO, CA 94115",
+    "cslb_phone": "(415) 722-0959",
+    "entity": "Corporation",
+    "issue_date": "03/10/2010",
+    "reissue_date": "05/27/2016",
+    "expire_date": "05/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "OHIO CASUALTY INSURANCE COMPANY (THE)",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/01/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=944315",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:58:20 PM\")",
+    "raw_file": "data/raw/cslb-944315.txt"
+  },
   "945019": {
     "license_number": "945019",
     "legal_name": "E M S PLUMBING",
@@ -1948,6 +3073,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=945019",
     "captured_at": "2026-09-03T16:32:18Z (page states \"Data current as of 9/3/2026 4:32:18 PM\")",
     "raw_file": "data/raw/cslb-945019.txt"
+  },
+  "949094": {
+    "license_number": "949094",
+    "legal_name": "NEIGHBORHOOD PLUMBING",
+    "cslb_address": "2049 OFARRELL ST APT 4 / SAN FRANCISCO, CA 94115",
+    "cslb_phone": "(415) 368-5668",
+    "entity": "Sole Ownership",
+    "issue_date": "06/22/2010",
+    "reissue_date": null,
+    "expire_date": "06/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+      "amount": "$25,000",
+      "effective": "11/14/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/17/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=949094",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:44 PM\")",
+    "raw_file": "data/raw/cslb-949094.txt"
   },
   "954385": {
     "license_number": "954385",
@@ -2124,6 +3274,31 @@
     "captured_at": "2026-09-03T16:27:46Z (page states \"Data current as of 9/3/2026 4:27:46 PM\")",
     "raw_file": "data/raw/cslb-966458.txt"
   },
+  "972573": {
+    "license_number": "972573",
+    "legal_name": "CELSO'S PLUMBING A PARTNERSHIP",
+    "cslb_address": "427 SILVER AVENUE / SAN FRANCISCO, CA 94112",
+    "cslb_phone": "(415) 240-2024",
+    "entity": "Partnership",
+    "issue_date": "05/02/2012",
+    "reissue_date": null,
+    "expire_date": "05/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "WESTERN SURETY COMPANY",
+      "amount": "$25,000",
+      "effective": "01/01/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "exempt",
+    "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/08/2026, Expire Date: None",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=972573",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:46 PM\")",
+    "raw_file": "data/raw/cslb-972573.txt"
+  },
   "974194": {
     "license_number": "974194",
     "legal_name": "SFGDL INDUSTRIES INC",
@@ -2173,6 +3348,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=976019",
     "captured_at": "2026-09-04T00:00:00Z (page states \"Data current as of 9/3/2026\")",
     "raw_file": "data/raw/cslb-976019.txt"
+  },
+  "977401": {
+    "license_number": "977401",
+    "legal_name": "MARCO DELEON PLUMBING",
+    "cslb_address": "353 BANCROFT WAY / PACIFICA, CA 94044",
+    "cslb_phone": "(415) 810-1651",
+    "entity": "Sole Ownership",
+    "issue_date": "09/29/2012",
+    "reissue_date": null,
+    "expire_date": "09/30/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "04/05/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "CLEAR SPRING PROPERTY AND CASUALTY COMPANY, Policy Number: CWC03617400, Effective Date: 10/06/2025, Expire Date: 10/06/2026. Classification codes: 5183 - Description Unavailable.",
+    "misc": null,
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=977401",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:42:43 PM\")",
+    "raw_file": "data/raw/cslb-977401.txt"
   },
   "977638": {
     "license_number": "977638",
@@ -2299,6 +3499,31 @@
     "captured_at": "2026-09-03T16:27:46Z (page states \"Data current as of 9/3/2026 4:27:46 PM\")",
     "raw_file": "data/raw/cslb-1009195.txt"
   },
+  "1013245": {
+    "license_number": "1013245",
+    "legal_name": "KEARNEY PLUMBING INC",
+    "cslb_address": "45 DORMAN AVE / SAN FRANCISCO, CA 94124",
+    "cslb_phone": "(415) 619-3344",
+    "entity": "Corporation",
+    "issue_date": "04/25/2016",
+    "reissue_date": "01/29/2020",
+    "expire_date": "01/31/2028",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "MERCHANTS BONDING COMPANY (MUTUAL)",
+      "amount": "$25,000",
+      "effective": "07/02/2023",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "EMPLOYERS PREFERRED INSURANCE COMPANY, Policy Number: EIG544623602, Effective Date: 01/12/2026, Expire Date: 01/12/2027",
+    "misc": "01/29/2020 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1013245",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:38:58 PM\")",
+    "raw_file": "data/raw/cslb-1013245.txt"
+  },
   "1017368": {
     "license_number": "1017368",
     "legal_name": "PLUMBING PURE INC",
@@ -2423,6 +3648,31 @@
     "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1025814",
     "captured_at": "2026-09-03T16:27:46Z (page states \"Data current as of 9/3/2026 4:27:46 PM\")",
     "raw_file": "data/raw/cslb-1025814.txt"
+  },
+  "1027203": {
+    "license_number": "1027203",
+    "legal_name": "CITY PREFERRED PLUMBING INC",
+    "cslb_address": "dba CITY PREFERRED PLUMBING / 1 EMBARCADERO CENTER STE 1200 / SAN FRANCISCO, CA 94111",
+    "cslb_phone": "(415) 306-0866",
+    "entity": "Corporation",
+    "issue_date": "05/24/2017",
+    "reissue_date": "08/14/2017",
+    "expire_date": "08/31/2027",
+    "status_raw": "This license is current and active. All information below should be reviewed.",
+    "status_code": "active",
+    "classifications": "C36 - PLUMBING",
+    "bond": {
+      "carrier": "NATIONWIDE MUTUAL INSURANCE COMPANY",
+      "amount": "$25,000",
+      "effective": "08/08/2026",
+      "cancellation": null
+    },
+    "workers_comp_code": "insured",
+    "workers_comp_raw": "VALLEY FORGE INSURANCE COMPANY, Policy Number: 8038038830, Effective Date: 04/30/2026, Expire Date: 04/30/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.",
+    "misc": "08/14/2017 - LICENSE REISSUED TO ANOTHER ENTITY",
+    "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1027203",
+    "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 7:41:56 PM\")",
+    "raw_file": "data/raw/cslb-1027203.txt"
   },
   "1027286": {
     "license_number": "1027286",

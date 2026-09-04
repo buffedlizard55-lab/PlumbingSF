@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=633904
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  633904
+ROTO-ROOTER SEWER & DRAIN
+3840 BAYSHORE BLVD
+BRISBANE, CA 94005
+Business Phone Number:(415) 656-2130
+Entity: Sole Ownership
+Issue Date: 12/17/1991
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC695288, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9073831, Effective Date: 10/01/2013, Expire Date: 10/01/2026. Classification codes: 51831 - Plumbing-low wage.

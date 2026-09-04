@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=876212
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:06 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  876212
+A B PLUMBING
+12909 SKYLINE BLVD
+OAKLAND, CA 94619
+Business Phone Number:(415) 333-5566
+Entity: Sole Ownership
+Issue Date: 04/14/2006
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: JET INSURANCE COMPANY, Bond Number: JT034371, Bond Amount: $25,000, Effective Date: 07/02/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/22/2026, Expire Date: None

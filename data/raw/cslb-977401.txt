@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=977401
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:43 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  977401
+MARCO DELEON PLUMBING
+353 BANCROFT WAY
+PACIFICA, CA 94044
+Business Phone Number:(415) 810-1651
+Entity: Sole Ownership
+Issue Date: 09/29/2012
+Expire Date: 09/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800250931, Bond Amount: $25,000, Effective Date: 04/05/2026
+Workers' Compensation: CLEAR SPRING PROPERTY AND CASUALTY COMPANY, Policy Number: CWC03617400, Effective Date: 10/06/2025, Expire Date: 10/06/2026. Classification codes: 5183 - Description Unavailable.

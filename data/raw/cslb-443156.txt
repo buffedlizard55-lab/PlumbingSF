@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=443156
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:05 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  443156
+CITY FRONT PLUMBING INC
+50 TIBURON STREET UNIT 25
+SAN RAFAEL, CA 94901
+Business Phone Number:(415) 454-6737
+Entity: Corporation
+Issue Date: 07/19/1983
+Reissue Date: 11/10/1999
+Expire Date: 11/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101286173, Bond Amount: $25,000, Effective Date: 09/22/2024
+Workers' Compensation: TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Policy Number: UBB612261252SG, Effective Date: 09/01/2026, Expire Date: 09/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8810 - Clerical Office Employees.
+Miscellaneous Information: 11/10/1999 - LICENSE REISSUED TO ANOTHER ENTITY

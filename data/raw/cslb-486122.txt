@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=486122
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:57 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  486122
+PLUMBWORKS INC
+DBA CHRIS GOODWIN PLUMBING
+494 SILVER AVE UNIT A
+HALF MOON BAY, CA 94019
+Business Phone Number:(415) 681-1309
+Entity: Corporation
+Issue Date: 01/28/1986
+Reissue Date: 08/21/2003
+Expire Date: 06/29/2021
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: SURETEC INSURANCE COMPANY, Bond Number: 230408, Bond Amount: $15,000, Effective Date: 07/01/2020, Cancellation Date: 09/09/2022
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/14/2020, Expire Date: None
+Miscellaneous Information: 08/21/2003 - LICENSE REISSUED TO ANOTHER ENTITY; 06/29/2021 - LICENSE CANCELED PER REQUEST

@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=724165
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:45 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  724165
+JOHN L PLUMBING INC
+1164 GRAND TETON DRIVE
+PACIFICA, CA 94044
+Business Phone Number:(415) 517-7260
+Entity: Corporation
+Issue Date: 06/19/1996
+Reissue Date: 12/20/2000
+Expire Date: 11/26/2016
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6043066, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 12/09/2016
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9099864, Effective Date: 05/17/2014, Cancellation Date: 09/07/2015
+Miscellaneous Information: 12/20/2000 - LICENSE REISSUED TO ANOTHER ENTITY; 11/26/2016 - SECRETARY OF STATE - DISSOLUTION
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

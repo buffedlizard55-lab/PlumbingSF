@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=743369
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:09 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  743369
+FRIENDLY PLUMBER
+P O BOX 590634
+SAN FRANCISCO, CA 94159
+Business Phone Number:(415) 242-8818
+Entity: Sole Ownership
+Issue Date: 12/02/1997
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: PR2767167, Bond Amount: $25,000, Effective Date: 03/19/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/20/2026, Expire Date: None

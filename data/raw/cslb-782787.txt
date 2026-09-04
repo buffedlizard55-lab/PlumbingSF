@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=782787
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:58 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  782787
+GARCIA PLUMBING AND MECHANICAL COMPANY INC
+237 GAMBIER STREET
+SAN FRANCISCO, CA 94134
+Business Phone Number:(415) 333-1737
+Entity: Corporation
+Issue Date: 08/10/2000
+Reissue Date: 02/09/2001
+Expire Date: 02/28/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF621858, Bond Amount: $25,000, Effective Date: 09/27/2023
+Workers' Compensation: WESCO INSURANCE COMPANY, Policy Number: WWC3872842, Effective Date: 06/19/2026, Expire Date: 06/19/2027
+Miscellaneous Information: 02/09/2001 - LICENSE REISSUED TO ANOTHER ENTITY

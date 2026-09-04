@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=741904
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:39:28 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  741904
+WATER HEATER SPECIALISTS
+P O BOX 4358
+FOSTER CITY, CA 94404
+Business Phone Number:(650) 570-5070
+Entity: Sole Ownership
+Issue Date: 10/28/1997
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC406387, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TWP4733825, Effective Date: 01/17/2026, Expire Date: 01/17/2027. Classification codes: 8810 - Clerical Office Employees; 5187 - Description Unavailable; 5183 - Description Unavailable.

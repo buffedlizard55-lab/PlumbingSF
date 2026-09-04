@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=751710
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:41 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  751710
+T T LEE CORP
+DBA ALLEN LEE PLUMBING
+1260 ROBLE ROAD
+MILLBRAE, CA 94030
+Business Phone Number:(415) 279-2878
+Entity: Corporation
+Issue Date: 07/14/1998
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6308798, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: KWP1417987, Effective Date: 12/20/2025, Expire Date: 12/20/2026. Classification codes: 51831 - Plumbing-low wage.

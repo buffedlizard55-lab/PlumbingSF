@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=593285
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:38:58 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  593285
+HEISE'S PLUMBING
+3271 16TH STREET
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 552-0720
+Entity: Partnership
+Issue Date: 05/09/1990
+Expire Date: 01/01/2002
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 687027, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 06/01/2002
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 229-0019777, Effective Date: 04/10/1998, Expire Date: 01/01/2002
+Miscellaneous Information: 01/01/2002 - LIC CANCELLED-PARTNER DISASSOCIATED

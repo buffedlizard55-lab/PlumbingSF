@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=685330
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:05 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  685330
+R GONZALEZ VENTURES INC
+DBA GOLDEN GATE PLUMBING & ROOTER
+9333 A VIKING PLACE
+ROSEVILLE, CA 95747
+Business Phone Number:(916) 782-9391
+Entity: Corporation
+Issue Date: 03/15/1994
+Reissue Date: 12/21/2010
+Expire Date: 12/24/2012
+License Status: This license is canceled and not able to contract.
+Classifications: C27 - LANDSCAPING ; C36 - PLUMBING
+Contractor's Bond: WESCO INSURANCE COMPANY, Bond Number: 04WB003562, Bond Amount: $12,500, Effective Date: 08/21/2012, Cancellation Date: 09/24/2014
+Workers' Compensation: EVEREST NATIONAL INSURANCE COMPANY, Policy Number: 76000068461, Effective Date: 02/01/2012, Expire Date: 02/01/2014
+Miscellaneous Information: 12/24/2012 - LICENSE CANCELED PER REQUEST

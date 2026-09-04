@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=329705
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:43 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  329705
+TONY NG PLUMBING CO
+1332 HYDE ST
+SAN FRANCISCO, CA 94109
+Business Phone Number:(415) 722-2256
+Entity: Sole Ownership
+Issue Date: 01/05/1977
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING ; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC567653, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 04/16/2025, Expire Date: None

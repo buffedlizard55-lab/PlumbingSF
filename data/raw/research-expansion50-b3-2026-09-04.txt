@@ -1,0 +1,103 @@
+Batch-3 (2026-09-04 expansion-50-b3) review-evidence capture.
+Each block is the verbatim text returned by the research tool for the named
+URL (indirect search snippet of the cited page), captured 2026-09-04 (UTC).
+Candidate records inside a block are separated by blank lines and start with
+the business display name and license number. Only text reproduced here may be
+published as evidence; nothing else was captured for these businesses.
+
+
+===== SOURCE: https://www.angi.com/companylist/us/ca/brisbane/roto-rooter-plumbing-and-drain-service-reviews-210275.htm | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Roto-Rooter Sewer & Drain — License: 633904
+Roto-Rooter Plumbing & Drain Service Reviews - BRISBANE, CA. Showing 1-25 of 37 reviews. Maurice S. Aug 2025 5.0 Yes, I recommend this pro Fast, quick uclogging kitchen sink drain. Roto-Rooter Plumbing & Drain Service is currently rated 4.8 overall out of 5.
+
+===== SOURCE: https://www.yelp.com/biz/cary-wing-plumbing-and-fire-protection-san-mateo | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Cary Wing Plumbing & Fire Protection Inc — License: 815871
+CARY WING PLUMBING & FIRE PROTECTION - San Mateo, CA 94401. # Cary Wing Plumbing & Fire Protection 3.4 (11 reviews) Claimed Plumbing, Fire Protection Services.
+
+===== SOURCE: https://www.yelp.com/biz/garcia-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Garcia Plumbing and Mechanical Company Inc — License: 782787
+GARCIA, 237 Gambier St, San Francisco, CA 94134, (415) 333-1737. # Garcia 4.7 (49 reviews) Claimed Plumbing, Water Heater Installation/Repair, General Contractors. SF Specialists — 25+ years working in San Francisco's older housing stock Victorian crawlspaces, multi-story Edwardians, tight access work — the jobs that scare off other plumbers are our specialty. Licensed & Permitted — CSLB #782787
+
+===== SOURCE: https://reviews.birdeye.com/kearney-plumbing-inc-167333276428652 | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Kearney Plumbing Inc — License: 1013245
+Kearney Plumbing Inc 5.0 - Contractors - San Francisco, CA. 5.0 3 reviews. Kearney Plumbing Inc has a 5 star rating with 3 reviews.
+
+===== SOURCE: https://www.yelp.com/biz/bill-bragg-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Bill Bragg Plumbing — License: 440780
+BILL BRAGG PLUMBING - Updated May 2026 - 38 Photos & 85 Reviews. # Bill Bragg Plumbing 4.2 (85 reviews) Claimed Plumbing.
+
+===== SOURCE: https://www.yelp.com/biz/levs-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Lev's Plumbing Co — License: 421774
+Lev's Plumbing - Updated March 2026 - 28 Photos - 25 Reviews. # Lev's Plumbing 4.2 (25 reviews) Unclaimed Plumbing.
+
+===== SOURCE: https://www.yelp.com/biz/jins-plumbing-inc-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Jin's Plumbing Inc — License: 877300
+Jin's Plumbing Inc - 832 Grafton Ave, San Francisco, CA 94112. Specialties: Residential or Commercial, Repair, Copper Pipes, Gas Pipes, Sewer, Water Heaters, Grease Traps, Drains, Camera Inspection, Remodeling or New construction Established in 2006. # Jin's Plumbing Inc 5.0 (5 reviews) Unclaimed Plumbing, Flooring.
+
+===== SOURCE: https://bbb.org/greater-san-francisco/business-reviews/water-heater-dealers/water-heater-specialists-inc-in-foster-city-ca-531453 | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Water Heater Specialists — License: 741904
+Water Heater Specialists, Inc. - This organization is not BBB accredited. Water Heater Dealers in Foster City, CA. Customer Reviews 3/5 stars Average of 2 Customer Reviews. Most Recent Customer Review Panda A 1 star 09/08/2021 VERY VERY poor behavior and WORST CUSTOMER SERVICE. DO NOT USE!!
+
+===== SOURCE: https://nextdoor.com/pages/larratt-bros-plumbing-inc-san-francisco-ca/ | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Larratt Bros Plumbing Inc — License: 596026
+23 Faves for Larratt Bros. Plumbing, Inc. from neighbors in San Francisco, CA. 23 Recommend. Larratt Bros. Plumbing, Inc. is trusted by property managers in SF and is known for their expertise in dealing with complex plumbing projects.
+
+===== SOURCE: https://m.yelp.com/biz/performance-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Performance Plumbing — License: 841080
+PERFORMANCE PLUMBING, 2668 Leix Way, South San Francisco, CA 94080, (415) 831-0348. # Performance Plumbing 4.5 (85 reviews) Plumbing. Plumbers Trenchless Sewer Repair Bathtub Repair Drain Cleaning.
+
+===== SOURCE: https://www.yelp.com/biz/s-and-g-plumbing-san-carlos | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+S & G Plumbing Inc — License: 841206
+S & G PLUMBING - 12 Reviews - Plumbing - 961 Washington St, San Carlos. Specialties: We provide all of your standard plumbing needs from drain cleaning, to remodles. We spacialise in water heater replacement, drain cleaning, sewer camra service, hydro jetting and all plumbing remodles. S & G Plumbing has 5 stars.
+
+===== SOURCE: https://reviews.birdeye.com/c-w-lee-plumbing-co-166389744817389 | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Lee Plumbing Co — License: 586693
+C W Lee Plumbing Co 4.4 - Contractors - San Francisco, CA. 4.4 5 reviews. Mr. Lee and his son are professional and work quickly to meet my needs. I am a small landlord in San Francisco.
+
+===== SOURCE: https://www.buildzoom.com/contractor/t-t-lee-corp | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Allen Lee Plumbing — License: 751710
+T T Lee Corp in Millbrae, CA - 602 building permits. 5 out of 5 stars, based on 1 review - By Linda September 25, 2012 T T Lee Corp Dba Allen Lee Plumbing I have used Allen Lee Plumbing for many years. He is ALWAYS prompt, knowledgeable and does a great job. Plumbing License: 751710.
+
+===== SOURCE: https://reviews.birdeye.com/tromborg-royal-plumbing-heating-166994314158110 | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Tromborg Royal Plumbing & Heating — License: 773207
+Tromborg Royal Plumbing & Heating 5.0 - Contractors - Daly City, CA. 5.0 3 reviews. The only plumbing company I trust in this Daly City home. Experienced plumbers and furnace fixers with good customer service and fair pricing.
+
+===== SOURCE: https://nextdoor.com/pages/tromborg-royal-plumbing-heating/ | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Tromborg Royal Plumbing & Heating — License: 773207
+Tromborg Royal Plumbing & Heating in Daly City comes highly recommended by locals who have used their services for years. They have been praised for their efficient work in drain pipe cleaning and toilet installations.
+
+===== SOURCE: https://www.yelp.com/search?find_desc=Plumbing&find_loc=San+Francisco%2C+CA | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Neighborhood Plumbing — License: 949094
+Neighborhood Plumbing 4.9 (128 reviews) Serving San Francisco and the Surrounding Area Verified License Certified professionals Free estimates. Sewer line replacement Kitchen remodel Pump replacement Water main replacement.
+
+===== SOURCE: https://www.buildzoom.com/contractor/chuck-voutselas-the-art-of-fine-plumbing | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+Chuck Voutselas Plumbing LLC — License: 323631
+Chuck Voutselas the Art of Fine plumbing in Novato, CA - 243 building permits. 5 out of 5 stars, based on 1 review - By Stephanie S. June 23, 2025 The Art of Fine Plumbing has a lot of experience working with high-rise plumbing. Plumbing License: 323631.
+
+===== SOURCE: https://www.yelp.com/biz/city-front-plumbing-san-rafael-2 | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+City Front Plumbing Inc — License: 443156
+City Front Plumbing - Updated February 2026 - 50 Tiburon St, San Rafael. # City Front Plumbing 5.0 (1 review) Unclaimed Plumbing.
+
+===== SOURCE: https://www.buildzoom.com/contractor/west-bay-plumbing | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+West Bay Plumbing — License: 920624
+West Bay Plumbing, 130 Rae Ave, San Francisco, CA holds a Plumbing license. Their license was verified as active when we last checked. BuildZoom hasn't received any reviews for West Bay Plumbing.
+
+===== SOURCE: https://www.yelp.com/biz/riff-raff-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Riff Raff Plumbing — License: 932219
+Riff-Raff Plumbing - San Francisco, CA 94103. # Riff-Raff Plumbing 5.0 (6 reviews) Unclaimed Plumbing.
+
+===== SOURCE: https://www.yelp.com/biz/friendly-plumber-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Friendly Plumber — License: 743369
+FRIENDLY PLUMBER, San Francisco, CA 94121, (415) 242-8818. Specialties: ~ Plumbing code violation resolution specialist. ~ Victorian and Edwardian condo conversion and remodel. ~ Whole house repipe: gas, water and drain. License #743369. # Friendly Plumber 4.2 (129 reviews) Claimed Plumbing.
+
+===== SOURCE: https://www.yelp.com/biz/p-o-p-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+P O P Plumbing Inc — License: 756097
+P O P Plumbing - CLOSED - Updated November 2025 - 1178 Folsom Street, San Francisco.
+
+===== SOURCE: https://www.buildzoom.com/contractor/city-preferred-plumbing-inc | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: third-party-aggregator =====
+City Preferred Plumbing Inc — License: 1027203
+City Preferred Plumbing Inc, 1 Embarcadero Ctr, San Francisco, CA holds a Plumbing license. Their license was verified as active when we last checked. City Preferred Plumbing Inc has pulled 125.0 building permits since 2017.
+===== SOURCE: https://www.yelp.com/biz/answer-plumbing-san-francisco | CAPTURED: 2026-09-04 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+Answer Plumbing Inc — License: 944315
+ANSWER PLUMBING, 1040 Steiner St, San Francisco, CA 94115. # Answer Plumbing 4.9 (57 reviews) Claimed Plumbing. Services Offered Verified by Business: Bathtub installation, Drain installation, Faucet installation, Garbage disposal installation, Bathtub repair, Drain repair, Faucet repair, Garbage disposal repair
+

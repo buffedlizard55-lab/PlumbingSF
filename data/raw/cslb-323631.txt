@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=323631
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:43:04 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  323631
+CHUCK VOUTSELAS PLUMBING LLC
+1732 INDIAN VALLEY RD
+NOVATO, CA 94947
+Business Phone Number:(415) 309-6603
+Entity: Ltd Liability
+Issue Date: 08/10/1976
+Reissue Date: 11/13/2019
+Expire Date: 11/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING ; C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF629754, Bond Amount: $25,000, Effective Date: 09/20/2024
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: KWC1425190, Effective Date: 12/29/2025, Expire Date: 01/01/2027. Classification codes: 8871 - Clerical Telecommuter Employees.
+Miscellaneous Information: 11/13/2019 - LICENSE REISSUED TO ANOTHER ENTITY

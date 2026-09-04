@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773207
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 7:42:45 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  773207
+TROMBORG ROYAL PLUMBING & HEATING
+7 WASHINGTON STREET
+DALY CITY, CA 94014
+Business Phone Number:(650) 755-3110
+Entity: Sole Ownership
+Issue Date: 01/03/2000
+Expire Date: 01/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING ; C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101771970, Bond Amount: $25,000, Effective Date: 02/12/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/07/2026, Expire Date: None
