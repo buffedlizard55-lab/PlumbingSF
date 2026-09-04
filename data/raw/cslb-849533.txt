@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=849533
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:41 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  849533
+I K K A PLUMBING
+555 JOHN MUIR DRIVE APT B416
+SAN FRANCISCO, CA 94132
+Business Phone Number:(415) 786-1221
+Entity: Sole Ownership
+Issue Date: 11/06/2004
+Expire Date: 11/30/2014
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10127056, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 11/22/2013
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/13/2004, Expire Date: None

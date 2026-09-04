@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=740992
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:09:42 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  740992
+PIPETECH
+4181 24TH ST SUITE A
+SAN FRANCISCO, CA 94114
+Business Phone Number:(415) 282-0300
+Entity: Partnership
+Issue Date: 10/01/1997
+Expire Date: 10/31/2005
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 6038416, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 11/03/2005
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/19/1997, Expire Date: None

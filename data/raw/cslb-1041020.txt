@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1041020
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:04:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1041020
+PROSPER CONSTRUCTION DEVELOPMENT INC
+1599 DELORES STREET
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 617-5536
+Entity: Corporation
+Issue Date: 06/22/2018
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING
+Contractor's Bond: ARCH INSURANCE COMPANY, Bond Number: SU71161740000, Bond Amount: $25,000, Effective Date: 03/03/2025
+Bond of Qualifying Individual: The qualifying individual OSHRI PROSPER MALKA certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 11/07/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9382182, Effective Date: 06/11/2025, Expire Date: 06/11/2027. Classification codes: 8810 - Clerical Office Employees
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

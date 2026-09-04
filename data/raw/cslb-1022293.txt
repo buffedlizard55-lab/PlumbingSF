@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1022293
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:04:54 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1022293
+RAYS SERVICE ONE PLUMBING
+5735 AVENAL AVE UNIT 102
+OAKLAND, CA 94605
+Business Phone Number:(510) 677-4690
+Entity: Sole Ownership
+Issue Date: 01/05/2017
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; C42 - SANITATION SYSTEM
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101016361, Bond Amount: $25,000, Effective Date: 12/02/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/30/2025, Expire Date: None

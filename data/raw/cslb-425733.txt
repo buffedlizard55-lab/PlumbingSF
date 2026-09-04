@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=425733
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:07:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  425733
+WING'S PLUMBING CO
+1654 23RD AVE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 527-8983
+Entity: Sole Ownership
+Issue Date: 08/01/1982
+Expire Date: 11/30/2028
+License Status: This license is inactive and not able to contract at this time.
+Additional Status: The license will need to meet the workers compensation requirements to renew active or reactivate. The license will need a contractors bond to renew active or reactivate.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING; B - GENERAL BUILDING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 66423218, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 01/17/2024
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/06/2023, Cancellation Date: 07/27/2023
+Miscellaneous Information: 10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

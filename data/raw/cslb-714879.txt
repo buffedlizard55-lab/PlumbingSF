@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=714879
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:06:39 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  714879
+LANDERS' PLUMBING
+365 DORANTES AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 867-5301
+Entity: Sole Ownership
+Issue Date: 11/07/1995
+Expire Date: 11/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67266075, Bond Amount: $25,000, Effective Date: 03/10/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/01/2025, Expire Date: None

@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=805919
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:10 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  805919
+PROFESSOR PLUMB
+1310 POTRERO AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 621-4673
+Entity: Corporation
+Issue Date: 03/26/2002
+Reissue Date: 04/11/2014
+Expire Date: 03/12/2018
+License Status: This license is canceled and not able to contract.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C36 - PLUMBING
+Contractor's Bond: WESCO INSURANCE COMPANY, Bond Number: 04WB045714, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 05/05/2018
+Bond of Qualifying Individual: The qualifying individual MICHAEL WHYBROW CIOFALO certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 04/11/2014
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 10/06/2017, Expire Date: None
+Miscellaneous Information: 04/11/2014 - LICENSE REISSUED TO ANOTHER ENTITY; 03/12/2018 - SECRETARY OF STATE - DISSOLUTION

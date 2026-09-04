@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=324708
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:07:06 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  324708
+HAWK N LEE DESIGN & CONSTRUCTION COMPANY
+1032 IRVING STREET #930
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 823-1685
+Entity: Sole Ownership
+Issue Date: 09/03/1976
+Expire Date: 12/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING; B - GENERAL BUILDING; C10 - ELECTRICAL; C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67668182, Bond Amount: $25,000, Effective Date: 01/01/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 11/13/2024, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

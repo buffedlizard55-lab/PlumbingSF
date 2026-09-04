@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=762214
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:09:45 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  762214
+ORAN PLUMBING CORP
+95 EL PLAZUELA ST
+SAN FRANCISCO, CA 94127
+Business Phone Number:(415) 307-8198
+Entity: Corporation
+Issue Date: 04/27/1999
+Reissue Date: 05/07/2014
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100242985, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual FRANCIS JOHN BURKE certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 05/07/2014
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9093731, Effective Date: 03/27/2022, Expire Date: 03/27/2027. Classification codes: 51871 - Plumbing-high wage
+Miscellaneous Information: 05/07/2014 - LICENSE REISSUED TO ANOTHER ENTITY

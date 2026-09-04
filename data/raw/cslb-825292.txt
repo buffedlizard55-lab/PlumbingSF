@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=825292
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:08 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  825292
+FRISCO PLUMBING
+1218 GILMAN AVE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 822-8935
+Entity: Partnership
+Issue Date: 10/01/2003
+Expire Date: 04/30/2010
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 174968, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 04/17/2010
+Workers' Compensation: NORGUARD INSURANCE COMPANY, Policy Number: ZUWC000901, Effective Date: 06/01/2009, Expire Date: 06/01/2010
+Miscellaneous Information: 04/30/2010 - LICENSE CANCELED PER REQUEST
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

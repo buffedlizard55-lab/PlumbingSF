@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=832898
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:43 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  832898
+ARTISAN PLUMBING
+251 GREENSHIRE LANE
+DARDENNE PRAIRIE, MO 63368
+Business Phone Number:(415) 760-1089
+Entity: Sole Ownership
+Issue Date: 02/25/2004
+Expire Date: 02/29/2012
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 186750, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 03/24/2011
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/01/2004, Expire Date: None

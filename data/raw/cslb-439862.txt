@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=439862
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:06:13 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  439862
+ABE'S PLUMBING
+5487 KALES AVENUE
+OAKLAND, CA 94618
+Business Phone Number:(510) 652-7280
+Entity: Sole Ownership
+Issue Date: 05/10/1983
+Expire Date: 05/31/2009
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC GENERAL INSURANCE CORPORATION, Bond Number: GCL1223250, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 05/21/2005
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/03/1996, Expire Date: None

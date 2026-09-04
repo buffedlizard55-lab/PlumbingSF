@@ -566,14 +566,410 @@
       "firm_name": "Garibaldi Plumbing",
       "license_number": "492385",
       "count": "288"
+    },
+    {
+      "firm_name": "Maximus Plumbing",
+      "license_number": "1007707",
+      "count": "3"
+    },
+    {
+      "firm_name": "Sdp Plumbing Inc Dba Mr. Rooter Plumbing",
+      "license_number": "1016070",
+      "count": "234"
+    },
+    {
+      "firm_name": "Rays Service One Plumbing",
+      "license_number": "1022293",
+      "count": "1"
+    },
+    {
+      "firm_name": "Prosper Construction Development Inc",
+      "license_number": "1041020",
+      "count": "131"
+    },
+    {
+      "firm_name": "Prosper Construction Dev Inc",
+      "license_number": "1041020",
+      "count": "19"
+    },
+    {
+      "firm_name": "Prosper Construction Dev Inc.",
+      "license_number": "1041020",
+      "count": "26"
+    },
+    {
+      "firm_name": "Irooterplumbing",
+      "license_number": "1052114",
+      "count": "21"
+    },
+    {
+      "firm_name": "Service Star Plumbing",
+      "license_number": "1079325",
+      "count": "12"
+    },
+    {
+      "firm_name": "Lgm Plumbing & Rooter",
+      "license_number": "1095188",
+      "count": "7"
+    },
+    {
+      "firm_name": "Jc Plumbing & Rooter",
+      "license_number": "1099380",
+      "count": "2"
+    },
+    {
+      "firm_name": "Navta Construction Inc",
+      "license_number": "1115649",
+      "count": "20"
+    },
+    {
+      "firm_name": "Rapid Flow Plumbing & Rooter Inc",
+      "license_number": "1115649",
+      "count": "5"
+    },
+    {
+      "firm_name": "As Plus Plumbing Corp",
+      "license_number": "1134965",
+      "count": "11"
+    },
+    {
+      "firm_name": "Frank's All City Plumbing",
+      "license_number": "319594",
+      "count": "148"
+    },
+    {
+      "firm_name": "Franks All City Plumbing",
+      "license_number": "319594",
+      "count": "4"
+    },
+    {
+      "firm_name": "Frank's All City Plumbing Co",
+      "license_number": "319594",
+      "count": "46"
+    },
+    {
+      "firm_name": "Hawk N Lee Co",
+      "license_number": "324708",
+      "count": "214"
+    },
+    {
+      "firm_name": "David Chu Plumbing",
+      "license_number": "343610",
+      "count": "122"
+    },
+    {
+      "firm_name": "George Sale Plumbing",
+      "license_number": "385567",
+      "count": "1"
+    },
+    {
+      "firm_name": "George V Salet",
+      "license_number": "385567",
+      "count": "231"
+    },
+    {
+      "firm_name": "George V Salet Plumbing Inc",
+      "license_number": "385567",
+      "count": "92"
+    },
+    {
+      "firm_name": "Wing's Plumbing",
+      "license_number": "425733",
+      "count": "82"
+    },
+    {
+      "firm_name": "San Francisco Lone Star",
+      "license_number": "430557",
+      "count": "333"
+    },
+    {
+      "firm_name": "Abe's Plumbing",
+      "license_number": "439862",
+      "count": "153"
+    },
+    {
+      "firm_name": "Tai Lam Mak",
+      "license_number": "467912",
+      "count": "584"
+    },
+    {
+      "firm_name": "Wah Lau Plumbing Co",
+      "license_number": "486546",
+      "count": "9"
+    },
+    {
+      "firm_name": "W J Plumbing",
+      "license_number": "486546",
+      "count": "1"
+    },
+    {
+      "firm_name": "W & J Plumbing Co.",
+      "license_number": "486546",
+      "count": "171"
+    },
+    {
+      "firm_name": "Lee Tung Plumbing Company",
+      "license_number": "497973",
+      "count": "91"
+    },
+    {
+      "firm_name": "Chow's Plbg Co",
+      "license_number": "502603",
+      "count": "1"
+    },
+    {
+      "firm_name": "Chow's Plumbing Co",
+      "license_number": "502603",
+      "count": "221"
+    },
+    {
+      "firm_name": "Meridian Plumbing Co.",
+      "license_number": "520892",
+      "count": "2"
+    },
+    {
+      "firm_name": "Meridian Plumbing Co Inc",
+      "license_number": "520892",
+      "count": "103"
+    },
+    {
+      "firm_name": "Kuenzli Michael Plumbing",
+      "license_number": "576600",
+      "count": "62"
+    },
+    {
+      "firm_name": "Michael Kuenzli",
+      "license_number": "576600",
+      "count": "1"
+    },
+    {
+      "firm_name": "Michael Kuenzli Plumbing Co.",
+      "license_number": "576600",
+      "count": "3"
+    },
+    {
+      "firm_name": "Snc Plumbing & Fire Pro",
+      "license_number": "595176",
+      "count": "193"
+    },
+    {
+      "firm_name": "Allen Mechanical Plbg Co",
+      "license_number": "611082",
+      "count": "75"
+    },
+    {
+      "firm_name": "Allen Mechanical Plumbing Co",
+      "license_number": "611082",
+      "count": "88"
+    },
+    {
+      "firm_name": "Calplumb",
+      "license_number": "632743",
+      "count": "184"
+    },
+    {
+      "firm_name": "Calplumbing Co",
+      "license_number": "632743",
+      "count": "121"
+    },
+    {
+      "firm_name": "Robert's Plumbing",
+      "license_number": "641991",
+      "count": "245"
+    },
+    {
+      "firm_name": "Roberts Plumbing",
+      "license_number": "641991",
+      "count": "6"
+    },
+    {
+      "firm_name": "Thomas Tan Plumbing",
+      "license_number": "660208",
+      "count": "20"
+    },
+    {
+      "firm_name": "T & T Palumbing Co.",
+      "license_number": "660208",
+      "count": "6"
+    },
+    {
+      "firm_name": "T & T Plumbing Co..",
+      "license_number": "660208",
+      "count": "89"
+    },
+    {
+      "firm_name": "T T Plumbing & Construction Co.",
+      "license_number": "660208",
+      "count": "23"
+    },
+    {
+      "firm_name": "K.C. Plumbing",
+      "license_number": "684197",
+      "count": "60"
+    },
+    {
+      "firm_name": "K C Plumbing Co",
+      "license_number": "684197",
+      "count": "1"
+    },
+    {
+      "firm_name": "Precision Plumbing & Roo",
+      "license_number": "689900",
+      "count": "24"
+    },
+    {
+      "firm_name": "Rhino Rooters",
+      "license_number": "689900",
+      "count": "68"
+    },
+    {
+      "firm_name": "Landers Plumbing",
+      "license_number": "714879",
+      "count": "67"
+    },
+    {
+      "firm_name": "Scott Fisher Plumbing",
+      "license_number": "727485",
+      "count": "46"
+    },
+    {
+      "firm_name": "Pipetech",
+      "license_number": "740992",
+      "count": "163"
+    },
+    {
+      "firm_name": "Francis John Burke",
+      "license_number": "762214",
+      "count": "303"
+    },
+    {
+      "firm_name": "Oran Plmbing Corp",
+      "license_number": "762214",
+      "count": "110"
+    },
+    {
+      "firm_name": "Oran Plumbing Corp",
+      "license_number": "762214",
+      "count": "167"
+    },
+    {
+      "firm_name": "Honest Plumbing Services",
+      "license_number": "781784",
+      "count": "40"
+    },
+    {
+      "firm_name": "Plumber Man",
+      "license_number": "785492",
+      "count": "50"
+    },
+    {
+      "firm_name": "Plumber Man R & L Plumbing",
+      "license_number": "785492",
+      "count": "178"
+    },
+    {
+      "firm_name": "Plumber Man R & L Plumbing *",
+      "license_number": "785492",
+      "count": "1"
+    },
+    {
+      "firm_name": "Plumber Man R & L Plumbing**See Note***",
+      "license_number": "785492",
+      "count": "2"
+    },
+    {
+      "firm_name": "R & L Plumbing",
+      "license_number": "785492",
+      "count": "117"
+    },
+    {
+      "firm_name": "Professor Plumb",
+      "license_number": "805919",
+      "count": "160"
+    },
+    {
+      "firm_name": "Frisco Plumbing",
+      "license_number": "825292",
+      "count": "126"
+    },
+    {
+      "firm_name": "Artisan Plumbing",
+      "license_number": "832898",
+      "count": "59"
+    },
+    {
+      "firm_name": "Service Rooter",
+      "license_number": "846565",
+      "count": "71"
+    },
+    {
+      "firm_name": "Ikka Plumbing",
+      "license_number": "849533",
+      "count": "79"
+    },
+    {
+      "firm_name": "Bay Metro Corporation",
+      "license_number": "850352",
+      "count": "104"
+    },
+    {
+      "firm_name": "Stallion Rooter & Plumbing",
+      "license_number": "862601",
+      "count": "69"
+    },
+    {
+      "firm_name": "Stellar Plumbing",
+      "license_number": "863322",
+      "count": "199"
+    },
+    {
+      "firm_name": "Urgent Rooter And Plumbing",
+      "license_number": "863544",
+      "count": "155"
+    },
+    {
+      "firm_name": "Fergal Burke Plumbing",
+      "license_number": "864771",
+      "count": "219"
+    },
+    {
+      "firm_name": "Arka Plumbing",
+      "license_number": "876588",
+      "count": "26"
+    },
+    {
+      "firm_name": "Glenn Lun Au",
+      "license_number": "887553",
+      "count": "96"
+    },
+    {
+      "firm_name": "Glenn's Plumbing",
+      "license_number": "887553",
+      "count": "6"
+    },
+    {
+      "firm_name": "Shedrick The Plulmber",
+      "license_number": "949110",
+      "count": "2"
+    },
+    {
+      "firm_name": "Shedrick The Plumber",
+      "license_number": "949110",
+      "count": "114"
     }
   ],
   "zero_result_queries": [
     {
       "term": "CRUSADER",
       "note": "No SF plumbing permit records found for firm_name LIKE '%CRUSADER%' at time of capture."
+    },
+    {
+      "term": "license_number 1006178 (INTEGRITY FIRST PLUMBING INC)",
+      "note": "No SF plumbing permit contact rows for license 1006178 at time of capture (2026-09-04); the only 'Integrity First' rows belong to Integrity First Construction Inc, license 1055539, Fremont."
     }
   ],
   "source_url_batch2_aggregate": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300 — full 300-row response archived verbatim at data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt (2026-09-04); the rows below for the expansion-50 batch are copied from that capture",
-  "batch2_note": "Rows added 2026-09-04 for the 50-entry expansion: every row is a verbatim {firm_name, license_number, count} object from the archived API response. One license can appear under several firm-name spellings; consumers must sum per license."
+  "batch2_note": "Rows added 2026-09-04 for the 50-entry expansion: every row is a verbatim {firm_name, license_number, count} object from the archived API response. One license can appear under several firm-name spellings; consumers must sum per license.",
+  "source_url_b6_per_license": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(%27319594%27,%27324708%27,%27343610%27,%27385567%27,%27425733%27,%27430557%27,%27439862%27,%27467912%27,%27486546%27,%27497973%27,%27502603%27,%27520892%27,%27576600%27,%27595176%27,%27611082%27,%27632743%27,%27641991%27,%27660208%27,%27684197%27,%27689900%27,%27714879%27,%27727485%27,%27740992%27,%27762214%27,%27781784%27,%27785492%27,%27805919%27,%27825292%27,%27832898%27,%27846565%27,%27849533%27,%27850352%27,%27862601%27,%27863322%27,%27863544%27,%27864771%27,%27876588%27,%27887553%27,%27949110%27,%271006178%27,%271007707%27,%271016070%27,%271022293%27,%271041020%27,%271052114%27,%271079325%27,%271095188%27,%271099380%27,%271115649%27,%271134965%27)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200",
+  "b6_note": "Rows added 2026-09-04 for the 50-entry b6 expansion: every row is a verbatim {firm_name, license_number, count} object from the archived API response in data/raw/sfgov-plumbing-permits-b6-2026-09-04.txt. One license can appear under several firm-name spellings; consumers must sum per license."
 }

@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1016070
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:05:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1016070
+SDP PLUMBING INC
+dba MR ROOTER PLUMBING
+540 BARNERELD AVE STE D
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 730-0937
+Entity: Corporation
+Issue Date: 07/13/2016
+Expire Date: 07/31/2024
+License Status: This license is expired and not able to contract at this time.
+Additional Status: The license will need to meet the workers compensation requirements to renew active or reactivate. The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: TCS20189, Bond Amount: $25,000, Effective Date: 11/20/2023, Cancellation Date: 12/19/2024
+Bond of Qualifying Individual: The qualifying individual STANLEY DARWIN POMICHTER JR certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 09/20/2022
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SWC1432540, Effective Date: 04/01/2023, Expire Date: 04/01/2024

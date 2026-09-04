@@ -14,6 +14,8 @@ from __future__ import annotations
 import datetime as dt
 import html
 import json
+import re
+from urllib.parse import urlparse
 import pathlib
 import sys
 
@@ -41,6 +43,9 @@ STATUS_META = {
     "unknown": ("UNKNOWN", "warn"),
     "unverified": ("NOT VERIFIED", "warn"),
 }
+
+# CSLB address-of-record zip in the tenant's own neighbourhood (Outer Sunset / Parkside).
+OUTER_SUNSET_RE = re.compile(r"\b(94122|94116)(?:-\d{4})?\s*$")
 
 SEV_META = {
     "critical": ("CRITICAL", "bad"),
@@ -212,6 +217,15 @@ def render_sources(sources: list) -> str:
     return "".join(out)
 
 
+def batch_label(code: str) -> str:
+    """'2026-09-04-expansion-50-b6' -> '2026-09-04 · 50-entry pass (b6)'."""
+    m = re.match(r"(\d{4}-\d{2}-\d{2})-expansion-(\d+)(?:-(b\d+))?$", code or "")
+    if not m:
+        return code or ""
+    date, n, tag = m.groups()
+    return f"{date} · {n}-entry pass" + (f" ({tag})" if tag else "")
+
+
 def render_entry(en: dict, fit_labels: dict) -> str:
     tier = en["tier"]
     tlabel, tdesc = TIER_META[tier]
@@ -246,13 +260,15 @@ def render_entry(en: dict, fit_labels: dict) -> str:
         for k in FIT_LABELS_ORDER)
 
     crit = sum(1 for f in en["flags"] if f["severity"] == "critical")
+    local = 1 if OUTER_SUNSET_RE.search(lic.get("cslb_address") or "") else 0
 
     return f"""
 <article class="card {kind}{' hidden' if hideable else ''}" id="{e(en['id'])}"
          data-tier="{e(tier)}" data-status="{e(lic.get('status_code'))}"
          data-batch="{e(en.get('research_batch') or '')}"
          data-name="{e(en['display_name'].lower())}" data-fit="{en['fit_score']['percent']}"
-         data-permits="{en.get('sf_permits') or 0}" data-crit="{crit}">
+         data-permits="{en.get('sf_permits') or 0}" data-crit="{crit}"
+         data-local="{local}">
   <header class="card-head">
     <div class="rank">#{en['rank']}</div>
     <div class="titles">
@@ -261,7 +277,7 @@ def render_entry(en: dict, fit_labels: dict) -> str:
     </div>
     <div class="head-badges">
       {badge(tlabel, kind)}{status_badge(lic.get('status_code'))}
-      {badge(f"NEW · 2026-09-04 · {en['research_batch'].rsplit('-', 1)[1]}-entry pass", "info") if en.get("research_batch") else ""}
+      {badge("NEW · " + batch_label(en["research_batch"]), "info") if en.get("research_batch") else ""}
       <span class="fit" title="Evidence grade across the three core requirements; advertised scope receives partial credit">job fit {en["fit_score"]["percent"]}%</span>
       {badge(f"{crit} critical", "bad") if crit else ""}
     </div>
@@ -354,7 +370,8 @@ def main() -> int:
         ("2026-09-04-expansion-50", "50-entry pass"),
         ("2026-09-04-expansion-50-b3", "50-entry pass (b3)"),
         ("2026-09-04-expansion-50-b4", "50-entry pass (b4)"),
-        ("2026-09-04-expansion-50-b5", "latest 50-entry pass (b5)"),
+        ("2026-09-04-expansion-50-b5", "50-entry pass (b5)"),
+        ("2026-09-04-expansion-50-b6", "latest 50-entry pass (b6: Thumbtack / BBB / Outer Sunset)"),
     ]
     batch_summaries = []
     for code, label in batch_order:
@@ -387,6 +404,65 @@ def main() -> int:
     cards = "".join(render_entry(en, fit_labels) for en in entries)
 
     top = hireable[:3]
+
+    def zip_of(addr: str | None) -> str:
+        m = re.search(r"\b(\d{5})(?:-\d{4})?\s*$", addr or "")
+        return m.group(1) if m else ""
+
+    def review_links(en: dict) -> str:
+        """Every review-platform link attached to an entry, labelled by host and access."""
+        seen: set[str] = set()
+        out = []
+        pool = [(r.get("platform"), r.get("url"), r.get("access")) for r in en.get("ratings", [])]
+        pool += [(None, s_.get("url"), s_.get("access")) for s_ in en.get("sources", [])
+                 if s_.get("tier") == "official-platform"]
+        for platform, url, access in pool:
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            host = (urlparse(url).hostname or "").replace("www.", "")
+            name = {"thumbtack.com": "Thumbtack", "bbb.org": "BBB", "yelp.com": "Yelp",
+                    "google.com": "Google", "expertise.com": "Expertise"}.get(host, host)
+            suffix = "" if (access or "").startswith("direct") else " (manual check)"
+            out.append(link(url, e(name + suffix)))
+        return " &middot; ".join(out) or '<span class="muted">none captured</span>'
+
+    def local_cell(en: dict) -> str:
+        z = zip_of(en["license"].get("cslb_address"))
+        if z in ("94122", "94116"):
+            return badge("BASED IN 94122/94116", "ok", "CSLB address of record is in the Outer Sunset / Parkside")
+        if z.startswith("941"):
+            return badge("SF-based", "mid", f"CSLB address of record zip {z}")
+        if z:
+            return badge(f"outside SF ({z})", "dim", "Confirm dispatch to 94122 before booking")
+        return badge("address n/a", "dim")
+
+    def decision_row(en: dict) -> str:
+        lic = en["license"]
+        best = ""
+        if en.get("ratings"):
+            r = en["ratings"][0]
+            best = f'{e(r.get("platform"))} <b>{e(r.get("score"))}</b>' + (f' ({e(r.get("count"))})' if r.get("count") else "")
+        web = link(en["website"], "website") if en.get("website") else '<span class="muted">no site captured</span>'
+        return (f'<tr><td>{link("#" + e(en["id"]), e(en["display_name"]))}<br>'
+                f'<span class="muted">{e(en.get("phone_display") or "no phone captured")}</span></td>'
+                f'<td>{badge(TIER_META[en["tier"]][0], {"recommended": "ok", "viable": "mid", "conditional": "mid"}[en["tier"]])}'
+                f'<br><span class="muted">fit {en["fit_score"]["percent"]}%</span></td>'
+                f'<td>{link(lic["source_url"], "CSLB " + e(lic["number"]))} {status_badge(lic["status_code"])}<br>'
+                f'<span class="muted">exp. {e(lic.get("expire_date"))}</span></td>'
+                f'<td>{local_cell(en)}<br><span class="muted">{e(en.get("sf_permits") or 0)} SF permits</span></td>'
+                f'<td>{best or "<span class=muted>no aggregate captured</span>"}<br><span class="muted">{review_links(en)}</span></td>'
+                f'<td>{web}</td></tr>')
+
+    # Decision table: every hireable entry that has at least one captured review aggregate or
+    # quotation (so the reader can open a real review page), best fit first, capped for readability.
+    with_reviews = [x for x in hireable if x.get("ratings") or x.get("evidence")]
+    decision_pool = with_reviews[:12]
+    # plus every ACTIVE business based in the tenant's own zip codes, whether or not reviews were captured
+    local_active = [x for x in hireable if zip_of(x["license"].get("cslb_address")) in ("94122", "94116")]
+    decision_rows = "".join(decision_row(x) for x in decision_pool)
+    local_rows = "".join(decision_row(x) for x in local_active)
+
     call_list = "".join(
         f'<li><strong>{e(t["display_name"])}</strong> &mdash; '
         f'{e(t.get("phone_display") or "no phone captured")} '
@@ -601,7 +677,7 @@ footer.site p{{max-width:90ch}}
 <header class="site"><div class="wrap">
   <div class="brand">SF Verified Plumbers<small>line-by-line source-checked &middot; {e(verified)}</small></div>
   <nav class="jump" aria-label="Sections">
-    <a href="#job">The job</a><a href="#alerts">Alerts</a><a href="#list">Master list</a>
+    <a href="#job">The job</a><a href="#decide">Decision table</a><a href="#alerts">Alerts</a><a href="#list">Master list</a>
     <a href="#matrix">Fit matrix</a><a href="#flags">Irregularities</a><a href="#rights">Tenant rights</a>
     <a href="#permits">Permits</a><a href="#method">Method</a>
   </nav>
@@ -621,7 +697,7 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="stats">
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
-    <div class="stat"><b>{expansion_count}</b><span>newly researched entries (5 passes)</span></div>
+    <div class="stat"><b>{expansion_count}</b><span>newly researched entries ({len(batch_order)} passes)</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
     <div class="stat"><b>{counts['active_verified_businesses']}</b><span>entries with a verified ACTIVE license</span></div>
     <div class="stat"><b>{len(hireable)}</b><span>hireable screening candidates</span></div>
@@ -656,6 +732,22 @@ footer.site p{{max-width:90ch}}
   </div>
   <h4>Who to screen first</h4>
   <ol class="steps">{call_list}</ol>
+
+  <div class="panel" style="margin-top:14px" id="decide">
+    <h3>Decision table &mdash; verified, reviewable candidates at a glance</h3>
+    <p class="muted">The hireable businesses that have at least one captured review page, best evidence first.
+    Every row links the business card, its official CSLB record, each review page that was actually opened
+    (links marked <em>manual check</em> were not fetched and must be opened by hand) and the business website
+    where one was published. &ldquo;BASED IN 94122/94116&rdquo; means the CSLB address of record is in the
+    Outer Sunset / Parkside; every other row must be asked whether they dispatch to 94122.</p>
+    <table><thead><tr><th>Business</th><th>Tier / fit</th><th>CSLB license</th><th>Locality &amp; SF permits</th><th>Reviews</th><th>Site</th></tr></thead>
+    <tbody>{decision_rows}</tbody></table>
+    <h4>ACTIVE licenses based in the Outer Sunset / Parkside (94122 / 94116)</h4>
+    <p class="muted">Neighbourhood businesses with a current license. Most have no captured review evidence, so they are
+    phone-screen candidates rather than leads; locality is a convenience signal, not a skill signal.</p>
+    <table><thead><tr><th>Business</th><th>Tier / fit</th><th>CSLB license</th><th>Locality &amp; SF permits</th><th>Reviews</th><th>Site</th></tr></thead>
+    <tbody>{local_rows or '<tr><td colspan="6" class="muted">none</td></tr>'}</tbody></table>
+  </div>
   <p class="muted">Ask every bidder the same screening question before they quote:
   <em>&ldquo;Have you removed a seized trip-lever linkage through the overflow opening on an old tub? Will you
   snake the shower and stop before opening any wall or replacing concealed piping unless the landlord gives
@@ -663,7 +755,8 @@ footer.site p{{max-width:90ch}}
   <div class="panel" style="margin-top:14px">
     <h3>Expansion verification passes (2026-09-04)</h3>
     <p class="muted">{expansion_count} additional businesses surfaced from San Francisco plumbing-permit
-    records were verified line by line against the official CSLB across five fixed passes:</p>
+    records, Thumbtack, BBB and the Outer Sunset permit filers were verified line by line against the official
+    CSLB across {len(batch_order)} fixed passes:</p>
     <table><thead><tr><th>Pass</th><th>Entries</th><th>CSLB status breakdown</th><th>Review evidence</th></tr></thead>
     <tbody>{''.join(
         '<tr><td>' + e(label) + '</td><td><b>' + str(len(bl)) + '</b></td><td>'
@@ -671,8 +764,10 @@ footer.site p{{max-width:90ch}}
         + '</td><td>' + ('<b>' + str(rv) + '</b> with captured review evidence' if rv else 'license-verified only')
         + '</td></tr>' for code, label, bl, st, rv in batch_summaries)}
     </tbody></table>
-    <p class="muted">The latest passes (b4 and b5) carry no captured review-platform evidence: their 50 businesses each are
-    license-verified against the official CSLB only and must be screened by phone. Non-hireable entries
+    <p class="muted">Passes b4 and b5 carry no captured review-platform evidence: their 50 businesses each are
+    license-verified against the official CSLB only and must be screened by phone. Pass b6 re-opened Thumbtack
+    and BBB directly (profiles, ratings, review text and platform licence badges captured verbatim) and added
+    every plumbing-permit filer whose own business address is in 94122/94116. Non-hireable entries
     (revoked, suspended, inactive, canceled or expired at the verification date) remain published as
     <em>do-not-hire warnings</em>, because several of these brand names still advertise in San Francisco
     under licenses the state no longer honours. Open each entry's CSLB record before booking. Nothing in
@@ -710,8 +805,8 @@ footer.site p{{max-width:90ch}}
     <button data-filter="all" aria-pressed="true">All hireable</button>
     <button data-filter="recommended" aria-pressed="false">First-screen leads</button>
     <button data-filter="new" aria-pressed="false">New ({expansion_count})</button>
-    <button data-filter="newb4" aria-pressed="false">50-entry pass (b4)</button>
-    <button data-filter="newb5" aria-pressed="false">Latest 50-entry pass (b5)</button>
+    <button data-filter="newb6" aria-pressed="false">Latest 50-entry pass (b6)</button>
+    <button data-filter="local" aria-pressed="false">Based in 94122/94116</button>
     <button data-filter="viable" aria-pressed="false">Verified &amp; viable</button>
     <button data-filter="conditional" aria-pressed="false">Partial fit</button>
     <button data-filter="flagged" aria-pressed="false">Flagged / not hireable</button>
@@ -830,8 +925,8 @@ footer.site p{{max-width:90ch}}
   The validator re-checks copied official fields, published excerpts and rating values against files in
   <code>data/raw/</code>. Analytical headlines are conservative summaries, not guarantees of skill.</p>
   <p>Sources: California Contractors State License Board &middot; City &amp; County of San Francisco open data and
-  Building Code &middot; California Legislative Information &middot; Better Business Bureau &middot; Thumbtack
-  &middot; Yelp (indirect snippets) &middot; Google (manual links / indirect aggregates) &middot; Expertise
+  Building Code &middot; California Legislative Information &middot; Better Business Bureau (direct) &middot; Thumbtack (direct)
+  &middot; Yelp (indirect snippets / manual links) &middot; Google (manual links / indirect aggregates) &middot; Expertise
   &middot; Oatey/Dearborn &middot; Gerber &middot; San Francisco Tenants Union. Reddit access was blocked and no
   Reddit quotation is used as candidate evidence.</p>
 </div></footer>
@@ -851,8 +946,8 @@ footer.site p{{max-width:90ch}}
       : filter === 'flagged' ? HIREABLE.indexOf(t) < 0
       : filter === 'active' ? s === 'active'
       : filter === 'new' ? (c.dataset.batch || '').indexOf('2026-09-04-expansion') === 0
-      : filter === 'newb4' ? c.dataset.batch === '2026-09-04-expansion-50-b4'
-      : filter === 'newb5' ? c.dataset.batch === '2026-09-04-expansion-50-b5'
+      : filter === 'newb6' ? c.dataset.batch === '2026-09-04-expansion-50-b6'
+      : filter === 'local' ? c.dataset.local === '1'
       : t === filter;
     if (!okFilter) return false;
     var term = (q.value || '').trim().toLowerCase();

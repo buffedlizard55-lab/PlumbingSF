@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=949110
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:04:56 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  949110
+SHEDRICK THE PLUMBER
+1349 PHELPS ST
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 573-6555
+Entity: Sole Ownership
+Issue Date: 06/22/2010
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Bond Number: 108559929, Bond Amount: $25,000, Effective Date: 08/13/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/25/2026, Expire Date: None

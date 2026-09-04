@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=785492
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:08:40 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  785492
+RL PLUMBING
+1759 VIEW DRIVE
+SAN LEANDRO, CA 94577
+Business Phone Number:(415) 756-2371
+Entity: Sole Ownership
+Issue Date: 10/06/2000
+Reissue Date: 12/22/2015
+Expire Date: 12/31/2029
+License Status: This license is inactive and not able to contract at this time.
+Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100284655, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 01/21/2021
+Workers' Compensation: ACE AMERICAN INSURANCE COMPANY, Policy Number: C68644409, Effective Date: 02/01/2021, Expire Date: 02/01/2022
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

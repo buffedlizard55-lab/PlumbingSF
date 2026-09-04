@@ -1,0 +1,195 @@
+SOURCE_URL: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(%27319594%27,%27324708%27,%27343610%27,%27385567%27,%27425733%27,%27430557%27,%27439862%27,%27467912%27,%27486546%27,%27497973%27,%27502603%27,%27520892%27,%27576600%27,%27595176%27,%27611082%27,%27632743%27,%27641991%27,%27660208%27,%27684197%27,%27689900%27,%27714879%27,%27727485%27,%27740992%27,%27762214%27,%27781784%27,%27785492%27,%27805919%27,%27825292%27,%27832898%27,%27846565%27,%27849533%27,%27850352%27,%27862601%27,%27863322%27,%27863544%27,%27864771%27,%27876588%27,%27887553%27,%27949110%27,%271006178%27,%271007707%27,%271016070%27,%271022293%27,%271041020%27,%271052114%27,%271079325%27,%271095188%27,%271099380%27,%271115649%27,%271134965%27)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200
+DATASET: data.sfgov.org view k6kv-9kix "Plumbing Permits Contacts" - "Contacts of contractors for Plumbing Permits" (data_as_of 2026-09-03T05:05:35); and view a6aw-rudh "Plumbing Permits" for permit descriptions. Provenance official; license PDDL.
+CAPTURED_AT: 2026-09-04 (live Socrata API responses, fetched by fetch tool in this session)
+TYPE: Official government open-data aggregates for the 50 licenses of the 2026-09-04-expansion-50-b6 batch. Block A = all-time permit-row counts grouped by (firm_name, license_number) for the 50 licenses; 49 licenses returned rows, license 1006178 (Integrity First Plumbing Inc) returned NO rows. Sum per license (one license appears under several firm-name spellings). Block A2 = name query confirming only "Integrity First Construction Inc" (a different license, 1055539) exists under that name. Block B/C = latest permit number and 2024-2026 activity for the 21 active licenses. Block D = a6aw-rudh permit descriptions for the latest permit of selected licenses. Block E = the Outer Sunset locality query: contractor contact zip (the contractor's OWN business-address zip, not the job site) in 94122/94116, grouped by firm/license; rows transcribed from the response, top-by-count down to 34 rows. Verbatim JSON rows as returned.
+NOTE: zipcode in k6kv-9kix is the contractor's contact-address zip. A 94122/94116 row therefore shows the business is BASED in the Outer Sunset / Parkside, which is the strongest locality signal available in official data; it does not by itself prove a current service area or current licensure.
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$where=license_number%20in(%27319594%27,%27324708%27,%27343610%27,%27385567%27,%27425733%27,%27430557%27,%27439862%27,%27467912%27,%27486546%27,%27497973%27,%27502603%27,%27520892%27,%27576600%27,%27595176%27,%27611082%27,%27632743%27,%27641991%27,%27660208%27,%27684197%27,%27689900%27,%27714879%27,%27727485%27,%27740992%27,%27762214%27,%27781784%27,%27785492%27,%27805919%27,%27825292%27,%27832898%27,%27846565%27,%27849533%27,%27850352%27,%27862601%27,%27863322%27,%27863544%27,%27864771%27,%27876588%27,%27887553%27,%27949110%27,%271006178%27,%271007707%27,%271016070%27,%271022293%27,%271041020%27,%271052114%27,%271079325%27,%271095188%27,%271099380%27,%271115649%27,%271134965%27)&$group=firm_name,license_number&$order=license_number,firm_name&$limit=200 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"Maximus Plumbing","license_number":"1007707","count":"3"}
+,{"firm_name":"Sdp Plumbing Inc Dba Mr. Rooter Plumbing","license_number":"1016070","count":"234"}
+,{"firm_name":"Rays Service One Plumbing","license_number":"1022293","count":"1"}
+,{"firm_name":"Prosper Construction Development Inc","license_number":"1041020","count":"131"}
+,{"firm_name":"Prosper Construction Dev Inc","license_number":"1041020","count":"19"}
+,{"firm_name":"Prosper Construction Dev Inc.","license_number":"1041020","count":"26"}
+,{"firm_name":"Irooterplumbing","license_number":"1052114","count":"21"}
+,{"firm_name":"Service Star Plumbing","license_number":"1079325","count":"12"}
+,{"firm_name":"Lgm Plumbing & Rooter","license_number":"1095188","count":"7"}
+,{"firm_name":"Jc Plumbing & Rooter","license_number":"1099380","count":"2"}
+,{"firm_name":"Navta Construction Inc","license_number":"1115649","count":"20"}
+,{"firm_name":"Rapid Flow Plumbing & Rooter Inc","license_number":"1115649","count":"5"}
+,{"firm_name":"As Plus Plumbing Corp","license_number":"1134965","count":"11"}
+,{"firm_name":"Frank's All City Plumbing","license_number":"319594","count":"148"}
+,{"firm_name":"Franks All City Plumbing","license_number":"319594","count":"4"}
+,{"firm_name":"Frank's All City Plumbing Co","license_number":"319594","count":"46"}
+,{"firm_name":"Hawk N Lee Co","license_number":"324708","count":"214"}
+,{"firm_name":"David Chu Plumbing","license_number":"343610","count":"122"}
+,{"firm_name":"George Sale Plumbing","license_number":"385567","count":"1"}
+,{"firm_name":"George V Salet","license_number":"385567","count":"231"}
+,{"firm_name":"George V Salet Plumbing Inc","license_number":"385567","count":"92"}
+,{"firm_name":"Wing's Plumbing","license_number":"425733","count":"82"}
+,{"firm_name":"San Francisco Lone Star","license_number":"430557","count":"333"}
+,{"firm_name":"Abe's Plumbing","license_number":"439862","count":"153"}
+,{"firm_name":"Tai Lam Mak","license_number":"467912","count":"584"}
+,{"firm_name":"Wah Lau Plumbing Co","license_number":"486546","count":"9"}
+,{"firm_name":"W J Plumbing","license_number":"486546","count":"1"}
+,{"firm_name":"W & J Plumbing Co.","license_number":"486546","count":"171"}
+,{"firm_name":"Lee Tung Plumbing Company","license_number":"497973","count":"91"}
+,{"firm_name":"Chow's Plbg Co","license_number":"502603","count":"1"}
+,{"firm_name":"Chow's Plumbing Co","license_number":"502603","count":"221"}
+,{"firm_name":"Meridian Plumbing Co.","license_number":"520892","count":"2"}
+,{"firm_name":"Meridian Plumbing Co Inc","license_number":"520892","count":"103"}
+,{"firm_name":"Kuenzli Michael Plumbing","license_number":"576600","count":"62"}
+,{"firm_name":"Michael Kuenzli","license_number":"576600","count":"1"}
+,{"firm_name":"Michael Kuenzli Plumbing Co.","license_number":"576600","count":"3"}
+,{"firm_name":"Snc Plumbing & Fire Pro","license_number":"595176","count":"193"}
+,{"firm_name":"Allen Mechanical Plbg Co","license_number":"611082","count":"75"}
+,{"firm_name":"Allen Mechanical Plumbing Co","license_number":"611082","count":"88"}
+,{"firm_name":"Calplumb","license_number":"632743","count":"184"}
+,{"firm_name":"Calplumbing Co","license_number":"632743","count":"121"}
+,{"firm_name":"Robert's Plumbing","license_number":"641991","count":"245"}
+,{"firm_name":"Roberts Plumbing","license_number":"641991","count":"6"}
+,{"firm_name":"Thomas Tan Plumbing","license_number":"660208","count":"20"}
+,{"firm_name":"T & T Palumbing Co.","license_number":"660208","count":"6"}
+,{"firm_name":"T & T Plumbing Co..","license_number":"660208","count":"89"}
+,{"firm_name":"T T Plumbing & Construction Co.","license_number":"660208","count":"23"}
+,{"firm_name":"K.C. Plumbing","license_number":"684197","count":"60"}
+,{"firm_name":"K C Plumbing Co","license_number":"684197","count":"1"}
+,{"firm_name":"Precision Plumbing & Roo","license_number":"689900","count":"24"}
+,{"firm_name":"Rhino Rooters","license_number":"689900","count":"68"}
+,{"firm_name":"Landers Plumbing","license_number":"714879","count":"67"}
+,{"firm_name":"Scott Fisher Plumbing","license_number":"727485","count":"46"}
+,{"firm_name":"Pipetech","license_number":"740992","count":"163"}
+,{"firm_name":"Francis John Burke","license_number":"762214","count":"303"}
+,{"firm_name":"Oran Plmbing Corp","license_number":"762214","count":"110"}
+,{"firm_name":"Oran Plumbing Corp","license_number":"762214","count":"167"}
+,{"firm_name":"Honest Plumbing Services","license_number":"781784","count":"40"}
+,{"firm_name":"Plumber Man","license_number":"785492","count":"50"}
+,{"firm_name":"Plumber Man R & L Plumbing","license_number":"785492","count":"178"}
+,{"firm_name":"Plumber Man R & L Plumbing *","license_number":"785492","count":"1"}
+,{"firm_name":"Plumber Man R & L Plumbing**See Note***","license_number":"785492","count":"2"}
+,{"firm_name":"R & L Plumbing","license_number":"785492","count":"117"}
+,{"firm_name":"Professor Plumb","license_number":"805919","count":"160"}
+,{"firm_name":"Frisco Plumbing","license_number":"825292","count":"126"}
+,{"firm_name":"Artisan Plumbing","license_number":"832898","count":"59"}
+,{"firm_name":"Service Rooter","license_number":"846565","count":"71"}
+,{"firm_name":"Ikka Plumbing","license_number":"849533","count":"79"}
+,{"firm_name":"Bay Metro Corporation","license_number":"850352","count":"104"}
+,{"firm_name":"Stallion Rooter & Plumbing","license_number":"862601","count":"69"}
+,{"firm_name":"Stellar Plumbing","license_number":"863322","count":"199"}
+,{"firm_name":"Urgent Rooter And Plumbing","license_number":"863544","count":"155"}
+,{"firm_name":"Fergal Burke Plumbing","license_number":"864771","count":"219"}
+,{"firm_name":"Arka Plumbing","license_number":"876588","count":"26"}
+,{"firm_name":"Glenn Lun Au","license_number":"887553","count":"96"}
+,{"firm_name":"Glenn's Plumbing","license_number":"887553","count":"6"}
+,{"firm_name":"Shedrick The Plulmber","license_number":"949110","count":"2"}
+,{"firm_name":"Shedrick The Plumber","license_number":"949110","count":"114"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,zipcode,count(*)&$group=firm_name,license_number,zipcode&$where=upper(firm_name)%20like%20%27%25INTEGRITY%20FIRST%25%27%20OR%20upper(firm_name)%20like%20%27%25NAVTA%25%27%20OR%20upper(firm_name)%20like%20%27%25GLENN%25%20PLUMB%25%27%20OR%20upper(firm_name)%20like%20%27%25SHEDRICK%25%27 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"Glenn's Plumbing","license_number":"887553","zipcode":"94122-0000","count":"6"}
+,{"firm_name":"Integrity First Construction Inc","license_number":"1055539","zipcode":"94536-0000","count":"7"}
+,{"firm_name":"Navta Construction Inc","license_number":"1115649","zipcode":"94112-0000","count":"20"}
+,{"firm_name":"Shedrick The Plulmber","license_number":"949110","zipcode":"94112-0000","count":"2"}
+,{"firm_name":"Shedrick The Plumber","license_number":"949110","zipcode":"94112-0000","count":"114"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=license_number,max(permit_number)%20as%20latest_permit,count(*)%20as%20permit_rows&$where=license_number%20in(%27324708%27,%27467912%27,%27576600%27,%27611082%27,%27632743%27,%27660208%27,%27714879%27,%27762214%27,%27850352%27,%27863322%27,%27863544%27,%27887553%27,%27949110%27,%271006178%27,%271022293%27,%271041020%27,%271052114%27,%271095188%27,%271099380%27,%271115649%27,%271134965%27)&$group=license_number&$order=license_number | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"license_number":"1022293","latest_permit":"PP20171006316","permit_rows":"1"}
+,{"license_number":"1041020","latest_permit":"PP20260828194","permit_rows":"176"}
+,{"license_number":"1052114","latest_permit":"PW20250630290","permit_rows":"21"}
+,{"license_number":"1095188","latest_permit":"PP20260717276","permit_rows":"7"}
+,{"license_number":"1099380","latest_permit":"PP20231108948","permit_rows":"2"}
+,{"license_number":"1115649","latest_permit":"PW20260812207","permit_rows":"25"}
+,{"license_number":"1134965","latest_permit":"PP20260826149","permit_rows":"11"}
+,{"license_number":"324708","latest_permit":"PW20260409992","permit_rows":"214"}
+,{"license_number":"467912","latest_permit":"PW20260610609","permit_rows":"584"}
+,{"license_number":"576600","latest_permit":"PP20160617383","permit_rows":"66"}
+,{"license_number":"611082","latest_permit":"PW20200722158","permit_rows":"163"}
+,{"license_number":"632743","latest_permit":"W004616","permit_rows":"305"}
+,{"license_number":"660208","latest_permit":"PW897204","permit_rows":"138"}
+,{"license_number":"714879","latest_permit":"PW20201013450","permit_rows":"67"}
+,{"license_number":"762214","latest_permit":"PW935888","permit_rows":"580"}
+,{"license_number":"850352","latest_permit":"PW20210312505","permit_rows":"104"}
+,{"license_number":"863322","latest_permit":"PW933285","permit_rows":"199"}
+,{"license_number":"863544","latest_permit":"PW921272","permit_rows":"155"}
+,{"license_number":"887553","latest_permit":"PW930802","permit_rows":"102"}
+,{"license_number":"949110","latest_permit":"PW20260902766","permit_rows":"116"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=license_number,count(*)%20as%20permits_2024_2026,max(permit_number)%20as%20latest&$where=license_number%20in(%27324708%27,%27467912%27,%27576600%27,%27611082%27,%27632743%27,%27660208%27,%27714879%27,%27762214%27,%27850352%27,%27863322%27,%27863544%27,%27887553%27,%27949110%27,%271006178%27,%271022293%27,%271041020%27,%271052114%27,%271095188%27,%271099380%27,%271115649%27,%271134965%27)%20AND%20(permit_number%20like%20%27PW2024%25%27%20OR%20permit_number%20like%20%27PP2024%25%27%20OR%20permit_number%20like%20%27PW2025%25%27%20OR%20permit_number%20like%20%27PP2025%25%27%20OR%20permit_number%20like%20%27PW2026%25%27%20OR%20permit_number%20like%20%27PP2026%25%27)&$group=license_number&$order=license_number | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"license_number":"1041020","permits_2024_2026":"38","latest":"PP20260828194"}
+,{"license_number":"1052114","permits_2024_2026":"4","latest":"PW20250630290"}
+,{"license_number":"1095188","permits_2024_2026":"5","latest":"PP20260717276"}
+,{"license_number":"1115649","permits_2024_2026":"25","latest":"PW20260812207"}
+,{"license_number":"1134965","permits_2024_2026":"11","latest":"PP20260826149"}
+,{"license_number":"324708","permits_2024_2026":"10","latest":"PW20260409992"}
+,{"license_number":"467912","permits_2024_2026":"9","latest":"PW20260610609"}
+,{"license_number":"632743","permits_2024_2026":"4","latest":"PW20251117627"}
+,{"license_number":"660208","permits_2024_2026":"2","latest":"PW20250826632"}
+,{"license_number":"762214","permits_2024_2026":"33","latest":"PW20260827625"}
+,{"license_number":"850352","permits_2024_2026":"14","latest":"PP20260713144"}
+,{"license_number":"863322","permits_2024_2026":"6","latest":"PW20260707245"}
+,{"license_number":"863544","permits_2024_2026":"3","latest":"PW20240821031"}
+,{"license_number":"887553","permits_2024_2026":"7","latest":"PW20260810101"}
+,{"license_number":"949110","permits_2024_2026":"19","latest":"PW20260902766"}]
+
+===== SOURCE: https://data.sfgov.org/resource/a6aw-rudh.json?$select=permit_number,filed_date,status,description,zipcode&$where=permit_number%20in(%27PW935888%27,%27PW933285%27,%27PW921272%27,%27PW930802%27,%27PW897204%27,%27W004616%27,%27PW20260902766%27,%27PP20260826149%27,%27PW20260812207%27,%27PP20260717276%27,%27PW20260610609%27,%27PW20260409992%27,%27PW20250630290%27,%27PP20260828194%27) | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"permit_number":"PP20260717276","filed_date":"2026-07-17T00:00:00.000","status":"complete","description":"reneal permit # pp 20250204357 rough-in plumbing: 3 kitchens, 4 full bathrooms, 2 powder rooms, 4 shower pans, backflow preventer. ref bpa: 2024.0712.6367","zipcode":"94109"}
+,{"permit_number":"PP20260826149","filed_date":"2026-08-26T00:00:00.000","status":"issued","description":"g/f common area: install new automatic seismic gas shut off valve.","zipcode":"94115"}
+,{"permit_number":"PP20260828194","filed_date":"2026-08-28T00:00:00.000","status":"issued","description":"26 ft french drain in back of home at east side","zipcode":"94127"}
+,{"permit_number":"PW20250630290","filed_date":"2025-06-30T00:00:00.000","status":"complete","description":"work category: 2pb; channel drain install","zipcode":"94110"}
+,{"permit_number":"PW20260409992","filed_date":"2026-04-09T00:00:00.000","status":"issued","description":"work category: 2pa; renew expired permit #: pw20250411470 add remodel 2nd and 3rd floor bathrooms (plus new master bath). replace tank water heater with tankless at the same location. replace all hot and cold water galvanized pipes to copper.","zipcode":"94127"}
+,{"permit_number":"PW20260610609","filed_date":"2026-06-10T00:00:00.000","status":"canceled","description":"work category: 1p; change 20ft of sewer line underground pipe and 1 house track","zipcode":"94118"}
+,{"permit_number":"PW20260812207","filed_date":"2026-08-12T00:00:00.000","status":"issued","description":"work category: 2pa; plumbing installation for two bathroom sinks one shower valve move plumbing for one shower pan plumbing stays the same for kitchen sink new kitchen sink and faucet only","zipcode":"94133"}
+,{"permit_number":"PW20260902766","filed_date":"2026-09-02T00:00:00.000","status":"issued","description":"work category: 1p; replaced shower pan","zipcode":"94110"}
+,{"permit_number":"PW897204","filed_date":"2006-03-27T00:00:00.000","description":"this pays for inspections related to original permit # 447070 filed 11/13/2003. dow: work type: not listed; amendment to permit #447070 .final","zipcode":"94114"}
+,{"permit_number":"PW921272","filed_date":"2007-03-13T00:00:00.000","description":"work type: sewer repair outside building; replace new sewer line in front garage area to the house trap area replace the house trap too.","zipcode":"94122"}
+,{"permit_number":"PW930802","filed_date":"2007-05-22T00:00:00.000","description":"work type: shower pan; install two shower pans","zipcode":"94117"}
+,{"permit_number":"PW933285","filed_date":"2007-06-11T00:00:00.000","description":"work type: not listed; 4 bath remodel and recopper house from water meter and new gas piping throughout.new water heater and furnace installation.","zipcode":"94123"}
+,{"permit_number":"PW935888","filed_date":"2007-06-29T00:00:00.000","description":"work type: not listed; paper two inspections","zipcode":"94110"}
+,{"permit_number":"W004616","filed_date":"2002-11-22T00:00:00.000","description":"replace water heater.","zipcode":"94112"}]
+
+===== SOURCE: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,zipcode,count(*)&$where=zipcode%20in('94122','94116')&$group=firm_name,license_number,zipcode&$order=count(*)%20DESC&$limit=120 | CAPTURED: 2026-09-04 | ACCESS: direct | TIER: official-gov =====
+[{"firm_name":"Ace Furnace Co Inc","license_number":"235989","zipcode":"94116","count":"1076"}
+,{"firm_name":"National Plumbing","license_number":"619642","zipcode":"94122","count":"1010"}
+,{"firm_name":"Stan Plumbing","license_number":"410861","zipcode":"94122","count":"693"}
+,{"firm_name":"Asia Plumbing","license_number":"287477","zipcode":"94122","count":"548"}
+,{"firm_name":"O M P P Inc.","license_number":"691287","zipcode":"94116","count":"524"}
+,{"firm_name":"Sberlo Plumbing","license_number":"487017","zipcode":"94122","count":"491"}
+,{"firm_name":"Excellent Plumbing Co","license_number":"633153","zipcode":"94116","count":"471"}
+,{"firm_name":"Bill Bragg Plumbing","license_number":"440780","zipcode":"94122","count":"470"}
+,{"firm_name":"San Francisco Plumbing","license_number":"323223","zipcode":"94116","count":"454"}
+,{"firm_name":"Stephen Fitzsimon","license_number":"618005","zipcode":"94116","count":"393"}
+,{"firm_name":"Di Maggio Plumbing","license_number":"608924","zipcode":"94116","count":"392"}
+,{"firm_name":"C T Construction & Plumb","license_number":"533324","zipcode":"94122","count":"391"}
+,{"firm_name":"J S Plumbing","license_number":"375432","zipcode":"94116","count":"378"}
+,{"firm_name":"Tai Lam Mak","license_number":"467912","zipcode":"94116","count":"334"}
+,{"firm_name":"Oceanside Sheet Metal","license_number":"278099","zipcode":"94116","count":"333"}
+,{"firm_name":"Purcell Bros Plumb & Heat","license_number":"493818","zipcode":"94122","count":"294"}
+,{"firm_name":"Slemish Plumbing","license_number":"723992","zipcode":"94116","count":"269"}
+,{"firm_name":"Ken Topping Home Imprmnts","license_number":"141304","zipcode":"94116","count":"258"}
+,{"firm_name":"Chen's Plumbing Inc","license_number":"665412","zipcode":"94116","count":"251"}
+,{"firm_name":"Martin Connell","license_number":"665192","zipcode":"94116","count":"229"}
+,{"firm_name":"Linebarger Const & Plbg","license_number":"333093","zipcode":"94116","count":"223"}
+,{"firm_name":"Ricky's Plumbing Co","license_number":"570753","zipcode":"94122","count":"206"}
+,{"firm_name":"O'donovan Plumbing","license_number":"582534","zipcode":"94116","count":"200"}
+,{"firm_name":"Hawk N Lee Co","license_number":"324708","zipcode":"94122","count":"198"}
+,{"firm_name":"Robert's Plumbing","license_number":"641991","zipcode":"94116","count":"198"}
+,{"firm_name":"W & J Plumbing Co.","license_number":"486546","zipcode":"94122","count":"171"}
+,{"firm_name":"Chow's Plumbing Co","license_number":"502603","zipcode":"94116","count":"171"}
+,{"firm_name":"C W Lee Plumbing Co","license_number":"586693","zipcode":"94122","count":"156"}
+,{"firm_name":"Abe's Plumbing","license_number":"439862","zipcode":"94122","count":"153"}
+,{"firm_name":"Shing Plumbing Co","license_number":"562479","zipcode":"94116","count":"147"}
+,{"firm_name":"Chris Goodwin Plumbing","license_number":"486122","zipcode":"94116","count":"146"}
+,{"firm_name":"Mazzys Fire Protection","license_number":"502015","zipcode":"94122","count":"124"}
+,{"firm_name":"David Chu Plumbing","license_number":"343610","zipcode":"94122","count":"122"}
+,{"firm_name":"Renstrom Plmbg & Heating","license_number":"556995","zipcode":"94116","count":"113"}
+,{"firm_name":"Meridian Plumbing Co Inc","license_number":"520892","zipcode":"94116","count":"92"}
+,{"firm_name":"Lee Tung Plumbing Company","license_number":"497973","zipcode":"94116","count":"91"}
+,{"firm_name":"Wing's Plumbing","license_number":"425733","zipcode":"94116","count":"82"}
+,{"firm_name":"Frank's All City Plumbing","license_number":"319594","zipcode":"94122","count":"81"}
+,{"firm_name":"Sunny's Plumbing Inc","license_number":"536715","zipcode":"94122","count":"71"}
+,{"firm_name":"Rhino Rooters","license_number":"689900","zipcode":"94116","count":"68"}
+,{"firm_name":"Landers Plumbing","license_number":"714879","zipcode":"94116","count":"67"}
+,{"firm_name":"Kuenzli Michael Plumbing","license_number":"576600","zipcode":"94122","count":"62"}
+,{"firm_name":"Snc Plumbing & Fire Pro","license_number":"595176","zipcode":"94122","count":"61"}
+,{"firm_name":"Allen Mechanical Plbg Co","license_number":"611082","zipcode":"94122","count":"60"}
+,{"firm_name":"Emerald Plumbing & Fire","license_number":"498866","zipcode":"94122","count":"37"}
+,{"firm_name":"K.C. Plumbing","license_number":"684197","zipcode":"94116","count":"34"}]

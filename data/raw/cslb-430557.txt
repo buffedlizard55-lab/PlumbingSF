@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=430557
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 10:09:42 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  430557
+SAN FRANCISCO LONE STAR PLUMBING INC
+1126 CHURCH ST
+SAN FRANCISCO, CA 94114
+Business Phone Number:(415) 641-9234
+Entity: Corporation
+Issue Date: 11/09/1982
+Expire Date: 04/01/2010
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 14451950, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 01/22/2010
+Bond of Qualifying Individual: The qualifying individual BOBBY CHARLES WHITE certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 10/20/1982
+Workers' Compensation: IMPERIUM INSURANCE COMPANY, Policy Number: 02DKRM22003238, Effective Date: 04/01/2009, Expire Date: 04/01/2010
+Miscellaneous Information: 04/01/2010 - LICENSE CANCELLED PER REQUEST
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.
