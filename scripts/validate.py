@@ -316,6 +316,18 @@ def main() -> int:
                          f"{total} summed from the SF open-data extract "
                          f"(licenses {all_lics})")
 
+        # every cited quote/aggregate must point at a capture block that was
+        # actually taken from that exact URL (catches one-digit URL drift)
+        for i, item in enumerate(e.get("evidence", []) + e.get("ratings", []), 1):
+            raw_rel = item.get("raw")
+            url = item.get("url")
+            if raw_rel and lib.has_file(raw_rel) and url:
+                if not any(b["url"].rstrip("/") == url.rstrip("/")
+                           for b in lib.blocks.get(raw_rel, [])):
+                    err(f"{name} citation#{i}: {raw_rel} contains no SOURCE block "
+                        f"for {url} - the citation does not point at a capture of "
+                        f"that page")
+
         # evidence quotes
         for i, ev in enumerate(e.get("evidence", []), 1):
             check_quote(lib, f"{name} evidence#{i} [{ev.get('platform')}]",

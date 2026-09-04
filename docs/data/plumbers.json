@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:04:57Z",
+  "generated_at": "2026-09-04T00:10:28Z",
   "verified_at": "2026-09-03",
   "job": {
     "summary": "Slow-draining bathtub (~20% of normal flow) and shower (~60-80%) in a c.1940 San Francisco house, likely original galvanized drain piping. The bathtub overflow trip lever is stuck and the tub is not accessible from below.",
@@ -371,7 +371,7 @@
     "entries": 37,
     "active_verified_businesses": 27,
     "cslb_records_captured": 37,
-    "raw_capture_files": 47,
+    "raw_capture_files": 46,
     "flagged_not_hireable": 10
   },
   "fit_labels": {
@@ -3530,7 +3530,7 @@
           "platform": "Thumbtack",
           "score": null,
           "count": null,
-          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018915",
+          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018955",
           "access": "direct",
           "raw": "data/raw/reviews-thumbtack.txt"
         }
@@ -3580,7 +3580,7 @@
         {
           "severity": "critical",
           "label": "License NOT verified - do not treat as a verified entry",
-          "detail": "No CSLB LicenseDetail capture exists for 1099220 in this dataset. Listed here only because the galvanized-repipe capability is the relevant fallback if non-destructive repair fails."
+          "detail": "No CSLB license record was captured for this business and no license number could be confirmed for it during this pass. It appears here only because whole-home galvanized replacement is the relevant fallback if a non-destructive repair fails. If they quote a license number, verify it at cslb.ca.gov before engaging them."
         },
         {
           "severity": "info",
