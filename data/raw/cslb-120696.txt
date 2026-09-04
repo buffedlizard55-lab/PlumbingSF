@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=120696
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  120696
+ACCO ENGINEERED SYSTEMS INC
+dba ACCO ENGINEERED SYSTEMS
+888 E WALNUT ST
+PASADENA, CA 91101
+Business Phone Number:(818) 244-6571
+Entity: Corporation
+Issue Date: 07/24/1950
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING; C38 - REFRIGERATION; C10 - ELECTRICAL; B - GENERAL BUILDING; A - GENERAL ENGINEERING; C42 - SANITATION SYSTEM; C16 - FIRE PROTECTION
+Contractor's Bond: FIDELITY AND DEPOSIT COMPANY OF MARYLAND, Bond Number: 9486593, Bond Amount: $25,000, Effective Date: 12/31/2025
+Workers' Compensation: LM INSURANCE CORPORATION, Policy Number: WA566D067353015, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 5187 - Description Unavailable; 5542 - Description Unavailable; 8810 - Clerical Office Employees

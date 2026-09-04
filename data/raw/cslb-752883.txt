@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=752883
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  752883
+WSM ENTERPRISES INC
+dba ON-SITE CONTRACTING
+P O BOX 11506
+SAN RAFAEL, CA 94912
+Business Phone Number:(415) 978-9600
+Entity: Corporation
+Issue Date: 08/12/1998
+Expire Date: 08/31/2012
+License Status: This license is expired and not able to contract at this time.
+Classifications: B - GENERAL BUILDING; C33 - PAINTING AND DECORATING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: GCL1254291, Bond Amount: $12,500, Effective Date: 11/12/2008, Cancellation Date: 01/09/2012
+Workers' Compensation: NORGUARD INSURANCE COMPANY, Policy Number: WSWC216244, Effective Date: 07/15/2011, Cancellation Date: 10/26/2011

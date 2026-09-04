@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=242424
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  242424
+RAVANI TOGNOTTI INC
+1030 HYDE ST
+SAN FRANCISCO, CA 94109
+Business Phone Number:(415) 885-1786
+Entity: Corporation
+Issue Date: 05/09/1966
+Expire Date: 12/31/2011
+License Status: This license is expired and not able to contract at this time.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6045249, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 07/03/2011
+Workers' Compensation: SOUTHERN INSURANCE COMPANY, Policy Number: WSI002301402, Effective Date: 07/01/2010, Expire Date: 07/01/2011

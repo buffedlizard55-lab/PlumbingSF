@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746784
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:48 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  746784
+PS2
+17903 S HOBART BLVD
+GARDENA, CA 90248
+Business Phone Number:(310) 243-2980
+Entity: Corporation
+Issue Date: 03/10/1998
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C33 - PAINTING AND DECORATING; C10 - ELECTRICAL
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 25900, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: FIRST LIBERTY INSURANCE CORPORATION, Policy Number: WC6Z61065925015, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 5474 - Description Unavailable; 2812 - Cabinet Mfg-wood; 5140 - Electrical Wiring-high wage

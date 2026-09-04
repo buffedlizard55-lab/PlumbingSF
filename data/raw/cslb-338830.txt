@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=338830
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  338830
+POTTER FIRE PROTECTION INC
+22156 MEEKLAND AVENUE
+HAYWARD, CA 94541
+Business Phone Number:(510) 581-3473
+Entity: Corporation
+Issue Date: 07/15/1977
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100159304, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600027151261, Effective Date: 07/06/2026, Expire Date: 07/06/2027. Classification codes: 5185 - Automatic Sprinkler Install-low wage; 5186 - Automatic Sprinkler Install-high wage; 8810 - Clerical Office Employees

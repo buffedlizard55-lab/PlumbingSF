@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=641355
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  641355
+BHRB INC
+dba GOSS HEATING & VENTILATION
+1901 CARMELITA
+BURLINGAME, CA 94010
+Business Phone Number:(650) 343-7882
+Entity: Corporation
+Issue Date: 04/01/1992
+Expire Date: 04/30/2006
+License Status: This license is expired and not able to contract at this time.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C43 - SHEET METAL
+Contractor's Bond: STAR INSURANCE COMPANY, Bond Number: SA6002174, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 02/04/2006
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 571-0007169, Effective Date: 12/01/1997, Cancellation Date: 10/01/2004

@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=664033
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:41 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  664033
+EARTHQUAKE ENTERPRISES INC
+dba HETHERINGTON GENERAL & PLUMBING CONTRACTOR
+4200 CALIFORNIA STREET STE 111
+SAN FRANCISCO, CA 94118
+Business Phone Number:(415) 750-9595
+Entity: Corporation
+Issue Date: 02/01/1993
+Expire Date: 02/28/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C36 - PLUMBING; C10 - ELECTRICAL; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100243676, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: REPUBLIC INDEMNITY COMPANY OF AMERICA, Policy Number: 25517206, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 518701 - Description Unavailable; 881000 - Description Unavailable; 372600 - Description Unavailable

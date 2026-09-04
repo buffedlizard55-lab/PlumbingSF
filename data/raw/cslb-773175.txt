@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=773175
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  773175
+REGENCY GENERAL CONTRACTORS INC
+4400 AUTO MALL PKWY
+FREMONT, CA 94538
+Business Phone Number:(408) 946-7100
+Entity: Corporation
+Issue Date: 01/03/2000
+Reissue Date: 04/05/2004
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C33 - PAINTING AND DECORATING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1036885, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9346762, Effective Date: 10/01/2023, Expire Date: 10/01/2026. Classification codes: 5190 - Electrical Wiring-low wage; 54821 - Painting/Wallpaper Install-high wage; 8810 - Clerical Office Employees
+Miscellaneous Information: 04/05/2004 - LICENSE REISSUED TO ANOTHER ENTITY

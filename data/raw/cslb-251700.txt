@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=251700
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  251700
+ALLIED FIRE PROTECTION
+555 HIGH STREET
+OAKLAND, CA 94601
+Business Phone Number:(510) 533-5516
+Entity: Corporation
+Issue Date: 02/14/1968
+Expire Date: 12/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C12 - EARTHWORK AND PAVING; C16 - FIRE PROTECTION; C34 - PIPELINE; C60 - WELDING
+Contractor's Bond: HARCO NATIONAL INSURANCE COMPANY, Bond Number: 0580440, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UB1R2309692526G, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 5186 - Automatic Sprinkler Install-high wage; 5185 - Automatic Sprinkler Install-low wage; 8810 - Clerical Office Employees

@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=940159
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:46 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  940159
+GREENFLOW HVAC INC
+139 CAPISTRANO AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 424-2188
+Entity: Corporation
+Issue Date: 11/17/2009
+Reissue Date: 09/02/2025
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100985884, Bond Amount: $25,000, Effective Date: 09/02/2025
+Workers' Compensation: OMAHA NATIONAL CASUALTY COMPANY, Policy Number: ONCC1701308901, Effective Date: 10/25/2025, Expire Date: 10/25/2026
+Miscellaneous Information: 09/02/2025 - LICENSE REISSUED TO ANOTHER ENTITY

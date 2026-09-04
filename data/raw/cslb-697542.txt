@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=697542
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  697542
+S L MECHANICAL CONTRACTORS
+49 CERRITOS AVENUE
+SAN FRANCISCO, CA 94127
+Business Phone Number:(415) 706-1767
+Entity: Sole Ownership
+Issue Date: 10/19/1994
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C43 - SHEET METAL
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100985445, Bond Amount: $25,000, Effective Date: 08/18/2025
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: WES3837629, Effective Date: 01/08/2026, Expire Date: 01/08/2027. Classification codes: 5187 - Description Unavailable; 5183 - Description Unavailable

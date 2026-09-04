@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=629775
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  629775
+STATE SHEET METAL WORKS INC
+6084 MISSION STREET
+DALY CITY, CA 94014
+Business Phone Number:(650) 755-5706
+Entity: Corporation
+Issue Date: 09/30/1991
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C43 - SHEET METAL
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100797219, Bond Amount: $25,000, Effective Date: 10/01/2023
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 72WECAD9GBR, Effective Date: 10/01/2023, Expire Date: 10/01/2026. Classification codes: 5542 - Description Unavailable

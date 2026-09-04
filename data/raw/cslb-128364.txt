@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=128364
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  128364
+COOPER BROS INC
+1591 HARRISON STREET
+SAN FRANCISCO, CA 94103-4322
+Business Phone Number:(415) 431-0952
+Entity: Corporation
+Issue Date: 01/14/1952
+Expire Date: 12/31/1998
+License Status: This license is expired and not able to contract at this time.
+Classifications: A - GENERAL ENGINEERING; B - GENERAL BUILDING; C16 - FIRE PROTECTION; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C34 - PIPELINE; C42 - SANITATION SYSTEM; C36 - PLUMBING
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 935102, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 12/03/1999
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/22/1998, Expire Date: None

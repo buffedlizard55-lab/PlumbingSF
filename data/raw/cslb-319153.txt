@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=319153
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  319153
+OCCIDENTAL EXPRESS
+1019 HOWARD STREET
+SAN FRANCISCO, CA 94103-2806
+Business Phone Number:(415) 420-8113
+Entity: Sole Ownership
+Issue Date: 05/13/1976
+Expire Date: 01/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING; C10 - ELECTRICAL; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100425234, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/08/2025, Expire Date: None

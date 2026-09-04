@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=691287
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:46 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  691287
+O M P P INC
+dba CLAUSEN-PATTEN
+14748 BETHANY ST.
+SAN LEANDRO, CA 94579
+Business Phone Number:(510) 346-8828
+Entity: Corporation
+Issue Date: 06/28/1994
+Expire Date: 06/30/2022
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1020268, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 07/01/2021
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/01/2020, Expire Date: None

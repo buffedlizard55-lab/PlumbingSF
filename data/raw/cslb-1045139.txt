@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1045139
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:03:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1045139
+AXEL8 CONSTRUCTION LLC
+724 PINE ST
+SAN FRANCISCO, CA 94108
+Business Phone Number:(415) 531-5998
+Entity: Ltd Liability
+Issue Date: 10/02/2018
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 72077074, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WCLRC74789158, Effective Date: 07/01/2026, Expire Date: 07/01/2027

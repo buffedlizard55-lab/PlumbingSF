@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=342012
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:38 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  342012
+BAYLINE MECHANICAL INC
+310 SHAW ROAD SUITE B
+S SAN FRANCISCO, CA 94080-6615
+Business Phone Number:(415) 648-1225
+Entity: Corporation
+Issue Date: 08/08/1977
+Reissue Date: 04/29/2004
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HARCO NATIONAL INSURANCE COMPANY, Bond Number: 0757784, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: CONTINENTAL INSURANCE COMPANY (THE), Policy Number: 584922344, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 5187 - Description Unavailable
+Miscellaneous Information: 04/29/2004 - LICENSE REISSUED TO ANOTHER ENTITY

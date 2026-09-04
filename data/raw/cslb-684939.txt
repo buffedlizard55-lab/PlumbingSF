@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=684939
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 9:02:55 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  684939
+DPW INC
+203 EAST HARRIS AVENUE
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(650) 588-8482
+Entity: Corporation
+Issue Date: 03/07/1994
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C36 - PLUMBING
+Contractor's Bond: FEDERATED MUTUAL INSURANCE COMPANY, Bond Number: 1100759, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TWP4784468, Effective Date: 04/01/2026, Expire Date: 04/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8742 - Salespersons-Outside
