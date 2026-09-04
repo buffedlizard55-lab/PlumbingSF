@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=546047
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:51 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  546047
+DROUET PLUMBING INC
+583 ARKANSAS STREET
+SAN FRANCISCO, CA 94107
+Business Phone Number:(415) 819-9925
+Entity: Corporation
+Issue Date: 11/03/1988
+Reissue Date: 10/20/2014
+Expire Date: 09/24/2024
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30056444, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 07/29/2023
+Bond of Qualifying Individual: qualifying individual JOEL BERNARD DROUET owns 10 percent or more of the voting stock; no BQI bond required. Effective Date: 10/20/2014
+Workers' Compensation: MARKEL AMERICAN INSURANCE COMPANY, Policy Number: MWC0069092, Effective Date: 09/15/2022, Expire Date: 09/15/2023
+Miscellaneous Information: 10/20/2014 - LICENSE REISSUED TO ANOTHER ENTITY
+09/24/2024 - SECRETARY OF STATE - DISSOLUTION

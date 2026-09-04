@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=287477
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:48 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  287477
+ASIA PLUMBING
+1354 31ST AVE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 731-8085
+Entity: Partnership
+Issue Date: 10/01/1973
+Expire Date: 05/31/2014
+License Status: This license is expired and not able to contract at this time.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: SURETEC INSURANCE COMPANY, Bond Number: 5114488, Bond Amount: $12,500, Effective Date: 06/20/2011, Cancellation Date: 07/24/2014
+Workers' Compensation: MARKEL INSURANCE COMPANY, Policy Number: MWC006042801, Effective Date: 02/01/2014, Expire Date: 02/01/2015

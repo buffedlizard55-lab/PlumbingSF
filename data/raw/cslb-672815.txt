@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=672815
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  672815
+RAY CALEGARI PLUMBING INC
+205 COUNTRY CLUB DR
+NOVATO, CA 94949
+Business Phone Number:(415) 346-3193
+Entity: Corporation
+Issue Date: 06/14/1993
+Expire Date: 11/01/2011
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: DEVELOPERS SURETY AND INDEMNITY COMPANY, Bond Number: 271259C, Bond Amount: $12,500, Effective Date: 03/10/2010, Cancellation Date: 12/30/2011
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/04/2011, Expire Date: None
+Miscellaneous Information: 11/01/2011 - LICENSE CANCELED PER REQUEST
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=966337
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  966337
+FLOW MASTERS PLUMBING INC
+6169 MISSION ST
+DALY CITY, CA 94014
+Business Phone Number:(415) 751-1933
+Entity: Corporation
+Issue Date: 10/04/2011
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100935486, Bond Amount: $25,000, Effective Date: 03/09/2025
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SNS1651127, Effective Date: 06/01/2026, Expire Date: 06/01/2027. Classification codes: 5187 - Description Unavailable; 5183 - Description Unavailable; 8742 - Salespersons-Outside.

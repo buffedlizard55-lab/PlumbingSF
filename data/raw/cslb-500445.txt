@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=500445
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:28 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  500445
+CHUNG WAH PLUMBING CO INC
+193 23RD AVENUE
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 559-3853
+Entity: Corporation
+Issue Date: 10/24/1986
+Expire Date: 10/31/2006
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 651863, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 07/01/2008
+Workers' Compensation: REPUBLIC INDEMNITY COMPANY OF CALIFORNIA, Policy Number: 00247418, Effective Date: 01/15/2006, Expire Date: 01/15/2007
+Miscellaneous Information: 10/31/2006 - SECRETARY OF STATE - DISSOLUTION

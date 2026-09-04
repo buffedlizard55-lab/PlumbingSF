@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=707695
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  707695
+FIREMAN PLUMBING
+P O BOX 1487
+BURLINGAME, CA 94011
+Business Phone Number:(650) 756-5100
+Entity: Sole Ownership
+Issue Date: 06/05/1995
+Expire Date: 06/30/2025
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100680899, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 04/02/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/05/2023, Expire Date: None

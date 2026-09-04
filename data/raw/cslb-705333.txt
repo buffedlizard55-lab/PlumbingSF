@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=705333
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:17 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  705333
+SAN YI PLUMBING
+36 WESTFIELD AVENUE
+DALY CITY, CA 94105
+Business Phone Number:(650) 799-0634
+Entity: Sole Ownership
+Issue Date: 04/19/1995
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100927382, Bond Amount: $25,000, Effective Date: 03/30/2025
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: KWP1419595, Effective Date: 12/19/2025, Expire Date: 12/19/2026. Classification codes: 0036 - Dairy Farms.
+Miscellaneous Information: 11/29/2005 - SOLE TO CORP REASSIGN 13A-1H REJECT

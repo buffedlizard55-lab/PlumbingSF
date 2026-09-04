@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=857357
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  857357
+GAGNE BROTHERS ENTERPRISES INC
+dba BENJAMIN FRANKLIN PLUMBING
+22 DIGITAL DRIVE STE ONE
+NOVATO, CA 94949
+Business Phone Number:(415) 763-4002
+Entity: Corporation
+Issue Date: 04/14/2005
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: A - GENERAL ENGINEERING ; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6341241, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: NATIONWIDE INSURANCE COMPANY OF AMERICA, Policy Number: ACPWC013202267545, Effective Date: 07/17/2026, Expire Date: 07/17/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8742 - Salespersons-Outside.

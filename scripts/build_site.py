@@ -259,7 +259,7 @@ def render_entry(en: dict, fit_labels: dict) -> str:
     </div>
     <div class="head-badges">
       {badge(tlabel, kind)}{status_badge(lic.get('status_code'))}
-      {badge("NEW · 2026-09-04", "info") if en.get("research_batch") == "2026-09-04-expansion-20" else ""}
+      {badge(f"NEW · 2026-09-04 · {en['research_batch'].rsplit('-', 1)[1]}-entry pass", "info") if en.get("research_batch") else ""}
       <span class="fit" title="Evidence grade across the three core requirements; advertised scope receives partial credit">job fit {en["fit_score"]["percent"]}%</span>
       {badge(f"{crit} critical", "bad") if crit else ""}
     </div>
@@ -347,8 +347,14 @@ def main() -> int:
     hireable = [x for x in entries if x["tier"] in ("recommended", "viable", "conditional")]
     not_hireable = [x for x in entries if x["tier"] in ("do-not-hire", "unverified", "wrong-scale", "historical")]
     fallback = [x for x in entries if x["tier"] == "fallback-only"]
-    expansion = [x for x in entries
-                 if x.get("research_batch") == "2026-09-04-expansion-20"]
+    batch1 = [x for x in entries if x.get("research_batch") == "2026-09-04-expansion-20"]
+    batch2 = [x for x in entries if x.get("research_batch") == "2026-09-04-expansion-50"]
+    expansion = batch1 + batch2
+    b2_status = {}
+    for x in batch2:
+        code = x["license"].get("status_code") or "?"
+        b2_status[code] = b2_status.get(code, 0) + 1
+    b2_reviewed = sum(1 for x in batch2 if x.get("ratings") or x.get("evidence"))
 
     criticals = []
     for en in entries:
@@ -603,9 +609,10 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="stats">
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
-    <div class="stat"><b>{len(expansion)}</b><span>new de-duplicated entries in this expansion</span></div>
+    <div class="stat"><b>{len(expansion)}</b><span>newly researched entries ({len(batch1)} + {len(batch2)})</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
     <div class="stat"><b>{counts['active_verified_businesses']}</b><span>entries with a verified ACTIVE license</span></div>
+    <div class="stat"><b>{len(hireable)}</b><span>hireable screening candidates</span></div>
     <div class="stat"><b>{rep['quotes_verified']}</b><span>source excerpts checked verbatim</span></div>
     <div class="stat"><b>{len(criticals)}</b><span>critical irregularities flagged</span></div>
   </div>
@@ -641,6 +648,18 @@ footer.site p{{max-width:90ch}}
   <em>&ldquo;Have you removed a seized trip-lever linkage through the overflow opening on an old tub? Will you
   snake the shower and stop before opening any wall or replacing concealed piping unless the landlord gives
   separate written authorization?&rdquo;</em> Do not infer experience from a generic bathtub-service category.</p>
+  <div class="panel" style="margin-top:14px">
+    <h3>Latest 50-business verification pass (2026-09-04)</h3>
+    <p class="muted">{len(batch2)} additional businesses surfaced from San Francisco plumbing-permit records
+    were verified line by line against the official CSLB:
+    {' &middot; '.join(f'<b>{n}</b> {k}' for k, n in sorted(b2_status.items()))}.
+    {b2_reviewed} of them carry captured review evidence; the rest are license-verified only and must be
+    screened by phone. The {b2_status.get('expired', 0) + b2_status.get('canceled', 0) + b2_status.get('suspended', 0)}
+    not-hireable entries remain published as <em>do-not-hire warnings</em>, because several of these
+    brand names still advertise in San Francisco under licenses the state no longer honours. Open each entry's
+    CSLB record before booking. Nothing in this pass proves a firm has extracted a seized trip lever without
+    opening a wall.</p>
+  </div>
 </div></section>
 
 <section id="alerts"><div class="wrap">
@@ -672,7 +691,8 @@ footer.site p{{max-width:90ch}}
   <div class="row" style="margin-top:8px">
     <button data-filter="all" aria-pressed="true">All hireable</button>
     <button data-filter="recommended" aria-pressed="false">First-screen leads</button>
-    <button data-filter="new" aria-pressed="false">20 new entries</button>
+    <button data-filter="new" aria-pressed="false">New ({len(batch1)} + {len(batch2)})</button>
+    <button data-filter="new50" aria-pressed="false">Latest 50-entry pass</button>
     <button data-filter="viable" aria-pressed="false">Verified &amp; viable</button>
     <button data-filter="conditional" aria-pressed="false">Partial fit</button>
     <button data-filter="flagged" aria-pressed="false">Flagged / not hireable</button>
@@ -730,7 +750,8 @@ footer.site p{{max-width:90ch}}
   <h2>Method, provenance and what could not be verified</h2>
   <p class="sub">This project exists because review platforms can contradict the licensing record.
   <code>scripts/validate.py</code> machine-checks every copied license field, published excerpt, rating value and
-  legal quotation against its capture; it also enforces the exact 20-entry expansion set and duplicate gates.</p>
+  legal quotation against its capture; it also enforces the fixed 20- and 50-entry expansion gates (exact
+  license sets, status summaries and required irregularity flags) and duplicate gates.</p>
 
   <h3>Pipeline</h3>
   <ol class="steps">{m_steps}</ol>
@@ -810,7 +831,8 @@ footer.site p{{max-width:90ch}}
     var okFilter = filter === 'all' ? HIREABLE.indexOf(t) >= 0
       : filter === 'flagged' ? HIREABLE.indexOf(t) < 0
       : filter === 'active' ? s === 'active'
-      : filter === 'new' ? c.dataset.batch === '2026-09-04-expansion-20'
+      : filter === 'new' ? (c.dataset.batch || '').indexOf('2026-09-04-expansion') === 0
+      : filter === 'new50' ? c.dataset.batch === '2026-09-04-expansion-50'
       : t === filter;
     if (!okFilter) return false;
     var term = (q.value || '').trim().toLowerCase();

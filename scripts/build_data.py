@@ -225,6 +225,11 @@ def main() -> int:
         e["rank"] = i
 
     active = [e for e in entries if e["license"]["status_code"] == "active"]
+    expansion_batches: dict[str, int] = {}
+    for e in entries:
+        b = e.get("research_batch")
+        if b:
+            expansion_batches[b] = expansion_batches.get(b, 0) + 1
 
     out = {
         "generated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -235,8 +240,7 @@ def main() -> int:
         "counts": {
             "entries": len(entries),
             "active_verified_businesses": len(active),
-            "expansion_2026_09_04": sum(
-                e.get("research_batch") == "2026-09-04-expansion-20" for e in entries),
+            "expansion_batches": expansion_batches,
             "cslb_records_captured": len(cslb),
             "raw_capture_files": len([p for p in (DATA / "raw").iterdir()
                                       if p.suffix in (".txt", ".json")]),

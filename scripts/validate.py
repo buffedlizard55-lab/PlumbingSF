@@ -64,6 +64,15 @@ ALLOWED_HOSTS = {
     "www.oatey.com", "oatey.com", "support.gerber-us.com", "www.gerber-us.com",
     # community
     "www.reddit.com", "reddit.com", "old.reddit.com",
+    # batch-2 (2026-09-04-expansion-50) indirect snippet sources, captured
+    # verbatim in data/raw/research-expansion50-2026-09-04.txt
+    "serviceagent.ai", "plumber-usa.nears.me", "reviews.birdeye.com",
+    "www.chamberofcommerce.com", "chamberofcommerce.com", "www.yellowbot.com",
+    "yellowbot.com", "www.yellowpages.com", "yellowpages.com",
+    "pro.porch.com", "www.glassdoor.com", "glassdoor.com",
+    "www.checkbook.org", "checkbook.org", "www.homeadvisor.com", "homeadvisor.com",
+    "manta.com", "www.manta.com", "thebluebook.com", "www.thebluebook.com",
+    "www.licensed.contractors", "licensed.contractors",
     # vendor sites (self-reported; labelled as such in the data)
     "www.atlasplumbingandrooter.com", "www.aceplumbingandrooter.com",
     "discovercabrillo.com", "www.redwrenchplumbing.com", "advancedplumbingsf.com",
@@ -83,12 +92,19 @@ SOURCE_TIER_VOCAB = {"official-gov", "official-platform", "manufacturer",
                      "tenant-advocacy-org", "third-party-aggregator", "community",
                      "vendor-self-reported"}
 LAYERED_AGGREGATOR_HOSTS = {"www.expertise.com", "expertise.com"}
-EXPANSION_BATCH = "2026-09-04-expansion-20"
-EXPANSION_LICENSES = {
-    "976019", "1054611", "996627", "988995", "875126", "828747", "1051650",
-    "1027286", "1017368", "982663", "841229", "977638", "888630", "1042922",
-    "1036915", "1018923", "922974", "1047052", "786183", "878184",
-}
+
+# Expansion batches are fixed, reviewable sets. Each batch's expectations
+# (exact license set, expected CSLB status summary, required irregularity
+# flags, the raw capture whose candidate-labelled paragraphs must contain the
+# evidence) live in data/expansion_gates.json, committed to the repo, so a
+# future rebuild cannot silently drop, substitute, or double-count a business
+# without failing validation. Every value was transcribed from a live official
+# capture during the dated research pass.
+GATES_PATH = ROOT / "data" / "expansion_gates.json"
+if GATES_PATH.exists():
+    EXPANSION_GATES = json.loads(GATES_PATH.read_text(encoding="utf-8"))
+else:
+    EXPANSION_GATES = {}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -473,97 +489,141 @@ def main() -> int:
         if n > 1:
             err(f"license {num} is the primary license of {n} different entries")
 
-    # The requested expansion is a fixed, reviewable batch. Keeping this gate
-    # explicit prevents a later rebuild from silently dropping, replacing, or
-    # double-counting one of the 20 researched businesses.
-    expansion = [e for e in doc["entries"] if e.get("research_batch") == EXPANSION_BATCH]
-    expansion_nums = {str(e["license"].get("number")) for e in expansion}
-    if len(expansion) != 20:
-        err(f"expansion batch: expected exactly 20 entries, found {len(expansion)}")
-    if expansion_nums != EXPANSION_LICENSES:
-        err("expansion batch: license set differs from the fixed researched set "
-            f"(missing {sorted(EXPANSION_LICENSES - expansion_nums)}, "
-            f"extra {sorted(expansion_nums - EXPANSION_LICENSES)})")
-    if len(expansion_nums) != len(expansion):
-        err("expansion batch: duplicate primary license")
-
-    non_expansion_licenses: set[str] = set()
-    for e in doc["entries"]:
-        if e.get("research_batch") == EXPANSION_BATCH:
-            continue
-        if e["license"].get("number"):
-            non_expansion_licenses.add(str(e["license"]["number"]))
-        non_expansion_licenses.update(str(o["number"]) for o in e.get("other_licenses", []))
-    overlap = expansion_nums & non_expansion_licenses
-    if overlap:
-        err(f"expansion batch duplicates an existing primary/sibling license: {sorted(overlap)}")
-
-    def name_key(value: str) -> str:
-        value = value.lower().replace("incorporated", "").replace("inc", "")
-        return re.sub(r"[^a-z0-9]", "", value)
-    old_name_keys = {name_key(e["display_name"]) for e in doc["entries"]
-                     if e.get("research_batch") != EXPANSION_BATCH}
-    duplicate_names = {e["display_name"] for e in expansion
-                       if name_key(e["display_name"]) in old_name_keys}
-    if duplicate_names:
-        err(f"expansion batch duplicates existing normalized names: {sorted(duplicate_names)}")
-
-    expansion_statuses = Counter(e["license"].get("status_code") for e in expansion)
-    if expansion_statuses != Counter({"active": 17, "suspended": 2, "expired": 1}):
-        err(f"expansion batch: unexpected CSLB status summary {dict(expansion_statuses)}")
+    # The requested expansions are fixed, reviewable batches. Keeping these
+    # gates explicit prevents a later rebuild from silently dropping,
+    # replacing, or double-counting a researched business.
     review_hosts = {"www.yelp.com", "yelp.com", "m.yelp.com", "www.thumbtack.com",
                     "thumbtack.com", "www.google.com", "google.com",
+                    "www.bbb.org", "bbb.org",
                     "www.expertise.com", "expertise.com"}
-    for e in expansion:
-        name = e["display_name"]
-        if not any((urlparse(s.get("url", "")).hostname or "") in review_hosts
-                   for s in e.get("sources", [])):
-            err(f"{name}: expansion entry has no review/source-review link")
-        if e["job_fit"].get("tub_overflow_access") == "documented":
-            err(f"{name}: expansion sources do not support exact documented trip-lever work")
-        for item in e.get("evidence", []) + e.get("ratings", []):
-            raw_rel = item.get("raw", "")
-            if raw_rel != "data/raw/research-expansion-2026-09-04.txt":
-                continue
-            section = lib.candidate_section(raw_rel, name, item.get("url", ""))
-            if not section:
-                err(f"{name}: no candidate-labelled paragraph in expansion capture")
-                continue
-            if item.get("text") and norm(item["text"]) not in section:
-                err(f"{name}: evidence occurs in the source block but not its "
-                    "candidate-labelled paragraph")
-            for field in ("score", "count"):
-                if item.get(field) is not None and norm(str(item[field])) not in section:
-                    err(f"{name}: rating {field} {item[field]!r} is not in its "
-                        "candidate-labelled paragraph")
-            if " via expertise" in item.get("platform", "").lower():
-                platform = item["platform"].lower().split(" via ", 1)[0]
-                if platform not in section.lower():
-                    err(f"{name}: Expertise paragraph does not name rating platform {platform}")
 
-    expansion_by_num = {str(e["license"].get("number")): e for e in expansion}
-    required_flags = {
-        "1027286": ("bond", "workers"),
-        "1042922": ("bond",),
-        "1017368": ("expired",),
-        "878184": ("complaint",),
-        "1018923": ("classification",),
-        "922974": ("reissued",),
-        "1047052": ("reissued",),
-    }
-    for num, needles in required_flags.items():
-        text = " ".join(f"{f.get('label', '')} {f.get('detail', '')}".lower()
-                        for f in expansion_by_num.get(num, {}).get("flags", []))
-        if not all(n in text for n in needles):
-            err(f"expansion license {num}: required irregularity flag missing "
-                f"terms {needles}")
-    for num in ("1027286", "1042922", "1017368"):
-        item = expansion_by_num.get(num)
-        if item and not any(f.get("severity") == "critical" for f in item["flags"]):
-            err(f"expansion license {num}: non-hireable status lacks a critical flag")
-    complaint = expansion_by_num.get("878184")
-    if complaint and "complaint disclosure" not in complaint["license"].get("status_raw", "").lower():
-        err("expansion license 878184: CSLB complaint disclosure was not preserved")
+    by_batch: dict[str, list[dict]] = {}
+    for e in doc["entries"]:
+        if e.get("research_batch"):
+            by_batch.setdefault(e["research_batch"], []).append(e)
+
+    for batch, gate in sorted(EXPANSION_GATES.items()):
+        if batch.startswith("_") or not isinstance(gate, dict):
+            continue
+        expansion = by_batch.get(batch, [])
+        expansion_nums = {str(e["license"].get("number")) for e in expansion}
+        want = set(gate["licenses"])
+        if len(expansion) != gate["count"]:
+            err(f"{batch}: expected exactly {gate['count']} entries, found {len(expansion)}")
+        if expansion_nums != want:
+            err(f"{batch}: license set differs from the fixed researched set "
+                f"(missing {sorted(want - expansion_nums)}, "
+                f"extra {sorted(expansion_nums - want)})")
+        if len(expansion_nums) != len(expansion):
+            err(f"{batch}: duplicate primary license")
+
+        other_batch_licenses: set[str] = set()
+        for other_batch, others in by_batch.items():
+            if other_batch == batch:
+                continue
+            for e in others:
+                if e["license"].get("number"):
+                    other_batch_licenses.add(str(e["license"]["number"]))
+                other_batch_licenses.update(str(o["number"]) for o in e.get("other_licenses", []))
+        non_expansion_licenses: set[str] = set()
+        for e in doc["entries"]:
+            if e.get("research_batch"):
+                continue
+            if e["license"].get("number"):
+                non_expansion_licenses.add(str(e["license"]["number"]))
+            non_expansion_licenses.update(str(o["number"]) for o in e.get("other_licenses", []))
+        overlap = expansion_nums & (non_expansion_licenses | other_batch_licenses)
+        if overlap:
+            err(f"{batch}: duplicates a primary/sibling license of another batch "
+                f"or the base list: {sorted(overlap)}")
+
+        def name_key(value: str) -> str:
+            value = value.lower().replace("incorporated", "").replace("inc", "")
+            return re.sub(r"[^a-z0-9]", "", value)
+        other_name_keys = {name_key(o["display_name"]) for o in
+                           [x for b, xs in by_batch.items() if b != batch for x in xs]
+                           + [x for x in doc["entries"] if not x.get("research_batch")]}
+        duplicate_names = {e["display_name"] for e in expansion
+                           if name_key(e["display_name"]) in other_name_keys}
+        if duplicate_names:
+            err(f"{batch}: duplicates existing normalized names: {sorted(duplicate_names)}")
+
+        expansion_statuses = Counter(e["license"].get("status_code") for e in expansion)
+        if gate.get("status_summary") is not None:
+            want_status = Counter(gate["status_summary"])
+            if expansion_statuses != want_status:
+                err(f"{batch}: unexpected CSLB status summary {dict(expansion_statuses)} "
+                    f"(expected {dict(want_status)})")
+        elif not gate.get("finalized", False):
+            warn(f"{batch}: expansion gate not finalized (status summary and "
+                 f"required flags are not enforced yet)")
+
+        expansion_by_num = {str(e["license"].get("number")): e for e in expansion}
+        for num, needles in gate.get("required_flags", {}).items():
+            text = " ".join(f"{f.get('label', '')} {f.get('detail', '')}".lower()
+                            for f in expansion_by_num.get(num, {}).get("flags", []))
+            if not all(n in text for n in needles):
+                err(f"{batch} license {num}: required irregularity flag missing "
+                    f"terms {needles}")
+        for num in gate.get("critical_flag_licenses", []):
+            item = expansion_by_num.get(num)
+            if item and not any(f.get("severity") == "critical" for f in item["flags"]):
+                err(f"{batch} license {num}: non-hireable status lacks a critical flag")
+        for num, needle in gate.get("status_disclosures", {}).items():
+            item = expansion_by_num.get(num)
+            if item and needle not in item["license"].get("status_raw", "").lower():
+                err(f"{batch} license {num}: official disclosure text "
+                    f"{needle!r} was not preserved in the capture-derived status")
+
+        for e in expansion:
+            name = e["display_name"]
+            if not any((urlparse(s.get("url", "")).hostname or "") in review_hosts
+                       for s in e.get("sources", [])):
+                err(f"{name}: expansion entry has no review/source-review link")
+            if e["job_fit"].get("tub_overflow_access") == "documented":
+                err(f"{name}: expansion sources do not support exact documented trip-lever work")
+
+        review_capture = gate.get("review_capture")
+        if review_capture:
+            for e in expansion:
+                name = e["display_name"]
+                for item in e.get("evidence", []) + e.get("ratings", []):
+                    raw_rel = item.get("raw", "")
+                    if raw_rel != review_capture:
+                        continue
+                    section = lib.candidate_section(raw_rel, name, item.get("url", ""))
+                    if not section:
+                        err(f"{name}: no candidate-labelled paragraph in expansion capture")
+                        continue
+                    if item.get("text") and norm(item["text"]) not in section:
+                        err(f"{name}: evidence occurs in the source block but not its "
+                            "candidate-labelled paragraph")
+                    for field in ("score", "count"):
+                        if item.get(field) is not None and norm(str(item[field])) not in section:
+                            err(f"{name}: rating {field} {item[field]!r} is not in its "
+                                "candidate-labelled paragraph")
+                    if " via expertise" in item.get("platform", "").lower():
+                        platform = item["platform"].lower().split(" via ", 1)[0]
+                        if platform not in section.lower():
+                            err(f"{name}: Expertise paragraph does not name rating platform {platform}")
+
+    # ---- strict permit-count parity for every finalized batch ----------
+    for batch, gate in sorted(EXPANSION_GATES.items()):
+        if batch.startswith("_") or not isinstance(gate, dict):
+            continue
+        if not gate.get("strict_permit_counts"):
+            continue
+        for e in by_batch.get(batch, []):
+            if e.get("sf_permits_curated") is None:
+                err(f"{e['display_name']}: {batch} requires a permit count tied to the extract")
+                continue
+            all_lics = [str(e["license"]["number"])] + [
+                str(o["number"]) for o in e["other_licenses"]]
+            total = sum(permit_by_lic.get(x, 0) for x in all_lics)
+            if total != e["sf_permits_curated"]:
+                err(f"{e['display_name']}: curated permit count "
+                    f"{e['sf_permits_curated']} does not equal {total} from the "
+                    f"SF open-data extract (licenses {all_lics})")
 
     # legal citations reference their captures too
     def _walk(node):

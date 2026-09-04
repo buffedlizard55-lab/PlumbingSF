@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=751576
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:29 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  751576
+FEERICK PLUMBING INC
+1527 FULTON STREET
+SAN FRANCISCO, CA 94117
+Business Phone Number:(415) 775-9065
+Entity: Corporation
+Issue Date: 07/09/1998
+Reissue Date: 11/28/2005
+Expire Date: 11/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 270022, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECBC8ANE, Effective Date: 03/07/2026, Expire Date: 03/07/2027. Classification codes: 51831 - Plumbing-low wage.
+Miscellaneous Information: 11/28/2005 - LICENSE REISSUED TO ANOTHER ENTITY

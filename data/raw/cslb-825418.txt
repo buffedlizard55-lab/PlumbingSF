@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=825418
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  825418
+MADDEN PLUMBING LLC
+1228 FOLSOM STREET SUITE 101
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 923-8510
+Entity: Ltd Liability
+Issue Date: 10/03/2003
+Reissue Date: 08/11/2016
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100317228, Bond Amount: $25,000, Effective Date: 01/01/2023
+LLC Employee/Worker Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100320342, Bond Amount: $100,000, Effective Date: 08/11/2016
+Workers' Compensation: NATIONAL CASUALTY COMPANY, Policy Number: WCNCC31770400, Effective Date: 07/15/2026, Expire Date: 07/15/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8810 - Clerical Office Employees.

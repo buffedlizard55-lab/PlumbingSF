@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=554666
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  554666
+GUCHO PLUMBING
+332 GATES STREET
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 573-5765
+Entity: Sole Ownership
+Issue Date: 01/20/1989
+Expire Date: 01/31/2027
+License Status: License is under suspension for the following reasons: - License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF625211, Bond Amount: $25,000, Effective Date: 02/16/2024, Cancellation Date: 08/16/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/26/2024, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

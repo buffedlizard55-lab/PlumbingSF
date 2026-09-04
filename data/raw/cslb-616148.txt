@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=616148
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:49 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  616148
+GOLDEN STATE PLUMBING
+2323 CLEMENT
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 531-1833
+Entity: Sole Ownership
+Issue Date: 03/23/1991
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION ; B - GENERAL BUILDING
+Contractor's Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: PR2768104, Bond Amount: $25,000, Effective Date: 04/21/2026
+Workers' Compensation: EASTGUARD INSURANCE COMPANY, Policy Number: LAWC786225, Effective Date: 04/24/2026, Expire Date: 04/24/2027
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

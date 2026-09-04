@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=900309
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  900309
+WEST CORK PLUMBING INC
+20 ROY CT
+NOVATO, CA 94947
+Business Phone Number:(415) 845-3870
+Entity: Corporation
+Issue Date: 07/17/2007
+Reissue Date: 08/18/2009
+Expire Date: 08/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor' Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100862119, Bond Amount: $25,000, Effective Date: 06/03/2024
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECDR6199, Effective Date: 05/08/2026, Expire Date: 05/08/2027. Classification codes: 51871 - Plumbing-high wage.
+Miscellaneous Information: 08/18/2009 - LICENSE REISSUED TO ANOTHER ENTITY

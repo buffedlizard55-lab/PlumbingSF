@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=487017
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:42:50 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  487017
+SBERLO PLUMBING INC
+1663 12TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 664-9282
+Entity: Corporation
+Issue Date: 02/13/1986
+Reissue Date: 03/30/2007
+Expire Date: 02/20/2011
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6075928, Bond Amount: $12,500, Effective Date: 03/02/2009, Cancellation Date: 05/05/2010
+Bond of Qualifying Individual: qualifying individual YOEL JUDAH SBERLO owns 10 percent or more of the voting stock; no BQI bond required. Effective Date: 03/30/2007
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 03/25/2007, Expire Date: None
+Miscellaneous Information: 03/30/2007 - LICENSE REISSUED TO ANOTHER ENTITY
+02/20/2011 - SECRETARY OF STATE - DISSOLUTION

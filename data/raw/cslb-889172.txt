@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=889172
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  889172
+STEVEN YEUNG INC
+dba CHUNG WAH PLUMBING & FIRE PROTECTION
+193 23RD AVENUE
+SAN FRANCISCO, CA 94121
+Business Phone Number:(415) 559-3853
+Entity: Corporation
+Issue Date: 01/09/2007
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor' Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101077023, Bond Amount: $25,000, Effective Date: 06/09/2026
+Workers' Compensation: OMAHA NATIONAL CASUALTY COMPANY, Policy Number: ONCC0701368003, Effective Date: 01/15/2026, Expire Date: 01/15/2027. Classification codes: 5185 - Automatic Sprinkler Install-low wage; 51871 - Plumbing-high wage.

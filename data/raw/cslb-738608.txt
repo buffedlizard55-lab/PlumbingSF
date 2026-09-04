@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=738608
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  738608
+BEST PLUMBING CHOICE
+2138 17TH AVENUE
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 740-1940
+Entity: Sole Ownership
+Issue Date: 07/29/1997
+Expire Date: 07/31/2021
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 63767515, Bond Amount: $15,000, Effective Date: 07/11/2018, Cancellation Date: 01/14/2022
+Workers' Compensation: MARKEL INSURANCE COMPANY, Policy Number: MWC0046375, Effective Date: 03/21/2016, Expire Date: 03/21/2021

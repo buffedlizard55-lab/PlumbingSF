@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=422136
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:15 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  422136
+AMERICAN ALLIANCE ALWAYS AVAILABLE
+dba DRAIN PATROL
+PO BOX 8730
+TRUCKEE, CA 96162
+Business Phone Number:(530) 888-8114
+Entity: Corporation
+Issue Date: 05/10/1982
+Expire Date: 04/13/2012
+License Status: This license is canceled and not able to contract. Additional Status: The license has filed the required disciplinary bond.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 9032426, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 08/27/2012
+Disciplinary Bond: CASH DEPOSIT FROM A BANK, Bond Number: T1481L6, Bond Amount: $30,000, Effective Date: 11/30/2004
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1888391, Effective Date: 10/01/2008, Cancellation Date: 10/01/2012
+Miscellaneous Information: 04/13/2012 - LICENSE CANCELED PER REQUEST

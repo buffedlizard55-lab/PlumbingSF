@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885083
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:35 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  885083
+ROS PLUMBING LLC
+1543 HILL ROAD
+NOVATO, CA 94947
+Business Phone Number:(415) 505-2180
+Entity: Ltd Liability
+Issue Date: 09/30/2006
+Reissue Date: 02/13/2021
+Expire Date: 02/28/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; B - GENERAL BUILDING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100840266, Bond Amount: $25,000, Effective Date: 04/08/2024
+LLC Employee/Worker Bond: SURETEC INSURANCE COMPANY, Bond Number: 6004764, Bond Amount: $100,000, Effective Date: 02/13/2021
+Workers' Compensation: EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600016063261, Effective Date: 02/04/2026, Expire Date: 02/04/2027. Classification codes: 5187 - Description Unavailable; 8810 - Clerical Office Employees.
+Miscellaneous Information: 02/13/2021 - LICENSE REISSUED TO ANOTHER ENTITY

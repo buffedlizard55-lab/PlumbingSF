@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=760600
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:41:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  760600
+DUGGAN PLUMBING INC
+95 OAKRIDGE DRIVE
+DALY CITY, CA 94014
+Business Phone Number:(415) 260-7500
+Entity: Corporation
+Issue Date: 03/18/1999
+Reissue Date: 04/01/2005
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100840075, Bond Amount: $25,000, Effective Date: 03/04/2024
+Bond of Qualifying Individual: qualifying individual ADRIAN BERNARD DUGGAN owns 10 percent or more of the voting stock; no BQI bond required. Effective Date: 04/01/2005
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SWC1546871, Effective Date: 04/22/2025, Expire Date: 04/22/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage.
+Miscellaneous Information: 04/01/2005 - LICENSE REISSUED TO ANOTHER ENTITY

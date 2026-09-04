@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=747827
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:16 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  747827
+T AND H PLUMBING CO INC
+1555 YOSEMITE AVE #48
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 716-0832
+Entity: Corporation
+Issue Date: 04/07/1998
+Reissue Date: 04/14/2008
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6363985, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: EMPLOYERS ASSURANCE COMPANY, Policy Number: EIG618402600, Effective Date: 11/17/2025, Expire Date: 11/17/2026. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.
+Miscellaneous Information: 04/14/2008 - LICENSE REISSUED TO ANOTHER ENTITY
