@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=533324
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  533324
+CT CONSTRUCTION
+1847 48TH AVE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 793-3615
+Entity: Sole Ownership
+Issue Date: 06/23/1988
+Reissue Date: 09/19/2023
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: B - GENERAL BUILDING
+Contractor's Bond: JET INSURANCE COMPANY, Bond Number: JT005251, Bond Amount: $25,000, Effective Date: 08/02/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/18/2025, Expire Date: None

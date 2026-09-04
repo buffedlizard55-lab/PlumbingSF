@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1031709
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1031709
+NORTH STAR PLUMBING & FIRE PROTECTION INC
+1485 BAYSHORE BLVD MB 111
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 519-0710
+Entity: Corporation
+Issue Date: 10/06/2017
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; C16 - FIRE PROTECTION
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 100127354, Bond Amount: $25,000, Effective Date: 06/26/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9267686, Effective Date: 01/11/2024, Expire Date: 01/11/2027. Classification codes: 5185 - Automatic Sprinkler Install-low wage; 51831 - Plumbing-low wage

@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=636742
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:20 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  636742
+DENG'S PLUMBING INC
+206 GENEBERN WAY
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 334-7005
+Entity: Corporation
+Issue Date: 01/25/1992
+Reissue Date: 04/26/2004
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 65022630, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9038966, Effective Date: 01/01/2013, Expire Date: 01/01/2027. Classification codes: 88101 - Description Unavailable; 51831 - Plumbing-low wage; 51871 - Plumbing-high wage
+Miscellaneous Information: 04/26/2004 - LICENSE REISSUED TO ANOTHER ENTITY

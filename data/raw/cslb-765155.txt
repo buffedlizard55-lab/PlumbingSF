@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=765155
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  765155
+ARS AMERICAN RESIDENTIAL SERVICES OF CALIFORNIA INC
+965 RIDGE LAKE BLVD STE 201
+MEMPHIS, TN 38120
+Business Phone Number:(901) 271-9700
+Entity: Corporation
+Issue Date: 06/30/1999
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; C42 - SANITATION SYSTEM
+Contractor's Bond: TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Bond Number: 107488165, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: LIBERTY INSURANCE CORPORATION, Policy Number: WA763D508631015, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 51831 - Plumbing-low wage; 55381 - Sheet Metal Work-low wage; 8810 - Clerical Office Employees
+Miscellaneous Information: 12/15/2015 - CONTRACTOR HIS LETTER SENT; 10/01/2026 - WC CERT WAITING TO BE PROCESSED

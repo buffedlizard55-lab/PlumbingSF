@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=923951
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:53 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  923951
+ALLIANCE PLUMBING COMPANY
+10441 GEIL STREET
+CASTROVILLE, CA 95012
+Business Phone Number:(831) 633-1936
+Entity: Sole Ownership
+Issue Date: 10/22/2008
+Expire Date: 10/31/2028
+License Status: This license is inactive and not able to contract at this time. The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 64894938, Bond Amount: $15,000, Effective Date: 12/09/2019, Cancellation Date: 04/28/2021
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/19/2018, Cancellation Date: 06/10/2021
+Miscellaneous Information: 10/16/2023 - WC EXEMPT CANCELLED-LIC INACTIVATED

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=269424
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  269424
+DE JAGER & REILLY PLUMBING & HEATING INC
+711 TAYLOR BLVD
+MILLBRAE, CA 94030
+Business Phone Number:(415) 850-0624
+Entity: Corporation
+Issue Date: 05/27/1971
+Expire Date: 12/31/2027
+License Status: This license is inactive and not able to contract at this time.
+Classifications: C36 - PLUMBING; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100140785, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TWP4676004, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 238220 - Description Unavailable

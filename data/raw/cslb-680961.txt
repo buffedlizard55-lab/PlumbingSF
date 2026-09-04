@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=680961
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:32 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  680961
+ARJAN BOK PLUMBING
+300 CHANNEL #8
+SAN FRANCISCO, CA 94158
+Business Phone Number:(415) 252-9879
+Entity: Sole Ownership
+Issue Date: 11/29/1993
+Expire Date: 11/30/2009
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: GCL1144723, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 04/25/2010
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 08/18/2009, Expire Date: None

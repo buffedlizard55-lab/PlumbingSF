@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=698559
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:28 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  698559
+DEEHAN PLUMBING
+P O BOX 2429
+SAN RAFAEL, CA 94912-0133
+Business Phone Number:(415) 726-9473
+Entity: Sole Ownership
+Issue Date: 11/04/1994
+Expire Date: 11/30/2024
+License Status: This license is expired and not able to contract at this time. The license will need a contractors bond to renew active or reactivate.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC1029795, Bond Amount: $25,000, Effective Date: 01/01/2023, Cancellation Date: 01/01/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/09/2022, Expire Date: None

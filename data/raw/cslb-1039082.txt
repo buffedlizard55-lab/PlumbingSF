@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1039082
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:27 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1039082
+CJ PLUMBING INC
+1510 EUCALYPTUS DR
+SAN FRANCISCO, CA 94132
+Business Phone Number:(415) 254-6213
+Entity: Corporation
+Issue Date: 05/08/2018
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION; C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800249402, Bond Amount: $25,000, Effective Date: 09/01/2026
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9238815, Effective Date: 09/26/2019, Expire Date: 09/26/2026. Classification codes: 0005 - Nurseries-propagation/cultivation

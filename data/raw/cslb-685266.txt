@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=685266
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:28 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  685266
+A & A PLUMBING
+47 GRANADA AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 672-1640
+Entity: Sole Ownership
+Issue Date: 03/14/1994
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: JET INSURANCE COMPANY, Bond Number: JT007467, Bond Amount: $25,000, Effective Date: 04/02/2024
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 03/09/2026, Expire Date: None

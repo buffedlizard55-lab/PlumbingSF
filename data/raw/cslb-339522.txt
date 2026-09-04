@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=339522
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  339522
+CHEER PLUMBING CO
+49 RANDWICK AVENUE
+OAKLAND, CA 94611
+Business Phone Number:(415) 370-0505
+Entity: Sole Ownership
+Issue Date: 07/11/1977
+Expire Date: 07/28/2016
+License Status: This license was canceled on the death of the contractor.
+Classifications: C36 - PLUMBING
+Contractor's Bond: SURETEC INSURANCE COMPANY, Bond Number: 5115691, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 03/18/2017
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 04/29/2015, Expire Date: None

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=823991
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:32 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  823991
+BELL PLUMBING NORTH INC
+2300 26TH STREET
+SAN FRANCISCO, CA 94107
+Business Phone Number:(415) 550-0777
+Entity: Corporation
+Issue Date: 09/12/2003
+Expire Date: 09/30/2015
+License Status: This license is revoked and not able to contract at this time. The license was revoked after expiration. There is Complaint Disclosure information for this license.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESCO INSURANCE COMPANY, Bond Number: 04WB007297, Bond Amount: $12,500, Effective Date: 10/17/2012, Cancellation Date: 10/17/2015
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECGE8273, Effective Date: 04/29/2014, Expire Date: 04/29/2015

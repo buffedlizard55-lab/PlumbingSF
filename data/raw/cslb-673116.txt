@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=673116
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:26:29 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  673116
+AJAX PLUMBING AND HEATING
+2114 FILLMORE STREET
+SAN FRANCISCO, CA 94115
+Business Phone Number:(415) 931-4733
+Entity: Partnership
+Issue Date: 06/17/1993
+Expire Date: 06/30/2005
+License Status: This license is expired and not able to contract at this time.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING; C16 - FIRE PROTECTION; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING
+Contractor's Bond: FRONTIER PACIFIC INSURANCE COMPANY, Bond Number: 823807, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 07/18/2001
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 1626057, Effective Date: 03/06/2002, Cancellation Date: 08/13/2002

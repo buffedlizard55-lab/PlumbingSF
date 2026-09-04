@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=868068
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:52 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  868068
+PLUMB - IN - TIME PLUMBING SERVICES INC
+360 MEMORIAL DRIVE #140
+CRYSTAL LAKE, IL 60014
+Business Phone Number:(866) 293-3031
+Entity: Corporation
+Issue Date: 11/21/2005
+Expire Date: 11/30/2007
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING; C42 - SANITATION SYSTEM
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 9087264, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 05/23/2009
+Workers' Compensation: UNITED STATES FIRE INSURANCE COMPANY, Policy Number: 4086916722, Effective Date: 10/12/2006, Expire Date: 10/12/2007

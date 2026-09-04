@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=970605
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:19 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  970605
+ALL ROOTER & PLUMBING SERVICE INC
+238 OCEAN AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 282-8289
+Entity: Corporation
+Issue Date: 03/06/2012
+Expire Date: 03/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800231558, Bond Amount: $25,000, Effective Date: 04/01/2026
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UB1T204321, Effective Date: 03/31/2023, Expire Date: 03/31/2027. Classification codes: 51871 - Plumbing-high wage

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=532819
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:52 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  532819
+WILLS PLUMBING
+1811 WEST EUCLID AVENUE
+STOCKTON, CA 95204
+Business Phone Number:(209) 992-8126
+Entity: Sole Ownership
+Issue Date: 06/16/1988
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 747465C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: UNITED FIRE & CASUALTY COMPANY, Policy Number: 10161482709, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 51831 - Plumbing-low wage

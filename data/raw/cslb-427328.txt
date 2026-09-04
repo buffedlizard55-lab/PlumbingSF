@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=427328
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  427328
+BACKFLOW PREVENTION SPECIALISTS INC
+1131 ELKO DRIVE
+SUNNYVALE, CA 94089
+Business Phone Number:(408) 734-3569
+Entity: Corporation
+Issue Date: 09/07/1982
+Expire Date: 09/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; B - GENERAL BUILDING; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C16 - FIRE PROTECTION; C43 - SHEET METAL
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 665519C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: REPUBLIC INDEMNITY COMPANY OF AMERICA, Policy Number: 15430625, Effective Date: 01/01/2026, Expire Date: 01/01/2027. Classification codes: 51871 - Plumbing-high wage; 8871 - Clerical Telecommuter Employees; 8810 - Clerical Office Employees

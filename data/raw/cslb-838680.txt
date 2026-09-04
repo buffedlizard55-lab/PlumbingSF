@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=838680
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:28:49 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  838680
+REAL PLUMBING AND HEATING INC
+P O BOX 1922
+CLEARLAKE OAKS, CA 95423
+Business Phone Number:(415) 282-5599
+Entity: Corporation
+Issue Date: 05/20/2004
+Reissue Date: 08/31/2004
+Expire Date: 08/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING; C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: CA5894608, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: WESCO INSURANCE COMPANY, Policy Number: WEP3853130, Effective Date: 05/05/2026, Expire Date: 05/05/2027. Classification codes: 5183 - Description Unavailable
+Miscellaneous Information: 08/31/2004 - LICENSE REISSUED TO ANOTHER ENTITY

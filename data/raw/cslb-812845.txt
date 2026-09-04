@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=812845
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:25:20 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  812845
+B R TROIKA INCORPORATED
+2341 JUDAH
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 520-1200
+Entity: Corporation
+Issue Date: 09/18/2002
+Expire Date: 09/30/2018
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 63564142, Bond Amount: $15,000, Effective Date: 03/14/2018, Cancellation Date: 05/10/2019
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 09/15/2016, Expire Date: None

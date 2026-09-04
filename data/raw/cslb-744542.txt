@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=744542
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:22:35 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  744542
+RESCUE ROOTER
+860 RIDGE LAKE BLVD
+MEMPHIS, TN 38120
+Business Phone Number:(901) 271-9700
+Entity: Partnership
+Issue Date: 01/09/1998
+Expire Date: 01/31/2008
+License Status: This license is expired and not able to contract at this time.
+Classifications: C36 - PLUMBING; C42 - SANITATION SYSTEM
+Contractor's Bond: RLI INSURANCE COMPANY, Bond Number: CMS236850, Bond Amount: $12,500, Effective Date: 01/01/2007, Cancellation Date: 06/18/2007
+Workers' Compensation: LIBERTY MUTUAL FIRE INSURANCE COMPANY, Policy Number: WC7631508631016, Effective Date: 09/29/2006, Expire Date: 09/29/2007

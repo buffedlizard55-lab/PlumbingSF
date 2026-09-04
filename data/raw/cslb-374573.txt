@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=374573
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026 8:27:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  374573
+WATER HEATERS ONLY INC
+970 E MAIN STREET 200
+GRASS VALLEY, CA 95945
+Business Phone Number:(530) 274-3001
+Entity: Corporation
+Issue Date: 05/02/1979
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: TRAVELERS CASUALTY AND SURETY COMPANY OF AMERICA, Bond Number: 105122878, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: ZENITH INSURANCE COMPANY, Policy Number: M1409502, Effective Date: 07/01/2026, Expire Date: 07/01/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 88101 - Description Unavailable
