@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=592813
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:14 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  592813
+SEWER RAT PLUMBING INC
+P O BOX 1613
+PACIFICA, CA 94044
+Business Phone Number:(650) 343-7575
+Entity: Corporation
+Issue Date: 04/27/1990
+Reissue Date: 05/28/2014
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100393687, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: PREFERRED EMPLOYERS INSURANCE COMPANY, Policy Number: PEG12052017701, Effective Date: 03/01/2026, Expire Date: 03/01/2027. Classification codes: 5183 - Description Unavailable; 8810 - Clerical Office Employees; 5187 - Description Unavailable.

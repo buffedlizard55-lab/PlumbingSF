@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=787733
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  787733
+HEISE'S PLUMBING INC
+260 OCEAN AVENUE
+SAN FRANCISCO, CA 94112
+Business Phone Number:(415) 333-0704
+Entity: Corporation
+Issue Date: 11/22/2000
+Reissue Date: 03/15/2007
+Expire Date: 03/31/2023
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate. The license was canceled after expiration.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC6075517, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 05/06/2022
+Workers' Compensation: SIRIUSPOINT AMERICA INSURANCE COMPANY, Policy Number: WC8795001, Effective Date: 01/11/2023, Expire Date: 01/11/2024
+Miscellaneous Information: 03/15/2007 - LICENSE REISSUED TO ANOTHER ENTITY | 02/12/2025 - LIC CANCELED AFTER EXPIRATION DATE | 02/12/2025 - SECRETARY OF STATE - DISSOLUTION

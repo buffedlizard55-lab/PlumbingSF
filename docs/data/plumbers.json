@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:34:53Z",
+  "generated_at": "2026-09-04T00:54:41Z",
   "verified_at": "2026-09-04",
   "job": {
     "summary": "Slow-draining bathtub (~20% of normal flow) and shower (~60-80%) in a c.1940 San Francisco house, likely original galvanized drain piping. The bathtub overflow trip lever is stuck and the tub is not accessible from below.",
@@ -391,9 +391,11 @@
   "counts": {
     "entries": 57,
     "active_verified_businesses": 44,
-    "expansion_2026_09_04": 20,
-    "cslb_records_captured": 57,
-    "raw_capture_files": 68,
+    "expansion_batches": {
+      "2026-09-04-expansion-20": 20
+    },
+    "cslb_records_captured": 81,
+    "raw_capture_files": 93,
     "flagged_not_hireable": 13
   },
   "fit_labels": {

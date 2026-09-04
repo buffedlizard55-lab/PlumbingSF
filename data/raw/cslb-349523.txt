@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=349523
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:35 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  349523
+DEMAKAS PLUMBING & HEATING INC
+2370 OAKDALE AVENUE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 282-2121
+Entity: Corporation
+Issue Date: 01/13/1978
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C31 - CONSTRUCTION ZONE TRAFFIC CONTROL ; C36 - PLUMBING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C-61 / D16 - HARDWARE, LOCKS AND SAFES ; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: SC915306, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECAL7PS7, Effective Date: 06/01/2023, Expire Date: 06/01/2027. Classification codes: 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.

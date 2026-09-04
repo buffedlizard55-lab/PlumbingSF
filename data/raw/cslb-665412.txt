@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=665412
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:17 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  665412
+CHEN'S PLUMBING INC
+148 21ST AVE
+SAN FRANCISCO, CA 94121-1206
+Business Phone Number:(415) 831-2661
+Entity: Corporation
+Issue Date: 03/02/1993
+Expire Date: 02/16/2015
+License Status: This license is canceled and not able to contract.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100187865, Bond Amount: $12,500, Effective Date: 02/08/2012, Cancellation Date: 04/04/2015
+Workers' Compensation: EVEREST NATIONAL INSURANCE COMPANY, Policy Number: 7600009814121, Effective Date: 10/01/2012, Expire Date: 10/01/2013
+Miscellaneous Information: 02/16/2015 - SECRETARY OF STATE - DISSOLUTION

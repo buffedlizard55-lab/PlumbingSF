@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=712335
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:36 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  712335
+STRONG PLUMBING AND HEATING INC
+dba PLUGBUSTERS
+375 RHODE ISLAND STREET
+SAN FRANCISCO, CA 94103
+Business Phone Number:(415) 865-1500
+Entity: Corporation
+Issue Date: 09/08/1995
+Expire Date: 09/30/2001
+License Status: This license is expired and not able to contract at this time.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING
+Contractor's Bond: FRONTIER PACIFIC INSURANCE COMPANY, Bond Number: 25199CS, Bond Amount: $7,500, Effective Date: 07/18/1995, Cancellation Date: 09/05/2001
+Workers' Compensation: SUPERIOR NATIONAL INSURANCE COMPANY, Policy Number: WDN63588B, Effective Date: 09/14/1999, Expire Date: 09/14/2000

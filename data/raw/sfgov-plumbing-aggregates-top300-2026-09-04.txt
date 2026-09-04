@@ -1,0 +1,304 @@
+SOURCE_URL: https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300
+DATASET: data.sfgov.org view k6kv-9kix "Plumbing Permits Contacts" - "Contacts of contractors for Plumbing Permits"; 511,532 rows; provenance official; license PDDL; dataset metadata rowsUpdatedAt 1788439853 (2026-09-03); row-level data_as_of in a sample row read as 2026-09-03T05:05:35.000 on the verification date.
+CAPTURED_AT: 2026-09-04 (live Socrata API response, fetched by fetch tool in this session)
+TYPE: Official government open-data aggregate - permit-row counts grouped by (firm_name, license_number), descending by count, first 300 groups. Verbatim rows from the API JSON response, joined exactly as returned (the first row's opening bracket closed at the end). Counts are all-time contact rows in the dataset, per firm-name spelling; one license can appear under several spellings and must be summed before use.
+
+[{"firm_name":"Arb Inc","license_number":"194079","count":"12829"}
+,{"firm_name":"Ayoob & Peery Plumbing","license_number":"392967","count":"8062"}
+,{"firm_name":"Homeowner's Permit","license_number":"000001","count":"7991"}
+,{"firm_name":"Pribuss Engineering Inc","license_number":"251241","count":"7379"}
+,{"firm_name":"Just Water Heaters","license_number":"591329","count":"4835"}
+,{"firm_name":"Blaze Fireplaces Of No Cal","license_number":"454647","count":"3330"}
+,{"firm_name":"Water Heaters Only Inc","license_number":"374573","count":"3033"}
+,{"firm_name":"Schmitt Heating Co Inc","license_number":"708941","count":"3006"}
+,{"firm_name":"D P W  Inc.","license_number":"684939","count":"2931"}
+,{"firm_name":"Discount Plumbing Co","license_number":"755272","count":"2623"}
+,{"firm_name":"Anderson Rowe & Buckley, Inc.","license_number":"091594","count":"2343"}
+,{"firm_name":"Ace Plumbing & Rooter","license_number":"829071","count":"2269"}
+,{"firm_name":"Cornely Company","license_number":"171203","count":"2101"}
+,{"firm_name":"Golden Gate Fire Protection Inc","license_number":"960198","count":"2070"}
+,{"firm_name":"Associated Heating Of Sf","license_number":"486084","count":"2033"}
+,{"firm_name":"Magic Plumbing","license_number":"698806","count":"2007"}
+,{"firm_name":"Ruby Plumbing & Electrical","license_number":"748426","count":"1947"}
+,{"firm_name":"Atlas Heating & Vent Co","license_number":"002195","count":"1854"}
+,{"firm_name":"Steven Yeung Inc Dba Chung Wah Plbg&Fire","license_number":"889172","count":"1787"}
+,{"firm_name":"F W H Acquisition Co Llc Dba Fast Water","license_number":"987398","count":"1763"}
+,{"firm_name":"Bell Plumbing & Heating","license_number":"613784","count":"1683"}
+,{"firm_name":"Affordable Water Heaters And Plumbing In","license_number":"627368","count":"1681"}
+,{"firm_name":"Servadei Service Inc","license_number":"168371","count":"1586"}
+,{"firm_name":"Anderson Rowe & Buckley","license_number":"091594","count":"1568"}
+,{"firm_name":"San Francisco Plumbing","license_number":"323223","count":"1556"}
+,{"firm_name":"Brian Fusco Plumbing","license_number":"530388","count":"1543"}
+,{"firm_name":"Okell's Fireplace","license_number":"513547","count":"1525"}
+,{"firm_name":"Atlas Plumbing And Rooter","license_number":"868994","count":"1448"}
+,{"firm_name":"Lutz Plumbing Inc","license_number":"503971","count":"1405"}
+,{"firm_name":"Rlh Fire Protection /  Cma Fire Protect","license_number":"777717","count":"1388"}
+,{"firm_name":"Bayline Mechanical Inc","license_number":"342012","count":"1387"}
+,{"firm_name":"Dresser Areia Const. Inc.","license_number":"580087","count":"1339"}
+,{"firm_name":"Apollo Heating & Vent","license_number":"704593","count":"1302"}
+,{"firm_name":"Gagne Bros. Dba Benjamin Franklin Plumbi","license_number":"857357","count":"1275"}
+,{"firm_name":"Allied Fire Protection","license_number":"251700","count":"1254"}
+,{"firm_name":"Ros Plumbing","license_number":"885083","count":"1252"}
+,{"firm_name":"Pioneer Fire Inc.","license_number":"927862","count":"1225"}
+,{"firm_name":"Okell's Fireplaces","license_number":"513547","count":"1208"}
+,{"firm_name":"Demakas Plumbing & Heatin","license_number":"349523","count":"1192"}
+,{"firm_name":"Smelly Mel's","license_number":"786183","count":"1181"}
+,{"firm_name":"Regency General Contractors Inc","license_number":"773175","count":"1149"}
+,{"firm_name":"Bell Plumbing North Inc.","license_number":"823991","count":"1148"}
+,{"firm_name":"Economy Plumbing","license_number":"707695","count":"1120"}
+,{"firm_name":"Cooper Bros Inc","license_number":"128364","count":"1105"}
+,{"firm_name":"Heise's Plumbing","license_number":"787733","count":"1103"}
+,{"firm_name":"Ars Inc. Dba Rescue Rooter","license_number":"765155","count":"1098"}
+,{"firm_name":"Lei's Construction Co","license_number":"593386","count":"1098"}
+,{"firm_name":"Ace Furnace Co Inc","license_number":"235989","count":"1076"}
+,{"firm_name":"Flow Masters Plumbing Inc","license_number":"966337","count":"1072"}
+,{"firm_name":"Renstrom Plmbg & Heating","license_number":"556995","count":"1063"}
+,{"firm_name":"S L Mechanical Contractor","license_number":"697542","count":"1025"}
+,{"firm_name":"D & S Leong Associates","license_number":"618294","count":"1015"}
+,{"firm_name":"National Plumbing","license_number":"619642","count":"1010"}
+,{"firm_name":"O'connor Plumbing & Fire Protection","license_number":"498866","count":"979"}
+,{"firm_name":"Skaates Canepa Inc","license_number":"535236","count":"958"}
+,{"firm_name":"Joseph Tinsley Plumbing","license_number":"1024971","count":"940"}
+,{"firm_name":"O'grady Plumbing","license_number":"746040","count":"928"}
+,{"firm_name":"Goss Heating & Ventilatio","license_number":"641355","count":"928"}
+,{"firm_name":"Sure, Inc.","license_number":"561658","count":"914"}
+,{"firm_name":"Ravani-Tognotti Inc","license_number":"242424","count":"903"}
+,{"firm_name":"Dba Ace Plumbing & Rooter","license_number":"829071","count":"903"}
+,{"firm_name":"Arch Plumbing Inc","license_number":"976019","count":"901"}
+,{"firm_name":"Kmc Design Group","license_number":"901402","count":"900"}
+,{"firm_name":"City Mechanical Inc","license_number":"622065","count":"870"}
+,{"firm_name":"Plumbworks Inc. /Chris Goodwin Plumbing","license_number":"486122","count":"864"}
+,{"firm_name":"Innovative Mechanical Inc","license_number":"468809","count":"861"}
+,{"firm_name":"Acco Engineered Systems Inc.","license_number":"120696","count":"848"}
+,{"firm_name":"Chen's Plumbing Inc","license_number":"665412","count":"831"}
+,{"firm_name":"Fault Line Plumbing Inc","license_number":"737079","count":"826"}
+,{"firm_name":"Stephen Fitzsimon","license_number":"618005","count":"819"}
+,{"firm_name":"J E Brown Co Mechancial","license_number":"658273","count":"809"}
+,{"firm_name":"Anderson, Rowe & Buckley, Inc.","license_number":"091594","count":"808"}
+,{"firm_name":"Air Flow  Pro's","license_number":"938916","count":"793"}
+,{"firm_name":"Potter Fire Protection","license_number":"338830","count":"782"}
+,{"firm_name":"Bing's Heating & Cooling Co","license_number":"651731","count":"773"}
+,{"firm_name":"N J Cohen Inc","license_number":"218804","count":"768"}
+,{"firm_name":"Chung Wah Plumbing Co Inc","license_number":"500445","count":"762"}
+,{"firm_name":"Dunne Plumbing","license_number":"690001","count":"762"}
+,{"firm_name":"Roto-Rooter Sewers","license_number":"633904","count":"758"}
+,{"firm_name":"Argyris Plumbing","license_number":"280249","count":"743"}
+,{"firm_name":"Feerick Plumbing","license_number":"751576","count":"731"}
+,{"firm_name":"A Plumbing**Seenote**","license_number":"751295","count":"729"}
+,{"firm_name":"Shing Plumbing Co","license_number":"562479","count":"719"}
+,{"firm_name":"State Sheet Metal Works","license_number":"629775","count":"717"}
+,{"firm_name":"Bellanti Plumbing Inc","license_number":"327664","count":"716"}
+,{"firm_name":"24/7 Rooter And Plumbing Services Inc","license_number":"954813","count":"715"}
+,{"firm_name":"Cosco Fire Protection Inc","license_number":"577621","count":"715"}
+,{"firm_name":"San Francisco Plumbing Co","license_number":"323223","count":"712"}
+,{"firm_name":"Zh Mechanical Inc","license_number":"998449","count":"708"}
+,{"firm_name":"Occidental Express","license_number":"319153","count":"699"}
+,{"firm_name":"R L H Fire Protection Inc","license_number":"777717","count":"699"}
+,{"firm_name":"Stan Plumbing","license_number":"410861","count":"697"}
+,{"firm_name":"T And H Plumbing Co. Inc.","license_number":"747827","count":"695"}
+,{"firm_name":"Axel8 Construction","license_number":"1045139","count":"693"}
+,{"firm_name":"Cma Fire Protection Dba Rlh Fire Protect","license_number":"777717","count":"684"}
+,{"firm_name":"Cary Wing Plumbing & Fire Protection Inc","license_number":"815871","count":"682"}
+,{"firm_name":"Acco Engineered Systems","license_number":"120696","count":"680"}
+,{"firm_name":"Bacon Plumbing Co., Inc.","license_number":"728650","count":"680"}
+,{"firm_name":"On-Site Maintenance","license_number":"752883","count":"679"}
+,{"firm_name":"Incom Mechanical Inc","license_number":"517617","count":"677"}
+,{"firm_name":"Madden Plumbing","license_number":"825418","count":"676"}
+,{"firm_name":"Nigel Mulgrew Plumbing","license_number":"746000","count":"675"}
+,{"firm_name":"C R Reichel Engineering","license_number":"169169","count":"671"}
+,{"firm_name":"Prompt Plumbing Services","license_number":"818560","count":"667"}
+,{"firm_name":"Earthquake Enterprises Inc Dba Hethering","license_number":"664033","count":"665"}
+,{"firm_name":"Five Star Plumbing & Rooter","license_number":"996627","count":"660"}
+,{"firm_name":"Madden Plumbing, Llc","license_number":"825418","count":"657"}
+,{"firm_name":"Plugbusters","license_number":"712335","count":"655"}
+,{"firm_name":"Emerald Plbg & Fire Protection","license_number":"767866","count":"650"}
+,{"firm_name":"Garibaldi Plumbing Company Inc","license_number":"492385","count":"649"}
+,{"firm_name":"Mr. Peter's Plumbing","license_number":"706238","count":"644"}
+,{"firm_name":"West Cork Plumbing","license_number":"900309","count":"641"}
+,{"firm_name":"Kenneth Young","license_number":"511619","count":"640"}
+,{"firm_name":"O M P P Inc.","license_number":"691287","count":"639"}
+,{"firm_name":"Shane O'malley Dba Greenflow Hvac","license_number":"940159","count":"633"}
+,{"firm_name":"Leo Gotelli Plumbing Inc","license_number":"284740","count":"625"}
+,{"firm_name":"Chris Goodwin Plumbing","license_number":"486122","count":"625"}
+,{"firm_name":"Hegarty Plumbing","license_number":"820321","count":"624"}
+,{"firm_name":"Ps2 Inc","license_number":"746784","count":"623"}
+,{"firm_name":"A Valente & Sons Inc","license_number":"381449","count":"622"}
+,{"firm_name":"B-Side Inc.","license_number":"821091","count":"617"}
+,{"firm_name":"Alliance Plumbing Works Inc","license_number":"884462","count":"615"}
+,{"firm_name":"San Yi Plumbing Ltd.","license_number":"705333","count":"604"}
+,{"firm_name":"Aquamatic Fire Protection","license_number":"669521","count":"600"}
+,{"firm_name":"Best Plumbing Choice","license_number":"738608","count":"597"}
+,{"firm_name":"Peninsula Heating","license_number":"926857","count":"596"}
+,{"firm_name":"Jim Parr Plumbing","license_number":"529553","count":"595"}
+,{"firm_name":"Gucho Plumbing","license_number":"554666","count":"595"}
+,{"firm_name":"Ray Calegari Plumbing","license_number":"672815","count":"594"}
+,{"firm_name":"Columbia Mechanical Contr","license_number":"273358","count":"593"}
+,{"firm_name":"Garcia Plumbing Company Inc","license_number":"782787","count":"593"}
+,{"firm_name":"Tai Lam Mak","license_number":"467912","count":"584"}
+,{"firm_name":"Gateway Plumbing","license_number":"846292","count":"579"}
+,{"firm_name":"Duggan Plumbing Inc","license_number":"760600","count":"570"}
+,{"firm_name":"North And South Plumbing","license_number":"895742","count":"557"}
+,{"firm_name":"Gary Chan Plumbing","license_number":"596143","count":"556"}
+,{"firm_name":"Asia Plumbing","license_number":"287477","count":"548"}
+,{"firm_name":"A And T Plumbing","license_number":"882242","count":"548"}
+,{"firm_name":"Brother  Company","license_number":"702388","count":"548"}
+,{"firm_name":"Thomas Friel Plumbing","license_number":"415114","count":"539"}
+,{"firm_name":"E. Mitchell, Inc.","license_number":"254096","count":"537"}
+,{"firm_name":"Dresser/Areia Constn Inc","license_number":"580087","count":"537"}
+,{"firm_name":"Excellent Plumbing Co","license_number":"633153","count":"531"}
+,{"firm_name":"Nigel Mulgrew Plumbing Inc.","license_number":"746000","count":"528"}
+,{"firm_name":"Golden State Plumbing","license_number":"616148","count":"525"}
+,{"firm_name":"Sberlo Plumbing","license_number":"487017","count":"515"}
+,{"firm_name":"Darin C Kieth Dba: Howe Furnace","license_number":"278286","count":"513"}
+,{"firm_name":"Sunny's Plumbing Inc","license_number":"536715","count":"513"}
+,{"firm_name":"Plugbusters","license_number":"615837","count":"511"}
+,{"firm_name":"Drouet Plumbing","license_number":"546047","count":"504"}
+,{"firm_name":"Ireland Tile & Stone Inc","license_number":"897547","count":"501"}
+,{"firm_name":"J & M Heating & Ventilat","license_number":"564467","count":"501"}
+,{"firm_name":"Peninsula Heating","license_number":"804242","count":"500"}
+,{"firm_name":"Heises Plumbing","license_number":"593285","count":"499"}
+,{"firm_name":"Broadway Mech.Cntrs.,Inc.","license_number":"584263","count":"496"}
+,{"firm_name":"J B Lind Plumbing Co","license_number":"591929","count":"495"}
+,{"firm_name":"Brosnan Plumbing","license_number":"718576","count":"494"}
+,{"firm_name":"Bay Area Mechanical & Eng","license_number":"392695","count":"491"}
+,{"firm_name":"Ravani-Tognotti  Inc","license_number":"242424","count":"489"}
+,{"firm_name":"Cahill And Kavanaugh Inc     * See Note*","license_number":"885680","count":"487"}
+,{"firm_name":"Kearney Plumbing","license_number":"1013245","count":"485"}
+,{"firm_name":"Brighter Bay Builders Inc","license_number":"1023440","count":"484"}
+,{"firm_name":"Ledda Plumbing Inc","license_number":"383601","count":"479"}
+,{"firm_name":"Vulcan Construction","license_number":"414892","count":"477"}
+,{"firm_name":"F & S Plumbing Ltd","license_number":"483091","count":"475"}
+,{"firm_name":"Schmitt Heating Co Inc**See Note***","license_number":"708941","count":"474"}
+,{"firm_name":"Ocean Air Heating","license_number":"968927","count":"472"}
+,{"firm_name":"Right Rooter/P.C. Plumbing","license_number":"498578","count":"472"}
+,{"firm_name":"Bill Bragg Plumbing","license_number":"440780","count":"470"}
+,{"firm_name":"Chris' Plumbing Inc","license_number":"795046","count":"469"}
+,{"firm_name":"L R Plumbing","license_number":"771776","count":"466"}
+,{"firm_name":"Harris Water Heaters","license_number":"1026214","count":"465"}
+,{"firm_name":"Lev's Plumbing Co","license_number":"421774","count":"462"}
+,{"firm_name":"Jin's Plumbing Inc","license_number":"877300","count":"462"}
+,{"firm_name":"Nomellini Construction * Ask For Id *","license_number":"519273","count":"459"}
+,{"firm_name":"Water Heaters & More","license_number":"741904","count":"457"}
+,{"firm_name":"Berg's Heating & Serv Co","license_number":"579582","count":"456"}
+,{"firm_name":"Larratt Bros.Plbg.,Inc.","license_number":"596026","count":"446"}
+,{"firm_name":"Pop Plumbing Inc.","license_number":"756097","count":"442"}
+,{"firm_name":"Howe Furnace","license_number":"278286","count":"441"}
+,{"firm_name":"Emerald Plumbing & Fire","license_number":"498866","count":"440"}
+,{"firm_name":"Okells Inc","license_number":"1088393","count":"432"}
+,{"firm_name":"Blaze Fireplaces","license_number":"454647","count":"426"}
+,{"firm_name":"Dejager & Reilly  Plumbing & Heating","license_number":"269424","count":"425"}
+,{"firm_name":"Amores Plumbing Company","license_number":"562240","count":"423"}
+,{"firm_name":"Building Efficiency Inc","license_number":"947504","count":"420"}
+,{"firm_name":"M C L Heating & Air Conditioning Inc","license_number":"989383","count":"419"}
+,{"firm_name":"George Rehn Plumbing Co","license_number":"475627","count":"415"}
+,{"firm_name":"Dinamit Plumbing","license_number":"869445","count":"415"}
+,{"firm_name":"Annuzzi's Heating & Cooling","license_number":"742916","count":"412"}
+,{"firm_name":"Parks Plumbing & Heating","license_number":"391483","count":"411"}
+,{"firm_name":"Allied Heating & Air Conditining","license_number":"453261","count":"408"}
+,{"firm_name":"City Preferred Plumbing Inc","license_number":"1027203","count":"407"}
+,{"firm_name":"Fast Water Heater Partners I Lp","license_number":"931237","count":"406"}
+,{"firm_name":"Performance Plumbing","license_number":"841080","count":"402"}
+,{"firm_name":"Eagle Heating","license_number":"661759","count":"400"}
+,{"firm_name":"Malcolm Plumbing Co","license_number":"482349","count":"400"}
+,{"firm_name":"Hydronics Inc.","license_number":"865623","count":"398"}
+,{"firm_name":"Cas Construction","license_number":"708239","count":"396"}
+,{"firm_name":"Warm Solutions / American Chimeny Svcs","license_number":"827201","count":"395"}
+,{"firm_name":"Backflow Prevention Specialists Inc","license_number":"427328","count":"395"}
+,{"firm_name":"C & H Plumbing Co.","license_number":"887869","count":"392"}
+,{"firm_name":"Di Maggio Plumbing","license_number":"608924","count":"392"}
+,{"firm_name":"C T Construction & Plumb","license_number":"533324","count":"391"}
+,{"firm_name":"T T Lee Corp Dba: Allen Lee Plumbing","license_number":"751710","count":"391"}
+,{"firm_name":"Bayline Mechanical","license_number":"342012","count":"385"}
+,{"firm_name":"Superior Automatic Sprinkler","license_number":"287121","count":"384"}
+,{"firm_name":"In & Out Drain Cleaning Inc.","license_number":"878184","count":"383"}
+,{"firm_name":"S And G Plumbing Inc","license_number":"841206","count":"383"}
+,{"firm_name":"Drain Patrol","license_number":"422136","count":"381"}
+,{"firm_name":"J S Plumbing","license_number":"375432","count":"378"}
+,{"firm_name":"Todd Morris Fire Protection Inc.","license_number":"978422","count":"369"}
+,{"firm_name":"The Lunt Marymor Co. Inc.","license_number":"764839","count":"369"}
+,{"firm_name":"J E Brown Co Mechanical","license_number":"658273","count":"369"}
+,{"firm_name":"C W  Lee Plumbing Co","license_number":"586693","count":"368"}
+,{"firm_name":"Tony Ng Plumbing Co","license_number":"329705","count":"366"}
+,{"firm_name":"North South Plumbing Inc.","license_number":"895742","count":"364"}
+,{"firm_name":"O'grady Plumbing Co","license_number":"746040","count":"364"}
+,{"firm_name":"Marco Deleon Plumbing","license_number":"977401","count":"363"}
+,{"firm_name":"Ca United Mechanical,  Inc","license_number":"828335","count":"363"}
+,{"firm_name":"Neighborhood Plumbing","license_number":"949094","count":"362"}
+,{"firm_name":"Columbia Mechanical Contractors","license_number":"273358","count":"361"}
+,{"firm_name":"Reliable Plumbing Co","license_number":"524073","count":"359"}
+,{"firm_name":"John L. Plumbing Inc","license_number":"724165","count":"358"}
+,{"firm_name":"Hing Wah Construction Inc","license_number":"662696","count":"357"}
+,{"firm_name":"Tromborg Royal Plumbing & Heating","license_number":"773207","count":"356"}
+,{"firm_name":"Sweeney Plumbing","license_number":"741266","count":"356"}
+,{"firm_name":"Magnum Construction Group Inc","license_number":"901895","count":"355"}
+,{"firm_name":"Celso's Plumbing","license_number":"972573","count":"353"}
+,{"firm_name":"Pro Plumbing","license_number":"859973","count":"351"}
+,{"firm_name":"Thorpe Design Inc","license_number":"541016","count":"348"}
+,{"firm_name":"Jupiter Enterprises Inc","license_number":"447567","count":"348"}
+,{"firm_name":"Chuck Voutselas Plumbing","license_number":"323631","count":"347"}
+,{"firm_name":"Rescue Rooter","license_number":"744542","count":"347"}
+,{"firm_name":"Fast Water Heaters Inc","license_number":"877489","count":"346"}
+,{"firm_name":"Feng K. Plumbing Corp.","license_number":"839447","count":"345"}
+,{"firm_name":"City Front Plumbing Inc","license_number":"443156","count":"345"}
+,{"firm_name":"Advanced Plumbing And Drain Inc","license_number":"1009195","count":"341"}
+,{"firm_name":"Project Contractor Inc","license_number":"884221","count":"339"}
+,{"firm_name":"Astorga Construction Co.","license_number":"309814","count":"337"}
+,{"firm_name":"O'donovan Plumbing Inc.","license_number":"582534","count":"337"}
+,{"firm_name":"Chris Goodwin Plumbing *Ck Id*","license_number":"486122","count":"335"}
+,{"firm_name":"O'donovan Plumbing","license_number":"582534","count":"334"}
+,{"firm_name":"Oceanside Sheet Metal","license_number":"278099","count":"333"}
+,{"firm_name":"San Francisco Lone Star","license_number":"430557","count":"333"}
+,{"firm_name":"Level 8 Construction Inc","license_number":"851171","count":"331"}
+,{"firm_name":"Golden Gate Rooter & Plu","license_number":"685330","count":"330"}
+,{"firm_name":"A B Plumbing","license_number":"876212","count":"330"}
+,{"firm_name":"13-D Fire Systems","license_number":"577279","count":"329"}
+,{"firm_name":"West Bay Plumbing","license_number":"920624","count":"328"}
+,{"firm_name":"J A Plumbing Inc","license_number":"845259","count":"327"}
+,{"firm_name":"Awhap Acquisition Corp Dba Affordable Wa","license_number":"1066584","count":"326"}
+,{"firm_name":"Heath Plumbing & Fire Pro","license_number":"712728","count":"325"}
+,{"firm_name":"All Valley Plumbing","license_number":"794890","count":"325"}
+,{"firm_name":"Riff Raff Plumbing","license_number":"932219","count":"325"}
+,{"firm_name":"Friendly Plumber","license_number":"743369","count":"325"}
+,{"firm_name":"Two Guys Plumbing Inc Dba Cabrillo Plum","license_number":"629538","count":"323"}
+,{"firm_name":"Sewer  Rat","license_number":"592813","count":"322"}
+,{"firm_name":"Western Plumbing & Heat","license_number":"101436","count":"321"}
+,{"firm_name":"Hot Water Inc","license_number":"763612","count":"320"}
+,{"firm_name":"All Rooter & Plumbing Service, Inc","license_number":"970605","count":"319"}
+,{"firm_name":"Br Troika Inc. Dba Mr Rooter Plumbing","license_number":"812845","count":"318"}
+,{"firm_name":"Denis Deng's Plumbing","license_number":"636742","count":"317"}
+,{"firm_name":"Daniel Larratt Plumbing Inc","license_number":"765695","count":"316"}
+,{"firm_name":"Chung Hing Plumbing","license_number":"628627","count":"314"}
+,{"firm_name":"Kiwi Plumbing","license_number":"489648","count":"314"}
+,{"firm_name":"Alansi's Rooter & Plumbing","license_number":"933593","count":"314"}
+,{"firm_name":"Matrix Hg Inc","license_number":"812232","count":"314"}
+,{"firm_name":"Cj Plumbing","license_number":"1039082","count":"312"}
+,{"firm_name":"A & A Plumbing","license_number":"685266","count":"310"}
+,{"firm_name":"Cabrillo Plumbing","license_number":"629538","count":"309"}
+,{"firm_name":"Tuck Aire Heating &Air Conditioning Corp","license_number":"856293","count":"308"}
+,{"firm_name":"S F Garage Company Inc.","license_number":"684863","count":"305"}
+,{"firm_name":"Expert Plumbing Solutions","license_number":"977638","count":"303"}
+,{"firm_name":"Francis John Burke","license_number":"762214","count":"303"}
+,{"firm_name":"Scott-Norman Jv","license_number":"676802","count":"302"}
+,{"firm_name":"Mayen Hvac","license_number":"978201","count":"300"}
+,{"firm_name":"Jeff Deehan Plumbing","license_number":"698559","count":"299"}
+,{"firm_name":"Acw Mechanical Of No Ca/Contra Costa Hea","license_number":"970192","count":"298"}
+,{"firm_name":"William's Heating","license_number":"766335","count":"297"}
+,{"firm_name":"Ricky's Plumbing Co","license_number":"570753","count":"297"}
+,{"firm_name":"Ajax Plumbing & Heating","license_number":"673116","count":"296"}
+,{"firm_name":"Hillside Plumbing Co","license_number":"860119","count":"294"}
+,{"firm_name":"Purcell Bros Plumb & Heat","license_number":"493818","count":"294"}
+,{"firm_name":"A Plumbing","license_number":"751295","count":"290"}
+,{"firm_name":"J M Pacific Bay Plumbing Inc","license_number":"998725","count":"290"}
+,{"firm_name":"Cheer Plumbing Co","license_number":"339522","count":"288"}
+,{"firm_name":"Garibaldi Plumbing","license_number":"492385","count":"288"}
+,{"firm_name":"Arjan Bok Plumbing","license_number":"680961","count":"286"}
+,{"firm_name":"Precise Plumbing","license_number":"961915","count":"285"}
+,{"firm_name":"Ajax Plumbing & Heating","license_number":"745896","count":"285"}
+,{"firm_name":"Success Construction","license_number":"876008","count":"284"}
+,{"firm_name":"Prontito Plumbing","license_number":"366870","count":"283"}
+,{"firm_name":"A & B Construction","license_number":"636514","count":"283"}
+,{"firm_name":"Garcia Plumbing And Mechanical Co Inc","license_number":"782787","count":"282"}
+,{"firm_name":"North Star Plumbing & Fire Protection","license_number":"1031709","count":"282"}
+,{"firm_name":"J & J Sheet Metal Inc.","license_number":"456109","count":"281"}
+,{"firm_name":"Steven Harris Glorit Plumb Con.","license_number":"430548","count":"280"}
+,{"firm_name":"George V Salet Plumbing Inc","license_number":"888630","count":"279"}]

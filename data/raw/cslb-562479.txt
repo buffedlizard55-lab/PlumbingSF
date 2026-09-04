@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=562479
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:30 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  562479
+SHING PLUMBING LLC
+2965 19TH AVENUE
+SAN FRANCISCO, CA 94132
+Business Phone Number:(415) 559-2096
+Entity: Ltd Liability
+Issue Date: 03/28/1989
+Reissue Date: 08/18/2015
+Expire Date: 08/05/2017
+License Status: This license is canceled and not able to contract.
+Classifications: C36 - PLUMBING
+Contractor's Bond: OLD REPUBLIC SURETY COMPANY, Bond Number: W150225486, Bond Amount: $15,000, Effective Date: 01/01/2016, Cancellation Date: 08/11/2017
+LLC Employee/Worker Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: 41286956, Bond Amount: $100,000, Effective Date: 08/18/2015, Cancellation Date: 09/21/2017
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9135507, Effective Date: 05/24/2016, Cancellation Date: 10/16/2017
+Miscellaneous Information: 08/05/2017 - SECRETARY OF STATE - CANCELLATION

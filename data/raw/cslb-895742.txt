@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895742
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:16 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  895742
+NORTH SOUTH PLUMBING INC
+2020 A 1 OCEAN AVE
+SAN FRANCISCO, CA 94127
+Business Phone Number:(415) 795-3272
+Entity: Corporation
+Issue Date: 05/03/2007
+Reissue Date: 02/20/2015
+Expire Date: 02/28/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101828048, Bond Amount: $25,000, Effective Date: 04/12/2026
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECBA8YPS, Effective Date: 12/23/2024, Expire Date: 12/23/2026. Classification codes: 0036 - Dairy Farms.
+Miscellaneous Information: 02/20/2015 - LICENSE REISSUED TO ANOTHER ENTITY

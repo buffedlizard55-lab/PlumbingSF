@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=615837
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:48:13 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  615837
+PLUGBUSTERS
+2348 JERROLD AVENUE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 550-7272
+Entity: Partnership
+Issue Date: 03/21/1991
+Expire Date: 03/31/1997
+License Status: This license is expired and not able to contract at this time. Additional Status: The license was canceled after expiration.
+Classifications: C36 - PLUMBING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 687893, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 03/06/1998
+Workers' Compensation: NATIONAL AMERICAN INSURANCE COMPANY OF CALIFORNIA, Policy Number: SFWC10020789B, Effective Date: 09/21/1994, Expire Date: 09/21/1995

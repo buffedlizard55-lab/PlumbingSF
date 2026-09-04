@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=327664
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:30 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  327664
+BELLANTI PLUMBING INC
+121 SOUTH MAPLE AVENUE #10
+SO SAN FRANCISCO, CA 94080
+Business Phone Number:(650) 588-2990
+Entity: Corporation
+Issue Date: 11/05/1976
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 70261327, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: TES4805719, Effective Date: 05/01/2026, Expire Date: 05/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.

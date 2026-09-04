@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T00:34:53Z",
+  "generated_at": "2026-09-04T01:13:51Z",
   "verified_at": "2026-09-04",
   "job": {
     "summary": "Slow-draining bathtub (~20% of normal flow) and shower (~60-80%) in a c.1940 San Francisco house, likely original galvanized drain piping. The bathtub overflow trip lever is stuck and the tub is not accessible from below.",
@@ -389,12 +389,15 @@
     }
   },
   "counts": {
-    "entries": 57,
-    "active_verified_businesses": 44,
-    "expansion_2026_09_04": 20,
-    "cslb_records_captured": 57,
-    "raw_capture_files": 68,
-    "flagged_not_hireable": 13
+    "entries": 80,
+    "active_verified_businesses": 58,
+    "expansion_batches": {
+      "2026-09-04-expansion-20": 20,
+      "2026-09-04-expansion-50": 23
+    },
+    "cslb_records_captured": 81,
+    "raw_capture_files": 94,
+    "flagged_not_hireable": 22
   },
   "fit_labels": {
     "snake_shower": "Snake / clear the shower drain",
@@ -3047,6 +3050,307 @@
       "rank": 20
     },
     {
+      "id": "ros-plumbing-llc",
+      "display_name": "Ros Plumbing LLC",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 09/30/2006, Ltd Liability entity based in Novato. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 505-2180",
+      "address_display": "1543 Hill Road, Novato, CA 94947",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "885083",
+        "legal_name": "ROS PLUMBING LLC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Ltd Liability",
+        "classifications": "C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; B - GENERAL BUILDING",
+        "issue_date": "09/30/2006",
+        "reissue_date": "02/13/2021",
+        "expire_date": "02/28/2027",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "04/08/2024",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600016063261, Effective Date: 02/04/2026, Expire Date: 02/04/2027. Classification codes: 5187 - Description Unavailable; 8810 - Clerical Office Employees.",
+        "cslb_address": "1543 HILL ROAD / NOVATO, CA 94947",
+        "cslb_phone": "(415) 505-2180",
+        "misc": "02/13/2021 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885083",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:35 PM\")",
+        "raw_file": "data/raw/cslb-885083.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1252,
+      "sf_permits_curated": 1252,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "documented-adjacent"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 2,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 2,
+        "max": 12,
+        "percent": 17,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "5.0",
+          "count": "15",
+          "url": "https://www.yelp.com/biz/ros-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "platform": "BuildZoom",
+          "score": "5",
+          "count": "1",
+          "url": "https://www.buildzoom.com/contractor/ros-plumbing",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": "Tony D.",
+          "text": "Fernando came by on a couple of hours notice with an emergency water heater problem we were having for several days.",
+          "url": "https://www.yelp.com/biz/ros-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "same-day emergency response"
+          ]
+        },
+        {
+          "platform": "BuildZoom",
+          "author": null,
+          "text": "Their license was verified as active when we last checked.",
+          "url": "https://www.buildzoom.com/novato-ca/plumbers",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "independent license check consistent with the CSLB capture"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp class description unavailable",
+          "detail": "CSLB lists a workers' compensation policy but shows '5187 - Description Unavailable' for the class code; ask for the certificate when booking."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yelp business page (indirect snippet)",
+          "url": "https://www.yelp.com/biz/ros-plumbing-san-francisco",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "BuildZoom profile (indirect snippet)",
+          "url": "https://www.buildzoom.com/contractor/ros-plumbing",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "BuildZoom directory entry (indirect snippet)",
+          "url": "https://www.buildzoom.com/novato-ca/plumbers",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 885083",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=885083",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-885083.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Ros Plumbing LLC",
+          "url": "https://www.yelp.com/search?find_desc=Ros+Plumbing+LLC&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Ros Plumbing LLC",
+          "url": "https://www.google.com/search?q=Ros+Plumbing+LLC+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 21
+    },
+    {
+      "id": "flow-masters-plumbing-inc",
+      "display_name": "Flow Masters Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 10/04/2011, Corporation entity based in Daly City. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 751-1933",
+      "address_display": "6169 Mission St, Daly City, CA 94014",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "966337",
+        "legal_name": "FLOW MASTERS PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING",
+        "issue_date": "10/04/2011",
+        "reissue_date": null,
+        "expire_date": "10/31/2027",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "03/09/2025",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SNS1651127, Effective Date: 06/01/2026, Expire Date: 06/01/2027. Classification codes: 5187 - Description Unavailable; 5183 - Description Unavailable; 8742 - Salespersons-Outside.",
+        "cslb_address": "6169 MISSION ST / DALY CITY, CA 94014",
+        "cslb_phone": "(415) 751-1933",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=966337",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:14 PM\")",
+        "raw_file": "data/raw/cslb-966337.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1072,
+      "sf_permits_curated": 1072,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 2,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 2,
+        "max": 12,
+        "percent": 17,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Google via serviceagent.ai",
+          "score": "5.0",
+          "count": "653",
+          "url": "https://serviceagent.ai/directory/california/daly-city/plumbing/drain-cleaning/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "platform": "Multi-source via Birdeye",
+          "score": "4.9",
+          "count": "815",
+          "url": "https://reviews.birdeye.com/flow-masters-plumbing-inc-166961182716262",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Nextdoor",
+          "author": null,
+          "text": "They are known for their expertise in a variety of plumbing tasks, from installing under-sink water filtration systems to fixing showers. They also handle larger projects, such as installing radiant subfloor heating systems and dealing with sewage issues.",
+          "url": "https://nextdoor.com/pages/flow-masters-plumbing-inc-san-francisco-ca/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "repairs showers",
+            "sewage issues",
+            "self-described scope on Nextdoor page"
+          ]
+        }
+      ],
+      "flags": [],
+      "sources": [
+        {
+          "label": "Nextdoor page (indirect snippet)",
+          "url": "https://nextdoor.com/pages/flow-masters-plumbing-inc-san-francisco-ca/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Drain-cleaning directory (indirect snippet)",
+          "url": "https://serviceagent.ai/directory/california/daly-city/plumbing/drain-cleaning/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Birdeye aggregate (indirect snippet)",
+          "url": "https://reviews.birdeye.com/flow-masters-plumbing-inc-166961182716262",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 966337",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=966337",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-966337.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Flow Masters Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Flow+Masters+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Flow Masters Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Flow+Masters+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 22
+    },
+    {
       "id": "advanced-plumbing-and-drain",
       "display_name": "Advanced Plumbing & Drain",
       "dba": null,
@@ -3151,7 +3455,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 21
+      "rank": 23
     },
     {
       "id": "e-m-s-plumbing",
@@ -3258,7 +3562,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 22
+      "rank": 24
     },
     {
       "id": "x-ray-plumbing-and-drain",
@@ -3384,7 +3688,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 23
+      "rank": 25
     },
     {
       "id": "arch-plumbing-inc",
@@ -3511,7 +3815,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 24
+      "rank": 26
     },
     {
       "id": "ayoob-and-peery-plumbing",
@@ -3601,7 +3905,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 25
+      "rank": 27
     },
     {
       "id": "ruby-plumbing-and-electrical",
@@ -3691,7 +3995,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 26
+      "rank": 28
     },
     {
       "id": "bell-plumbing-and-heating",
@@ -3786,7 +4090,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 27
+      "rank": 29
     },
     {
       "id": "san-francisco-plumbing-company",
@@ -3881,7 +4185,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 28
+      "rank": 30
     },
     {
       "id": "fusco-plumbing-and-heating",
@@ -3976,7 +4280,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 29
+      "rank": 31
     },
     {
       "id": "lutz-plumbing",
@@ -4075,7 +4379,117 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 30
+      "rank": 32
+    },
+    {
+      "id": "gagne-brothers-plumbing-benjamin-franklin-plumbing",
+      "display_name": "Gagne Brothers Plumbing (Benjamin Franklin Plumbing)",
+      "dba": "Benjamin Franklin Plumbing",
+      "tier": "viable",
+      "headline": "Active CSLB license (A primary), issued 04/14/2005, Corporation entity based in Novato. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 763-4002",
+      "address_display": "Dba Benjamin Franklin Plumbing, 22 Digital Drive Ste One, Novato, CA 94949",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "857357",
+        "legal_name": "GAGNE BROTHERS ENTERPRISES INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "A - GENERAL ENGINEERING ; C36 - PLUMBING",
+        "issue_date": "04/14/2005",
+        "reissue_date": null,
+        "expire_date": "04/30/2027",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "NATIONWIDE INSURANCE COMPANY OF AMERICA, Policy Number: ACPWC013202267545, Effective Date: 07/17/2026, Expire Date: 07/17/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8742 - Salespersons-Outside.",
+        "cslb_address": "dba BENJAMIN FRANKLIN PLUMBING / 22 DIGITAL DRIVE STE ONE / NOVATO, CA 94949",
+        "cslb_phone": "(415) 763-4002",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=857357",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:34 PM\")",
+        "raw_file": "data/raw/cslb-857357.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1275,
+      "sf_permits_curated": 1275,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Yelp (business profile text)",
+          "author": null,
+          "text": "We are a family owned business, Gagne Brothers Plumbing started in 1996 and joined Benjamin Franklin Plumbing in 2000 becoming the first franchise in the country.",
+          "url": "https://www.yelp.com/biz/benjamin-franklin-plumbing-novato-novato-2?start=200",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "long-operating local firm behind the national brand"
+          ]
+        }
+      ],
+      "flags": [],
+      "sources": [
+        {
+          "label": "Yelp profile of the Novato location (indirect snippet)",
+          "url": "https://www.yelp.com/biz/benjamin-franklin-plumbing-novato-novato-2?start=200",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 857357",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=857357",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-857357.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Gagne Brothers Plumbing (Benjamin Franklin Plumbing)",
+          "url": "https://www.yelp.com/search?find_desc=Gagne+Brothers+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Gagne Brothers Plumbing (Benjamin Franklin Plumbing)",
+          "url": "https://www.google.com/search?q=Gagne+Brothers+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 33
     },
     {
       "id": "nigel-mulgrew-plumbing",
@@ -4170,7 +4584,371 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 31
+      "rank": 34
+    },
+    {
+      "id": "national-plumbing",
+      "display_name": "National Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 05/18/1991, Sole Ownership entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 310-4928",
+      "address_display": "1472 24TH Avenue, San Francisco, CA 94122",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "619642",
+        "legal_name": "NATIONAL PLUMBING",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "05/18/1991",
+        "reissue_date": null,
+        "expire_date": "05/31/2027",
+        "bond": {
+          "carrier": "WESTERN SURETY COMPANY",
+          "amount": "$25,000",
+          "effective": "05/31/2025",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "PREFERRED EMPLOYERS INSURANCE COMPANY, Policy Number: PEG499414104, Effective Date: 09/30/2024, Expire Date: 09/30/2026. Classification codes: 1090 - Description Unavailable.",
+        "cslb_address": "1472 24TH AVENUE / SAN FRANCISCO, CA 94122",
+        "cslb_phone": "(415) 310-4928",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=619642",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:15 PM\")",
+        "raw_file": "data/raw/cslb-619642.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1010,
+      "sf_permits_curated": 1010,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "Business website http://www.national-plumbing.c… Phone number (415) 753-1618",
+          "url": "https://www.yelp.com/biz/national-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "the Yelp listing phone matches the phone in the CSLB capture"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Unusual workers' comp class code",
+          "detail": "The CSLB record lists workers' comp class code 1090, not the plumbing code 5183; confirm current coverage matches field work."
+        },
+        {
+          "severity": "info",
+          "label": "No public rating captured",
+          "detail": "A Yelp listing matching the CSLB phone exists but the captured snippet shows no rating; no consumer-review evidence could be preserved for this business in this pass."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yelp business page (indirect snippet)",
+          "url": "https://www.yelp.com/biz/national-plumbing-san-francisco",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 619642",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=619642",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-619642.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for National Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=National+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for National Plumbing",
+          "url": "https://www.google.com/search?q=National+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 35
+    },
+    {
+      "id": "garibaldi-plumbing-co-inc",
+      "display_name": "Garibaldi Plumbing Co Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (A primary), issued 05/27/1986, Corporation entity based in Burlingame. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(650) 340-7001",
+      "address_display": "565 Craig Road, Burlingame, CA 94010-6707",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "492385",
+        "legal_name": "GARIBALDI PLUMBING COMPANY INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "A - GENERAL ENGINEERING ; C16 - FIRE PROTECTION ; C36 - PLUMBING",
+        "issue_date": "05/27/1986",
+        "reissue_date": "08/20/1996",
+        "expire_date": "08/31/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "EMPLOYERS PREFERRED INSURANCE COMPANY, Policy Number: EIG495509704, Effective Date: 04/01/2026, Expire Date: 04/01/2027. Classification codes: 5187 - Description Unavailable; 5183 - Description Unavailable; 8810 - Clerical Office Employees.",
+        "cslb_address": "565 CRAIG ROAD / BURLINGAME, CA 94010-6707",
+        "cslb_phone": "(650) 340-7001",
+        "misc": "08/20/1996 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=492385",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:16 PM\")",
+        "raw_file": "data/raw/cslb-492385.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 937,
+      "sf_permits_curated": 937,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "No consumer reviews found; namesake elsewhere",
+          "detail": "YellowPages shows zero reviews for the Burlingame firm; a 1.0-star Birdeye review belongs to an unrelated same-name business in Squamish, BC, and is not attributed here."
+        }
+      ],
+      "sources": [
+        {
+          "label": "YellowPages listing (indirect snippet)",
+          "url": "https://www.yellowpages.com/san-francisco-ca/mip/garibaldi-plumbing-co-inc-12775876",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Birdeye page of the unrelated namesake (context only)",
+          "url": "https://reviews.birdeye.com/garibaldi-plumbing-inc-166942962336634",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 492385",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=492385",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-492385.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Garibaldi Plumbing Co Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Garibaldi+Plumbing+Co+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Garibaldi Plumbing Co Inc.",
+          "url": "https://www.google.com/search?q=Garibaldi+Plumbing+Co+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 36
+    },
+    {
+      "id": "dunne-plumbing",
+      "display_name": "Dunne Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 06/08/1994, Sole Ownership entity based in Burlingame. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 828-0141",
+      "address_display": "Po Box 117085, Burlingame, CA 94011",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "690001",
+        "legal_name": "DUNNE PLUMBING",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "06/08/1994",
+        "reissue_date": null,
+        "expire_date": "06/30/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "exempt",
+        "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/26/2026, Expire Date: None",
+        "cslb_address": "PO BOX 117085 / BURLINGAME, CA 94011",
+        "cslb_phone": "(415) 828-0141",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=690001",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:28 PM\")",
+        "raw_file": "data/raw/cslb-690001.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 762,
+      "sf_permits_curated": 762,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "5.0",
+          "count": "1",
+          "url": "https://www.yelp.com/biz/dunne-plumbing-burlingame",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "This business is **NOT BBB Accredited.** General Contractor Burlingame, CA PO Box 117085 Burlingame, CA 94011 **BBB File Opened:**: 2/10/2026 **Business Started:**: 6/8/1994",
+          "url": "https://www.bbb.org/us/ca/burlingame/profile/general-contractor/dunne-plumbing-1116-979344",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "recently opened BBB file; not accredited"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "No employees on record",
+          "detail": "CSLB states the contractor is exempt from workers' compensation, which normally means no employees; a solo operator may not be available for urgent double-crew jobs."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yelp business page (indirect snippet)",
+          "url": "https://www.yelp.com/biz/dunne-plumbing-burlingame",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "BBB business profile (indirect snippet)",
+          "url": "https://www.bbb.org/us/ca/burlingame/profile/general-contractor/dunne-plumbing-1116-979344",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 690001",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=690001",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-690001.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Dunne Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Dunne+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Dunne Plumbing",
+          "url": "https://www.google.com/search?q=Dunne+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 37
     },
     {
       "id": "cabrillo-plumbing-heating-air",
@@ -4287,7 +5065,401 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 32
+      "rank": 38
+    },
+    {
+      "id": "argyris-plumbing",
+      "display_name": "Argyris Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 11/17/1972, Sole Ownership entity based in Belmont. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 260-9324",
+      "address_display": "2626 Belmont Canyon Road, Belmont, CA 94002",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "280249",
+        "legal_name": "ARGYRIS PLUMBING",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "11/17/1972",
+        "reissue_date": "12/30/1997",
+        "expire_date": "12/31/2027",
+        "bond": {
+          "carrier": "ATLANTIC SPECIALTY INSURANCE COMPANY",
+          "amount": "$25,000",
+          "effective": "11/26/2025",
+          "cancellation": null
+        },
+        "workers_comp_code": "exempt",
+        "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 11/07/2025, Expire Date: None",
+        "cslb_address": "2626 BELMONT CANYON ROAD / BELMONT, CA 94002",
+        "cslb_phone": "(415) 260-9324",
+        "misc": "12/30/1997 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=280249",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:29 PM\")",
+        "raw_file": "data/raw/cslb-280249.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 743,
+      "sf_permits_curated": 743,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "BuildZoom",
+          "author": null,
+          "text": "Their BuildZoom score of 110 ranks in the top 4% of 336,931 California licensed contractors",
+          "url": "https://www.buildzoom.com/contractor/argyris-plumbing",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "permit-record strength; no consumer reviews"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "BBB Rating A+ **Years in Business:** 53 **BBB File Opened:**: 7/21/2025 **Business Started:**: 11/17/1972",
+          "url": "https://www.bbb.org/us/ca/belmont/profile/plumber/argyris-plumbing-1116-973448",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "BBB start date matches the 1972 CSLB issue date"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "No employees on record",
+          "detail": "CSLB states the contractor is exempt from workers' compensation; the license dates to 1972 and is held by a sole operator."
+        }
+      ],
+      "sources": [
+        {
+          "label": "BuildZoom profile (indirect snippet)",
+          "url": "https://www.buildzoom.com/contractor/argyris-plumbing",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "BBB business profile (indirect snippet)",
+          "url": "https://www.bbb.org/us/ca/belmont/profile/plumber/argyris-plumbing-1116-973448",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 280249",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=280249",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-280249.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Argyris Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Argyris+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Argyris Plumbing",
+          "url": "https://www.google.com/search?q=Argyris+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 39
+    },
+    {
+      "id": "bellanti-plumbing-inc",
+      "display_name": "Bellanti Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C-4 primary), issued 11/05/1976, Corporation entity based in So San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(650) 588-2990",
+      "address_display": "121 South Maple Avenue #10, So San Francisco, CA 94080",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "327664",
+        "legal_name": "BELLANTI PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C36 - PLUMBING ; C16 - FIRE PROTECTION",
+        "issue_date": "11/05/1976",
+        "reissue_date": null,
+        "expire_date": "04/30/2027",
+        "bond": {
+          "carrier": "WESTERN SURETY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SECURITY NATIONAL INSURANCE COMPANY, Policy Number: TES4805719, Effective Date: 05/01/2026, Expire Date: 05/01/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage.",
+        "cslb_address": "121 SOUTH MAPLE AVENUE #10 / SO SAN FRANCISCO, CA 94080",
+        "cslb_phone": "(650) 588-2990",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=327664",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:30 PM\")",
+        "raw_file": "data/raw/cslb-327664.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 716,
+      "sf_permits_curated": 716,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Google via chamberofcommerce.com",
+          "score": "4.5",
+          "count": "4",
+          "url": "https://www.chamberofcommerce.com/business-directory/california/south-san-francisco/general-contractor/2350008-bellanti-plumbing-inc",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "YellowPages",
+          "author": "Dan F.",
+          "text": "My job was done on time. Ron was easy to communicate with and had a real fast response from the time that I called them with an issue.",
+          "url": "https://www.yellowpages.com/south-san-francisco-ca/mip/bellanti-plumbing-inc-3525277",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "responsive dispatch, commercial-oriented work"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Review sample is dated",
+          "detail": "The captured public reviews run from 2014 to 2017 and mostly come from general-contractor relationships rather than residential emergency calls."
+        }
+      ],
+      "sources": [
+        {
+          "label": "chamberofcommerce.com listing (indirect snippet)",
+          "url": "https://www.chamberofcommerce.com/business-directory/california/south-san-francisco/general-contractor/2350008-bellanti-plumbing-inc",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "YellowPages review page (indirect snippet)",
+          "url": "https://www.yellowpages.com/south-san-francisco-ca/mip/bellanti-plumbing-inc-3525277",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 327664",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=327664",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-327664.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Bellanti Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Bellanti+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Bellanti Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Bellanti+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 40
+    },
+    {
+      "id": "sewer-rat-plumbing-inc",
+      "display_name": "Sewer Rat Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 04/27/1990, Corporation entity based in Pacifica. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(650) 343-7575",
+      "address_display": "P O Box 1613, Pacifica, CA 94044",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "592813",
+        "legal_name": "SEWER RAT PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING ; A - GENERAL ENGINEERING",
+        "issue_date": "04/27/1990",
+        "reissue_date": "05/28/2014",
+        "expire_date": "05/31/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "PREFERRED EMPLOYERS INSURANCE COMPANY, Policy Number: PEG12052017701, Effective Date: 03/01/2026, Expire Date: 03/01/2027. Classification codes: 5183 - Description Unavailable; 8810 - Clerical Office Employees; 5187 - Description Unavailable.",
+        "cslb_address": "P O BOX 1613 / PACIFICA, CA 94044",
+        "cslb_phone": "(650) 343-7575",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=592813",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:14 PM\")",
+        "raw_file": "data/raw/cslb-592813.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 322,
+      "sf_permits_curated": 322,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "BuildZoom",
+          "author": null,
+          "text": "Their BuildZoom score of 98 ranks in the top 16% of 336,931 California licensed contractors Their license was verified as active when we last checked.",
+          "url": "https://www.buildzoom.com/contractor/sewer-rat-plumbing-inc",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "independent license check consistent with the CSLB capture"
+          ]
+        },
+        {
+          "platform": "Nextdoor",
+          "author": "M. W.",
+          "text": "We used Sewer Rat Plumbing a few years ago. Instead of replacing the entire line, they were able to replace a section.",
+          "url": "https://nextdoor.com/pages/sewer-rats-plumbing-burlingame-ca/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "sewer-line repair with partial (not full) replacement"
+          ]
+        }
+      ],
+      "flags": [],
+      "sources": [
+        {
+          "label": "BuildZoom profile (indirect snippet)",
+          "url": "https://www.buildzoom.com/contractor/sewer-rat-plumbing-inc",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Nextdoor recommendations page (indirect snippet)",
+          "url": "https://nextdoor.com/pages/sewer-rats-plumbing-burlingame-ca/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 592813",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=592813",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-592813.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Sewer Rat Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Sewer+Rat+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Sewer Rat Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Sewer+Rat+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 41
     },
     {
       "id": "a-g-quality-plumbing",
@@ -4409,7 +5581,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 33
+      "rank": 42
     },
     {
       "id": "citywide-plumbing",
@@ -4508,7 +5680,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 34
+      "rank": 43
     },
     {
       "id": "genteel-plumbing",
@@ -4595,7 +5767,7 @@
           "raw": "data/raw/cslb-1025814.txt"
         }
       ],
-      "rank": 35
+      "rank": 44
     },
     {
       "id": "pipeline-plumbing",
@@ -4694,7 +5866,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 36
+      "rank": 45
     },
     {
       "id": "24-7-rooter-and-plumbing",
@@ -4806,7 +5978,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 37
+      "rank": 46
     },
     {
       "id": "in-out-plumbing-construction",
@@ -4935,7 +6107,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 38
+      "rank": 47
     },
     {
       "id": "red-wrench-plumbing",
@@ -5049,7 +6221,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 39
+      "rank": 48
     },
     {
       "id": "hydro-plumbing-rooter-inc",
@@ -5171,7 +6343,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 40
+      "rank": 49
     },
     {
       "id": "infinity-plumbing-rooter",
@@ -5317,7 +6489,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 41
+      "rank": 50
     },
     {
       "id": "smelly-mel-s-plumbing",
@@ -5449,7 +6621,681 @@
           "access": "manual-review"
         }
       ],
-      "rank": 42
+      "rank": 51
+    },
+    {
+      "id": "madden-plumbing-llc",
+      "display_name": "Madden Plumbing LLC",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 10/03/2003, Ltd Liability entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 923-8510",
+      "address_display": "1228 Folsom Street Suite 101, San Francisco, CA 94103",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "825418",
+        "legal_name": "MADDEN PLUMBING LLC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Ltd Liability",
+        "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION",
+        "issue_date": "10/03/2003",
+        "reissue_date": "08/11/2016",
+        "expire_date": "08/31/2028",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "NATIONAL CASUALTY COMPANY, Policy Number: WCNCC31770400, Effective Date: 07/15/2026, Expire Date: 07/15/2027. Classification codes: 51871 - Plumbing-high wage; 51831 - Plumbing-low wage; 8810 - Clerical Office Employees.",
+        "cslb_address": "1228 FOLSOM STREET SUITE 101 / SAN FRANCISCO, CA 94103",
+        "cslb_phone": "(415) 923-8510",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=825418",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:34 PM\")",
+        "raw_file": "data/raw/cslb-825418.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1333,
+      "sf_permits_curated": 1333,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "3.4",
+          "count": "5",
+          "url": "https://www.yelp.com/biz/madden-plumbing-san-francisco-2",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "platform": "Google via directory (nears.me)",
+          "score": "1.7",
+          "count": "6",
+          "url": "https://plumber-usa.nears.me/plumbers/philadelphia/madden-plumbing-llc-san-francisco-ca/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp search results page",
+          "author": "snippet from Yelp search results",
+          "text": "Fast and efficient. I own a coffee shop that needed plumbing and Madden delivered excellent service.",
+          "url": "https://www.yelp.com/search?find_desc=madden+plumbing&find_loc=San+Francisco%2C+CA",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "positive service snippet, very small sample"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Thin and contradictory review sample",
+          "detail": "Yelp shows 3.4 across 5 reviews; a third-party directory shows Google 1.7 across 6. Neither sample is large enough to judge quality; the listing is unclaimed. Phone-screen carefully."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yelp business page (indirect snippet)",
+          "url": "https://www.yelp.com/biz/madden-plumbing-san-francisco-2",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp search results page (indirect snippet)",
+          "url": "https://www.yelp.com/search?find_desc=madden+plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Directory mirror of Google rating (indirect snippet)",
+          "url": "https://plumber-usa.nears.me/plumbers/philadelphia/madden-plumbing-llc-san-francisco-ca/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 825418",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=825418",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-825418.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Madden Plumbing LLC",
+          "url": "https://www.yelp.com/search?find_desc=Madden+Plumbing+LLC&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Madden Plumbing LLC",
+          "url": "https://www.google.com/search?q=Madden+Plumbing+LLC+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 52
+    },
+    {
+      "id": "demakas-plumbing-heating",
+      "display_name": "Demakas Plumbing & Heating",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C31 primary), issued 01/13/1978, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 282-2121",
+      "address_display": "2370 Oakdale Avenue, San Francisco, CA 94124",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "349523",
+        "legal_name": "DEMAKAS PLUMBING & HEATING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C31 - CONSTRUCTION ZONE TRAFFIC CONTROL ; C36 - PLUMBING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C-61 / D16 - HARDWARE, LOCKS AND SAFES ; C16 - FIRE PROTECTION",
+        "issue_date": "01/13/1978",
+        "reissue_date": null,
+        "expire_date": "11/30/2026",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECAL7PS7, Effective Date: 06/01/2023, Expire Date: 06/01/2027. Classification codes: 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.",
+        "cslb_address": "2370 OAKDALE AVENUE / SAN FRANCISCO, CA 94124",
+        "cslb_phone": "(415) 282-2121",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=349523",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:35 PM\")",
+        "raw_file": "data/raw/cslb-349523.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1192,
+      "sf_permits_curated": 1192,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Multi-source via porch.com",
+          "score": "3.1",
+          "count": "39",
+          "url": "https://pro.porch.com/san-francisco-ca/plumbers/demakas-plumbing-and-heating-inc-/pp",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Glassdoor (employee review)",
+          "author": "Former plumber",
+          "text": "Will work you to the bone with little to no support ... he often says that he hates people then goes about treating people in just that manner. NO LOYALTY in that shop.",
+          "url": "https://www.glassdoor.com/Reviews/Demakas-Plumbing-and-Heating-Reviews-E1788851.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "employee-reported reliability concerns; single review, 2017"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Middling rating and employee complaints",
+          "detail": "Aggregated customer rating is 3.1 across 39 reviews. A single Glassdoor employee review from 2017 alleges unreliable scheduling and a difficult shop; treat as context, not fact."
+        }
+      ],
+      "sources": [
+        {
+          "label": "porch.com aggregate (indirect snippet)",
+          "url": "https://pro.porch.com/san-francisco-ca/plumbers/demakas-plumbing-and-heating-inc-/pp",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Glassdoor employee review page (indirect snippet)",
+          "url": "https://www.glassdoor.com/Reviews/Demakas-Plumbing-and-Heating-Reviews-E1788851.htm",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 349523",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=349523",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-349523.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Demakas Plumbing & Heating",
+          "url": "https://www.yelp.com/search?find_desc=Demakas+Plumbing+&+Heating&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Demakas Plumbing & Heating",
+          "url": "https://www.google.com/search?q=Demakas+Plumbing+&+Heating+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 53
+    },
+    {
+      "id": "north-south-plumbing-inc",
+      "display_name": "North South Plumbing Inc.",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 05/03/2007, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 795-3272",
+      "address_display": "2020 A 1 Ocean Ave, San Francisco, CA 94127",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "895742",
+        "legal_name": "NORTH SOUTH PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "05/03/2007",
+        "reissue_date": "02/20/2015",
+        "expire_date": "02/28/2027",
+        "bond": {
+          "carrier": "MERCHANTS BONDING COMPANY (MUTUAL)",
+          "amount": "$25,000",
+          "effective": "04/12/2026",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECBA8YPS, Effective Date: 12/23/2024, Expire Date: 12/23/2026. Classification codes: 0036 - Dairy Farms.",
+        "cslb_address": "2020 A 1 OCEAN AVE / SAN FRANCISCO, CA 94127",
+        "cslb_phone": "(415) 795-3272",
+        "misc": "02/20/2015 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895742",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:16 PM\")",
+        "raw_file": "data/raw/cslb-895742.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 921,
+      "sf_permits_curated": 921,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Google via chamberofcommerce.com",
+          "score": "3.0",
+          "count": "10",
+          "url": "https://www.chamberofcommerce.com/business-directory/california/san-francisco/plumber/2006207251-north-south-plumbing",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "platform": "YellowBot",
+          "score": "5",
+          "count": "2",
+          "url": "https://www.yellowbot.com/north-south-plumbing-san-francisco-ca-1.html",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Google via chamberofcommerce.com",
+          "author": "Wahbeh Qardaji",
+          "text": "Don't bother. They gave me an initial estimate for service/repairs, but then never returned my repeated calls or emails to come and do the work.",
+          "url": "https://www.chamberofcommerce.com/business-directory/california/san-francisco/plumber/2006207251-north-south-plumbing",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "estimate-then-no-show complaint"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Workers' comp class mismatch",
+          "detail": "CSLB shows the workers' compensation class as '0036 - Dairy Farms', which does not describe plumbing work; request a certificate with codes 5183/5187 before booking."
+        },
+        {
+          "severity": "warn",
+          "label": "Contradictory, small review samples",
+          "detail": "Google mirror shows 3.0 across 10 with complaints of unanswered estimates; YellowBot shows 5 across 2 with praise. Both samples are too small to resolve; the company also shows two different addresses across directories."
+        }
+      ],
+      "sources": [
+        {
+          "label": "chamberofcommerce.com listing (indirect snippet)",
+          "url": "https://www.chamberofcommerce.com/business-directory/california/san-francisco/plumber/2006207251-north-south-plumbing",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "YellowBot listing (indirect snippet)",
+          "url": "https://www.yellowbot.com/north-south-plumbing-san-francisco-ca-1.html",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 895742",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=895742",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-895742.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for North South Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=North+South+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for North South Plumbing Inc.",
+          "url": "https://www.google.com/search?q=North+South+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 54
+    },
+    {
+      "id": "fault-line-plumbing-inc",
+      "display_name": "Fault Line Plumbing Inc.",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 06/12/1997, Corporation entity based in Livermore. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(925) 443-6450",
+      "address_display": "7640 National Drive, Livermore, CA 94550",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "737079",
+        "legal_name": "FAULT LINE PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING",
+        "issue_date": "06/12/1997",
+        "reissue_date": "12/20/2000",
+        "expire_date": "12/31/2026",
+        "bond": {
+          "carrier": "WESTERN SURETY COMPANY",
+          "amount": "$25,000",
+          "effective": "05/06/2025",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SENTINEL INSURANCE COMPANY LTD, Policy Number: 57WEAAW2U2B, Effective Date: 03/11/2023, Expire Date: 03/11/2027. Classification codes: 51831 - Plumbing-low wage; 5186 - Automatic Sprinkler Install-high wage; 51873 - Heating/Air Conditioning Equip-high wage.",
+        "cslb_address": "7640 NATIONAL DRIVE / LIVERMORE, CA 94550",
+        "cslb_phone": "(925) 443-6450",
+        "misc": "12/20/2000 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=737079",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:27 PM\")",
+        "raw_file": "data/raw/cslb-737079.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 826,
+      "sf_permits_curated": 826,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp via local.yahoo.com",
+          "score": "2.5",
+          "count": "3",
+          "url": "https://local.yahoo.com/info-21442419-fault-line-plumbing-livermore/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp via local.yahoo.com",
+          "author": "Michael G.",
+          "text": "WORST CUSTOMER SERVICE I HAVE EVER EXPERIENCED!!! I made my original appointment, and fault line was no call no show.",
+          "url": "https://local.yahoo.com/info-21442419-fault-line-plumbing-livermore/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "no-call-no-show complaint"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Mostly negative small review sample",
+          "detail": "The captured Yahoo mirror of Yelp shows 2.5 across 3 reviews with two 1-star entries citing rudeness and a no-show; a second contractor sample is too small to offset it."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yahoo Local mirror of Yelp (indirect snippet)",
+          "url": "https://local.yahoo.com/info-21442419-fault-line-plumbing-livermore/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 737079",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=737079",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-737079.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Fault Line Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Fault+Line+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Fault Line Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Fault+Line+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 55
+    },
+    {
+      "id": "feerick-plumbing-inc",
+      "display_name": "Feerick Plumbing Inc.",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 07/09/1998, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 775-9065",
+      "address_display": "1527 Fulton Street, San Francisco, CA 94117",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "751576",
+        "legal_name": "FEERICK PLUMBING INC",
+        "status_raw": "This license is current and active. All information below should be reviewed.",
+        "status_code": "active",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "07/09/1998",
+        "reissue_date": "11/28/2005",
+        "expire_date": "11/30/2027",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": null
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECBC8ANE, Effective Date: 03/07/2026, Expire Date: 03/07/2027. Classification codes: 51831 - Plumbing-low wage.",
+        "cslb_address": "1527 FULTON STREET / SAN FRANCISCO, CA 94117",
+        "cslb_phone": "(415) 775-9065",
+        "misc": "11/28/2005 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=751576",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:29 PM\")",
+        "raw_file": "data/raw/cslb-751576.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 731,
+      "sf_permits_curated": 731,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Angi",
+          "score": "5.0",
+          "count": "2",
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/feerick-plumbing-inc-reviews-2275457.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Angi",
+          "author": "Gail G.",
+          "text": "Although firm is very busy and it took a while to schedule the service, once it was performed I was extremely pleased.",
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/feerick-plumbing-inc-reviews-2275457.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "praise but slow scheduling"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Stale review sample; no emergency service",
+          "detail": "Angi shows 5.0 across only 2 reviews dated 2009 and 2011, and its FAQ states the firm does not offer emergency services. Scheduling lag is mentioned by the reviewer."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Angi review page (indirect snippet)",
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/feerick-plumbing-inc-reviews-2275457.htm",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 751576",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=751576",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-751576.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Feerick Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Feerick+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Feerick Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Feerick+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 56
     },
     {
       "id": "precision-rooter-and-drain",
@@ -5557,7 +7403,7 @@
           "raw": "data/raw/reviews-bbb.txt"
         }
       ],
-      "rank": 43
+      "rank": 57
     },
     {
       "id": "repipe-specialists",
@@ -5654,7 +7500,7 @@
           "raw": "data/raw/reviews-company-sites.txt"
         }
       ],
-      "rank": 44
+      "rank": 58
     },
     {
       "id": "arb-inc",
@@ -5744,7 +7590,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 45
+      "rank": 59
     },
     {
       "id": "crusader-plumbing",
@@ -5837,7 +7683,7 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 46
+      "rank": 60
     },
     {
       "id": "kenneth-asire-plumbing",
@@ -5960,7 +7806,167 @@
           "access": "manual-review"
         }
       ],
-      "rank": 47
+      "rank": 61
+    },
+    {
+      "id": "heise-s-plumbing-heating-air-conditioning",
+      "display_name": "Heise's Plumbing Heating & Air Conditioning",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 03/31/2023).",
+      "phone_display": "(415) 333-0704",
+      "address_display": "260 Ocean Avenue, San Francisco, CA 94112",
+      "website": "https://www.heisesplumbing.com",
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "787733",
+        "legal_name": "HEISE'S PLUMBING INC",
+        "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate. The license will need to meet the workers compensation requirements to renew active or reactivate. The license was canceled after expiration.",
+        "status_code": "expired",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "11/22/2000",
+        "reissue_date": "03/15/2007",
+        "expire_date": "03/31/2023",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$15,000",
+          "effective": "01/01/2016",
+          "cancellation": "05/06/2022"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SIRIUSPOINT AMERICA INSURANCE COMPANY, Policy Number: WC8795001, Effective Date: 01/11/2023, Expire Date: 01/11/2024",
+        "cslb_address": "260 OCEAN AVENUE / SAN FRANCISCO, CA 94112",
+        "cslb_phone": "(415) 333-0704",
+        "misc": "03/15/2007 - LICENSE REISSUED TO ANOTHER ENTITY | 02/12/2025 - LIC CANCELED AFTER EXPIRATION DATE | 02/12/2025 - SECRETARY OF STATE - DISSOLUTION",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=787733",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:36 PM\")",
+        "raw_file": "data/raw/cslb-787733.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1103,
+      "sf_permits_curated": 1103,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 2,
+          "tub_overflow_access": 2,
+          "non_destructive": 0
+        },
+        "total": 4,
+        "max": 12,
+        "percent": 33,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.5",
+          "count": "212",
+          "url": "https://www.yelp.com/biz/heises-plumbing-san-francisco?start=100",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp (business profile text)",
+          "author": null,
+          "text": "Whether you are ankle deep in a shower with a clogged drain or have a sink full of dishes and a clogged kitchen sink, Heise's Plumbing will give you the best service at a great price.",
+          "url": "https://www.yelp.com/biz/heises-plumbing-san-francisco?start=100",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "advertised: shower drain clogs"
+          ]
+        },
+        {
+          "platform": "Yelp (business profile text)",
+          "author": null,
+          "text": "If you have a clogged tub drain and nothing seems to fix it, call Heise's for a great consultation.",
+          "url": "https://www.yelp.com/biz/heises-plumbing-san-francisco?start=100",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "advertised: clogged tub drain"
+          ]
+        },
+        {
+          "platform": "Nextdoor",
+          "author": null,
+          "text": "Heise's Plumbing is known for tackling a range of issues, from fixing clogs to replacing faucets and drainpipes.",
+          "url": "https://nextdoor.com/pages/heises-plumbing-san-francisco-ca/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "clog service per neighbours",
+            "vendor site www.heisesplumbing.com cited on Nextdoor page"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED AND ENTITY CANCELED — do not book",
+          "detail": "CSLB shows the license expired 03/31/2023 with a canceled status, and says the corporation must return to active status at the Secretary of State (dissolution 02/12/2025). The dataset also contains an unrelated 'Heises Plumbing' record that could not be verified."
+        },
+        {
+          "severity": "warn",
+          "label": "Exact-scope advertising, unlicensed entity",
+          "detail": "This is the only business in the pass whose captured profile advertises both clogged-shower and clogged-tub-drain service; yet CSLB shows the license expired 03/31/2023 and the corporation dissolved 02/12/2025. Do not contract; if the same technicians resurface under a new license, verify that license first (an unrelated 'Heises Plumbing' record 593285 exists and is unverified)."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yelp business page (indirect snippet)",
+          "url": "https://www.yelp.com/biz/heises-plumbing-san-francisco?start=100",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Nextdoor recommendations page (indirect snippet)",
+          "url": "https://nextdoor.com/pages/heises-plumbing-san-francisco-ca/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 787733",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=787733",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-787733.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Heise's Plumbing Heating & Air Conditioning",
+          "url": "https://www.yelp.com/search?find_desc=Heise's+Plumbing+Heating+&+Air+Conditioning&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Heise's Plumbing Heating & Air Conditioning",
+          "url": "https://www.google.com/search?q=Heise's+Plumbing+Heating+&+Air+Conditioning+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 62
     },
     {
       "id": "bright-ideas-plumbing",
@@ -6091,7 +8097,7 @@
           "raw": "data/raw/research-audit-2026-09-04.txt"
         }
       ],
-      "rank": 48
+      "rank": 63
     },
     {
       "id": "ace-plumbing-and-rooter",
@@ -6213,7 +8219,7 @@
           "raw": "data/raw/reviews-aggregators.txt"
         }
       ],
-      "rank": 49
+      "rank": 64
     },
     {
       "id": "servadei-service",
@@ -6308,7 +8314,365 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 50
+      "rank": 65
+    },
+    {
+      "id": "o-grady-plumbing-heating-draining",
+      "display_name": "O'Grady Plumbing Heating Draining",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 05/31/2024).",
+      "phone_display": "(415) 647-9200",
+      "address_display": "1610 Evans Avenue, San Francisco, CA 94124",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "746040",
+        "legal_name": "O'GRADY PLUMBING",
+        "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need to meet the workers compensation requirements to renew active or reactivate. The license will need a contractors bond to renew active or reactivate.",
+        "status_code": "expired",
+        "entity": "Corporation",
+        "classifications": "C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING ; A - GENERAL ENGINEERING",
+        "issue_date": "02/19/1998",
+        "reissue_date": "05/07/2004",
+        "expire_date": "05/31/2024",
+        "bond": {
+          "carrier": "WESTERN SURETY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/25/2023",
+          "cancellation": "04/02/2026"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SWC1454507, Effective Date: 09/15/2023, Expire Date: 09/15/2024",
+        "cslb_address": "1610 EVANS AVENUE / SAN FRANCISCO, CA 94124",
+        "cslb_phone": "(415) 647-9200",
+        "misc": "05/07/2004 - LICENSE REISSUED TO ANOTHER ENTITY",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746040",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:34 PM\")",
+        "raw_file": "data/raw/cslb-746040.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1292,
+      "sf_permits_curated": 1292,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Google via serviceagent.ai",
+          "score": "4.9",
+          "count": "173",
+          "url": "https://serviceagent.ai/directory/california/san-francisco/plumbing/o-grady-plumbing/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Consumers Checkbook",
+          "author": "consumer comment dated 08/17/2024",
+          "text": "We have super old plumbing, so we call OGrady's, often.",
+          "url": "https://www.checkbook.org/ca/san-francisco/plumbers/o-grady-plumbing/po0ga",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "customer describes long relationship for very old plumbing (Aug 2024)"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB states this license is expired and not able to contract at this time (expire date 05/31/2024). The contractor's bond shows a cancellation date of 04/02/2026."
+        },
+        {
+          "severity": "warn",
+          "label": "Live-looking profiles conflict with CSLB",
+          "detail": "A directory still shows 4.9 stars across 173 Google reviews and 24/7 hours, and a Checkbook comment is dated August 2024 - but the CSLB capture says the license expired 05/31/2024 and the bond was cancelled 04/02/2026. Ratings are not licensure proof; do not contract."
+        }
+      ],
+      "sources": [
+        {
+          "label": "serviceagent.ai mirror of Google rating (indirect snippet)",
+          "url": "https://serviceagent.ai/directory/california/san-francisco/plumbing/o-grady-plumbing/",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Consumers Checkbook listing (indirect snippet)",
+          "url": "https://www.checkbook.org/ca/san-francisco/plumbers/o-grady-plumbing/po0ga",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 746040",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746040",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-746040.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for O'Grady Plumbing Heating Draining",
+          "url": "https://www.yelp.com/search?find_desc=O'Grady+Plumbing+Heating+Draining&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for O'Grady Plumbing Heating Draining",
+          "url": "https://www.google.com/search?q=O'Grady+Plumbing+Heating+Draining+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 66
+    },
+    {
+      "id": "strong-plumbing-plugbusters",
+      "display_name": "Strong Plumbing (Plugbusters)",
+      "dba": "Plugbusters",
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 09/30/2001).",
+      "phone_display": "(415) 865-1500",
+      "address_display": "Dba Plugbusters, 375 Rhode Island Street, San Francisco, CA 94103",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "712335",
+        "legal_name": "STRONG PLUMBING AND HEATING INC",
+        "status_raw": "This license is expired and not able to contract at this time.",
+        "status_code": "expired",
+        "entity": "Corporation",
+        "classifications": "C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING",
+        "issue_date": "09/08/1995",
+        "reissue_date": null,
+        "expire_date": "09/30/2001",
+        "bond": {
+          "carrier": "FRONTIER PACIFIC INSURANCE COMPANY",
+          "amount": "$7,500",
+          "effective": "07/18/1995",
+          "cancellation": "09/05/2001"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "SUPERIOR NATIONAL INSURANCE COMPANY, Policy Number: WDN63588B, Effective Date: 09/14/1999, Expire Date: 09/14/2000",
+        "cslb_address": "dba PLUGBUSTERS / 375 RHODE ISLAND STREET / SAN FRANCISCO, CA 94103",
+        "cslb_phone": "(415) 865-1500",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=712335",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:36 PM\")",
+        "raw_file": "data/raw/cslb-712335.txt",
+        "verified": true
+      },
+      "other_licenses": [
+        {
+          "number": "615837",
+          "legal_name": "PLUGBUSTERS",
+          "status_code": "expired",
+          "expire_date": "03/31/1997",
+          "entity": "Partnership",
+          "raw_file": "data/raw/cslb-615837.txt",
+          "sf_permits": 511
+        }
+      ],
+      "sf_permits": 1166,
+      "sf_permits_curated": 1166,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "BOTH PLUGBUSTERS LICENSES EXPIRED — do not book",
+          "detail": "License 712335 expired 09/30/2001 and the sibling partnership license 615837 expired 03/31/1997; CSLB says an expired license cannot contract. Verify any local contractor actually holding a current C36 before hiring under this brand."
+        },
+        {
+          "severity": "info",
+          "label": "High historical permit volume",
+          "detail": "1,166 all-time San Francisco permit rows are recorded under the two expired Plugbusters numbers (655 under 712335, 511 under 615837). The volume is historical and says nothing about current ability to contract."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 712335",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=712335",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-712335.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Strong Plumbing (Plugbusters)",
+          "url": "https://www.yelp.com/search?find_desc=Strong+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Strong Plumbing (Plugbusters)",
+          "url": "https://www.google.com/search?q=Strong+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "CSLB sibling license 615837",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=615837",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-615837.txt"
+        }
+      ],
+      "rank": 67
+    },
+    {
+      "id": "fireman-plumbing",
+      "display_name": "Fireman Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 06/30/2025).",
+      "phone_display": "(650) 756-5100",
+      "address_display": "P O Box 1487, Burlingame, CA 94011",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "707695",
+        "legal_name": "FIREMAN PLUMBING",
+        "status_raw": "This license is expired and not able to contract at this time. Additional Status: The license will need a contractors bond to renew active or reactivate.",
+        "status_code": "expired",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "06/05/1995",
+        "reissue_date": null,
+        "expire_date": "06/30/2025",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2023",
+          "cancellation": "04/02/2025"
+        },
+        "workers_comp_code": "exempt",
+        "workers_comp_raw": "This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/05/2023, Expire Date: None",
+        "cslb_address": "P O BOX 1487 / BURLINGAME, CA 94011",
+        "cslb_phone": "(650) 756-5100",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=707695",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:46:36 PM\")",
+        "raw_file": "data/raw/cslb-707695.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 1120,
+      "sf_permits_curated": 1120,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED — do not book",
+          "detail": "CSLB states this license is expired and not able to contract at this time (expire date 06/30/2025)."
+        },
+        {
+          "severity": "warn",
+          "label": "Permit record uses a different firm name",
+          "detail": "1,120 all-time San Francisco plumbing-permit rows are recorded under license 707695 as 'Economy Plumbing', not Fireman Plumbing - name/license attributions in this space deserve caution. The license itself is expired since 06/30/2025."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 707695",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=707695",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-707695.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Fireman Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Fireman+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Fireman Plumbing",
+          "url": "https://www.google.com/search?q=Fireman+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 68
     },
     {
       "id": "fast-response-plumbing",
@@ -6398,7 +8762,509 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 51
+      "rank": 69
+    },
+    {
+      "id": "chen-s-plumbing-inc",
+      "display_name": "Chen's Plumbing Inc.",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license canceled (expire date 02/16/2015).",
+      "phone_display": "(415) 831-2661",
+      "address_display": "148 21ST Ave, San Francisco, CA 94121-1206",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "665412",
+        "legal_name": "CHEN'S PLUMBING INC",
+        "status_raw": "This license is canceled and not able to contract.",
+        "status_code": "canceled",
+        "entity": "Corporation",
+        "classifications": "C16 - FIRE PROTECTION ; C36 - PLUMBING",
+        "issue_date": "03/02/1993",
+        "reissue_date": null,
+        "expire_date": "02/16/2015",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$12,500",
+          "effective": "02/08/2012",
+          "cancellation": "04/04/2015"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "EVEREST NATIONAL INSURANCE COMPANY, Policy Number: 7600009814121, Effective Date: 10/01/2012, Expire Date: 10/01/2013",
+        "cslb_address": "148 21ST AVE / SAN FRANCISCO, CA 94121-1206",
+        "cslb_phone": "(415) 831-2661",
+        "misc": "02/16/2015 - SECRETARY OF STATE - DISSOLUTION",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=665412",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:17 PM\")",
+        "raw_file": "data/raw/cslb-665412.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 831,
+      "sf_permits_curated": 831,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "- BBB does not have sufficient information to issue a rating on this business. **Business Started:**: 3/1/1987 **Type of Entity:**: Corporation **Business Management:**: Ms. Linddy Chen, Owner **Number of Employees:**: 4",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/chens-plumbing-inc-1116-21251",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "BBB file predates the 2015 license cancellation; no rating"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows the license canceled 02/16/2015 after the corporation's Secretary of State dissolution. A canceled license cannot contract."
+        },
+        {
+          "severity": "info",
+          "label": "No consumer review presence captured",
+          "detail": "BBB carries no rating and no live Yelp listing surfaced in this pass; the entry exists purely as a licensing warning for the historic firm."
+        }
+      ],
+      "sources": [
+        {
+          "label": "BBB business profile (indirect snippet)",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/chens-plumbing-inc-1116-21251",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 665412",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=665412",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-665412.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Chen's Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Chen's+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Chen's Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Chen's+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 70
+    },
+    {
+      "id": "chung-wah-plumbing-co-inc",
+      "display_name": "Chung Wah Plumbing Co Inc.",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license canceled (expire date 10/31/2006).",
+      "phone_display": "(415) 559-3853",
+      "address_display": "193 23RD Avenue, San Francisco, CA 94121",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "500445",
+        "legal_name": "CHUNG WAH PLUMBING CO INC",
+        "status_raw": "This license is canceled and not able to contract.",
+        "status_code": "canceled",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING ; C16 - FIRE PROTECTION",
+        "issue_date": "10/24/1986",
+        "reissue_date": null,
+        "expire_date": "10/31/2006",
+        "bond": {
+          "carrier": "SURETY COMPANY OF THE PACIFIC",
+          "amount": "$12,500",
+          "effective": "01/01/2007",
+          "cancellation": "07/01/2008"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "REPUBLIC INDEMNITY COMPANY OF CALIFORNIA, Policy Number: 00247418, Effective Date: 01/15/2006, Expire Date: 01/15/2007",
+        "cslb_address": "193 23RD AVENUE / SAN FRANCISCO, CA 94121",
+        "cslb_phone": "(415) 559-3853",
+        "misc": "10/31/2006 - SECRETARY OF STATE - DISSOLUTION",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=500445",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:28 PM\")",
+        "raw_file": "data/raw/cslb-500445.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 762,
+      "sf_permits_curated": 762,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book this number",
+          "detail": "CSLB shows this corporate license canceled 10/31/2006 with the entity dissolved. The record lists qualifier Steven Trevor Yeung, who now holds active license 889172 (Steven Yeung Inc dba Chung Wah Plumbing & Fire Protection) — book only under that number and re-verify it on the day."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 500445",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=500445",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-500445.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Chung Wah Plumbing Co Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Chung+Wah+Plumbing+Co+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Chung Wah Plumbing Co Inc.",
+          "url": "https://www.google.com/search?q=Chung+Wah+Plumbing+Co+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 71
+    },
+    {
+      "id": "shing-plumbing-llc",
+      "display_name": "Shing Plumbing LLC",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license canceled (expire date 08/05/2017).",
+      "phone_display": "(415) 559-2096",
+      "address_display": "2965 19TH Avenue, San Francisco, CA 94132",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "562479",
+        "legal_name": "SHING PLUMBING LLC",
+        "status_raw": "This license is canceled and not able to contract.",
+        "status_code": "canceled",
+        "entity": "Ltd Liability",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "03/28/1989",
+        "reissue_date": "08/18/2015",
+        "expire_date": "08/05/2017",
+        "bond": {
+          "carrier": "OLD REPUBLIC SURETY COMPANY",
+          "amount": "$15,000",
+          "effective": "01/01/2016",
+          "cancellation": "08/11/2017"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 9135507, Effective Date: 05/24/2016, Cancellation Date: 10/16/2017",
+        "cslb_address": "2965 19TH AVENUE / SAN FRANCISCO, CA 94132",
+        "cslb_phone": "(415) 559-2096",
+        "misc": "08/05/2017 - SECRETARY OF STATE - CANCELLATION",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=562479",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:30 PM\")",
+        "raw_file": "data/raw/cslb-562479.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 719,
+      "sf_permits_curated": 719,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "BuildZoom",
+          "author": null,
+          "text": "holds a Plumbing license and 1 other license according to the California license board Shing Plumbing Co has pulled 697 building permits since 1991.",
+          "url": "https://www.buildzoom.com/contractor/shing-plumbing-co",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "historical volume; BuildZoom license text is not a status guarantee"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "BBB records show a license number of **1030384** for this business, issued by Contractors State License Board. The expiration date of this license is 8/31/2027",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shing-plumbing-company-1116-944437",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "successor entity at the same address; BBB file opened 04/14/2023; number not verified in this pass"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows the license canceled 08/05/2017 after the entity's Secretary of State cancellation. A canceled license cannot contract."
+        },
+        {
+          "severity": "warn",
+          "label": "Possible successor company, unverified",
+          "detail": "The same address and owners now run 'Shing Plumbing Company'; BBB associates CSLB license 1030384 (expire 08/31/2027) with it, opened two weeks after license 562479 was cancelled. That successor number was not independently captured in this pass - verify it at CSLB before contracting under any Shing name."
+        }
+      ],
+      "sources": [
+        {
+          "label": "BuildZoom profile (indirect snippet)",
+          "url": "https://www.buildzoom.com/contractor/shing-plumbing-co",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "BBB profile of the successor (indirect snippet)",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/shing-plumbing-company-1116-944437",
+          "tier": "official-platform",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 562479",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=562479",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-562479.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Shing Plumbing LLC",
+          "url": "https://www.yelp.com/search?find_desc=Shing+Plumbing+LLC&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Shing Plumbing LLC",
+          "url": "https://www.google.com/search?q=Shing+Plumbing+LLC+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 72
+    },
+    {
+      "id": "stan-plumbing",
+      "display_name": "Stan Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license under suspension (expire date 08/31/2027).",
+      "phone_display": "(415) 724-0724",
+      "address_display": "1429 9TH Ave Apt 3, San Francisco, CA 94122",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "410861",
+        "legal_name": "STAN PLUMBING",
+        "status_raw": "License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.",
+        "status_code": "suspended",
+        "entity": "Sole Ownership",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "08/25/1981",
+        "reissue_date": null,
+        "expire_date": "08/31/2027",
+        "bond": {
+          "carrier": "HUDSON INSURANCE COMPANY",
+          "amount": "$25,000",
+          "effective": "01/01/2024",
+          "cancellation": "09/01/2026"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "CONTINENTAL CASUALTY COMPANY, Policy Number: 8035786417, Effective Date: 02/02/2026, Expire Date: 02/02/2027",
+        "cslb_address": "1429 9TH AVE APT 3 / SAN FRANCISCO, CA 94122",
+        "cslb_phone": "(415) 724-0724",
+        "misc": null,
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=410861",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:49:31 PM\")",
+        "raw_file": "data/raw/cslb-410861.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 697,
+      "sf_permits_curated": 697,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [
+        {
+          "platform": "Multi-source via Birdeye",
+          "score": "5.0",
+          "count": "4",
+          "url": "https://reviews.birdeye.com/stan-plumbing-149539553332695",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "platform": "Yelp via local.yahoo.com",
+          "score": "5.0",
+          "count": "3",
+          "url": "https://local.yahoo.com/info-21386118-stan-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp via local.yahoo.com",
+          "author": "Lynne B.",
+          "text": "Great service from Stan...professional, kind, thorough, reasonable. Highly recommend this plumber.",
+          "url": "https://local.yahoo.com/info-21386118-stan-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "favourable review dated 02/06/24"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE UNDER SUSPENSION — do not book",
+          "detail": "CSLB shows the license under suspension for failure to maintain the contractor's bond; the bond record carries a cancellation date of 09/01/2026. A suspended license cannot contract."
+        },
+        {
+          "severity": "warn",
+          "label": "Recent-looking reviews while suspended",
+          "detail": "Birdeye and a Yahoo mirror show 5-star listings with a review dated February 2024, but CSLB shows the license under suspension for failure to maintain the contractor's bond (bond cancelled 09/01/2026). Suspension is curable - do not book until CSLB shows active again."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Birdeye aggregate (indirect snippet)",
+          "url": "https://reviews.birdeye.com/stan-plumbing-149539553332695",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "Yahoo Local mirror of Yelp (indirect snippet)",
+          "url": "https://local.yahoo.com/info-21386118-stan-plumbing-san-francisco",
+          "tier": "third-party-aggregator",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        },
+        {
+          "label": "CSLB license record 410861",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=410861",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-410861.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Stan Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Stan+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Stan Plumbing",
+          "url": "https://www.google.com/search?q=Stan+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 73
     },
     {
       "id": "gateway-plumbing",
@@ -6488,7 +9354,109 @@
           "raw": "data/raw/sfgov-permit-counts.json"
         }
       ],
-      "rank": 52
+      "rank": 74
+    },
+    {
+      "id": "american-alliance-plumbing-drain-cleaning-drain-patrol",
+      "display_name": "American Alliance Plumbing & Drain Cleaning (Drain Patrol)",
+      "dba": "Drain Patrol",
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license canceled (expire date 04/13/2012).",
+      "phone_display": "(530) 888-8114",
+      "address_display": "Dba Drain Patrol, Po Box 8730, Truckee, CA 96162",
+      "website": null,
+      "research_batch": "2026-09-04-expansion-50",
+      "license": {
+        "number": "422136",
+        "legal_name": "AMERICAN ALLIANCE ALWAYS AVAILABLE",
+        "status_raw": "This license is canceled and not able to contract. Additional Status: The license has filed the required disciplinary bond.",
+        "status_code": "canceled",
+        "entity": "Corporation",
+        "classifications": "C36 - PLUMBING",
+        "issue_date": "05/10/1982",
+        "reissue_date": null,
+        "expire_date": "04/13/2012",
+        "bond": {
+          "carrier": "AMERICAN CONTRACTORS INDEMNITY COMPANY",
+          "amount": "$12,500",
+          "effective": "01/01/2007",
+          "cancellation": "08/27/2012"
+        },
+        "workers_comp_code": "insured",
+        "workers_comp_raw": "STATE COMPENSATION INSURANCE FUND, Policy Number: 1888391, Effective Date: 10/01/2008, Cancellation Date: 10/01/2012",
+        "cslb_address": "dba DRAIN PATROL / PO BOX 8730 / TRUCKEE, CA 96162",
+        "cslb_phone": "(530) 888-8114",
+        "misc": "04/13/2012 - LICENSE CANCELED PER REQUEST",
+        "source_url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=422136",
+        "captured_at": "2026-09-04 (page states \"Data current as of 9/3/2026 5:48:15 PM\")",
+        "raw_file": "data/raw/cslb-422136.txt",
+        "verified": true
+      },
+      "other_licenses": [],
+      "sf_permits": 381,
+      "sf_permits_curated": 381,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "fit_score": {
+        "components": {
+          "snake_shower": 0,
+          "tub_overflow_access": 0,
+          "non_destructive": 0
+        },
+        "total": 0,
+        "max": 12,
+        "percent": 0,
+        "band": "low"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED — do not book",
+          "detail": "CSLB shows the license canceled 04/13/2012 'per request' and records a disciplinary bond of $30,000 filed by the bond claimant. A canceled license cannot contract."
+        },
+        {
+          "severity": "info",
+          "label": "Permit rows sit on the canceled number",
+          "detail": "The permit aggregate records 381 all-time San Francisco rows under license 422136 filed as 'Drain Patrol'. Counts are historical; the number itself has been canceled since 04/13/2012 and cannot contract."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 422136",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=422136",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-422136.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for American Alliance Plumbing & Drain Cleaning (Drain Patrol)",
+          "url": "https://www.yelp.com/search?find_desc=American+Alliance+Plumbing+&+Drain+Cleaning&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for American Alliance Plumbing & Drain Cleaning (Drain Patrol)",
+          "url": "https://www.google.com/search?q=American+Alliance+Plumbing+&+Drain+Cleaning+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ],
+      "rank": 75
     },
     {
       "id": "mr-rooter-sf-sfgdl",
@@ -6571,7 +9539,7 @@
           "raw": "data/raw/cslb-974194.txt"
         }
       ],
-      "rank": 53
+      "rank": 76
     },
     {
       "id": "aqua-stat-plumbing-inc",
@@ -6676,7 +9644,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 54
+      "rank": 77
     },
     {
       "id": "eric-brand-plumbing",
@@ -6764,7 +9732,7 @@
           "raw": "data/raw/cslb-920294.txt"
         }
       ],
-      "rank": 55
+      "rank": 78
     },
     {
       "id": "plumbing-pure-inc",
@@ -6869,7 +9837,7 @@
           "access": "manual-review"
         }
       ],
-      "rank": 56
+      "rank": 79
     },
     {
       "id": "discount-plumbing-inc-canceled",
@@ -6964,7 +9932,7 @@
           "raw": "data/raw/cslb-755272.txt"
         }
       ],
-      "rank": 57
+      "rank": 80
     }
   ]
 }

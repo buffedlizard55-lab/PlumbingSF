@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=410861
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  410861
+STAN PLUMBING
+1429 9TH AVE APT 3
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 724-0724
+Entity: Sole Ownership
+Issue Date: 08/25/1981
+Expire Date: 08/31/2027
+License Status: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed. Once the bond is processed the suspension will be lifted retroactively to the effective date of the bond. Ask the contractor for proof of a contractor's bond and contact the bonding company to verify bond status.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30136211, Bond Amount: $25,000, Effective Date: 01/01/2024, Cancellation Date: 09/01/2026
+Workers' Compensation: CONTINENTAL CASUALTY COMPANY, Policy Number: 8035786417, Effective Date: 02/02/2026, Expire Date: 02/02/2027

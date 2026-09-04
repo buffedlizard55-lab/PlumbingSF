@@ -7,64 +7,573 @@
   "captured_at": "2026-09-03",
   "note": "Verbatim JSON returned by the official SF open-data API. count = number of SF plumbing permit records naming that firm+license.",
   "results": [
-    {"firm_name":"Arb Inc","license_number":"194079","count":"12829"},
-    {"firm_name":"Ayoob & Peery Plumbing","license_number":"392967","count":"8062"},
-    {"firm_name":"Homeowner's Permit","license_number":"000001","count":"7991"},
-    {"firm_name":"Pribuss Engineering Inc","license_number":"251241","count":"7379"},
-    {"firm_name":"Just Water Heaters","license_number":"591329","count":"4835"},
-    {"firm_name":"Blaze Fireplaces Of No Cal","license_number":"454647","count":"3330"},
-    {"firm_name":"Water Heaters Only Inc","license_number":"374573","count":"3033"},
-    {"firm_name":"Schmitt Heating Co Inc","license_number":"708941","count":"3006"},
-    {"firm_name":"D P W  Inc.","license_number":"684939","count":"2931"},
-    {"firm_name":"Discount Plumbing Co","license_number":"755272","count":"2623"},
-    {"firm_name":"Anderson Rowe & Buckley, Inc.","license_number":"091594","count":"2343"},
-    {"firm_name":"Ace Plumbing & Rooter","license_number":"829071","count":"2269"},
-    {"firm_name":"Cornely Company","license_number":"171203","count":"2101"},
-    {"firm_name":"Golden Gate Fire Protection Inc","license_number":"960198","count":"2070"},
-    {"firm_name":"Associated Heating Of Sf","license_number":"486084","count":"2033"},
-    {"firm_name":"Magic Plumbing","license_number":"698806","count":"2007"},
-    {"firm_name":"Ruby Plumbing & Electrical","license_number":"748426","count":"1947"},
-    {"firm_name":"Atlas Heating & Vent Co","license_number":"002195","count":"1854"},
-    {"firm_name":"Steven Yeung Inc Dba Chung Wah Plbg&Fire","license_number":"889172","count":"1787"},
-    {"firm_name":"F W H Acquisition Co Llc Dba Fast Water","license_number":"987398","count":"1763"},
-    {"firm_name":"Bell Plumbing & Heating","license_number":"613784","count":"1683"},
-    {"firm_name":"Affordable Water Heaters And Plumbing In","license_number":"627368","count":"1681"},
-    {"firm_name":"Servadei Service Inc","license_number":"168371","count":"1586"},
-    {"firm_name":"Anderson Rowe & Buckley","license_number":"091594","count":"1568"},
-    {"firm_name":"San Francisco Plumbing","license_number":"323223","count":"1556"},
-    {"firm_name":"Brian Fusco Plumbing","license_number":"530388","count":"1543"},
-    {"firm_name":"Okell's Fireplace","license_number":"513547","count":"1525"},
-    {"firm_name":"Atlas Plumbing And Rooter","license_number":"868994","count":"1448"},
-    {"firm_name":"Lutz Plumbing Inc","license_number":"503971","count":"1405"},
-    {"firm_name":"Joseph Tinsley Plumbing","license_number":"1024971","count":"940"},
-    {"firm_name":"Dba Ace Plumbing & Rooter","license_number":"829071","count":"903"},
-    {"firm_name":"Nigel Mulgrew Plumbing","license_number":"746000","count":"675"},
-    {"firm_name":"Gateway Plumbing","license_number":"846292","count":"579"},
-    {"firm_name":"Nigel Mulgrew Plumbing Inc.","license_number":"746000","count":"528"},
-    {"firm_name":"Br Troika Inc. Dba Mr Rooter Plumbing","license_number":"812845","count":"318"},
-    {"firm_name":"Advanced Plumbing And Drain Inc","license_number":"1009195","count":"341"},
-    {"firm_name":"Two Guys Plumbing Inc Dba Cabrillo Plum","license_number":"629538","count":"323"},
-    {"firm_name":"Cabrillo Plumbing","license_number":"629538","count":"309"},
-    {"firm_name":"A G Quality Plumbing","license_number":"828200","count":"229"},
-    {"firm_name":"Citywide Plumbing","license_number":"954385","count":"143"},
-    {"firm_name":"Whistle Plumbing","license_number":"962328","count":"141"},
-    {"firm_name":"E M S Plumbing","license_number":"945019","count":"125"},
-    {"firm_name":"Red Wrench Plumbing Inc","license_number":"966458","count":"125"},
-    {"firm_name":"Cabrillo Plumbing/M Kent","license_number":"629538","count":"121"},
-    {"firm_name":"Mr Rooter Of San Francisco","license_number":"974194","count":"72"},
-    {"firm_name":"Daniel Guerrero Plmg Gateway","license_number":"846292","count":"60"},
-    {"firm_name":"The Genteel Plumbers Inc","license_number":"1025814","count":"60"},
-    {"firm_name":"Pipeline Plumbing","license_number":"963418","count":"58"},
-    {"firm_name":"Amx  Plumbing","license_number":"822482","count":"54"},
-    {"firm_name":"Bright Ideas Plumbing And Rooter","license_number":"1018638","count":"46"},
-    {"firm_name":"Ferguson Plumbing Inc","license_number":"453536","count":"27"},
-    {"firm_name":"Costello's Plumbing","license_number":"1018923","count":"20"},
-    {"firm_name":"Precision Rooter & Drain","license_number":"961218","count":"18"},
-    {"firm_name":"X-Ray Plumbing And Drain Inc","license_number":"1129001","count":"10"},
-    {"firm_name":"X-Ray Plumbing And Drain Llc","license_number":"1099220","count":"6"},
-    {"firm_name":"Hydro Plumbing & Rooter Inc","license_number":"922974","count":"5"}
+    {
+      "firm_name": "Arb Inc",
+      "license_number": "194079",
+      "count": "12829"
+    },
+    {
+      "firm_name": "Ayoob & Peery Plumbing",
+      "license_number": "392967",
+      "count": "8062"
+    },
+    {
+      "firm_name": "Homeowner's Permit",
+      "license_number": "000001",
+      "count": "7991"
+    },
+    {
+      "firm_name": "Pribuss Engineering Inc",
+      "license_number": "251241",
+      "count": "7379"
+    },
+    {
+      "firm_name": "Just Water Heaters",
+      "license_number": "591329",
+      "count": "4835"
+    },
+    {
+      "firm_name": "Blaze Fireplaces Of No Cal",
+      "license_number": "454647",
+      "count": "3330"
+    },
+    {
+      "firm_name": "Water Heaters Only Inc",
+      "license_number": "374573",
+      "count": "3033"
+    },
+    {
+      "firm_name": "Schmitt Heating Co Inc",
+      "license_number": "708941",
+      "count": "3006"
+    },
+    {
+      "firm_name": "D P W  Inc.",
+      "license_number": "684939",
+      "count": "2931"
+    },
+    {
+      "firm_name": "Discount Plumbing Co",
+      "license_number": "755272",
+      "count": "2623"
+    },
+    {
+      "firm_name": "Anderson Rowe & Buckley, Inc.",
+      "license_number": "091594",
+      "count": "2343"
+    },
+    {
+      "firm_name": "Ace Plumbing & Rooter",
+      "license_number": "829071",
+      "count": "2269"
+    },
+    {
+      "firm_name": "Cornely Company",
+      "license_number": "171203",
+      "count": "2101"
+    },
+    {
+      "firm_name": "Golden Gate Fire Protection Inc",
+      "license_number": "960198",
+      "count": "2070"
+    },
+    {
+      "firm_name": "Associated Heating Of Sf",
+      "license_number": "486084",
+      "count": "2033"
+    },
+    {
+      "firm_name": "Magic Plumbing",
+      "license_number": "698806",
+      "count": "2007"
+    },
+    {
+      "firm_name": "Ruby Plumbing & Electrical",
+      "license_number": "748426",
+      "count": "1947"
+    },
+    {
+      "firm_name": "Atlas Heating & Vent Co",
+      "license_number": "002195",
+      "count": "1854"
+    },
+    {
+      "firm_name": "Steven Yeung Inc Dba Chung Wah Plbg&Fire",
+      "license_number": "889172",
+      "count": "1787"
+    },
+    {
+      "firm_name": "F W H Acquisition Co Llc Dba Fast Water",
+      "license_number": "987398",
+      "count": "1763"
+    },
+    {
+      "firm_name": "Bell Plumbing & Heating",
+      "license_number": "613784",
+      "count": "1683"
+    },
+    {
+      "firm_name": "Affordable Water Heaters And Plumbing In",
+      "license_number": "627368",
+      "count": "1681"
+    },
+    {
+      "firm_name": "Servadei Service Inc",
+      "license_number": "168371",
+      "count": "1586"
+    },
+    {
+      "firm_name": "Anderson Rowe & Buckley",
+      "license_number": "091594",
+      "count": "1568"
+    },
+    {
+      "firm_name": "San Francisco Plumbing",
+      "license_number": "323223",
+      "count": "1556"
+    },
+    {
+      "firm_name": "Brian Fusco Plumbing",
+      "license_number": "530388",
+      "count": "1543"
+    },
+    {
+      "firm_name": "Okell's Fireplace",
+      "license_number": "513547",
+      "count": "1525"
+    },
+    {
+      "firm_name": "Atlas Plumbing And Rooter",
+      "license_number": "868994",
+      "count": "1448"
+    },
+    {
+      "firm_name": "Lutz Plumbing Inc",
+      "license_number": "503971",
+      "count": "1405"
+    },
+    {
+      "firm_name": "Joseph Tinsley Plumbing",
+      "license_number": "1024971",
+      "count": "940"
+    },
+    {
+      "firm_name": "Dba Ace Plumbing & Rooter",
+      "license_number": "829071",
+      "count": "903"
+    },
+    {
+      "firm_name": "Nigel Mulgrew Plumbing",
+      "license_number": "746000",
+      "count": "675"
+    },
+    {
+      "firm_name": "Gateway Plumbing",
+      "license_number": "846292",
+      "count": "579"
+    },
+    {
+      "firm_name": "Nigel Mulgrew Plumbing Inc.",
+      "license_number": "746000",
+      "count": "528"
+    },
+    {
+      "firm_name": "Br Troika Inc. Dba Mr Rooter Plumbing",
+      "license_number": "812845",
+      "count": "318"
+    },
+    {
+      "firm_name": "Advanced Plumbing And Drain Inc",
+      "license_number": "1009195",
+      "count": "341"
+    },
+    {
+      "firm_name": "Two Guys Plumbing Inc Dba Cabrillo Plum",
+      "license_number": "629538",
+      "count": "323"
+    },
+    {
+      "firm_name": "Cabrillo Plumbing",
+      "license_number": "629538",
+      "count": "309"
+    },
+    {
+      "firm_name": "A G Quality Plumbing",
+      "license_number": "828200",
+      "count": "229"
+    },
+    {
+      "firm_name": "Citywide Plumbing",
+      "license_number": "954385",
+      "count": "143"
+    },
+    {
+      "firm_name": "Whistle Plumbing",
+      "license_number": "962328",
+      "count": "141"
+    },
+    {
+      "firm_name": "E M S Plumbing",
+      "license_number": "945019",
+      "count": "125"
+    },
+    {
+      "firm_name": "Red Wrench Plumbing Inc",
+      "license_number": "966458",
+      "count": "125"
+    },
+    {
+      "firm_name": "Cabrillo Plumbing/M Kent",
+      "license_number": "629538",
+      "count": "121"
+    },
+    {
+      "firm_name": "Mr Rooter Of San Francisco",
+      "license_number": "974194",
+      "count": "72"
+    },
+    {
+      "firm_name": "Daniel Guerrero Plmg Gateway",
+      "license_number": "846292",
+      "count": "60"
+    },
+    {
+      "firm_name": "The Genteel Plumbers Inc",
+      "license_number": "1025814",
+      "count": "60"
+    },
+    {
+      "firm_name": "Pipeline Plumbing",
+      "license_number": "963418",
+      "count": "58"
+    },
+    {
+      "firm_name": "Amx  Plumbing",
+      "license_number": "822482",
+      "count": "54"
+    },
+    {
+      "firm_name": "Bright Ideas Plumbing And Rooter",
+      "license_number": "1018638",
+      "count": "46"
+    },
+    {
+      "firm_name": "Ferguson Plumbing Inc",
+      "license_number": "453536",
+      "count": "27"
+    },
+    {
+      "firm_name": "Costello's Plumbing",
+      "license_number": "1018923",
+      "count": "20"
+    },
+    {
+      "firm_name": "Precision Rooter & Drain",
+      "license_number": "961218",
+      "count": "18"
+    },
+    {
+      "firm_name": "X-Ray Plumbing And Drain Inc",
+      "license_number": "1129001",
+      "count": "10"
+    },
+    {
+      "firm_name": "X-Ray Plumbing And Drain Llc",
+      "license_number": "1099220",
+      "count": "6"
+    },
+    {
+      "firm_name": "Hydro Plumbing & Rooter Inc",
+      "license_number": "922974",
+      "count": "5"
+    },
+    {
+      "firm_name": "Gagne Bros. Dba Benjamin Franklin Plumbi",
+      "license_number": "857357",
+      "count": "1275"
+    },
+    {
+      "firm_name": "Ros Plumbing",
+      "license_number": "885083",
+      "count": "1252"
+    },
+    {
+      "firm_name": "Demakas Plumbing & Heatin",
+      "license_number": "349523",
+      "count": "1192"
+    },
+    {
+      "firm_name": "Economy Plumbing",
+      "license_number": "707695",
+      "count": "1120"
+    },
+    {
+      "firm_name": "Heise's Plumbing",
+      "license_number": "787733",
+      "count": "1103"
+    },
+    {
+      "firm_name": "Flow Masters Plumbing Inc",
+      "license_number": "966337",
+      "count": "1072"
+    },
+    {
+      "firm_name": "National Plumbing",
+      "license_number": "619642",
+      "count": "1010"
+    },
+    {
+      "firm_name": "O'grady Plumbing",
+      "license_number": "746040",
+      "count": "928"
+    },
+    {
+      "firm_name": "Chen's Plumbing Inc",
+      "license_number": "665412",
+      "count": "831"
+    },
+    {
+      "firm_name": "Fault Line Plumbing Inc",
+      "license_number": "737079",
+      "count": "826"
+    },
+    {
+      "firm_name": "Chung Wah Plumbing Co Inc",
+      "license_number": "500445",
+      "count": "762"
+    },
+    {
+      "firm_name": "Dunne Plumbing",
+      "license_number": "690001",
+      "count": "762"
+    },
+    {
+      "firm_name": "Argyris Plumbing",
+      "license_number": "280249",
+      "count": "743"
+    },
+    {
+      "firm_name": "Feerick Plumbing",
+      "license_number": "751576",
+      "count": "731"
+    },
+    {
+      "firm_name": "Shing Plumbing Co",
+      "license_number": "562479",
+      "count": "719"
+    },
+    {
+      "firm_name": "Bellanti Plumbing Inc",
+      "license_number": "327664",
+      "count": "716"
+    },
+    {
+      "firm_name": "Stan Plumbing",
+      "license_number": "410861",
+      "count": "697"
+    },
+    {
+      "firm_name": "T And H Plumbing Co. Inc.",
+      "license_number": "747827",
+      "count": "695"
+    },
+    {
+      "firm_name": "Bacon Plumbing Co., Inc.",
+      "license_number": "728650",
+      "count": "680"
+    },
+    {
+      "firm_name": "Madden Plumbing",
+      "license_number": "825418",
+      "count": "676"
+    },
+    {
+      "firm_name": "Prompt Plumbing Services",
+      "license_number": "818560",
+      "count": "667"
+    },
+    {
+      "firm_name": "Madden Plumbing, Llc",
+      "license_number": "825418",
+      "count": "657"
+    },
+    {
+      "firm_name": "Plugbusters",
+      "license_number": "712335",
+      "count": "655"
+    },
+    {
+      "firm_name": "Garibaldi Plumbing Company Inc",
+      "license_number": "492385",
+      "count": "649"
+    },
+    {
+      "firm_name": "Mr. Peter's Plumbing",
+      "license_number": "706238",
+      "count": "644"
+    },
+    {
+      "firm_name": "West Cork Plumbing",
+      "license_number": "900309",
+      "count": "641"
+    },
+    {
+      "firm_name": "Leo Gotelli Plumbing Inc",
+      "license_number": "284740",
+      "count": "625"
+    },
+    {
+      "firm_name": "Hegarty Plumbing",
+      "license_number": "820321",
+      "count": "624"
+    },
+    {
+      "firm_name": "Alliance Plumbing Works Inc",
+      "license_number": "884462",
+      "count": "615"
+    },
+    {
+      "firm_name": "San Yi Plumbing Ltd.",
+      "license_number": "705333",
+      "count": "604"
+    },
+    {
+      "firm_name": "Best Plumbing Choice",
+      "license_number": "738608",
+      "count": "597"
+    },
+    {
+      "firm_name": "Jim Parr Plumbing",
+      "license_number": "529553",
+      "count": "595"
+    },
+    {
+      "firm_name": "Gucho Plumbing",
+      "license_number": "554666",
+      "count": "595"
+    },
+    {
+      "firm_name": "Ray Calegari Plumbing",
+      "license_number": "672815",
+      "count": "594"
+    },
+    {
+      "firm_name": "Duggan Plumbing Inc",
+      "license_number": "760600",
+      "count": "570"
+    },
+    {
+      "firm_name": "North And South Plumbing",
+      "license_number": "895742",
+      "count": "557"
+    },
+    {
+      "firm_name": "Gary Chan Plumbing",
+      "license_number": "596143",
+      "count": "556"
+    },
+    {
+      "firm_name": "Asia Plumbing",
+      "license_number": "287477",
+      "count": "548"
+    },
+    {
+      "firm_name": "A And T Plumbing",
+      "license_number": "882242",
+      "count": "548"
+    },
+    {
+      "firm_name": "Thomas Friel Plumbing",
+      "license_number": "415114",
+      "count": "539"
+    },
+    {
+      "firm_name": "Excellent Plumbing Co",
+      "license_number": "633153",
+      "count": "531"
+    },
+    {
+      "firm_name": "Golden State Plumbing",
+      "license_number": "616148",
+      "count": "525"
+    },
+    {
+      "firm_name": "Sberlo Plumbing",
+      "license_number": "487017",
+      "count": "515"
+    },
+    {
+      "firm_name": "Sunny's Plumbing Inc",
+      "license_number": "536715",
+      "count": "513"
+    },
+    {
+      "firm_name": "Plugbusters",
+      "license_number": "615837",
+      "count": "511"
+    },
+    {
+      "firm_name": "Drouet Plumbing",
+      "license_number": "546047",
+      "count": "504"
+    },
+    {
+      "firm_name": "J B Lind Plumbing Co",
+      "license_number": "591929",
+      "count": "495"
+    },
+    {
+      "firm_name": "Brosnan Plumbing",
+      "license_number": "718576",
+      "count": "494"
+    },
+    {
+      "firm_name": "Right Rooter/P.C. Plumbing",
+      "license_number": "498578",
+      "count": "472"
+    },
+    {
+      "firm_name": "Drain Patrol",
+      "license_number": "422136",
+      "count": "381"
+    },
+    {
+      "firm_name": "North South Plumbing Inc.",
+      "license_number": "895742",
+      "count": "364"
+    },
+    {
+      "firm_name": "O'grady Plumbing Co",
+      "license_number": "746040",
+      "count": "364"
+    },
+    {
+      "firm_name": "O'donovan Plumbing Inc.",
+      "license_number": "582534",
+      "count": "337"
+    },
+    {
+      "firm_name": "O'donovan Plumbing",
+      "license_number": "582534",
+      "count": "334"
+    },
+    {
+      "firm_name": "Sewer  Rat",
+      "license_number": "592813",
+      "count": "322"
+    },
+    {
+      "firm_name": "Garibaldi Plumbing",
+      "license_number": "492385",
+      "count": "288"
+    }
   ],
   "zero_result_queries": [
-    {"term": "CRUSADER", "note": "No SF plumbing permit records found for firm_name LIKE '%CRUSADER%' at time of capture."}
-  ]
+    {
+      "term": "CRUSADER",
+      "note": "No SF plumbing permit records found for firm_name LIKE '%CRUSADER%' at time of capture."
+    }
+  ],
+  "source_url_batch2_aggregate": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300 — full 300-row response archived verbatim at data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt (2026-09-04); the rows below for the expansion-50 batch are copied from that capture",
+  "batch2_note": "Rows added 2026-09-04 for the 50-entry expansion: every row is a verbatim {firm_name, license_number, count} object from the archived API response. One license can appear under several firm-name spellings; consumers must sum per license."
 }

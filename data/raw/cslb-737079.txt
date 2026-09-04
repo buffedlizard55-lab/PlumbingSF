@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=737079
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:49:27 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  737079
+FAULT LINE PLUMBING INC
+7640 NATIONAL DRIVE
+LIVERMORE, CA 94550
+Business Phone Number:(925) 443-6450
+Entity: Corporation
+Issue Date: 06/12/1997
+Reissue Date: 12/20/2000
+Expire Date: 12/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C16 - FIRE PROTECTION ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 67405017, Bond Amount: $25,000, Effective Date: 05/06/2025
+Workers' Compensation: SENTINEL INSURANCE COMPANY LTD, Policy Number: 57WEAAW2U2B, Effective Date: 03/11/2023, Expire Date: 03/11/2027. Classification codes: 51831 - Plumbing-low wage; 5186 - Automatic Sprinkler Install-high wage; 51873 - Heating/Air Conditioning Equip-high wage.
+Miscellaneous Information: 12/20/2000 - LICENSE REISSUED TO ANOTHER ENTITY

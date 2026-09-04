@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746040
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 5:46:34 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  746040
+O'GRADY PLUMBING
+1610 EVANS AVENUE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 647-9200
+Entity: Corporation
+Issue Date: 02/19/1998
+Reissue Date: 05/07/2004
+Expire Date: 05/31/2024
+License Status: This license is expired and not able to contract at this time. Additional Status: The license will need to meet the workers compensation requirements to renew active or reactivate. The license will need a contractors bond to renew active or reactivate.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING ; A - GENERAL ENGINEERING
+Contractor's Bond: WESTERN SURETY COMPANY, Bond Number: 66530147, Bond Amount: $25,000, Effective Date: 01/25/2023, Cancellation Date: 04/02/2026
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SWC1454507, Effective Date: 09/15/2023, Expire Date: 09/15/2024
+Miscellaneous Information: 05/07/2004 - LICENSE REISSUED TO ANOTHER ENTITY
