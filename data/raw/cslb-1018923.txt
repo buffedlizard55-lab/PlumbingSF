@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1018923
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1018923
+COSTELLO'S PLUMBING
+3826 ANZA WAY
+SAN LEANDRO, CA 94578
+Business Phone Number:(510) 415-0725
+Entity: Sole Ownership
+Issue Date: 09/30/2016
+Expire Date: 09/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: HUDSON INSURANCE COMPANY, Bond Number: 30127711, Bond Amount: $25,000, Effective Date: 08/16/2023
+Workers' Compensation: AMTRUST INSURANCE COMPANY, Policy Number: SWC1643342, Effective Date: 04/16/2026, Expire Date: 04/16/2027. Classification codes: 0005 - Nurseries-propagation/cultivation; 0016 - Orchards-citrus/deciduous fruits; 00341 - Poultry Raising/Egg Production.

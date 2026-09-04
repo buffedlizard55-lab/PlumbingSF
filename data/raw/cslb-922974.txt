@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=922974
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  922974
+HYDRO PLUMBING & ROOTER INC
+3450 3RD ST STE 3E
+SAN FRANCISCO, CA 94124
+Business Phone Number:(415) 320-7660
+Entity: Corporation
+Issue Date: 09/30/2008
+Reissue Date: 07/30/2025
+Expire Date: 07/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100976582, Bond Amount: $25,000, Effective Date: 07/30/2025
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WC051705234CA, Effective Date: 07/01/2026, Expire Date: 07/01/2027
+Miscellaneous Information: 07/30/2025 - LICENSE REISSUED TO ANOTHER ENTITY

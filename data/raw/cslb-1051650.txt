@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1051650
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1051650
+STARBOY PLUMBING INC
+1580 FOLSOM ST
+SAN FRANCISCO, CA 94103
+Business Phone Number:(650) 290-1350
+Entity: Corporation
+Issue Date: 03/25/2019
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800247529, Bond Amount: $25,000, Effective Date: 04/01/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 02/06/2025, Expire Date: None

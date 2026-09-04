@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=875126
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  875126
+ALBERT HALL INC
+2490 WHITMAN WAY
+SAN BRUNO, CA 94066
+Business Phone Number:(415) 260-1434
+Entity: Corporation
+Issue Date: 03/28/2006
+Reissue Date: 10/05/2006
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100717940, Bond Amount: $25,000, Effective Date: 02/06/2023
+Workers' Compensation: HARTFORD CASUALTY INSURANCE COMPANY, Policy Number: 57WECCA5J6K, Effective Date: 04/22/2026, Expire Date: 04/22/2027. Classification code: 51831 - Plumbing-low wage.
+Miscellaneous Information: 10/05/2006 - LICENSE REISSUED TO ANOTHER ENTITY

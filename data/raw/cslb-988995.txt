@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=988995
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  988995
+ONE SOURCE PLUMBING & ROOTER INC
+350 BAY ST 100-178
+SAN FRANCISCO, CA 94133
+Business Phone Number:(415) 570-3646
+Entity: Corporation
+Issue Date: 12/10/2013
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 101007868, Bond Amount: $25,000, Effective Date: 11/05/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 01/13/2026, Expire Date: None

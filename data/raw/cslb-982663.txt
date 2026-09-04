@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=982663
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  982663
+WORKS PLUMBING & ROOTER INC
+P O BOX 1202
+PACIFICA, CA 94044
+Business Phone Number:(415) 200-5546
+Entity: Corporation
+Issue Date: 04/12/2013
+Expire Date: 04/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100847274, Bond Amount: $25,000, Effective Date: 03/26/2024
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4758960, Effective Date: 03/12/2026, Expire Date: 03/12/2027. Classification codes: 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.

@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=828747
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  828747
+DRAIN BUSTERS PLUMBING
+5835 THIRD STREET
+SAN FRANCISCO, CA 94124
+Business Phone Number:(650) 271-1997
+Entity: Sole Ownership
+Issue Date: 12/18/2003
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 10120578, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4692069, Effective Date: 11/08/2025, Expire Date: 11/08/2026. Classification code: 19879 - Description Unavailable.

@@ -21,8 +21,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 DOCS = ROOT / "docs"
 
 TIER_META = {
-    "recommended": ("Recommended", "Call these first. Active license verified AND captured evidence of the work."),
-    "viable": ("Verified & viable", "Active license verified. Capability advertised but no job-specific evidence captured."),
+    "recommended": ("First-screen lead", "Call these first to screen. Active license plus direct adjacent-job evidence; exact overflow skill is still unverified."),
+    "viable": ("Verified & viable", "Active license verified. Relevant capability is advertised or adjacent, but no exact-job evidence was captured."),
     "conditional": ("Partial fit", "Active license verified, but only suitable for part of this job."),
     "fallback-only": ("Fallback only", "Only relevant if concealed piping must actually be replaced."),
     "wrong-scale": ("Wrong scale", "Clean license, but not a residential service-call business."),
@@ -74,12 +74,14 @@ def access_badge(access: str | None) -> str:
     if not access:
         return ""
     if access == "direct":
-        return badge("direct capture", "ok", "Fetched straight from the source URL on 2026-09-03.")
+        return badge("direct capture", "ok", "Fetched straight from the source URL; see the raw capture for its date.")
     if access == "blocked":
         return badge("blocked", "bad", "Could not be fetched from this environment.")
+    if access == "manual-review":
+        return badge("manual review link", "info", "Provided so you can inspect the live source; no data was extracted from this link.")
     return badge(access.replace("indirect-", "") + " only", "warn",
-                 "Not fetched directly. Obtained from a search-result snippet or an "
-                 "aggregator. Verify manually at the linked page.")
+                 "The underlying platform was not fetched directly. The datum came from a search snippet "
+                 "or a directly fetched aggregator and should be manually reviewed.")
 
 
 def link(url: str, label: str, cls: str = "") -> str:
@@ -172,7 +174,7 @@ def render_ratings(ratings: list) -> str:
 def render_evidence(evs: list) -> str:
     if not evs:
         return ""
-    out = ['<h4>Captured review evidence</h4><div class="quotes">']
+    out = ['<h4>Captured source evidence</h4><div class="quotes">']
     for ev in evs:
         author = f' &mdash; {e(ev["author"])}' if ev.get("author") else ""
         signals = "".join(f'<span class="chip">{e(s)}</span>' for s in ev.get("job_signals", []))
@@ -198,7 +200,7 @@ def render_flags(flags: list) -> str:
 
 
 def render_sources(sources: list) -> str:
-    out = ['<h4>Official sources for this entry</h4><ul class="sources">']
+    out = ['<h4>Source and manual-review links</h4><ul class="sources">']
     for s in sources:
         out.append(
             f'<li><span class="tier t-{e(s.get("tier"))}">{e(s.get("tier"))}</span> '
@@ -246,6 +248,7 @@ def render_entry(en: dict, fit_labels: dict) -> str:
     return f"""
 <article class="card {kind}{' hidden' if hideable else ''}" id="{e(en['id'])}"
          data-tier="{e(tier)}" data-status="{e(lic.get('status_code'))}"
+         data-batch="{e(en.get('research_batch') or '')}"
          data-name="{e(en['display_name'].lower())}" data-fit="{en['fit_score']['percent']}"
          data-permits="{en.get('sf_permits') or 0}" data-crit="{crit}">
   <header class="card-head">
@@ -256,7 +259,8 @@ def render_entry(en: dict, fit_labels: dict) -> str:
     </div>
     <div class="head-badges">
       {badge(tlabel, kind)}{status_badge(lic.get('status_code'))}
-      <span class="fit" title="Share of the hard requirements that have captured evidence">job fit {en["fit_score"]["percent"]}%</span>
+      {badge("NEW · 2026-09-04", "info") if en.get("research_batch") == "2026-09-04-expansion-20" else ""}
+      <span class="fit" title="Evidence grade across the three core requirements; advertised scope receives partial credit">job fit {en["fit_score"]["percent"]}%</span>
       {badge(f"{crit} critical", "bad") if crit else ""}
     </div>
   </header>
@@ -343,6 +347,8 @@ def main() -> int:
     hireable = [x for x in entries if x["tier"] in ("recommended", "viable", "conditional")]
     not_hireable = [x for x in entries if x["tier"] in ("do-not-hire", "unverified", "wrong-scale", "historical")]
     fallback = [x for x in entries if x["tier"] == "fallback-only"]
+    expansion = [x for x in entries
+                 if x.get("research_batch") == "2026-09-04-expansion-20"]
 
     criticals = []
     for en in entries:
@@ -367,7 +373,8 @@ def main() -> int:
         f'<li><strong>{e(t["display_name"])}</strong> &mdash; '
         f'{e(t.get("phone_display") or "no phone captured")} '
         f'<span class="muted">CSLB {e(t["license"].get("number"))}, {t["license"]["status_code"].upper()}, '
-        f'fit {t["fit_score"]["percent"]}%</span></li>' for t in top)
+        f'fit {t["fit_score"]["percent"]}%</span><br><span class="muted">{e(t["headline"])}</span></li>'
+        for t in top)
 
     verified = doc["verified_at"]
     generated = doc["generated_at"]
@@ -471,6 +478,7 @@ td p{{margin:0}}
 .t-vendor-self-reported{{background:#fdf1e6;color:#94511a}}
 .t-third-party-aggregator{{background:#eef1f5;color:#4a5666}}
 .t-tenant-advocacy-org{{background:#e8f4f6;color:#136b78}}
+.t-manufacturer{{background:#f2ecff;color:#633c9b}}
 
 /* toolbar */
 .toolbar{{position:sticky;top:60px;z-index:40;background:rgba(246,247,249,.97);
@@ -585,8 +593,8 @@ footer.site p{{max-width:90ch}}
   <h1>San Francisco plumbers verified for one specific job</h1>
   <p class="lede">A bathtub draining at about 20% of normal and a shower at 60&ndash;80%, in a c.1940 house with
   likely original galvanized drain piping, and a bathtub overflow trip lever seized behind a wall with no access
-  from below. Every business below was checked against the California Contractors State License Board, and every
-  quoted review is traceable to a captured source file.</p>
+  from below. Every licensed business below was checked against the California Contractors State License Board;
+  every published excerpt and rating is tied to a dated capture with its access method disclosed.</p>
   <div class="meta">
     <span class="pill">Verified <b>{e(verified)}</b></span>
     <span class="pill">Generated <b>{e(generated)}</b></span>
@@ -595,6 +603,7 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="stats">
     <div class="stat"><b>{counts['entries']}</b><span>businesses on the master list</span></div>
+    <div class="stat"><b>{len(expansion)}</b><span>new de-duplicated entries in this expansion</span></div>
     <div class="stat"><b>{counts['cslb_records_captured']}</b><span>CSLB license records checked</span></div>
     <div class="stat"><b>{counts['active_verified_businesses']}</b><span>verified ACTIVE and hireable</span></div>
     <div class="stat"><b>{rep['quotes_verified']}</b><span>quotes checked verbatim</span></div>
@@ -620,19 +629,26 @@ footer.site p{{max-width:90ch}}
       <p>{link('https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_building/0-0-0-85830','SF Building Code &sect;104.2','btn')}</p>
     </div>
   </div>
-  <h4>Who to call first</h4>
+  <div class="panel" style="margin-top:14px;border-left:4px solid var(--warn);background:var(--warnbg)">
+    <h3>Important result: overflow expertise is not proven for any firm</h3>
+    <p>No retained review or authoritative contractor source describes safely extracting a seized c.1940
+    trip-lever linkage with no access from below. The three names below are the strongest <em>first-screen</em>
+    leads, not confirmed overflow specialists. Get the method and no-demolition limit in writing.</p>
+  </div>
+  <h4>Who to screen first</h4>
   <ol class="steps">{call_list}</ol>
   <p class="muted">Ask every bidder the same screening question before they quote:
-  <em>&ldquo;Can you pull the trip-lever linkage out through the overflow plate, or do you need wall
-  access?&rdquo;</em> An immediate reach for a saw is the wrong answer for this job.</p>
+  <em>&ldquo;Have you removed a seized trip-lever linkage through the overflow opening on an old tub? Will you
+  snake the shower and stop before opening any wall or replacing concealed piping unless the landlord gives
+  separate written authorization?&rdquo;</em> Do not infer experience from a generic bathtub-service category.</p>
 </div></section>
 
 <section id="alerts"><div class="wrap">
   <h2>Critical irregularities found</h2>
-  <p class="sub">These are the entries that look hireable on a review platform and are not. Ratings, badges and
-  permit volume were each contradicted by the official CSLB record.</p>
+  <p class="sub">These include license disqualifications, platform/CSLB conflicts, complaint disclosure and
+  entity-history risks. An ACTIVE badge does not erase a listed critical review item; open the source before booking.</p>
   <div class="alertbox">
-    <h3>{len(criticals)} critical findings</h3>
+    <h3>{len(criticals)} critical review items</h3>
     <table><thead><tr><th>Business</th><th>CSLB status</th><th>License</th><th>Finding</th><th>Detail</th></tr></thead>
     <tbody>{alert_rows}</tbody></table>
   </div>
@@ -640,8 +656,8 @@ footer.site p{{max-width:90ch}}
 
 <section id="list"><div class="wrap">
   <h2>Master list &mdash; {counts['entries']} businesses</h2>
-  <p class="sub">Sorted by tier, then by how much of your requirement set has captured evidence, then by San
-  Francisco permit depth. Failing entries are hidden by default; reveal them to see why they failed.</p>
+  <p class="sub">Includes {len(expansion)} newly researched, de-duplicated entries, marked NEW. Sorted by tier,
+  evidence grade and SF permit depth. Non-hireable entries are hidden by default; reveal them to inspect the reason.</p>
 
   <div class="toolbar"><div class="row">
     <input type="search" id="q" placeholder="Filter by name, license number or DBA&hellip;" aria-label="Search the master list">
@@ -655,7 +671,8 @@ footer.site p{{max-width:90ch}}
   </div>
   <div class="row" style="margin-top:8px">
     <button data-filter="all" aria-pressed="true">All hireable</button>
-    <button data-filter="recommended" aria-pressed="false">Recommended</button>
+    <button data-filter="recommended" aria-pressed="false">First-screen leads</button>
+    <button data-filter="new" aria-pressed="false">20 new entries</button>
     <button data-filter="viable" aria-pressed="false">Verified &amp; viable</button>
     <button data-filter="conditional" aria-pressed="false">Partial fit</button>
     <button data-filter="flagged" aria-pressed="false">Flagged / not hireable</button>
@@ -669,8 +686,8 @@ footer.site p{{max-width:90ch}}
 <section id="matrix"><div class="wrap">
   <h2>Job-fit matrix</h2>
   <p class="sub">Only businesses with a verified ACTIVE CSLB license are shown. &ldquo;Documented&rdquo; means a
-  captured review or record describes this firm doing that thing; &ldquo;advertised&rdquo; means the firm or a
-  directory says it offers it; &ldquo;unknown&rdquo; means no evidence was captured either way and you should ask.</p>
+  captured source describes that exact task; &ldquo;documented (adjacent)&rdquo; is similar work on another fixture;
+  &ldquo;advertised&rdquo; is service-menu scope only; &ldquo;unknown&rdquo; means ask. None is documented for the exact seized linkage.</p>
   <table><thead><tr><th>Business</th><th>License</th>
   {''.join(f'<th>{e(fit_labels[k])}</th>' for k in FIT_LABELS_ORDER)}</tr></thead><tbody>
   {''.join('<tr><td><a href="#' + e(x['id']) + '">' + e(x['display_name']) + '</a></td><td><code>' + e(x['license'].get('number') or '-') + '</code></td>' + ''.join('<td>' + badge(*FIT_CELL.get(x['job_fit'].get(k, 'unknown'), ('Unknown', 'dim'))) + '</td>' for k in FIT_LABELS_ORDER) + '</tr>' for x in hireable)}
@@ -679,16 +696,16 @@ footer.site p{{max-width:90ch}}
 
 <section id="flags"><div class="wrap">
   <h2>Every flag raised, in one place</h2>
-  <p class="sub">Grouped by business. Nothing here is inferred: each flag cites the CSLB field, permit row or
-  captured review that produced it.</p>
+  <p class="sub">Grouped by business. Each flag is grounded in a captured CSLB field, permit row, platform page
+  or explicit evidence limitation. Where the source does not establish a cause, the flag says so.</p>
   {''.join('<div class="panel" style="margin-bottom:12px"><h3 style="margin-bottom:.2em">' + link('#' + e(en['id']), e(en['display_name'])) + ' <code>' + e(en['license'].get('number') or 'no license') + '</code> ' + status_badge(en['license'].get('status_code')) + '</h3>' + render_flags(en['flags']).replace('<h4>Flags &amp; irregularities</h4>', '') + '</div>' for en in entries if en['flags'])}
 </div></section>
 
 <section id="rights"><div class="wrap">
   <h2>Your rights as a San Francisco tenant</h2>
   <p class="sub">This is a rent-controlled rental, so the tenant is not the person who signs the plumbing
-  contract. These are the verified official texts that govern the situation. Not legal advice &mdash; the sources
-  are linked so you can read them yourself, and the San Francisco Tenants Union and Housing Rights Committee
+  contract. The cited government text, tenant-advocacy guidance and labelled legal summaries are linked for
+  direct review. Not legal advice &mdash; the San Francisco Tenants Union and Housing Rights Committee
   both offer free counselling.</p>
   <h3>Habitability</h3>
   {hab}
@@ -705,15 +722,15 @@ footer.site p{{max-width:90ch}}
   piping is cut into. That makes your constraint the legally simpler one, and it gives you a fast test of whether
   a bidder intends to demolish.</p>
   {permits}
-  <h3>How a seized 1940s trip lever is supposed to come out</h3>
+  <h3>Manufacturer guidance for overflow access and drain cabling</h3>
   {tech}
 </div></section>
 
 <section id="method"><div class="wrap">
   <h2>Method, provenance and what could not be verified</h2>
-  <p class="sub">This project exists because review platforms contradict the licensing record. Every claim below
-  is machine-checked against a captured source file by <code>scripts/validate.py</code>; the build fails if any
-  quote, license field or status cannot be found verbatim.</p>
+  <p class="sub">This project exists because review platforms can contradict the licensing record.
+  <code>scripts/validate.py</code> machine-checks every copied license field, published excerpt, rating value and
+  legal quotation against its capture; it also enforces the exact 20-entry expansion set and duplicate gates.</p>
 
   <h3>Pipeline</h3>
   <ol class="steps">{m_steps}</ol>
@@ -769,14 +786,14 @@ footer.site p{{max-width:90ch}}
   {link('https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/CheckLicense.aspx','cslb.ca.gov Check a License')}
   on the day you book.</p>
   <p>This is research, not legal advice or a guarantee of workmanship. It is not an endorsement of any business:
-  entries are ranked by verified licence status, captured evidence of the specific work required, and San
-  Francisco permit history. Nothing here was written from memory &mdash; every quoted review, license field,
-  statute and code section is reproduced from a capture file in <code>data/raw/</code> and is re-checked
-  verbatim by <code>scripts/validate.py</code> on every build.</p>
+  entries are ranked by verified license status, captured evidence grade, and San Francisco permit history.
+  The validator re-checks copied official fields, published excerpts and rating values against files in
+  <code>data/raw/</code>. Analytical headlines are conservative summaries, not guarantees of skill.</p>
   <p>Sources: California Contractors State License Board &middot; City &amp; County of San Francisco open data and
   Building Code &middot; California Legislative Information &middot; Better Business Bureau &middot; Thumbtack
-  &middot; Yelp (indirect) &middot; Google (indirect) &middot; Reddit (indirect) &middot; San Francisco Tenants
-  Union &middot; Housing Rights Committee of San Francisco.</p>
+  &middot; Yelp (indirect snippets) &middot; Google (manual links / indirect aggregates) &middot; Expertise
+  &middot; Oatey/Dearborn &middot; Gerber &middot; San Francisco Tenants Union. Reddit access was blocked and no
+  Reddit quotation is used as candidate evidence.</p>
 </div></footer>
 
 <script>
@@ -793,6 +810,7 @@ footer.site p{{max-width:90ch}}
     var okFilter = filter === 'all' ? HIREABLE.indexOf(t) >= 0
       : filter === 'flagged' ? HIREABLE.indexOf(t) < 0
       : filter === 'active' ? s === 'active'
+      : filter === 'new' ? c.dataset.batch === '2026-09-04-expansion-20'
       : t === filter;
     if (!okFilter) return false;
     var term = (q.value || '').trim().toLowerCase();
@@ -836,6 +854,9 @@ footer.site p{{max-width:90ch}}
 </body></html>
 """
 
+    # Generated interpolation can leave indentation on otherwise empty lines;
+    # normalize it so the committed artifact stays diff-clean.
+    page = "\n".join(line.rstrip() for line in page.splitlines()) + "\n"
     DOCS.mkdir(parents=True, exist_ok=True)
     (DOCS / "index.html").write_text(page, encoding="utf-8")
     (DOCS / "data").mkdir(exist_ok=True)

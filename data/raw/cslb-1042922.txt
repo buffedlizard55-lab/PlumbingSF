@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1042922
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1042922
+AQUA STAT PLUMBING INC
+1843 EGRET LANE
+HAYWARD, CA 94545
+Business Phone Number:(510) 755-7437
+Entity: Corporation
+Issue Date: 08/09/2018
+Expire Date: 08/31/2028
+License Status: License is under suspension for the following reasons: License is under Contractors Bond Suspension. A contractor's bond may have been received by the Board but not yet processed.
+Classifications: C36 - PLUMBING; C42 - SANITATION SYSTEM
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF619979, Bond Amount: $25,000, Effective Date: 06/16/2023, Cancellation Date: 08/15/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/07/2026, Expire Date: None

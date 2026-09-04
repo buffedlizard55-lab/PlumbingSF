@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=977638
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  977638
+EXPERT PLUMBING SOLUTIONS
+1465 44TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 531-5340
+Entity: Corporation
+Issue Date: 10/09/2012
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800209947, Bond Amount: $25,000, Effective Date: 09/19/2025
+Workers' Compensation: EVEREST PREMIER INSURANCE COMPANY, Policy Number: 7600025915261, Effective Date: 07/19/2026, Expire Date: 07/19/2027. Classification code: 51871 - Plumbing-high wage.

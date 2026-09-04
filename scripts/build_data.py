@@ -46,7 +46,7 @@ FIT_ORDER = {
     "documented": 4,
     "documented-adjacent": 3,
     "advertised": 2,
-    "unknown": 1,
+    "unknown": 0,
     "no-evidence": 0,
     "no": 0,
 }
@@ -187,6 +187,7 @@ def build_entry(curated: dict, cslb: dict, permits: dict[str, int]) -> dict:
         "phone_display": curated.get("phone_display"),
         "address_display": curated.get("address_display"),
         "website": curated.get("website"),
+        "research_batch": curated.get("research_batch"),
         "license": license_block,
         "other_licenses": other,
         "sf_permits": permit_total,
@@ -234,6 +235,8 @@ def main() -> int:
         "counts": {
             "entries": len(entries),
             "active_verified_businesses": len(active),
+            "expansion_2026_09_04": sum(
+                e.get("research_batch") == "2026-09-04-expansion-20" for e in entries),
             "cslb_records_captured": len(cslb),
             "raw_capture_files": len([p for p in (DATA / "raw").iterdir()
                                       if p.suffix in (".txt", ".json")]),
@@ -248,10 +251,10 @@ def main() -> int:
     # Flat CSV mirror of the master list.
     csv_path = DATA / "master_list.csv"
     with csv_path.open("w", newline="", encoding="utf-8") as fh:
-        w = csv.writer(fh)
+        w = csv.writer(fh, lineterminator="\n")
         w.writerow([
-            "rank", "business_name", "legal_name_on_license", "tier", "fit_percent",
-            "cslb_license", "license_status", "entity", "classifications",
+            "rank", "business_name", "legal_name_on_license", "tier", "research_batch",
+            "fit_percent", "cslb_license", "license_status", "entity", "classifications",
             "issue_date", "expire_date", "bond_carrier", "bond_amount",
             "bond_cancellation", "workers_comp", "cslb_address", "cslb_phone",
             "published_phone", "sf_plumbing_permits", "website",
@@ -265,7 +268,8 @@ def main() -> int:
             jf = e["job_fit"]
             w.writerow([
                 e["rank"], e["display_name"], lic.get("legal_name"), e["tier"],
-                e["fit_score"]["percent"], lic.get("number"), lic.get("status_code"),
+                e.get("research_batch"), e["fit_score"]["percent"], lic.get("number"),
+                lic.get("status_code"),
                 lic.get("entity"), lic.get("classifications"), lic.get("issue_date"),
                 lic.get("expire_date"), bond.get("carrier"), bond.get("amount"),
                 bond.get("cancellation"), lic.get("workers_comp_code"),

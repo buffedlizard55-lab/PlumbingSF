@@ -1,0 +1,16 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=841229
+CAPTURED_AT: 2026-09-04T00:00:00Z (page states "Data current as of 9/3/2026")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  841229
+MANNY'S PLUMBING & ROOTER
+41 MIDVALE DRIVE
+DALY CITY, CA 94015
+Business Phone Number:(650) 207-5733
+Entity: Sole Ownership
+Issue Date: 06/21/2004
+Expire Date: 06/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING; B - GENERAL BUILDING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101892287, Bond Amount: $25,000, Effective Date: 05/29/2026
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 06/28/2026, Expire Date: None
