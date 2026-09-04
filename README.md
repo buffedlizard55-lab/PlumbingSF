@@ -34,7 +34,7 @@ That distinction turned out to matter a great deal. See [Findings that changed t
 | Businesses with a verified **ACTIVE** C36 license | **27** |
 | Quotes and aggregates checked verbatim against captures | **96** |
 | Critical irregularities flagged | **15** |
-| Raw capture files in `data/raw/` | **46** |
+| Raw capture files in `data/raw/` | **46** (.txt + .json) |
 | Validator status | **PASS — 0 errors, 0 warnings** |
 
 All figures are regenerated on every build and are read from `data/validation_report.json`.

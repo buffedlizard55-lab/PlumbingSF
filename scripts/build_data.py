@@ -235,7 +235,8 @@ def main() -> int:
             "entries": len(entries),
             "active_verified_businesses": len(active),
             "cslb_records_captured": len(cslb),
-            "raw_capture_files": len(list((DATA / "raw").iterdir())),
+            "raw_capture_files": len([p for p in (DATA / "raw").iterdir()
+                                      if p.suffix in (".txt", ".json")]),
             "flagged_not_hireable": len(entries) - len(active),
         },
         "fit_labels": FIT_LABELS,
