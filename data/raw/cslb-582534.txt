@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=582534
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  582534
+O'DONOVAN PLUMBING INC
+1825 15TH AVENUE
+SAN FRANCISCO, CA 94122
+Business Phone Number:(415) 425-7322
+Entity: Corporation
+Issue Date: 12/08/1989
+Reissue Date: 07/21/2010
+Expire Date: 07/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C16 - FIRE PROTECTION ; C36 - PLUMBING
+Contractor' Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800270858, Bond Amount: $25,000, Effective Date: 09/01/2026
+Workers' Compensation: TRAVELERS PROPERTY CASUALTY COMPANY OF AMERICA, Policy Number: UB3R350637, Effective Date: 09/11/2025, Expire Date: 09/11/2027. Classification codes: 51831 - Plumbing-low wage; 51871 - Plumbing-high wage; 8810 - Clerical Office Employees.
+Miscellaneous Information: 07/21/2010 - LICENSE REISSUED TO ANOTHER ENTITY

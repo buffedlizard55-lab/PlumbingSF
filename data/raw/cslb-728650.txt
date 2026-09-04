@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=728650
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:31 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  728650
+BACON PLUMBING CO INC
+1698 HUDSON AVENUE
+SAN FRANCISCO, CA 94124
+Business Phone Number:(628) 867-7575
+Entity: Corporation
+Issue Date: 10/16/1996
+Expire Date: 10/31/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION ; C42 - SANITATION SYSTEM ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING
+Contractor' Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100463505, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: filing for BROCK ANTHONY BACON, number 100605000, amount $25,000, carrier AMERICAN CONTRACTORS INDEMNITY COMPANY, Effective Date: 01/01/2023. Qualifying individual SHAYNE DAVID BACON owns 10 percent or more, so no bond required for him (Effective Date: 03/20/2013).
+Workers' Compensation: EMPLOYERS PREFERRED INSURANCE COMPANY, Policy Number: EIG508367203, Effective Date: 10/01/2025, Expire Date: 10/01/2026. Classification codes: 518701 - Description Unavailable; 518301 - Description Unavailable; 8810 - Clerical Office Employees.
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

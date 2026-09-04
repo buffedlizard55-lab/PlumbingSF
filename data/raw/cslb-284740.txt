@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=284740
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:33 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  284740
+GOTELLI PLUMBING INC
+200 VALLEY DRIVE #38
+BRISBANE, CA 94005
+Business Phone Number:(415) 467-6600
+Entity: Corporation
+Issue Date: 06/18/1973
+Reissue Date: 11/07/2018
+Expire Date: 11/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING
+Contractor' Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800270821, Bond Amount: $25,000, Effective Date: 09/01/2026
+Workers' Compensation: EMPLOYERS ASSURANCE COMPANY, Policy Number: EIG608343000, Effective Date: 11/01/2025, Expire Date: 11/01/2026. Classification codes: 51871 - Plumbing-high wage.
+Miscellaneous Information: 11/07/2018 - LICENSE REISSUED TO ANOTHER ENTITY

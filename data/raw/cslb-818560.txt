@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=818560
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:32 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  818560
+PROMPT PLUMBING SERVICES
+239 CHRISTINE DRIVE
+SAN PABLO, CA 94806
+Business Phone Number:(415) 786-3114
+Entity: Sole Ownership
+Issue Date: 04/04/2003
+Reissue Date: 03/03/2017
+Expire Date: 03/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor' Bond: JET INSURANCE COMPANY, Bond Number: JT035294, Bond Amount: $25,000, Effective Date: 07/28/2026
+Workers' Compensation: EMPLOYERS COMPENSATION INSURANCE COMPANY, Policy Number: EIG605295901, Effective Date: 07/21/2026, Expire Date: 07/21/2027. Classification codes: 51831 - Plumbing-low wage.
+Miscellaneous Information: 03/03/2017 - LICENSE REISSUED TO A FAMILY MEMBER
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

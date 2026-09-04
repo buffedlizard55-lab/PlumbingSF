@@ -70,7 +70,8 @@ ALLOWED_HOSTS = {
     "www.chamberofcommerce.com", "chamberofcommerce.com", "www.yellowbot.com",
     "yellowbot.com", "www.yellowpages.com", "yellowpages.com",
     "pro.porch.com", "www.glassdoor.com", "glassdoor.com",
-    "www.checkbook.org", "checkbook.org",
+    "www.checkbook.org", "checkbook.org", "www.homeadvisor.com", "homeadvisor.com",
+    "manta.com", "www.manta.com", "thebluebook.com", "www.thebluebook.com",
     # vendor sites (self-reported; labelled as such in the data)
     "www.atlasplumbingandrooter.com", "www.aceplumbingandrooter.com",
     "discovercabrillo.com", "www.redwrenchplumbing.com", "advancedplumbingsf.com",

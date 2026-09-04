@@ -5838,7 +5838,7 @@
       "phone_display": "(415) 559-3853",
       "address_display": "193 23RD Avenue, San Francisco, CA 94121",
       "website": null,
-      "sf_permits": 762,
+      "sf_permits": 2549,
       "research_batch": "2026-09-04-expansion-50",
       "job_fit": {
         "snake_shower": "unknown",
@@ -5854,7 +5854,7 @@
         {
           "severity": "critical",
           "label": "LICENSE CANCELED — do not book this number",
-          "detail": "CSLB shows this corporate license canceled 10/31/2006 with the entity dissolved. The record lists qualifier Steven Trevor Yeung, who now holds active license 889172 (Steven Yeung Inc dba Chung Wah Plumbing & Fire Protection) — book only under that number and re-verify it on the day."
+          "detail": "CSLB shows this corporate license canceled 10/31/2006 with the entity dissolved (bond cancelled 07/01/2008). The active successor, verified this pass, is license 889172 STEVEN YEUNG INC dba CHUNG WAH PLUMBING & FIRE PROTECTION: the 889172 record shows the SAME 193 23RD AVENUE address and (415) 559-3853 phone, and is current and active through 01/31/2027 (data/raw/cslb-889172.txt). Book only under 889172, re-verified on the day."
         }
       ],
       "sources": [
@@ -5883,7 +5883,17 @@
           "url": "https://www.google.com/search?q=Chung+Wah+Plumbing+Co+Inc.+San+Francisco+reviews",
           "tier": "official-platform",
           "access": "manual-review"
+        },
+        {
+          "label": "CSLB sibling license 889172",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=889172",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-889172.txt"
         }
+      ],
+      "other_licenses": [
+        "889172"
       ]
     },
     {
@@ -6361,6 +6371,566 @@
         {
           "label": "Google reviews — manual review for Stan Plumbing",
           "url": "https://www.google.com/search?q=Stan+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "747827",
+      "id": "t-and-h-plumbing-co-inc",
+      "display_name": "T and H Plumbing Co Inc.",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Active CSLB license (C36 primary), issued 04/07/1998, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 716-0832",
+      "address_display": "1555 Yosemite Ave #48, San Francisco, CA 94124",
+      "website": null,
+      "sf_permits": 695,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "1.0",
+          "count": "1",
+          "url": "https://www.yelp.com/biz/t-and-h-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": "review on closed Yelp listing",
+          "text": "A bunch of construction workers have been picketing the past couple of days in front of a new residential building going up at the corner of Brighton Avenue and Ocean Avenue, claiming that T&H Plumbing has unfair practices.",
+          "url": "https://www.yelp.com/biz/t-and-h-plumbing-company-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "labor-practice allegations in sole public review",
+            "listing marked permanently closed"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "License active but public listing shows CLOSED",
+          "detail": "The only captured public listing (same name and same 1555 Yosemite Ave address as the CSLB record) is marked permanently closed with a single 1.0-star review alleging unfair practices and picketing, while CSLB shows the license current and active through 04/30/2028. Call ahead to confirm the company still operates."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 747827",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=747827",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-747827.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for T and H Plumbing Co Inc.",
+          "url": "https://www.yelp.com/search?find_desc=T+and+H+Plumbing+Co+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for T and H Plumbing Co Inc.",
+          "url": "https://www.google.com/search?q=T+and+H+Plumbing+Co+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "728650",
+      "id": "bacon-plumbing-co-inc",
+      "display_name": "Bacon Plumbing Co Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 10/16/1996, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(628) 867-7575",
+      "address_display": "1698 Hudson Avenue, San Francisco, CA 94124",
+      "website": null,
+      "sf_permits": 680,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Angi",
+          "score": "3.0",
+          "count": "1",
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/bacon-plumbing-co-inc-reviews-210019.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Angi",
+          "author": "Homeowner",
+          "text": "CAME OUT ONE DAY AND REPLACED A WATER HEATER ELEMENT. A MONTH LATER THE WATER HEATER WAS LEAKING SO BAD IT WAS POURING. HAD TO CALL THEM TO REPLACE MY WATER HEATER. THEY WERE FAST AND I LIKED THEIR WORK",
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/bacon-plumbing-co-inc-reviews-210019.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "only captured review (Dec 2005): mixed - failed first repair, fixed follow-up fast"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Stale thin sample; unusual WC class codes",
+          "detail": "The only captured consumer review is dated Dec 2005; the CSLB record lists workers' comp classes 518701/518301 with descriptions unavailable, and notes shared personnel with other licenses."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 728650",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=728650",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-728650.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Bacon Plumbing Co Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Bacon+Plumbing+Co+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Bacon Plumbing Co Inc.",
+          "url": "https://www.google.com/search?q=Bacon+Plumbing+Co+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "582534",
+      "id": "o-donovan-plumbing-inc",
+      "display_name": "O'Donovan Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C16 primary), issued 12/08/1989, Corporation entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 425-7322",
+      "address_display": "1825 15TH Avenue, San Francisco, CA 94122",
+      "website": null,
+      "sf_permits": 671,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "HomeAdvisor",
+          "score": "5.0",
+          "count": "1",
+          "url": "https://www.homeadvisor.com/rated.ODonovanPlumbingInc.52248102.html",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "HomeAdvisor",
+          "author": "Vince O.",
+          "text": "Vince O. Oct 2017 5.0 Plumbing for a Remodel or Addition - Install Yes, I recommend this pro We are happy with the work",
+          "url": "https://www.homeadvisor.com/rated.ODonovanPlumbingInc.52248102.html",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "single 2017 recommendation"
+          ]
+        },
+        {
+          "platform": "YellowBot",
+          "author": null,
+          "text": "**Address**: 2162 25th Ave San Francisco CA 94116 **Phone**: (415) 875-9306",
+          "url": "https://www.yellowbot.com/odonovan-plumbing-san-francisco-ca.html",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "directory address/phone differ from the CSLB record - possibly stale listing"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Directory address differs from CSLB",
+          "detail": "YellowBot lists 2162 25th Ave with a different phone; CSLB shows 1825 15th Avenue. Use the CSLB contact and confirm at booking."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 582534",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=582534",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-582534.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for O'Donovan Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=O'Donovan+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for O'Donovan Plumbing Inc.",
+          "url": "https://www.google.com/search?q=O'Donovan+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "818560",
+      "id": "prompt-plumbing-services",
+      "display_name": "Prompt Plumbing Services",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 04/04/2003, Sole Ownership entity based in San Pablo. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 786-3114",
+      "address_display": "239 Christine Drive, San Pablo, CA 94806",
+      "website": null,
+      "sf_permits": 667,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "San Pablo sole operator",
+          "detail": "CSLB shows a sole ownership in San Pablo (not San Francisco) with the license reissued to a family member in 2017; confirm travel to SF and current availability by phone."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 818560",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=818560",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-818560.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Prompt Plumbing Services",
+          "url": "https://www.yelp.com/search?find_desc=Prompt+Plumbing+Services&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Prompt Plumbing Services",
+          "url": "https://www.google.com/search?q=Prompt+Plumbing+Services+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "706238",
+      "id": "mr-peter-s-plumbing",
+      "display_name": "Mr Peter's Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "DO NOT BOOK: CSLB shows this license expired (expire date 08/31/2004).",
+      "phone_display": "(415) 282-5599",
+      "address_display": "P O Box 40400, San Francisco, CA 94140",
+      "website": null,
+      "sf_permits": 644,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED 2004 AND CANCELED — do not book",
+          "detail": "CSLB shows this license expired 08/31/2004, canceled after expiration, the bond canceled 09/02/2004, and a Secretary of State dissolution recorded 12/06/2004. Older 'Mr. Peter's Real Plumbing & Heating' review records in San Francisco are not tied to this license number; verify that company's own current license separately."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 706238",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=706238",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-706238.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Mr Peter's Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Mr+Peter's+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Mr Peter's Plumbing",
+          "url": "https://www.google.com/search?q=Mr+Peter's+Plumbing+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "900309",
+      "id": "west-cork-plumbing-inc",
+      "display_name": "West Cork Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 07/17/2007, Corporation entity based in Novato. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 845-3870",
+      "address_display": "20 Roy Ct, Novato, CA 94947",
+      "website": null,
+      "sf_permits": 641,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Manta",
+          "author": null,
+          "text": "There are no reviews yet.Detailed Information - Location Type Single Location - Opening Date 2008 - Employees 3 - Contacts show - Principal Derek Odonabhain",
+          "url": "https://www.manta.com/c/mttjcm5/west-cork-plumbing-inc",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "small firm (3 employees per directory); principal matches the CSLB qualifying individual"
+          ]
+        }
+      ],
+      "flags": [],
+      "sources": [
+        {
+          "label": "CSLB license record 900309",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=900309",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-900309.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for West Cork Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=West+Cork+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for West Cork Plumbing Inc.",
+          "url": "https://www.google.com/search?q=West+Cork+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "284740",
+      "id": "gotelli-plumbing-inc",
+      "display_name": "Gotelli Plumbing Inc.",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 06/18/1973, Corporation entity based in Brisbane. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 467-6600",
+      "address_display": "200 Valley Drive #38, Brisbane, CA 94005",
+      "website": null,
+      "sf_permits": 625,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Bluebook (vendor self-description)",
+          "author": null,
+          "text": "Started in 1972, this family business is one of the most dependable full-service plumbing companies in the San Francisco Bay Area.  We are fully equipped to handle any plumbing services that come our way.  From residential work to commercial accounts, we specialize in it all.",
+          "url": "https://www.thebluebook.com/iProView/799003/leo-gotelli-plumbing/subcontractors/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt",
+          "job_signals": [
+            "long-standing family firm; self-reported capability, not customer-verified"
+          ]
+        }
+      ],
+      "flags": [],
+      "sources": [
+        {
+          "label": "CSLB license record 284740",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=284740",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-284740.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Gotelli Plumbing Inc.",
+          "url": "https://www.yelp.com/search?find_desc=Gotelli+Plumbing+Inc.&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Gotelli Plumbing Inc.",
+          "url": "https://www.google.com/search?q=Gotelli+Plumbing+Inc.+San+Francisco+reviews",
+          "tier": "official-platform",
+          "access": "manual-review"
+        }
+      ]
+    },
+    {
+      "key": "820321",
+      "id": "hegarty-plumbing",
+      "display_name": "Hegarty Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active CSLB license (C36 primary), issued 06/02/2003, Sole Ownership entity based in San Francisco. Verified against the official record; no captured review evidence ties this business to the seized trip-lever task, so phone-screen before booking.",
+      "phone_display": "(415) 532-9255",
+      "address_display": "P O Box 27326, San Francisco, CA 94127",
+      "website": null,
+      "sf_permits": 624,
+      "research_batch": "2026-09-04-expansion-50",
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Multi-source via porch.com",
+          "score": "3.5",
+          "count": "49",
+          "url": "https://pro.porch.com/san-francisco-ca/plumbers/hegarty-plumbing/pp",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/research-expansion50-2026-09-04.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Middling aggregate; namesake elsewhere",
+          "detail": "Aggregate customer rating is 3.5 across 49 reviews - decent volume, mixed experience. 'Chris Hegarty Plumbing' results from Palm Desert are a different company and are not attributed here."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 820321",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=820321",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-820321.txt"
+        },
+        {
+          "label": "SF plumbing-permit aggregate (Building permits, all-time contact rows for this name/license)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=300",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-plumbing-aggregates-top300-2026-09-04.txt"
+        },
+        {
+          "label": "Yelp — manual review search for Hegarty Plumbing",
+          "url": "https://www.yelp.com/search?find_desc=Hegarty+Plumbing&find_loc=San+Francisco%2C+CA",
+          "tier": "official-platform",
+          "access": "manual-review"
+        },
+        {
+          "label": "Google reviews — manual review for Hegarty Plumbing",
+          "url": "https://www.google.com/search?q=Hegarty+Plumbing+San+Francisco+reviews",
           "tier": "official-platform",
           "access": "manual-review"
         }

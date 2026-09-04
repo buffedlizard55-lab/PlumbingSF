@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=706238
+CAPTURED_AT: 2026-09-04 (page states "Data current as of 9/3/2026 6:37:32 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  706238
+MR PETER'S PLUMBING
+P O BOX 40400
+SAN FRANCISCO, CA 94140
+Business Phone Number:(415) 282-5599
+Entity: Corporation
+Issue Date: 05/09/1995
+Reissue Date: 08/31/1998
+Expire Date: 08/31/2004
+License Status: This license is expired and not able to contract at this time. Additional Status: The license was canceled after expiration.
+Classifications: C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING
+Contractor' Bond: SURETY COMPANY OF THE PACIFIC, Bond Number: 6033208, Bond Amount: $10,000, Effective Date: 01/01/2004, Cancellation Date: 09/02/2004
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 07/01/2004, Expire Date: None
+Miscellaneous Information: 12/06/2004 - SECRETARY OF STATE - DISSOLUTION
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.
