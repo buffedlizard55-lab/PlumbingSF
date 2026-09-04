@@ -5,12 +5,12 @@
     "hard_requirements": [
       "Must be able to snake / clear the shower drain.",
       "Must be able to safely free and remove the stuck bathtub overflow trip-lever assembly WITHOUT cutting into walls or replacing concealed piping.",
-      "Must be willing to attempt a non-destructive repair first and only escalate to wall access with the tenant's explicit, separate authorisation."
+      "Must be willing to attempt a non-destructive repair first and only escalate to wall access with the landlord or property manager's explicit, separate written authorisation."
     ],
     "context": [
-      "Property is a rent-controlled San Francisco rental, so the tenant is not the person who signs the plumbing contract - the landlord or property manager is.",
-      "Because the building predates June 14, 1979 it is almost certainly covered by the San Francisco Rent Stabilization and Arbitration Ordinance.",
-      "A non-functioning drain engages the habitability standard in California Civil Code 1941.1(a)(2) and (a)(3)."
+      "The user describes the property as a rent-controlled San Francisco rental; coordinate the visit and any expanded scope with the landlord or property manager.",
+      "A c.1940 construction date predates June 14, 1979, but rent-control coverage still depends on unit type and statutory exceptions.",
+      "California Civil Code 1941.1 requires plumbing facilities maintained in good working order. How the slow-drain condition applies legally is fact-specific."
     ],
     "permit_note": "Under SF Plumbing Code / SF Building Code Section 104.2, unstopping of traps, sewers, vents or waste pipes NOT requiring cutting into or removal of traps or piping is EXEMPT WORK - no permit is needed. The moment a contractor proposes cutting into or replacing covered piping, a permit IS required, and only a contractor registered with the City of San Francisco may pull it. This is the single most useful question to ask each bidder."
   },
@@ -4381,17 +4381,17 @@
       }
     ],
     "rent_control": {
-      "title": "A c.1940 building is almost certainly rent-controlled",
+      "title": "Pre-1979 construction is relevant, but unit exceptions still matter",
       "quote": "Unless your rental unit is described by one of the exceptions below, you are protected by the rent control limits of the San Francisco Rent Stabilization and Arbitration Ordinance. If you can answer \"No\" to all of the following questions, your rental unit is covered by rent control: - Is your unit a single family home or can it be sold separately from other units in the building such as in a condominium complex? - Was your unit constructed after June 13, 1979?",
       "citation": "Tenant Law Group - San Francisco Rent Ordinance",
       "url": "https://tenantlawgroupsf.com/san-francisco-rent-ordinance/",
       "raw": "data/raw/legal-regulatory.txt",
       "tier": "third-party-legal-summary",
       "access": "indirect-search-snippet",
-      "plain_language": "The San Francisco Rent Ordinance (Chapter 37 of the Administrative Code) took effect in 1979 and generally covers units built before June 14, 1979. A house built around 1940 falls well inside that window."
+      "plain_language": "The reported c.1940 construction date is before the June 14, 1979 threshold in this legal summary. Coverage also depends on whether an exception applies, including the unit-type questions quoted above; confirm with the SF Rent Board or a tenant counselor."
     },
     "anti_harassment": {
-      "title": "A landlord cannot let the drain stay broken to pressure you out",
+      "title": "Bad-faith failure to provide required repairs can violate the tenant-harassment rule",
       "quote": "- Fail to provide repairs or maintenance promised by contract or required by law;",
       "citation": "Tenant Law Group - San Francisco Rent Ordinance (SF Administrative Code 37.10B)",
       "url": "https://tenantlawgroupsf.com/san-francisco-rent-ordinance/",
