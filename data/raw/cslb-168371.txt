@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=168371
+CAPTURED_AT: 2026-09-03T16:54:49Z (page states "Data current as of 9/3/2026 4:54:49 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  168371
+SERVADEI SERVICE INC
+45 29TH STREET
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 567-5025
+Entity: Corporation
+Issue Date: 06/12/1957
+Expire Date: 11/30/2002
+License Status: This license is canceled and not able to contract.
+Classifications: C-4 - BOILER, HOT WATER HEATING AND STEAM FITTING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING ; C36 - PLUMBING ; C38 - REFRIGERATION ; C42 - SANITATION SYSTEM ; C16 - FIRE PROTECTION
+Contractor's Bond: FRONTIER PACIFIC INSURANCE COMPANY, Bond Number: 802927, Bond Amount: $7,500, Effective Date: 07/01/1994, Cancellation Date: 01/30/2002
+Workers' Compensation: This license has workers compensation insurance with the STATE COMPENSATION INSURANCE FUND, Policy Number: 238-0000175, Effective Date: 04/01/2000, Cancellation Date: 05/08/2001
+Miscellaneous Information: 11/30/2002 - SECRETARY OF STATE - DISSOLUTION
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

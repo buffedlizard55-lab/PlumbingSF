@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1113916
+CAPTURED_AT: 2026-09-03T16:31:21Z (page states "Data current as of 9/3/2026 4:31:21 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1113916
+ASAP PLUMBING PRO
+550 PALM AVE
+SOUTH SAN FRANCISCO, CA 94080
+Business Phone Number:(415) 728-6391
+Entity: Sole Ownership
+Issue Date: 12/13/2023
+Expire Date: 12/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: MERCHANTS BONDING COMPANY (MUTUAL), Bond Number: 101640130, Bond Amount: $25,000, Effective Date: 11/15/2025
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/01/2025, Expire Date: None
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.

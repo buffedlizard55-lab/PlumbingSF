@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746000
+CAPTURED_AT: 2026-09-03T16:35:54Z (page states "Data current as of 9/3/2026 4:35:54 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  746000
+NIGEL MULGREW PLUMBING INC
+1127 PALMETTO AVE
+PACIFICA, CA 94044
+Business Phone Number:(650) 557-0285
+Entity: Corporation
+Issue Date: 02/18/1998
+Reissue Date: 09/09/2014
+Expire Date: 09/30/2026
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100253379, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual NIGEL PETER MULGREW ... Effective Date: 09/09/2014
+Workers' Compensation: TECHNOLOGY INSURANCE COMPANY INC, Policy Number: 4677993, Effective Date: 10/31/2025, Expire Date: 10/31/2026
+Miscellaneous Information: 04/22/2014 - SOLE TO CORP REASSIGN 13A-1H REJECT

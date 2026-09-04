@@ -1,0 +1,72 @@
+##############################################################################
+# OFFICIAL LEGAL / REGULATORY SOURCES  —  verbatim excerpts
+# Each section is delimited. The validator checks quotes against these blocks.
+##############################################################################
+
+===== SOURCE: https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_building/0-0-0-85830 | CAPTURED: 2026-09-03 | ACCESS: direct | TIER: official-gov =====
+TITLE: SECTION 104.0 - PERMITS  (San Francisco Building Code / SF Plumbing Code amendments)
+VERBATIM:
+104.2 Exempt Work. A permit shall not be required for the following:
+(1)   Repair of leaks not requiring cutting into or removing piping.
+(2)   Unstopping of traps, sewers, vents or waste pipes not requiring cutting into or removal of traps or piping
+(3)   Replacement, repair or maintenance of faucets, angle stops, hose bibbs or roof drain not requiring cutting into or removal of piping.
+(4)   Replacement of toilets except in structures with alternate water piping.
+104.1.1 Homeowner's Permit. A permit for plumbing work in, on or about a single-family dwelling may be issued by the Authority Having Jurisdiction, provided said work is done by the owner or a family member who has demonstrated, to the satisfaction of the administrative authority, his or her qualifications to satisfactorily perform the plumbing work in the dwelling which is, or is intended to be, occupied by the owner
+If the plumbing work performed under the homeowner's permit does not comply with the requirements of this code and if the corrections are not made as required by the Department of Building Inspection, then the work shall be corrected by a State-licensed plumbing contractor under a separate permit
+104.3 Application for Permit. Permit applicants shall file with the Department of Building Inspection an application on a form furnished for that purpose.
+A permit for inspection of the proposed plumbing work set forth in the application will be issued to State-licensed contractors or to homeowners subject to the requirements of Section 104.1.1.
+
+===== SOURCE: https://www.sf.gov/apply-plumbing-and-mechanical-permit | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-gov =====
+TITLE: Apply for a plumbing and mechanical permit — City & County of San Francisco
+VERBATIM:
+You need a permit before cutting into or replacing pipes, particularly pipes that will be covered by a wall or buried in the ground. See exemptions in San Francisco Plumbing Code Section 104.2.
+You must be a licensed contractor registered with the City of San Francisco to apply for a plumbing or mechanical permit online
+Only owner-installers of stand-alone single family dwellings may apply for a plumbing or mechanical permit to do the work themselves. Check your home's official status in the Assessor's map.
+If you cannot demonstrate that you can do the work safely, you will need to hire a licensed contractor
+Before covering pipes, you must have it inspected.
+
+===== SOURCE: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1 | CAPTURED: 2026-09-03 | ACCESS: direct | TIER: official-gov =====
+TITLE: California Code, CIV 1941.1  (California Legislative Information)
+VERBATIM:
+1941.1.
+(a) A dwelling shall be deemed untenantable for purposes of Section 1941 if it substantially lacks any of the following affirmative standard characteristics or is a residential unit described in Section 17920.3 or 17920.10 of the Health and Safety Code:
+(1) Effective waterproofing and weather protection of roof and exterior walls, including unbroken windows and doors.
+(2) Plumbing or gas facilities that conformed to applicable law in effect at the time of installation, maintained in good working order.
+(3) A water supply approved under applicable law that is under the control of the tenant, capable of producing hot and cold running water, or a system that is under the control of the landlord, that produces hot and cold running water, furnished to appropriate fixtures, and connected to a sewage disposal system approved under applicable law.
+
+===== SOURCE: https://sftu.org/repairs/ | CAPTURED: 2026-09-03 | ACCESS: direct | TIER: tenant-advocacy-org =====
+TITLE: Habitability and Repairs — San Francisco Tenants Union
+VERBATIM:
+Tenants have the right to safe and habitable homes in exchange for the rents we are paying. If your landlord is not making repairs, he or she is violating your "Implied Warranty of Habitability" and you have the right to have repairs made.
+California codes especially Civil Code Sections 1941-1942, the San Francisco Housing Code, and the San Francisco Health Code define your landlord's obligations to make and keep your home in habitable condition.
+In addition, landlords cannot demand rent, evict for nonpayment, or increase rents if there are serious housing code violations AND the landlord has been ordered to correct the violations by the city or state AND the violations have not been corrected for at least 35 days after the order to correct the violations. California Civil Code Section 1942.4 also has statutory damages of up to $5,000 which can be given to the tenant in a habitability lawsuit.
+Some of the requirements are:
+•Plumbing and gas facilities in good order.
+•Hot and cold running water.
+Call or write DBI, to request they send an inspector out to your home. It usually works better if you contact them in person and submit a written complaint.
+After the inspection, the landlord will be given an order to correct the problems (usually 30 days). Click here to track the status of complaints.
+You can file a petition with the San Francisco Rent Board, if you are rent-controlled under the San Francisco Rent Ordinance, claiming a "Decrease in Housing Services" and ask that your rent be reduced to compensate you for your reduced habitability.
+WARNING: Do not call DBI if you live in an illegal unit. Rather than cite the landlord for repairs needed, DBI may issue an order to legalize the unit or shut it down and you may be evicted.
+
+===== SOURCE: https://www.hrcsf.org/habitability-repair-issues | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: tenant-advocacy-org =====
+TITLE: Habitability / Repair Issues — Housing Rights Committee of San Francisco
+VERBATIM:
+The San Francisco Rent Board is a city agency that oversees and enforces the San Francisco rent ordinance. There are two types of tenant petitions which can be filed with the Rent Board to deal with repair problems. One is called the Decrease in Services petition and the other is called the Failure to Repair and Maintain petition
+File A Decrease in Services petition, requesting a reduction in rent, can be filed at any time if there has been a lack of repairs, or if a service or amenity that has previously been provided (for example, a leak-free sink) is no longer provided, due to landlord failure to fix it after you notified them in writing
+Caution: We do not recommend Repair and deduct.
+
+===== SOURCE: https://tenantlawgroupsf.com/san-francisco-rent-ordinance/ | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-legal-summary =====
+TITLE: San Francisco Rent Ordinance — Tenant Law Group
+VERBATIM:
+Enacted in 1979, the San Francisco Rent Stabilization and Arbitration Ordinance added Chapter 37 to the San Francisco Administrative Code and established the San Francisco Rent Stabilization and Arbitration Board, which is the governmental agency that has regulated rent-controlled housing in the city ever since.
+Unless your rental unit is described by one of the exceptions below, you are protected by the rent control limits of the San Francisco Rent Stabilization and Arbitration Ordinance. If you can answer "No" to all of the following questions, your rental unit is covered by rent control: - Is your unit a single family home or can it be sold separately from other units in the building such as in a condominium complex? - Was your unit constructed after June 13, 1979?
+San Francisco Administrative code section 37.10B makes it illegal for a landlord or anyone under the landlord's authority to do any of the items in the next section in bad faith, allows for a civil suit by the tenant for up to three times damages
+- Fail to provide repairs or maintenance promised by contract or required by law;
+- Fail to complete work once started or fail to follow proper practices to minimize exposure to noise, lead, mold, asbestos, or other building materials harmful to your health;
+
+===== SOURCE: https://www.nonaehyaei.com/san-francisco-real-estate-blog/understanding-rent-control-and-tenant-laws-in-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: third-party-summary =====
+TITLE: Understanding Rent Control and Tenant Laws in San Francisco
+VERBATIM:
+Rent control in San Francisco applies to most residential buildings constructed before June 14, 1979, under the city's Rent Ordinance.
+Habitability Standards: Landlords must maintain properties in good repair, ensuring safe and livable conditions, including functioning plumbing, heating, and electrical systems.
+Anti-Harassment Laws: Landlords cannot harass tenants by shutting off utilities, failing to perform repairs, or creating a hostile environment to pressure tenants into leaving.

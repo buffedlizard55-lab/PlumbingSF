@@ -1,0 +1,19 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=828200
+CAPTURED_AT: 2026-09-03T16:33:12Z (page states "Data current as of 9/3/2026 4:33:12 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  828200
+A G QUALITY PLUMBING
+1019 A SOUTH VAN NESS AVE
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 824-2517
+Entity: Corporation
+Issue Date: 12/08/2003
+Reissue Date: 09/06/2007
+Expire Date: 09/30/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100978841, Bond Amount: $25,000, Effective Date: 08/08/2025
+Bond of Qualifying Individual: The qualifying individual GERARDO OROPEZA GARCIA ... Effective Date: 11/03/2017
+Workers' Compensation: STATE COMPENSATION INSURANCE FUND, Policy Number: 9296457, Effective Date: 04/17/2021, Expire Date: 04/17/2027
+Miscellaneous Information: 09/06/2007 - LICENSE REISSUED TO ANOTHER ENTITY

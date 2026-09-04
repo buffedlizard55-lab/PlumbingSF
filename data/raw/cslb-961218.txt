@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=961218
+CAPTURED_AT: 2026-09-03T16:30:18Z (page states "Data current as of 9/3/2026 4:30:18 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  961218
+PRECISION ROOTER & DRAIN
+945 TARAVAL ST
+UNIT 1214
+SAN FRANCISCO, CA 94116
+Business Phone Number:(415) 724-1824
+Entity: Sole Ownership
+Issue Date: 05/19/2011
+Expire Date: 05/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: AMERICAN CONTRACTORS INDEMNITY COMPANY, Bond Number: 100162710, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 05/06/2025, Expire Date: None

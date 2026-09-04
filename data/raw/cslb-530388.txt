@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=530388
+CAPTURED_AT: 2026-09-03T16:54:46Z (page states "Data current as of 9/3/2026 4:54:46 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  530388
+FUSCO PLUMBING AND HEATING
+705 KNOCKNABOUL WAY
+SAN RAFAEL, CA 94903
+Business Phone Number:(415) 850-9780
+Entity: Sole Ownership
+Issue Date: 05/16/1988
+Expire Date: 05/31/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: PLATTE RIVER INSURANCE COMPANY, Bond Number: CLB2713831, Bond Amount: $25,000, Effective Date: 01/01/2023
+Workers' Compensation: This license has workers compensation insurance with the REPUBLIC INDEMNITY COMPANY OF AMERICA, Policy Number: 25583905, Effective Date: 05/31/2026, Expire Date: 05/31/2027. Workers' compensation classification code(s): 51871 - Plumbing-high wage; 8810 - Clerical Office Employees

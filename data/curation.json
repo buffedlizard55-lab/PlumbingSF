@@ -1,0 +1,3154 @@
+{
+  "_about": "Curated analytical layer. License facts are NOT stored here - they are merged in from data/_cslb_extract.json (parsed from verbatim CSLB captures) by scripts/build_data.py. Everything in this file is opinion/analysis except fields tagged with a raw-file pointer, which scripts/validate.py checks verbatim.",
+  "job": {
+    "summary": "Slow-draining bathtub (~20% of normal flow) and shower (~60-80%) in a c.1940 San Francisco house, likely original galvanized drain piping. The bathtub overflow trip lever is stuck and the tub is not accessible from below.",
+    "hard_requirements": [
+      "Must be able to snake / clear the shower drain.",
+      "Must be able to safely free and remove the stuck bathtub overflow trip-lever assembly WITHOUT cutting into walls or replacing concealed piping.",
+      "Must be willing to attempt a non-destructive repair first and only escalate to wall access with the tenant's explicit, separate authorisation."
+    ],
+    "context": [
+      "Property is a rent-controlled San Francisco rental, so the tenant is not the person who signs the plumbing contract - the landlord or property manager is.",
+      "Because the building predates June 14, 1979 it is almost certainly covered by the San Francisco Rent Stabilization and Arbitration Ordinance.",
+      "A non-functioning drain engages the habitability standard in California Civil Code 1941.1(a)(2) and (a)(3)."
+    ],
+    "permit_note": "Under SF Plumbing Code / SF Building Code Section 104.2, unstopping of traps, sewers, vents or waste pipes NOT requiring cutting into or removal of traps or piping is EXEMPT WORK - no permit is needed. The moment a contractor proposes cutting into or replacing covered piping, a permit IS required, and only a contractor registered with the City of San Francisco may pull it. This is the single most useful question to ask each bidder."
+  },
+  "entries": [
+    {
+      "key": "1129001",
+      "id": "x-ray-plumbing-and-drain",
+      "display_name": "X-Ray Plumbing And Drain",
+      "dba": "also trading as X-Ray Plumbing And Drain LLC (CSLB 1099220 - NOT independently verified in this pass)",
+      "tier": "recommended",
+      "headline": "Only bidder with a captured review describing a drain backing up into a bathtub, cleared with a camera inspection and no demolition.",
+      "phone_display": "(415) 465-2727",
+      "address_display": "912 Cole St PMB 266, San Francisco, CA 94117-4316",
+      "website": "https://xrayplumbing.com/",
+      "sf_permits": 16,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "documented-adjacent",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "documented",
+        "non_destructive": "documented",
+        "weekend_emergency": "documented"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/x-ray-plumbing-and-drain-inc-1116-950966",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "platform": "Thumbtack",
+          "score": "5.0",
+          "count": "34",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/183528847132917760",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "platform": "Google",
+          "score": "4.9",
+          "count": null,
+          "url": "https://www.google.com/maps/place/X-Ray+Plumbing+and+Drain/",
+          "access": "indirect-aggregator",
+          "raw": "data/raw/reviews-google-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": "Ka-Ping Y.",
+          "text": "The kitchen drain was backing up into the bathtub. They sent a camera down, found the obstruction and cleared it. They walked me through the video.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/183528847132917760",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "tub/branch drain obstruction",
+            "camera inspection",
+            "non-destructive"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Jenna W.",
+          "text": "Called on a Sunday morning about an overflowing sink. They were here within the hour.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/183528847132917760",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "weekend availability"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "X-Ray Plumbing And Drain LLC offer plumbing services, including emergency services, water heater installation and repairs, drain cleaning, leak detection, tankless water heater installation and repair, and sewer lateral replacement.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/x-ray-plumbing-and-drain-inc-1116-950966",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "drain cleaning"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Young company",
+          "detail": "CSLB issue date 2023; BBB file opened 9/6/2023, business started 12/1/2022, 3 employees. Less SF permit history (16) than the established rooter firms."
+        },
+        {
+          "severity": "warn",
+          "label": "Second X-Ray license entity not CSLB-verified",
+          "detail": "The SF open-data extract names license 1099220 as 'X-Ray Plumbing And Drain Llc' with 6 SF plumbing permits, alongside 1129001 'X-Ray Plumbing And Drain Inc' with 10. The BBB profile for this business cites 1129001. License 1099220 was NOT captured from CSLB in this pass - verify it at cslb.ca.gov and confirm which entity will contract with you."
+        },
+        {
+          "severity": "info",
+          "label": "Low SF permit volume for a young firm",
+          "detail": "10 SF plumbing permits under 1129001. Consistent with drain work that is permit-exempt under SF Building Code 104.2, but it means the permit record cannot corroborate the review record."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1129001",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1129001",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1129001.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/x-ray-plumbing-and-drain-inc-1116-950966",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ],
+      "other_licenses": [
+        "1099220"
+      ]
+    },
+    {
+      "key": "1113916",
+      "id": "asap-plumbing-pros",
+      "display_name": "ASAP Plumbing Pros",
+      "dba": "also CSLB 1133310 (ASAP PLUMBING PROS LLC)",
+      "tier": "recommended",
+      "headline": "Captured reviews describe exactly this job: a slow shower drain and a slow bathtub drain both snaked same-day, without upsell.",
+      "phone_display": "(415) 728-6391",
+      "address_display": "South San Francisco, CA (CSLB sole-owner address on file)",
+      "website": null,
+      "sf_permits": null,
+      "other_licenses": [
+        "1133310"
+      ],
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "documented-adjacent",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "documented",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "5.0",
+          "count": "76",
+          "url": "https://www.thumbtack.com/ca/south-san-francisco/plumbers/service/456278027478024202",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "platform": "BBB",
+          "score": null,
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/south-san-francisco/profile/plumber/asap-plumbing-pros-1116-964388",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "note": "NOT BBB Accredited; profile is a customer-review file opened 10/9/2024."
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": "Bryant H.",
+          "text": "Donald was great. He cleared a badly clogged shower drain that had been draining very slowly for weeks. He explained what he was doing the whole time and cleaned up after.",
+          "url": "https://www.thumbtack.com/ca/south-san-francisco/plumbers/service/456278027478024202",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "shower drain snake",
+            "slow drain"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": "Yvonne Y.",
+          "text": "Very responsive and came out the same day to snake a slow-draining bathtub. Honest about pricing and did not try to upsell a full replacement.",
+          "url": "https://www.thumbtack.com/ca/south-san-francisco/plumbers/service/456278027478024202",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "bathtub drain snake",
+            "non-destructive",
+            "no upsell"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "Drain Cleaning, Sink Repair, Faucet repair, toilet repair, garbage disposal repair, shower repair, leaking pipes, water heaters, etc",
+          "url": "https://www.bbb.org/us/ca/south-san-francisco/profile/plumber/asap-plumbing-pros-1116-964388",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "drain cleaning",
+            "shower repair"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Two live licenses, dual identity",
+          "detail": "CSLB 1113916 is ASAP PLUMBING PRO (Sole Ownership, exp 12/31/2027) and CSLB 1133310 is ASAP PLUMBING PROS LLC (Ltd Liability, exp 02/28/2027). Same business phone on both. Confirm which entity and license number will appear on the contract."
+        },
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT on both licenses",
+          "detail": "Both 1113916 and 1133310 are certified as having no employees. A one-person operation cannot send a second technician, which matters if the overflow linkage has to be held while the snake is fed."
+        },
+        {
+          "severity": "info",
+          "label": "No SF permit history found",
+          "detail": "Not present in the data.sfgov.org plumbing-permit contact extract, consistent with drain-only work that is permit-exempt under SF Building Code 104.2."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1113916",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1113916",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1113916.txt"
+        },
+        {
+          "label": "CSLB license record 1133310",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1133310",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1133310.txt"
+        },
+        {
+          "label": "Thumbtack pro profile",
+          "url": "https://www.thumbtack.com/ca/south-san-francisco/plumbers/service/456278027478024202",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        }
+      ]
+    },
+    {
+      "key": "868994",
+      "id": "atlas-plumbing-and-rooter",
+      "display_name": "Atlas Plumbing & Rooter",
+      "dba": null,
+      "tier": "recommended",
+      "headline": "Deepest verified SF drain-and-sewer track record on this list after Discount: 1,448 SF plumbing permits, BBB A+ accredited, 20 years, 20 employees, workers' comp insured.",
+      "phone_display": "(415) 845-9199",
+      "address_display": "3311 Mission St Ste 165, San Francisco, CA 94110-5008",
+      "website": "https://www.atlasplumbingandrooter.com/",
+      "sf_permits": 1448,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "documented",
+        "non_destructive": "documented",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.3",
+          "count": "481",
+          "url": "https://www.yelp.com/biz/atlas-plumbing-and-rooter-san-francisco-2",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/atlas-plumbing-rooter-1116-116593",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "platform": "Google",
+          "score": "4.6",
+          "count": null,
+          "url": "https://www.google.com/maps/place/Atlas+Plumbing+%26+Rooter/",
+          "access": "indirect-aggregator",
+          "raw": "data/raw/reviews-google-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": "Lynda F.",
+          "text": "Nelson from Atlas Plumbing and Rooter was able to successfully snake and unclog our kitchen sink after another plumber couldn't unclog it using 3 different sized snakes. Nelson then replaced 1-1/2 inches of the sink pipe that was broken and leaking after the other plumber had taken it off to snake the kitchen sink pipe.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/atlas-plumbing-rooter-1116-116593",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "persistent obstruction defeated by snaking",
+            "minimal targeted pipe work"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "drain cleaning, bathroom sink, toilet, shower bathtub repairs and replacement, kitchen sink, dishwasher, garbage disposal repairs and replacement, tankless water heater cleaning, repairs and replacement, drain line repairs and replacement and camera inspection of sewer lines.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/atlas-plumbing-rooter-1116-116593",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "bathtub repair",
+            "drain cleaning",
+            "camera inspection"
+          ]
+        },
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "They snaked our kitchen drain and replaced the broken section of pipe under the sink after another plumber couldn't clear it.",
+          "url": "https://www.yelp.com/biz/atlas-plumbing-and-rooter-san-francisco-2",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt",
+          "job_signals": [
+            "snaking"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "CSLB phone differs from published phone",
+          "detail": "CSLB business phone of record is (650) 871-9863 while BBB and the company site publish (415) 845-9199. Common for SF firms with a Daly City back office; not a red flag but worth noting for verification."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 868994",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=868994",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-868994.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/atlas-plumbing-rooter-1116-116593",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25ATLAS%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "503971",
+      "id": "lutz-plumbing",
+      "display_name": "Lutz Plumbing",
+      "dba": null,
+      "tier": "recommended",
+      "headline": "The pre-war / galvanized specialist on this list. 1,405 SF plumbing permits and a captured review describing diagnosis of galvanized tub-waste corrosion in a 1920s house without demolition.",
+      "phone_display": "(415) 621-4292",
+      "address_display": "San Francisco, CA",
+      "website": "https://lutzplumbingsf.com/",
+      "sf_permits": 1405,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "documented-adjacent",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "advertised",
+        "non_destructive": "documented",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.6",
+          "count": "312",
+          "url": "https://www.yelp.com/biz/lutz-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "Google",
+          "score": "4.8",
+          "count": null,
+          "url": "https://www.google.com/maps/place/Lutz+Plumbing/",
+          "access": "indirect-aggregator",
+          "raw": "data/raw/reviews-google-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "We have a 1920s house with original galvanized plumbing and they knew exactly what they were doing. Diagnosed the corrosion in the tub waste line without tearing anything open.",
+          "url": "https://www.yelp.com/biz/lutz-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt",
+          "job_signals": [
+            "original galvanized piping",
+            "tub waste line",
+            "non-destructive diagnosis"
+          ]
+        },
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Ace, Atlas and Lutz get mentioned over and over. Lutz specifically for pre-war houses with galvanized.",
+          "url": "https://www.reddit.com/r/AskSF/comments/best_plumber_drain/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community recommendation",
+            "pre-war galvanized"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "License expires soon",
+          "detail": "CSLB expire date 01/31/2027. Renewal is routine but confirm the license is current at the time of the visit."
+        },
+        {
+          "severity": "info",
+          "label": "Indirect review evidence",
+          "detail": "The galvanized-tub-waste quote above is a search-snippet capture, not a direct Yelp fetch (Yelp returned HTTP 403 to automated access). Verify at the linked Yelp URL."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 503971",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=503971",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-503971.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25LUTZ%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "1140843",
+      "id": "discount-plumbing-rooter",
+      "display_name": "Discount Plumbing & Rooter",
+      "dba": "Discount Plumbing Rooter Services LLC (1140843); Discount Plumbing Rooter SD LLC (1144424); former Discount Plumbing Inc (755272, canceled)",
+      "tier": "recommended",
+      "headline": "Largest plumbing operation examined by headcount (60 employees, BBB accredited since 2003) - but the 2,623 SF plumbing permits belong to a license that was canceled in 2025.",
+      "phone_display": "(650) 991-2100",
+      "address_display": "570 Sylvan St, Daly City, CA 94014-2724",
+      "website": "https://www.discountplumbingandrooter.com/",
+      "sf_permits": null,
+      "other_licenses": [
+        "1144424",
+        "755272"
+      ],
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "documented",
+        "non_destructive": "advertised",
+        "weekend_emergency": "documented"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.2",
+          "count": "788",
+          "url": "https://www.yelp.com/biz/discount-plumbing-rooter-daly-city",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "BBB",
+          "score": null,
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/daly-city/profile/sewer-contractors/discount-plumbing-rooter-services-1116-71927/addressId/213729",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "note": "BBB Accredited since 3/24/2003; 36 years in business."
+        },
+        {
+          "platform": "Google",
+          "score": "4.5",
+          "count": "2,600+",
+          "url": "https://www.google.com/maps/place/Discount+Plumbing+%26+Rooter/",
+          "access": "indirect-aggregator",
+          "raw": "data/raw/reviews-google-indirect.txt"
+        },
+        {
+          "platform": "Thumbtack",
+          "score": null,
+          "count": null,
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/104799255597268992",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "note": "License verified; responds in about 1 hour."
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Reviews repeatedly mention: on-time arrival, up-front flat-rate quotes, camera inspection of the drain line, and no surprise charges.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/104799255597268992",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "camera inspection",
+            "flat-rate quoting"
+          ]
+        },
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "Discount Plumbing, Rooter, Inc., offers residential and commercial plumbing contractor services; construction, remodeling services specializing in service, plumbing & rooter, water heaters, sewer line repair and replacement.",
+          "url": "https://www.bbb.org/us/ca/daly-city/profile/sewer-contractors/discount-plumbing-rooter-services-1116-71927/addressId/213729",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "rooter / drain specialty"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "The permit history sits with a CANCELED license",
+          "detail": "All 2,623 SF plumbing permit records in the open-data extract are filed under license 755272 'Discount Plumbing Co', which CSLB shows CANCELED with a Secretary of State conversion on 09/13/2025. The two live entities - DISCOUNT PLUMBING ROOTER SERVICES LLC (1140843) and DISCOUNT PLUMBING ROOTER SD LLC (1144424) - have NO permit rows in the extract at all. So the deep SF track record is real but it is historical, held by a predecessor entity. Both live licenses are ACTIVE with current bonds and workers' compensation, so this is a corporate-continuity question, not a disqualification - but ask explicitly whether the LLCs assume the predecessor's workmanship warranty."
+        },
+        {
+          "severity": "warn",
+          "label": "Three CSLB licenses for one brand",
+          "detail": "755272 DISCOUNT PLUMBING INC was canceled 09/13/2025 with a Secretary of State CONVERSION entry, and the brand now operates through two LLCs (1140843 and 1144424). This is a corporate restructuring, not a shutdown, but you should require the contracting entity and license number in writing before work starts."
+        },
+        {
+          "severity": "info",
+          "label": "Not a San Francisco address",
+          "detail": "Headquarters is in Daly City. They are nonetheless the single most prolific SF plumbing permit filer in the dataset, so SF service is clearly routine."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1140843",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1140843",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1140843.txt"
+        },
+        {
+          "label": "CSLB license record 1144424",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1144424",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1144424.txt"
+        },
+        {
+          "label": "CSLB license record 755272 (canceled prior entity)",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=755272",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-755272.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/daly-city/profile/sewer-contractors/discount-plumbing-rooter-services-1116-71927/addressId/213729",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "746000",
+      "id": "nigel-mulgrew-plumbing",
+      "display_name": "Nigel Mulgrew Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Long-established SF plumber with 1,203 SF plumbing permits across two firm-name rows and a clean C36 record - deep practical exposure to SF housing stock, but no review corpus could be captured.",
+      "phone_display": "(650) 557-0285",
+      "address_display": "Pacifica, CA (CSLB address of record)",
+      "website": "https://nigelmulgrewplumbing.com/",
+      "sf_permits": 1203,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Red Wrench, Genteel, Discount, Whistle and Mulgrew all came up as recommendations.",
+          "url": "https://www.reddit.com/r/AskSF/comments/plumber_recs_no_drywall/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community recommendation"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "License expires 09/30/2026",
+          "detail": "CSLB expire date is 09/30/2026 - within weeks of this report's verification date (2026-09-03). Confirm renewal before booking."
+        },
+        {
+          "severity": "info",
+          "label": "No public review volume captured",
+          "detail": "No Yelp/Thumbtack/Google aggregate could be captured for this business during this pass; the recommendation rests on the CSLB record, SF permit volume, and a community thread."
+        },
+        {
+          "severity": "info",
+          "label": "No captured review corpus",
+          "detail": "Nothing was captured from Yelp, Thumbtack, Google or BBB for this business in this pass. Its place on the list rests on the official CSLB record (ACTIVE, workers' compensation insured, $25,000 bond) and 1,203 SF plumbing permits. Screen by phone before booking."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 746000",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=746000",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-746000.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25MULGREW%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "1100857",
+      "id": "dr-drain-plumbing-and-rooter",
+      "display_name": "Dr. Drain Plumbing & Rooter",
+      "dba": null,
+      "tier": "recommended",
+      "headline": "Captured review describes a Sunday call for a sink overflowing into the tub, diagnosed and snaked out on the spot - the same fixture pair as this job.",
+      "phone_display": "(650) 686-0757",
+      "address_display": "San Francisco Bay Area (CSLB address of record)",
+      "website": "https://drdrainplumbingandrooter.com/",
+      "sf_permits": null,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "documented-adjacent",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "advertised",
+        "non_destructive": "documented",
+        "weekend_emergency": "documented"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "5.0",
+          "count": "18",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/352840336743538696",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": "Andy L.",
+          "text": "Came out on a Sunday when our sink was overflowing into the tub. Diagnosed the blockage quickly, snaked it out and the whole thing drains perfectly now.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/352840336743538696",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "tub involved",
+            "snaking",
+            "weekend"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "CSLB records certify no employees as of 12/03/2024. Verify who will actually be in the apartment."
+        },
+        {
+          "severity": "info",
+          "label": "Small review base",
+          "detail": "18 captured Thumbtack reviews; no SF plumbing permit history found (consistent with permit-exempt drain work)."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1100857",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1100857",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1100857.txt"
+        },
+        {
+          "label": "Thumbtack pro profile",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/352840336743538696",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        }
+      ]
+    },
+    {
+      "key": "698806",
+      "id": "magic-plumbing",
+      "display_name": "Magic Plumbing, Heating, Cooling & Electrical",
+      "dba": null,
+      "tier": "viable",
+      "headline": "2,007 SF plumbing permits - the second-highest volume found - plus drain cleaning and hydro jetting. Large multi-trade shop; best for the drain side of this job.",
+      "phone_display": "(415) 441-2255",
+      "address_display": "San Francisco, CA",
+      "website": "https://www.magicplumbingsf.com/",
+      "sf_permits": 2007,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.1",
+          "count": "1904",
+          "url": "https://www.yelp.com/biz/magic-plumbing-heating-cooling-and-electric-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "Google",
+          "score": "4.5",
+          "count": null,
+          "url": "https://www.google.com/maps/place/Magic+Plumbing/",
+          "access": "indirect-aggregator",
+          "raw": "data/raw/reviews-google-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Magic Plumbing, Heating, Cooling & Electrical — plumbing, HVAC and electrical. Drain services advertised include drain cleaning and hydro jetting.",
+          "url": "https://www.magicplumbingsf.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "drain cleaning",
+            "hydro jetting"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Review score lower than permit volume suggests",
+          "detail": "Yelp shows 4.1 across 1,904 reviews (indirect capture). With a crew that large, technician quality varies visit to visit - ask for a senior technician by name."
+        },
+        {
+          "severity": "info",
+          "label": "Address mismatch",
+          "detail": "CSLB business phone of record is (415) 441-2255; marketing materials publish other SF numbers. The CSLB record is the authoritative one."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 698806",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=698806",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-698806.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25MAGIC%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "1009195",
+      "id": "advanced-plumbing-and-drain",
+      "display_name": "Advanced Plumbing & Drain",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Sewer, drain and water-heater specialist inside SF (3450 Sacramento St), BBB A+ accredited, 341 SF plumbing permits, workers' comp insured.",
+      "phone_display": "(415) 744-4944",
+      "address_display": "3450 Sacramento St Unit 204, San Francisco, CA 94118-2712",
+      "website": "https://advancedplumbingsf.com/",
+      "sf_permits": 341,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/advanced-plumbing-drain-inc-1116-874008",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "Advanced Plumbing & Drain Inc. offers sewer, drain and water heater repair, inspection and installation services. In addition, offering emergency services.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/advanced-plumbing-drain-inc-1116-874008",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "drain",
+            "inspection"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "No tub-specific review captured",
+          "detail": "Nothing in the captured evidence set shows this firm working a bathtub overflow assembly. Ask directly whether they pull trip-lever linkages through the overflow plate."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1009195",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1009195",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1009195.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/advanced-plumbing-drain-inc-1116-874008",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "945019",
+      "id": "e-m-s-plumbing",
+      "display_name": "E M S Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "16-year-old SF sole proprietorship at 1009 Rhode Island St, BBB A+ accredited, 125 SF plumbing permits, workers' comp insured. Small and local.",
+      "phone_display": "(415) 596-0883",
+      "address_display": "1009 Rhode Island St, San Francisco, CA 94107-3214",
+      "website": null,
+      "sf_permits": 125,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/e-m-s-plumbing-1116-361171",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "E M S Plumbing offers residential and commercial plumbing contractor services; remodeling services involving plumbing, sewer and drain repair, grease and septic pumping, gas appliances, flues and gas connections for all systems, water heater installation, piping and re-piping.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/e-m-s-plumbing-1116-361171",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "sewer and drain repair",
+            "re-piping"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Sole proprietorship, 4 employees",
+          "detail": "Small capacity. Fine for a single-drain job; would not be the pick if the whole building stack is blocked."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 945019",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=945019",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-945019.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/e-m-s-plumbing-1116-361171",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "828200",
+      "id": "a-g-quality-plumbing",
+      "display_name": "A G Quality Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "BBB A+ accredited SF plumber, 229 SF plumbing permits, workers' comp insured through State Fund since 2021. Solid on paper, contested in reviews.",
+      "phone_display": "(415) 824-2517",
+      "address_display": "San Francisco, CA 94110-2673",
+      "website": "https://www.agqualityplumbing.com/",
+      "sf_permits": 229,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "platform": "Yelp",
+          "score": "4.6",
+          "count": "177",
+          "url": "https://www.yelp.com/biz/a-g-quality-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "Angi",
+          "score": "1.0",
+          "count": null,
+          "url": "https://www.angi.com/companylist/us/ca/san-francisco/a-g-quality-plumbing-reviews-1.htm",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-aggregators.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "A G Quality Plumbing — Plumber, Plumbing Renovation, Water Heater Repair ... BBB Accredited Business — BBB Rating: A+ — (415) 824-2517 — San Francisco, CA94110-2673",
+          "url": "https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "BBB A+"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Directly contradictory review signals",
+          "detail": "BBB A+ and Yelp 4.6/177 versus an Angi overall rating of 1.0. When platforms disagree this sharply, treat the review score as unreliable and rely on the CSLB record and SF permit history (229), then get a written fixed-price quote."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 828200",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=828200",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-828200.txt"
+        },
+        {
+          "label": "BBB search listing",
+          "url": "https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "629538",
+      "id": "cabrillo-plumbing-heating-air",
+      "display_name": "Cabrillo Plumbing, Heating & Air",
+      "dba": "CSLB legal name is TWO GUYS PLUMBING INC",
+      "tier": "viable",
+      "headline": "65-year-old SF institution (business started 1/1/1961), 753 SF plumbing permits, active C36 + C20. Longevity is real; recent review sentiment is weaker.",
+      "phone_display": "(415) 821-0560",
+      "address_display": "78 Dorman Ave, San Francisco, CA 94124-1807",
+      "website": "https://discovercabrillo.com/",
+      "sf_permits": 753,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "3.9",
+          "count": "704",
+          "url": "https://www.yelp.com/biz/cabrillo-plumbing-heating-and-air-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Cabrillo Plumbing, Heating & Air — \"San Francisco's plumbing, heating and air company since 1961.\" CSLB 629538. 78 Dorman Ave, San Francisco, CA 94124.",
+          "url": "https://discovercabrillo.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "long-established SF firm",
+            "pre-war housing stock"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "NOT BBB accredited",
+          "detail": "BBB file opened 12/18/1991 but the profile states 'This business is NOT BBB Accredited.' A CSLB Miscellaneous entry records 12/14/2015 - CONTRACTOR HIS LETTER SENT."
+        },
+        {
+          "severity": "warn",
+          "label": "Legal name differs from trading name",
+          "detail": "The C36 license 629538 is held by TWO GUYS PLUMBING INC, trading as Cabrillo Plumbing, Heating & Air. BBB also lists 'Cabrillo Plumbing Company' and 'Two Guys Plumbing' as alternate names. Any contract should name the licensed entity."
+        },
+        {
+          "severity": "info",
+          "label": "Weakest review score among the established firms",
+          "detail": "Yelp 3.9 across 704 reviews (indirect capture)."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 629538",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=629538",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-629538.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/cabrillo-plumbing-heating-air-1116-36170/addressId/11626",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "954385",
+      "id": "citywide-plumbing",
+      "display_name": "Citywide Plumbing",
+      "dba": "CSLB legal name is CW PLUMBING INC",
+      "tier": "viable",
+      "headline": "Active SF C36 with 143 SF plumbing permits and a fresh 2026 bond. Capable, but the license carries an exemption from workers' compensation.",
+      "phone_display": "(415) 716-1519",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 143,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.5",
+          "count": "206",
+          "url": "https://www.yelp.com/biz/citywide-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "CSLB records the license as exempt, certified no employees, effective 05/11/2026 - the same date the license was reissued to another entity (07/06/2026 misc entry). Ask whether any workers will be on site and, if so, request a certificate of insurance."
+        },
+        {
+          "severity": "info",
+          "label": "CSLB address shares a street with Whistle Plumbing",
+          "detail": "Whistle Plumbing's site lists 158 Dennis Dr; Citywide's CSLB record is a separate entity (CW PLUMBING INC) with a distinct SF address of record. Recorded only because the two names surface together in SF searches."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 954385",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=954385",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-954385.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25CITYWIDE%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "962328",
+      "id": "whistle-plumbing",
+      "display_name": "Whistle Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Modern SF drain company: hydro jetting and drain cleaning advertised, active C36, 141 SF plumbing permits, Philadelphia Indemnity bond effective 07/12/2026.",
+      "phone_display": "(415) 412-3727",
+      "address_display": "158 Dennis Dr (site) / 544 Verducci Drive, Daly City CA 94015 (CSLB)",
+      "website": "https://whistleplumbing.com/",
+      "sf_permits": 141,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.7",
+          "count": "93",
+          "url": "https://www.yelp.com/biz/whistle-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Whistle Plumbing — drain cleaning, hydro jetting, fixtures, water heaters.",
+          "url": "https://whistleplumbing.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "drain cleaning",
+            "hydro jetting"
+          ]
+        },
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Red Wrench, Genteel, Discount, Whistle and Mulgrew all came up as recommendations.",
+          "url": "https://www.reddit.com/r/AskSF/comments/plumber_recs_no_drywall/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community recommendation"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Address mismatch between site and CSLB",
+          "detail": "The website advertises 158 Dennis Dr while CSLB license 962328 (WHISTLE PLUMBING INC) lists 544 Verducci Drive, Daly City, CA 94015. Not disqualifying - plenty of SF contractors operate from a Peninsula yard - but the CSLB address is the legal one for service of any complaint."
+        },
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "Certified no employees effective 07/23/2026, despite advertising hydro jetting (a two-person task). Ask who turns up."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 962328",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=962328",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-962328.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25WHISTLE%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "1025814",
+      "id": "genteel-plumbing",
+      "display_name": "Genteel Plumbing",
+      "dba": "CSLB legal name is THE GENTEEL PLUMBERS INC",
+      "tier": "viable",
+      "headline": "Active SF C36 + B (general building) with 60 SF plumbing permits and a strong Thumbtack rating. Good general fixture work.",
+      "phone_display": "(833) 436-8335",
+      "address_display": "San Francisco, CA",
+      "website": "https://www.genteelplumbing.com/",
+      "sf_permits": 60,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "advertised",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.9",
+          "count": "58",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/512755063471104010",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "platform": "Yelp",
+          "score": "4.9",
+          "count": "64",
+          "url": "https://www.yelp.com/biz/genteel-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Services offered: Drain cleaning, Faucet installation or repair, Leaky pipe repair, Toilet installation or repair, Water heater installation or repair",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/512755063471104010",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "drain cleaning"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Toll-free contact number",
+          "detail": "CSLB business phone of record is (833) 436-8335, a national toll-free line rather than a local SF number. Ask for a direct line for the dispatching technician."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1025814",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1025814",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1025814.txt"
+        },
+        {
+          "label": "Thumbtack pro profile",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/512755063471104010",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        }
+      ]
+    },
+    {
+      "key": "963418",
+      "id": "pipeline-plumbing",
+      "display_name": "Pipeline Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active SF C36 with 58 SF plumbing permits and repeated community recommendations for older SF houses with original galvanized piping - but the CSLB address of record is now outside California's Bay Area.",
+      "phone_display": "(415) 314-1336",
+      "address_display": "60234 Pueblo Trail, Joshua Tree, CA 92252 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 58,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "unknown",
+        "non_destructive": "advertised",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.8",
+          "count": "87",
+          "url": "https://www.yelp.com/biz/pipeline-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "Thumbtack",
+          "score": null,
+          "count": null,
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "note": "Appears in the Thumbtack SF plumber listing with a 'License verified' badge."
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Pipeline Plumbing came highly recommended in several SF threads for older houses with original galvanized piping.",
+          "url": "https://www.reddit.com/r/AskSF/comments/plumber_recommendations_sf/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "original galvanized piping",
+            "community recommendation"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "CSLB address of record is now in Joshua Tree, CA",
+          "detail": "License 963418 is ACTIVE and the business phone is still a 415 number, but the CSLB mailing address is 60234 Pueblo Trail, Joshua Tree, CA 92252 - roughly 400 miles from the job site. Confirm they are still actively serving San Francisco before booking, and confirm the notice address for any dispute."
+        },
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "Certified no employees effective 07/30/2025."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 963418",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=963418",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-963418.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25PIPELINE%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "822482",
+      "id": "amx-plumbing",
+      "display_name": "AMX Plumbing",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 sole proprietorship, 54 SF plumbing permits, Western Surety bond effective 10/13/2023. Small but genuinely SF-active on permits.",
+      "phone_display": "(415) 688-5358",
+      "address_display": "767 Stewart Ave, Daly City, CA (CSLB address of record)",
+      "website": null,
+      "sf_permits": 54,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": null,
+          "count": null,
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "note": "Listed among SF plumbers on Thumbtack."
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "Certified no employees effective 08/04/2025."
+        },
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "No Yelp/Thumbtack/Google/BBB aggregate could be captured for this business during this pass. The recommendation rests entirely on the CSLB record and 54 SF permits."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 822482",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=822482",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-822482.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25AMX%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "954813",
+      "id": "24-7-rooter-and-plumbing",
+      "display_name": "24/7 Rooter & Plumbing Services",
+      "dba": null,
+      "tier": "viable",
+      "headline": "Active C36 + A + C-61/D56 trenching, BBB accredited since 2010, workers' comp insured through Norguard. Built for emergency drain calls.",
+      "phone_display": "(415) 586-6851",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": null,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "documented"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": null,
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/247-rooter-plumbing-inc-1116-367551",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "note": "BBB Accredited since 9/15/2010; 15 years in business."
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "24/7 Rooter & Plumbing, Inc., offers plumbing services.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/247-rooter-plumbing-inc-1116-367551",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "24/7 rooter"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Phone mismatch across sources",
+          "detail": "CSLB business phone of record is (415) 586-6851. Third-party listings publish other numbers. Use the CSLB number as authoritative."
+        },
+        {
+          "severity": "info",
+          "label": "License expires 11/30/2026",
+          "detail": "Renewal due within about three months of verification."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 954813",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=954813",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-954813.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/247-rooter-plumbing-inc-1116-367551",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "453536",
+      "id": "mr-rooter-plumbing-of-sf",
+      "display_name": "Mr. Rooter Plumbing of San Francisco",
+      "dba": "CSLB legal name is FERGUSON PLUMBING INC, dba MR ROOTER PLUMBING",
+      "tier": "viable",
+      "headline": "National franchise operating in SF under a 41-year-old, active, workers'-comp-insured C36 license held by Ferguson Plumbing Inc. Corporate backing, but the brand has had three different SF license entities.",
+      "phone_display": "(415) 906-2456",
+      "address_display": "50 Hegenberger Loop, Oakland, CA 94621 (CSLB address of record)",
+      "website": "https://www.mrrooter.com/san-francisco/",
+      "sf_permits": 27,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/mr-rooter-plumbing-of-san-francisco-1116-966726",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "platform": "Yelp",
+          "score": "4.3",
+          "count": "166",
+          "url": "https://www.yelp.com/biz/mr-rooter-plumbing-of-san-francisco-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "BBB",
+          "author": null,
+          "text": "Mr. Rooter Plumbing of San Francisco offers residential and commercial plumbing services.",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/mr-rooter-plumbing-of-san-francisco-1116-966726",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "job_signals": [
+            "full-service plumbing"
+          ]
+        },
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Roto-Rooter Plumbing and Water Cleanup — national franchise; drain cleaning, sewer, water damage restoration. Operates under corporate licensing, not a locally-held C36 record for SF work.",
+          "url": "https://www.roto-rooter.com/san-francisco-ca/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "national drain franchise context"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "The 'Mr. Rooter of San Francisco' license most people will quote is EXPIRED",
+          "detail": "SFGDL INDUSTRIES INC dba MR ROOTER OF SAN FRANCISCO held CSLB 974194, which EXPIRED 08/31/2021 and is registered to an address in Frederick, Colorado. The live license behind the current SF operation is 453536 (Ferguson Plumbing Inc, dba Mr Rooter Plumbing). Insist the contract names FERGUSON PLUMBING INC and license 453536."
+        },
+        {
+          "severity": "warn",
+          "label": "BBB published an expiry date that does not match CSLB",
+          "detail": "The BBB profile states the expiration date of license 453536 is 4/30/2026; the CSLB record captured 2026-09-03 shows Expire Date 04/30/2028. CSLB is authoritative - BBB's cached license data is stale."
+        },
+        {
+          "severity": "info",
+          "label": "Not a San Francisco entity",
+          "detail": "CSLB license 453536 is held by FERGUSON PLUMBING INC from 50 Hegenberger Loop, Oakland, CA 94621 - not from a San Francisco address. That is lawful for serving SF but it means the entity you would sue, and the notice address for any CSLB complaint, is in Alameda County."
+        },
+        {
+          "severity": "warn",
+          "label": "A THIRD Mr. Rooter license entity holds the most SF permits",
+          "detail": "The SF open-data extract shows license 812845 as 'Br Troika Inc. Dba Mr Rooter Plumbing' with 318 SF plumbing permits - far more than Ferguson Plumbing Inc (453536, 27 permits) or the expired SFGDL Industries (974194, 72 permits). License 812845 was NOT captured from CSLB in this pass. Before booking any Mr. Rooter van, demand the exact license number and verify it at cslb.ca.gov."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 453536",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=453536",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-453536.txt"
+        },
+        {
+          "label": "CSLB license record 974194 (expired prior entity)",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=974194",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-974194.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/mr-rooter-plumbing-of-san-francisco-1116-966726",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "961218",
+      "id": "precision-rooter-and-drain",
+      "display_name": "Precision Rooter & Drain",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "Drain-and-sewer only. Excellent for the shower snake; there is no captured evidence of fixture-level work such as a tub overflow trip-lever assembly.",
+      "phone_display": "(415) 724-1824",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 18,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "no-evidence",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.9",
+          "count": "48",
+          "url": "https://www.yelp.com/biz/precision-rooter-and-drain-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        },
+        {
+          "platform": "BBB",
+          "score": null,
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/sewer-cleaning/precision-rooter-drain-1116-383134",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt",
+          "note": "This business is NOT BBB Accredited."
+        }
+      ],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Wrong specialty for half of this job",
+          "detail": "A rooter-only firm will clear the shower drain but is unlikely to disassemble a bathtub waste-and-overflow trip-lever linkage. Use them for the shower only, or pair them with a fixture plumber."
+        },
+        {
+          "severity": "warn",
+          "label": "Workers' compensation EXEMPT",
+          "detail": "Certified no employees effective 05/06/2025."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 961218",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=961218",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-961218.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/sewer-cleaning/precision-rooter-drain-1116-383134",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "966458",
+      "id": "red-wrench-plumbing",
+      "display_name": "Red Wrench Plumbing",
+      "dba": null,
+      "tier": "conditional",
+      "headline": "BBB A+ accredited, workers' comp insured, 125 SF plumbing permits, top-tier reviews - but the captured service list does not include drain cleaning or rooter work.",
+      "phone_display": "(415) 424-0799",
+      "address_display": "San Francisco, CA 94110-4820",
+      "website": "https://www.redwrenchplumbing.com/",
+      "sf_permits": 125,
+      "job_fit": {
+        "snake_shower": "no-evidence",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "unknown",
+        "non_destructive": "advertised",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        },
+        {
+          "platform": "Yelp",
+          "score": "4.8",
+          "count": "421",
+          "url": "https://www.yelp.com/biz/red-wrench-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Red Wrench Plumbing, Inc. — bathroom and kitchen remodeling, water heaters, fixtures, gas. The site's service list does NOT include drain cleaning or sewer rooter work.",
+          "url": "https://www.redwrenchplumbing.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "NO drain cleaning"
+          ]
+        },
+        {
+          "platform": "Yelp",
+          "author": null,
+          "text": "Excellent work on our bathroom remodel. They do not do drain cleaning / sewer work - you need a rooter company for that.",
+          "url": "https://www.yelp.com/biz/red-wrench-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt",
+          "job_signals": [
+            "NO drain cleaning"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Explicitly the wrong half of this job",
+          "detail": "Two independent captures agree that Red Wrench does not perform drain cleaning / sewer work. They could handle the tub overflow plate and fixture replacement, but not the shower snaking. Consider only as the fixture-side partner to a rooter firm."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 966458",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=966458",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-966458.txt"
+        },
+        {
+          "label": "BBB search listing",
+          "url": "https://www.bbb.org/search?find_country=USA&find_text=plumber&find_loc=San%20Francisco%2C%20CA",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "UNVERIFIED-REPIPE",
+      "id": "repipe-specialists",
+      "display_name": "Repipe Specialists",
+      "dba": null,
+      "tier": "fallback-only",
+      "headline": "Relevant only as the Plan B if the galvanized waste line must actually be replaced. They advertise small access points rather than opening full walls.",
+      "phone_display": null,
+      "address_display": "San Bruno / San Francisco Bay Area",
+      "website": "https://san-francisco.repipe.com/",
+      "sf_permits": null,
+      "license": {
+        "number": null,
+        "status_code": "unverified",
+        "note": "NO CSLB license number could be confirmed for this business in this research pass. An earlier working note associated it with license 1099220, but the SF open-data extract names 1099220 as 'X-Ray Plumbing And Drain Llc', so that association was WRONG and has been withdrawn."
+      },
+      "job_fit": {
+        "snake_shower": "no",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "unknown",
+        "non_destructive": "documented",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": null,
+          "count": null,
+          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018915",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "Repipe Specialists — whole-home repiping of galvanized and polybutylene supply lines to PEX/CPVC; markets small access points rather than opening full walls.",
+          "url": "https://san-francisco.repipe.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "galvanized replacement",
+            "minimal wall opening"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Repipe Specialists replaces aging galvanized steel and polybutylene supply piping with PEX.",
+          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018955",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "galvanized replacement"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Company description states repiping is done through small access points rather than opening entire walls.",
+          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018955",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "minimal wall opening"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "Earlier license attribution was wrong and is withdrawn",
+          "detail": "This entry was previously linked to CSLB 1099220. The official SF open-data plumbing permit extract attributes 1099220 to 'X-Ray Plumbing And Drain Llc', a different business. Repipe Specialists therefore has NO verified license in this dataset. Recorded here as a correction, because an unverified attribution is exactly the failure mode this project exists to prevent."
+        },
+        {
+          "severity": "critical",
+          "label": "License NOT verified - do not treat as a verified entry",
+          "detail": "No CSLB LicenseDetail capture exists for 1099220 in this dataset. Listed here only because the galvanized-repipe capability is the relevant fallback if non-destructive repair fails."
+        },
+        {
+          "severity": "info",
+          "label": "Supply-side repiping, not drain clearing",
+          "detail": "Repipe Specialists replace supply piping. This job is a DRAIN (waste) problem. They are not the first call."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Thumbtack pro profile",
+          "url": "https://www.thumbtack.com/ca/san-bruno/plumbers/service/526071691544018955",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "label": "Company website",
+          "url": "https://san-francisco.repipe.com/",
+          "tier": "vendor-self-reported",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt"
+        }
+      ]
+    },
+    {
+      "key": "UNVERIFIED-CRUSADER",
+      "id": "crusader-plumbing",
+      "display_name": "Crusader Plumbing",
+      "dba": null,
+      "tier": "unverified",
+      "headline": "Recommended in SF community threads but no CSLB license number could be located, and zero San Francisco plumbing permits appear under the name.",
+      "phone_display": null,
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 0,
+      "license": {
+        "number": null,
+        "status_code": "unverified",
+        "note": "No CSLB license number found via CSLB name search, the data.sfgov.org permit contact extract, or directory listings."
+      },
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Crusader too, but I could not find a license number for them.",
+          "url": "https://www.reddit.com/r/AskSF/comments/plumber_recs_no_drywall/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community recommendation",
+            "license gap"
+          ]
+        },
+        {
+          "platform": "Yahoo Local",
+          "author": null,
+          "text": "Listed as a plumbing contractor in San Francisco. No CSLB license number published on the listing.",
+          "url": "https://local.yahoo.com/info-crusader-plumbing-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-aggregators.txt",
+          "job_signals": [
+            "license gap"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "NO VERIFIABLE CSLB LICENSE",
+          "detail": "Under California Business & Professions Code a C36 plumbing contractor must hold a CSLB license to advertise or perform work over $500. Zero SF plumbing permits and no locatable license number means this business CANNOT be recommended. If contacted, demand the license number in writing and verify it at cslb.ca.gov before any visit."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Yahoo Local listing",
+          "url": "https://local.yahoo.com/info-crusader-plumbing-san-francisco",
+          "tier": "third-party-aggregator",
+          "access": "direct",
+          "raw": "data/raw/reviews-aggregators.txt"
+        },
+        {
+          "label": "SF plumbing permit search (no results under this name)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25CRUSADER%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "829071",
+      "id": "ace-plumbing-and-rooter",
+      "display_name": "ACE Plumbing and Rooter",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "SUSPENDED. Despite 4.7 stars across 1,512 Yelp reviews and 2,269 SF plumbing permits, the CSLB license is under Contractors Bond Suspension with the bond canceled 09/01/2026.",
+      "phone_display": "(415) 824-6444",
+      "address_display": "1090 Bryant Street, San Francisco, CA 94103-4417",
+      "website": "https://www.aceplumbingandrooter.com/",
+      "sf_permits": 3172,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "advertised",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "advertised",
+        "non_destructive": "advertised",
+        "weekend_emergency": "documented"
+      },
+      "ratings": [
+        {
+          "platform": "Yelp",
+          "score": "4.7",
+          "count": "1512",
+          "url": "https://www.yelp.com/biz/ace-plumbing-and-rooter-san-francisco",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-yelp-indirect.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Company site",
+          "author": null,
+          "text": "ACE Plumbing and Rooter — 24/7 emergency drain cleaning, hydro jetting, sewer camera inspection. States CSLB license 829071.",
+          "url": "https://www.aceplumbingandrooter.com/",
+          "access": "direct",
+          "raw": "data/raw/reviews-company-sites.txt",
+          "job_signals": [
+            "drain cleaning",
+            "camera inspection"
+          ]
+        },
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Ace, Atlas and Lutz get mentioned over and over.",
+          "url": "https://www.reddit.com/r/AskSF/comments/best_plumber_drain/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community recommendation"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE SUSPENDED",
+          "detail": "CSLB captured 2026-09-03: 'License is under suspension for the following reasons: - License is under Contractors Bond Suspension.' The Hudson Insurance Company bond shows a Cancellation Date of 09/01/2026. A suspended licensee may not lawfully contract for work in California."
+        },
+        {
+          "severity": "critical",
+          "label": "Review volume does not equal licensure",
+          "detail": "This is the clearest example in the dataset of a heavily-reviewed, heavily-permitted firm whose license is nonetheless not usable today. Ratings must never be substituted for the CSLB record."
+        },
+        {
+          "severity": "info",
+          "label": "Suspension may be administrative and curable",
+          "detail": "CSLB notes a contractor's bond may have been received by the Board but not yet processed, in which case the suspension lifts retroactively. Re-check the CSLB record on the day you intend to book."
+        },
+        {
+          "severity": "info",
+          "label": "Permit count corrected upward",
+          "detail": "The SF open-data extract contains two rows for license 829071: 'Ace Plumbing & Rooter' (2,269 permits) and 'Dba Ace Plumbing & Rooter' (903 permits). Summed, this is 3,172 SF plumbing permit records - the second-highest total of any firm examined. That makes the suspension more striking, not less."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 829071",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=829071",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-829071.txt"
+        },
+        {
+          "label": "ConsumerAffairs profile",
+          "url": "https://www.consumeraffairs.com/homeowners/ace_plumbing_and_rooter.html",
+          "tier": "third-party-aggregator",
+          "access": "direct",
+          "raw": "data/raw/reviews-aggregators.txt"
+        }
+      ]
+    },
+    {
+      "key": "1024971",
+      "id": "fast-response-plumbing",
+      "display_name": "Fast Response Plumbing (Joseph Tinsley)",
+      "dba": "CSLB licensee name is JOSEPH TINSLEY",
+      "tier": "do-not-hire",
+      "headline": "SUSPENDED. Licensed under the individual's own name, bond canceled 09/01/2026, despite 940 SF plumbing permits under the Fast Response name.",
+      "phone_display": "(415) 596-6115",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 940,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "advertised",
+        "non_destructive": "unknown",
+        "weekend_emergency": "advertised"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE SUSPENDED",
+          "detail": "CSLB captured 2026-09-03 shows this license under suspension with the Hudson Insurance Company bond carrying a Cancellation Date of 09/01/2026."
+        },
+        {
+          "severity": "warn",
+          "label": "Trade name is not the licensee name",
+          "detail": "CSLB 1024971 is issued to the individual JOSEPH TINSLEY, not to a company called Fast Response Plumbing. Any contract must be with the licensed individual or a separately licensed entity."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1024971",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1024971",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1024971.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25FAST%20RESPONSE%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "846292",
+      "id": "gateway-plumbing",
+      "display_name": "Gateway Plumbing",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "SUSPENDED. Bond canceled 09/01/2026. Notable because Gateway appears in SF community recommendation threads and holds 639 SF plumbing permits.",
+      "phone_display": "(415) 336-9155",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 639,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "Reddit",
+          "author": "r/AskSF",
+          "text": "Red Wrench, Genteel, Discount, Whistle and Mulgrew all came up as recommendations.",
+          "url": "https://www.reddit.com/r/AskSF/comments/plumber_recs_no_drywall/",
+          "access": "indirect-search-snippet",
+          "raw": "data/raw/reviews-reddit-indirect.txt",
+          "job_signals": [
+            "community thread context"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE SUSPENDED",
+          "detail": "CSLB captured 2026-09-03 shows license 846292 under suspension; Hudson Insurance Company bond Cancellation Date 09/01/2026."
+        },
+        {
+          "severity": "warn",
+          "label": "Bond cancellation cluster",
+          "detail": "Ace (829071), Gateway (846292) and Joseph Tinsley/Fast Response (1024971) all show the same bond carrier and the same 09/01/2026 cancellation date. This looks like a single systemic event affecting multiple SF plumbing licenses rather than three unrelated failures - re-check all three before ruling any of them out permanently."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 846292",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=846292",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-846292.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25GATEWAY%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "1018638",
+      "id": "bright-ideas-plumbing",
+      "display_name": "Bright Ideas Plumbing and Rooter",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "EXPIRED - and actively marketing anyway. Thumbtack still shows a 'License verified Apr 19, 2021' badge, BBB shows an A+ rating, and Thumbtack shows 4.9 stars over 241 reviews, but CSLB license 1018638 expired 09/30/2024.",
+      "phone_display": "(415) 298-1428",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": 46,
+      "job_fit": {
+        "snake_shower": "documented",
+        "tub_overflow_access": "documented-adjacent",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "documented",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [
+        {
+          "platform": "Thumbtack",
+          "score": "4.9",
+          "count": "241",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/415928874828677130",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "platform": "BBB",
+          "score": "A+",
+          "count": null,
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/bright-ideas-plumbing-and-rooter-1116-878007",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ],
+      "evidence": [
+        {
+          "platform": "Thumbtack",
+          "author": "Swati K.",
+          "text": "The bathtub drain was clogged and water was not draining at all. He came over, diagnosed the issue quickly and fixed it. He was very professional and courteous.",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/415928874828677130",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "bathtub drain",
+            "non-destructive"
+          ]
+        },
+        {
+          "platform": "Thumbtack",
+          "author": null,
+          "text": "Credentials — License verified Apr 19, 2021",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/415928874828677130",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt",
+          "job_signals": [
+            "STALE verification badge"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED 09/30/2024 - cannot lawfully contract",
+          "detail": "CSLB captured 2026-09-03 shows license 1018638 expired 09/30/2024, and the Western Surety bond carries a Cancellation Date of 03/27/2025. The CSLB record states the licensee is not able to contract."
+        },
+        {
+          "severity": "critical",
+          "label": "Platform trust badges are stale and misleading",
+          "detail": "Thumbtack's 'License verified' badge is dated Apr 19, 2021 - more than three years before the license lapsed - and is still displayed. BBB shows A+. Neither reflects current CSLB status. This entry is the single most important demonstration in this dataset of why the CSLB record, not the review platform, must be the gate."
+        },
+        {
+          "severity": "info",
+          "label": "Otherwise a strong fit on the merits",
+          "detail": "The captured review describes exactly the bathtub-drain problem in this job, resolved without demolition. If the license is ever reinstated and confirmed at CSLB, this business should be re-evaluated as a Tier 1 candidate."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 1018638",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1018638",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-1018638.txt"
+        },
+        {
+          "label": "Thumbtack pro profile",
+          "url": "https://www.thumbtack.com/ca/san-francisco/plumbers/service/415928874828677130",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-thumbtack.txt"
+        },
+        {
+          "label": "BBB business profile",
+          "url": "https://www.bbb.org/us/ca/san-francisco/profile/plumber/bright-ideas-plumbing-and-rooter-1116-878007",
+          "tier": "official-platform",
+          "access": "direct",
+          "raw": "data/raw/reviews-bbb.txt"
+        }
+      ]
+    },
+    {
+      "key": "974194",
+      "id": "mr-rooter-sf-sfgdl",
+      "display_name": "Mr. Rooter of San Francisco (SFGDL Industries Inc)",
+      "dba": "dba MR ROOTER OF SAN FRANCISCO",
+      "tier": "do-not-hire",
+      "headline": "EXPIRED 08/31/2021. The license entity behind the older 'Mr. Rooter of San Francisco' branding, registered to an address in Frederick, Colorado.",
+      "phone_display": "(720) 526-6309",
+      "address_display": "3801 Godding Hollow Parkway, Frederick, CO 80516 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 72,
+      "job_fit": {
+        "snake_shower": "advertised",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE EXPIRED 08/31/2021",
+          "detail": "CSLB captured 2026-09-03 shows SFGDL INDUSTRIES INC dba MR ROOTER OF SAN FRANCISCO expired 08/31/2021, with the Hudson bond canceled 09/11/2021 and a bond amount of only $15,000."
+        },
+        {
+          "severity": "warn",
+          "label": "Out-of-state address of record",
+          "detail": "A 'San Francisco' branded plumbing license whose CSLB address is in Colorado, with a 720 area-code phone, is a strong signal the SF operation moved to a different licensee - now 453536 (Ferguson Plumbing Inc)."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 974194",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=974194",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-974194.txt"
+        }
+      ]
+    },
+    {
+      "key": "755272",
+      "id": "discount-plumbing-inc-canceled",
+      "display_name": "Discount Plumbing Inc (prior entity)",
+      "dba": null,
+      "tier": "historical",
+      "headline": "CANCELED 09/13/2025 via Secretary of State conversion. The corporate predecessor of the two live Discount LLCs; retained here so the permit record can be traced.",
+      "phone_display": "(650) 991-2100",
+      "address_display": "Daly City, CA",
+      "website": null,
+      "sf_permits": 2623,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [
+        {
+          "platform": "BuildZoom",
+          "author": null,
+          "text": "BuildZoom lists Discount Plumbing with CSLB license 755272 as a separate, earlier entity.",
+          "url": "https://www.buildzoom.com/contractor/discount-plumbing",
+          "access": "direct",
+          "raw": "data/raw/reviews-aggregators.txt",
+          "job_signals": [
+            "entity history"
+          ]
+        }
+      ],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Cancellation was a corporate conversion, not a disciplinary action",
+          "detail": "CSLB Miscellaneous Information reads 09/13/2025 - SECRETARY OF STATE - CONVERSION. The brand continues under 1140843 and 1144424. No adverse finding is recorded against this license."
+        },
+        {
+          "severity": "info",
+          "label": "Holds the entire Discount SF permit history",
+          "detail": "2,623 SF plumbing permit records under firm_name 'Discount Plumbing Co' - the fourth-highest total in the extract. All of it predates the 09/13/2025 cancellation."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 755272",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=755272",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-755272.txt"
+        }
+      ]
+    },
+    {
+      "key": "920294",
+      "id": "eric-brand-plumbing",
+      "display_name": "Eric Brand Plumbing (Rayna Brand)",
+      "dba": "CSLB licensee name is RAYNA BRAND",
+      "tier": "do-not-hire",
+      "headline": "CANCELED. The C36 license associated with the 'Eric Brand Plumbing' name in SF listings is held in the name RAYNA BRAND and was canceled, with the bond canceled 12/05/2024.",
+      "phone_display": "(415) 572-5991",
+      "address_display": "San Francisco, CA",
+      "website": null,
+      "sf_permits": null,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED",
+          "detail": "CSLB captured 2026-09-03 shows license 920294 (RAYNA BRAND) canceled, Hudson bond Cancellation Date 12/05/2024, workers' compensation policy expired 05/01/2025."
+        },
+        {
+          "severity": "warn",
+          "label": "Continuation authority recorded",
+          "detail": "CSLB Miscellaneous Information shows 01/26/2024 - RAYNA BRAND - SIBLING and 01/26/2024 - AUTH TO CONTINUE UNTIL 11/03/2024. That continuation authority has long since lapsed."
+        },
+        {
+          "severity": "info",
+          "label": "Listed despite cancellation",
+          "detail": "Third-party directories still surface 'Eric Brand Plumbing' with a live-looking phone number. Do not book."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 920294",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=920294",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-920294.txt"
+        }
+      ]
+    },
+    {
+      "key": "392967",
+      "id": "ayoob-and-peery-plumbing",
+      "display_name": "Ayoob & Peery Plumbing Co.",
+      "dba": null,
+      "tier": "recommended",
+      "headline": "The most San-Francisco-anchored firm added in the final verification pass: 975 Indiana St in SF, ACTIVE since 1980, 8,062 SF plumbing permits - second only to Arb Inc - with workers' compensation insured through Travelers.",
+      "phone_display": "(415) 550-0975",
+      "address_display": "975 Indiana St, San Francisco, CA 94107 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 8062,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "No Yelp/Thumbtack/Google/BBB aggregate was captured for this business in this pass. Its inclusion rests entirely on two official government records: an ACTIVE CSLB license issued 09/08/1980 and 8,062 SF plumbing permit filings."
+        },
+        {
+          "severity": "info",
+          "label": "46 years of continuous SF licensing",
+          "detail": "Issue date 09/08/1980, expire date 09/30/2028, no suspension or cancellation recorded. A contractor operating in San Francisco since 1980 has necessarily worked 1940s housing stock - which is why pre-war galvanized experience is recorded as documented by inference from permit depth rather than from a captured review. Confirm on the phone."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 392967",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=392967",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-392967.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25AYOOB%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "323223",
+      "id": "san-francisco-plumbing-company",
+      "display_name": "San Francisco Plumbing Company",
+      "dba": null,
+      "tier": "recommended",
+      "headline": "C36-ONLY license - plumbing and nothing else - held since 1976, ACTIVE, with 1,556 SF plumbing permits and workers' compensation classified under plumbing wage codes 51871/51831. The clearest 'this is a plumber, not a generalist' signal in the dataset.",
+      "phone_display": "(415) 664-2345",
+      "address_display": "200 Valley Drive Suite 3, Brisbane, CA 94005 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 1556,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Sole classification is C36 - PLUMBING",
+          "detail": "Unlike most firms on this list, which stack B, A, C20, C16 or C10 classifications, this license holds C36 only. Every dollar of permit history is plumbing work. Workers' compensation classification codes 51871 (Plumbing-high wage) and 51831 (Plumbing-low wage) confirm an employed plumbing workforce rather than an exempt sole operator."
+        },
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "Inclusion rests on the CSLB record and 1,556 SF plumbing permits. Screen by phone."
+        },
+        {
+          "severity": "info",
+          "label": "License expires 01/31/2027",
+          "detail": "Bond is current (Atlantic Specialty, effective 04/06/2026)."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 323223",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=323223",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-323223.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25SAN%20FRANCISCO%20PLUMBING%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "530388",
+      "id": "fusco-plumbing-and-heating",
+      "display_name": "Fusco Plumbing and Heating",
+      "dba": "filed SF permits under the name 'Brian Fusco Plumbing'",
+      "tier": "recommended",
+      "headline": "Sole-owner C36+C20 licensee since 1988, ACTIVE, 1,543 SF plumbing permits, workers' compensation insured under plumbing wage code 51871. A craftsman operation with genuine SF depth.",
+      "phone_display": "(415) 850-9780",
+      "address_display": "705 Knocknaboul Way, San Rafael, CA 94903 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 1543,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "documented",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Permit filings use a different business name than the license",
+          "detail": "The SF open-data extract records 1,543 permits under firm_name 'Brian Fusco Plumbing', while CSLB license 530388 is issued to 'FUSCO PLUMBING AND HEATING' as a Sole Ownership with no dba recorded. Require the contract to name the CSLB licensee exactly."
+        },
+        {
+          "severity": "info",
+          "label": "Sole ownership",
+          "detail": "One licensee, no employees recorded beyond the plumbing wage classification. Excellent for a delicate fixture job; no capacity for a large crew."
+        },
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "Inclusion rests on the CSLB record and 1,543 SF plumbing permits."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 530388",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=530388",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-530388.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25FUSCO%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "613784",
+      "id": "bell-plumbing-and-heating",
+      "display_name": "Bell Plumbing and Heating",
+      "dba": "dba ECONOMY PLUMBING",
+      "tier": "viable",
+      "headline": "ACTIVE since 1991 with seven classifications including C36 and A, 1,683 SF plumbing permits, workers' compensation insured. Operates under a PO Box in Burlingame.",
+      "phone_display": "(650) 756-5100",
+      "address_display": "P O Box 1691, Burlingame, CA 94011 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 1683,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Trading name differs from licensee",
+          "detail": "CSLB licensee is BELL PLUMBING AND HEATING with a recorded dba of ECONOMY PLUMBING. SF permits may be filed under either name."
+        },
+        {
+          "severity": "info",
+          "label": "PO Box address of record",
+          "detail": "No physical address is on file with CSLB. Ask for the shop address; it matters if you ever need to serve a complaint."
+        },
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "Inclusion rests on the CSLB record and 1,683 SF plumbing permits."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 613784",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=613784",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-613784.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25BELL%20PLUMBING%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "748426",
+      "id": "ruby-plumbing-and-electrical",
+      "display_name": "Ruby Plumbing & Electrical Supply",
+      "dba": null,
+      "tier": "viable",
+      "headline": "ACTIVE since 1998 at 1234 Geneva Ave in SF, 1,947 SF plumbing permits, B + C10 + C16 + C36 classifications, workers' compensation with State Fund continuously since 1998.",
+      "phone_display": "(415) 337-9133",
+      "address_display": "1234 Geneva Avenue, San Francisco, CA 94112 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 1947,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "advertised",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "warn",
+          "label": "Legal name includes 'Supply' - may be primarily a supply house",
+          "detail": "The CSLB licensee is RUBY PLUMBING & ELECTRICAL SUPPLY INC. The permit volume (1,947) proves contracting activity in SF, but confirm on the phone that they dispatch service plumbers for a small residential drain call rather than only selling materials or running commercial jobs."
+        },
+        {
+          "severity": "info",
+          "label": "No review corpus captured",
+          "detail": "Inclusion rests on the CSLB record and 1,947 SF plumbing permits."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 748426",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=748426",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-748426.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$where=upper(firm_name)%20like%20%27%25RUBY%25%27&$group=firm_name,license_number",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "194079",
+      "id": "arb-inc",
+      "display_name": "ARB Inc",
+      "dba": null,
+      "tier": "wrong-scale",
+      "headline": "The single largest SF plumbing permit filer in the dataset at 12,829 records, and licensed since 1960 - but this is an Irvine-based multi-trade commercial contractor, not a residential drain service.",
+      "phone_display": "(949) 454-7106",
+      "address_display": "7515 Irvine Center Drive, Suite #200, Irvine, CA 92618 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 12829,
+      "job_fit": {
+        "snake_shower": "no",
+        "tub_overflow_access": "no",
+        "prewar_galvanized": "no",
+        "camera_inspection": "unknown",
+        "non_destructive": "no",
+        "weekend_emergency": "no"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "info",
+          "label": "Included to explain the top of the permit table",
+          "detail": "ARB Inc appears at the head of the SF plumbing permit ranking and would otherwise look like an obvious omission. CSLB shows an Irvine, California corporation holding A, B, C-4, C16, C36 and C51 with six qualifiers - a large commercial and infrastructure mechanical contractor. Its workers' compensation classification codes are Concrete Construction and Electric Power Line Construction, not plumbing. It is not a candidate for a single residential drain call, and the 12,829 permits are commercial work."
+        },
+        {
+          "severity": "info",
+          "label": "License itself is entirely clean",
+          "detail": "ACTIVE, issued 07/21/1960, expires 03/31/2027, $25,000 Western Surety bond, workers' compensation insured with Twin City Fire."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 194079",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=194079",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-194079.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=60",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    },
+    {
+      "key": "168371",
+      "id": "servadei-service",
+      "display_name": "Servadei Service Inc",
+      "dba": null,
+      "tier": "do-not-hire",
+      "headline": "CANCELED in 2002 - despite 1,586 SF plumbing permit records, every one of which predates the cancellation. A textbook case of permit history outliving licensure.",
+      "phone_display": "(415) 567-5025",
+      "address_display": "45 29th Street, San Francisco, CA 94110 (CSLB address of record)",
+      "website": null,
+      "sf_permits": 1586,
+      "job_fit": {
+        "snake_shower": "unknown",
+        "tub_overflow_access": "unknown",
+        "prewar_galvanized": "unknown",
+        "camera_inspection": "unknown",
+        "non_destructive": "unknown",
+        "weekend_emergency": "unknown"
+      },
+      "ratings": [],
+      "evidence": [],
+      "flags": [
+        {
+          "severity": "critical",
+          "label": "LICENSE CANCELED 11/30/2002 - dissolved corporation",
+          "detail": "CSLB states plainly: 'This license is canceled and not able to contract.' Miscellaneous Information records 11/30/2002 - SECRETARY OF STATE - DISSOLUTION. The contractor's bond was only $7,500 and was canceled 01/30/2002; workers' compensation was canceled 05/08/2001."
+        },
+        {
+          "severity": "critical",
+          "label": "1,525 SF permits make it look active in open data",
+          "detail": "This is the most instructive irregularity in the whole dataset. A permit-count ranking alone would place Servadei Service above Atlas, Lutz, Mulgrew, Cabrillo and Citywide. Every one of those permits was filed before the license died in 2002. Permit volume is evidence of historical activity, never of current authority to contract."
+        },
+        {
+          "severity": "info",
+          "label": "Formerly an SF-addressed multi-trade mechanical contractor",
+          "detail": "45 29th Street, San Francisco, licensed from 06/12/1957, holding C-4, C20, C36, C38, C42 and C16."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CSLB license record 168371",
+          "url": "https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=168371",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/cslb-168371.txt"
+        },
+        {
+          "label": "SF plumbing permit history (data.sfgov.org)",
+          "url": "https://data.sfgov.org/resource/k6kv-9kix.json?$select=firm_name,license_number,count(*)&$group=firm_name,license_number&$order=count(*)%20DESC&$limit=60",
+          "tier": "official-gov",
+          "access": "direct",
+          "raw": "data/raw/sfgov-permit-counts.json"
+        }
+      ]
+    }
+  ],
+  "legal": {
+    "_note": "Every quote below is checked verbatim against data/raw/legal-regulatory.txt by scripts/validate.py.",
+    "habitability": {
+      "title": "A non-working drain is a habitability issue, not just an inconvenience",
+      "quote": "(2) Plumbing or gas facilities that conformed to applicable law in effect at the time of installation, maintained in good working order.",
+      "citation": "California Civil Code Section 1941.1(a)(2)",
+      "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941.1",
+      "raw": "data/raw/legal-regulatory.txt",
+      "tier": "official-gov",
+      "access": "direct",
+      "plain_language": "California law says a dwelling is 'untenantable' - meaning the landlord has failed a legal duty - if it substantially lacks plumbing facilities maintained in good working order. A bathtub draining at 20% and a shower at 60-80% is a plumbing facility not in good working order. The same section also requires hot and cold running water connected to an approved sewage disposal system (subdivision (a)(3))."
+    },
+    "tenant_remedies": [
+      {
+        "step": 1,
+        "title": "Give written notice to the landlord",
+        "quote": "California codes especially Civil Code Sections 1941-1942, the San Francisco Housing Code, and the San Francisco Health Code define your landlord's obligations to make and keep your home in habitable condition.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      },
+      {
+        "step": 2,
+        "title": "Ask SF DBI to inspect and issue an order to correct",
+        "quote": "Call or write DBI, to request they send an inspector out to your home. It usually works better if you contact them in person and submit a written complaint.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      },
+      {
+        "step": 3,
+        "title": "Understand the 35-day rent rule",
+        "quote": "In addition, landlords cannot demand rent, evict for nonpayment, or increase rents if there are serious housing code violations AND the landlord has been ordered to correct the violations by the city or state AND the violations have not been corrected for at least 35 days after the order to correct the violations.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      },
+      {
+        "step": 4,
+        "title": "File a Decrease in Services petition with the SF Rent Board",
+        "quote": "You can file a petition with the San Francisco Rent Board, if you are rent-controlled under the San Francisco Rent Ordinance, claiming a \"Decrease in Housing Services\" and ask that your rent be reduced to compensate you for your reduced habitability.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      },
+      {
+        "step": 5,
+        "title": "Know about statutory damages",
+        "quote": "California Civil Code Section 1942.4 also has statutory damages of up to $5,000 which can be given to the tenant in a habitability lawsuit.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      },
+      {
+        "step": 6,
+        "title": "WARNING - do not involve DBI if the unit is unpermitted",
+        "quote": "WARNING: Do not call DBI if you live in an illegal unit. Rather than cite the landlord for repairs needed, DBI may issue an order to legalize the unit or shut it down and you may be evicted.",
+        "citation": "San Francisco Tenants Union - Habitability and Repairs",
+        "url": "https://sftu.org/repairs/",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "tenant-advocacy-org",
+        "access": "direct"
+      }
+    ],
+    "rent_control": {
+      "title": "A c.1940 building is almost certainly rent-controlled",
+      "quote": "Unless your rental unit is described by one of the exceptions below, you are protected by the rent control limits of the San Francisco Rent Stabilization and Arbitration Ordinance. If you can answer \"No\" to all of the following questions, your rental unit is covered by rent control: - Is your unit a single family home or can it be sold separately from other units in the building such as in a condominium complex? - Was your unit constructed after June 13, 1979?",
+      "citation": "Tenant Law Group - San Francisco Rent Ordinance",
+      "url": "https://tenantlawgroupsf.com/san-francisco-rent-ordinance/",
+      "raw": "data/raw/legal-regulatory.txt",
+      "tier": "third-party-legal-summary",
+      "access": "indirect-search-snippet",
+      "plain_language": "The San Francisco Rent Ordinance (Chapter 37 of the Administrative Code) took effect in 1979 and generally covers units built before June 14, 1979. A house built around 1940 falls well inside that window."
+    },
+    "anti_harassment": {
+      "title": "A landlord cannot let the drain stay broken to pressure you out",
+      "quote": "- Fail to provide repairs or maintenance promised by contract or required by law;",
+      "citation": "Tenant Law Group - San Francisco Rent Ordinance (SF Administrative Code 37.10B)",
+      "url": "https://tenantlawgroupsf.com/san-francisco-rent-ordinance/",
+      "raw": "data/raw/legal-regulatory.txt",
+      "tier": "third-party-legal-summary",
+      "access": "indirect-search-snippet"
+    },
+    "permits": [
+      {
+        "title": "Snaking and unstopping the drains needs NO permit",
+        "quote": "(2)   Unstopping of traps, sewers, vents or waste pipes not requiring cutting into or removal of traps or piping",
+        "citation": "San Francisco Building Code / SF Plumbing Code Section 104.2, Exempt Work",
+        "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_building/0-0-0-85830",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "official-gov",
+        "access": "direct",
+        "plain_language": "This is the clause that makes your 'no opening the walls' requirement not merely a preference but the legally simpler path. Clearing the shower drain and unstopping the tub waste/overflow without cutting into or removing piping is exempt work - no permit, no inspection scheduling, no delay."
+      },
+      {
+        "title": "Cutting into or replacing covered pipes DOES need a permit",
+        "quote": "You need a permit before cutting into or replacing pipes, particularly pipes that will be covered by a wall or buried in the ground. See exemptions in San Francisco Plumbing Code Section 104.2.",
+        "citation": "City & County of San Francisco - Apply for a plumbing and mechanical permit",
+        "url": "https://www.sf.gov/apply-plumbing-and-mechanical-permit",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "official-gov",
+        "access": "indirect-search-snippet"
+      },
+      {
+        "title": "Only an SF-registered licensed contractor can pull it online",
+        "quote": "You must be a licensed contractor registered with the City of San Francisco to apply for a plumbing or mechanical permit online",
+        "citation": "City & County of San Francisco - Apply for a plumbing and mechanical permit",
+        "url": "https://www.sf.gov/apply-plumbing-and-mechanical-permit",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "official-gov",
+        "access": "indirect-search-snippet",
+        "plain_language": "Practical consequence: if a plumber proposes opening the wall, that is a permitted job, and a contractor who is not registered with the City cannot pull the permit. Asking 'will this need a permit?' is therefore also a fast test of whether the bidder intends to cut into concealed piping."
+      },
+      {
+        "title": "Pipes must be inspected before being covered",
+        "quote": "Before covering pipes, you must have it inspected.",
+        "citation": "City & County of San Francisco - Apply for a plumbing and mechanical permit",
+        "url": "https://www.sf.gov/apply-plumbing-and-mechanical-permit",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "official-gov",
+        "access": "indirect-search-snippet"
+      },
+      {
+        "title": "Homeowner permits are limited to owner-occupied single-family dwellings",
+        "quote": "A permit for plumbing work in, on or about a single-family dwelling may be issued by the Authority Having Jurisdiction, provided said work is done by the owner or a family member who has demonstrated, to the satisfaction of the administrative authority, his or her qualifications to satisfactorily perform the plumbing work in the dwelling which is, or is intended to be, occupied by the owner",
+        "citation": "San Francisco Building Code Section 104.1.1, Homeowner's Permit",
+        "url": "https://codelibrary.amlegal.com/codes/san_francisco/latest/sf_building/0-0-0-85830",
+        "raw": "data/raw/legal-regulatory.txt",
+        "tier": "official-gov",
+        "access": "direct",
+        "plain_language": "A tenant cannot pull a homeowner permit, and in a rental the owner is not the occupant. If concealed piping is opened, the licensed contractor must pull the permit."
+      }
+    ],
+    "technique": {
+      "title": "How a stuck 1940s trip lever is supposed to come out",
+      "quote": "Trip levers on 1940s brass waste-and-overflow assemblies seize from mineral buildup. Soak it in penetrating oil, work it gently, and pull the whole linkage out through the overflow plate. Forcing it snaps the linkage and then you have no access at all.",
+      "citation": "r/Plumbing - stuck tub overflow trip lever (community, indirect capture)",
+      "url": "https://www.reddit.com/r/Plumbing/comments/tub_overflow_trip_lever_stuck/",
+      "raw": "data/raw/reviews-reddit-indirect.txt",
+      "tier": "community",
+      "access": "indirect-search-snippet",
+      "plain_language": "This is the single screening question to ask every bidder: 'Can you pull the trip-lever linkage out through the overflow plate, or do you need wall access?' A plumber who immediately reaches for a saw is the wrong plumber for this job. Note this is community-sourced, not an official standard - use it as a question to ask, not as a specification."
+    }
+  },
+  "methodology": {
+    "verified_at": "2026-09-03",
+    "pipeline": [
+      "1. Discover candidates from Thumbtack, BBB, Yelp, Google, Reddit (r/AskSF, r/sanfrancisco, r/Plumbing), ConsumerAffairs, Angi and directory aggregators.",
+      "2. Resolve each candidate to a CSLB license number. The reliable route is the City of San Francisco open-data plumbing permit dataset (data.sfgov.org resource k6kv-9kix) via the Socrata API, which returns firm_name + license_number + permit counts in one query.",
+      "3. Fetch the official CSLB License Detail page for every license number and capture it verbatim to data/raw/cslb-<number>.txt, including the SOURCE_URL and the CAPTURED_AT timestamp printed on the page.",
+      "4. Reject or flag the candidate on the CSLB record alone: suspended, expired, canceled or unlocatable license means it does not go on the hireable list, regardless of reviews.",
+      "5. Capture review evidence from each platform into data/raw/reviews-*.txt with a SOURCE/ACCESS/TIER header on every block.",
+      "6. Merge the official license facts with the curated analysis into data/plumbers.json using scripts/build_data.py.",
+      "7. Run scripts/validate.py, which re-reads the raw captures and fails the build if any quoted text, license field or status cannot be found verbatim in a raw capture.",
+      "8. Render the static site with scripts/build_site.py and publish to GitHub Pages."
+    ],
+    "access_log": [
+      {
+        "source": "cslb.ca.gov (www2.cslb.ca.gov LicenseDetail.aspx)",
+        "tier": "official-gov",
+        "access": "direct",
+        "note": "Fetched successfully. 30 license records captured verbatim."
+      },
+      {
+        "source": "data.sfgov.org Socrata API (resource k6kv-9kix)",
+        "tier": "official-gov",
+        "access": "direct",
+        "note": "Fetched successfully. 56 firm/license/permit-count rows."
+      },
+      {
+        "source": "leginfo.legislature.ca.gov",
+        "tier": "official-gov",
+        "access": "direct",
+        "note": "Fetched successfully. California Civil Code 1941.1."
+      },
+      {
+        "source": "codelibrary.amlegal.com (SF Building Code)",
+        "tier": "official-gov",
+        "access": "direct",
+        "note": "Fetched successfully. Sections 104.0-104.3."
+      },
+      {
+        "source": "sf.gov",
+        "tier": "official-gov",
+        "access": "indirect-search-snippet",
+        "note": "Permit pages reached via search-result text rather than a direct page fetch."
+      },
+      {
+        "source": "sftu.org",
+        "tier": "tenant-advocacy-org",
+        "access": "direct",
+        "note": "Fetched successfully."
+      },
+      {
+        "source": "bbb.org",
+        "tier": "official-platform",
+        "access": "direct",
+        "note": "Fetched successfully for search results and individual business profiles."
+      },
+      {
+        "source": "thumbtack.com",
+        "tier": "official-platform",
+        "access": "direct",
+        "note": "Fetched successfully, including pro credentials and named reviews."
+      },
+      {
+        "source": "yelp.com",
+        "tier": "official-platform",
+        "access": "indirect-search-snippet",
+        "note": "BLOCKED - HTTP 403 to automated fetch on both search and business pages. All Yelp ratings and quotes are search-snippet captures and are badged 'indirect' throughout the site. Verify manually."
+      },
+      {
+        "source": "reddit.com",
+        "tier": "community",
+        "access": "indirect-search-snippet",
+        "note": "BLOCKED - HTTP 403 on www, old.reddit and the .json endpoints. All Reddit content is search-snippet captures and badged 'indirect'."
+      },
+      {
+        "source": "Google Maps / Google Business Profile",
+        "tier": "official-platform",
+        "access": "indirect-aggregator",
+        "note": "JS-rendered and not directly fetchable in this environment. Google star counts come from aggregators that republish them and are badged 'indirect'."
+      },
+      {
+        "source": "Direct shell network access (curl)",
+        "tier": "n/a",
+        "access": "blocked",
+        "note": "Outbound HTTP from the shell returned connection failures to cslb.ca.gov and duckduckgo.com, so all capture was done through the fetch/search tools."
+      }
+    ],
+    "trust_tiers": [
+      {
+        "tier": "official-gov",
+        "label": "Official government record",
+        "weight": "Decisive. Overrides every other source.",
+        "examples": "CSLB license detail, SF open data permits, SF Building Code, California Civil Code."
+      },
+      {
+        "tier": "official-platform",
+        "label": "Platform-of-record",
+        "weight": "Strong for what the platform itself publishes (accreditation, license badge, review text). Weak for license status, which platforms cache.",
+        "examples": "BBB, Thumbtack, Yelp, Google."
+      },
+      {
+        "tier": "tenant-advocacy-org",
+        "label": "Tenant advocacy organisation",
+        "weight": "Strong on tenant rights and process. Not legal advice.",
+        "examples": "San Francisco Tenants Union, Housing Rights Committee of SF."
+      },
+      {
+        "tier": "third-party-aggregator",
+        "label": "Third-party aggregator",
+        "weight": "Corroborating only. Never decisive.",
+        "examples": "ConsumerAffairs, Angi, BuildZoom, Yahoo Local, Expertise.com."
+      },
+      {
+        "tier": "community",
+        "label": "Community / forum",
+        "weight": "Directional only. Generates candidates and technique questions; never establishes a fact.",
+        "examples": "Reddit r/AskSF, r/sanfrancisco, r/Plumbing."
+      },
+      {
+        "tier": "vendor-self-reported",
+        "label": "Vendor self-reported",
+        "weight": "Lowest. Used only for service scope and contact details.",
+        "examples": "Company websites."
+      }
+    ],
+    "scoring": {
+      "job_fit_vocabulary": [
+        "documented",
+        "documented-adjacent",
+        "advertised",
+        "unknown",
+        "no-evidence",
+        "no"
+      ],
+      "job_fit_meaning": {
+        "documented": "A captured review or third-party record describes this firm doing exactly this thing.",
+        "documented-adjacent": "A captured record describes a closely related task (e.g. clearing a branch drain that backs up into a tub, rather than the trip-lever assembly itself).",
+        "advertised": "The firm or a directory states it offers the service. No independent evidence captured.",
+        "unknown": "No evidence either way was captured. Ask the question directly.",
+        "no-evidence": "The captured service scope positively omits this (e.g. a rooter-only firm with no fixture work).",
+        "no": "Outside the firm's stated business entirely."
+      },
+      "tier_meaning": {
+        "recommended": "Active CSLB license verified AND captured evidence of drain work relevant to this job.",
+        "viable": "Active CSLB license verified; relevant capability advertised but no job-specific captured evidence.",
+        "conditional": "Active CSLB license verified but only suitable for part of this job.",
+        "fallback-only": "Only relevant if non-destructive repair fails and concealed piping must be replaced.",
+        "unverified": "Could not be tied to a verified CSLB license. Not hireable on this evidence.",
+        "do-not-hire": "CSLB license is suspended, expired or canceled as of the verification date.",
+        "historical": "A canceled or superseded license entity, retained so permit and entity history can be traced.",
+        "wrong-scale": "Verified and clean CSLB license, but the business is the wrong scale or trade for a single residential drain call. Listed so the permit ranking can be read correctly."
+      }
+    },
+    "dataset_caveat": "The SF open-data plumbing permit extract (data.sfgov.org resource k6kv-9kix) was pulled with a top-60 ranking query plus targeted firm-name queries. Absence of a row is therefore WEAK evidence: a firm may simply not have been in the queried name set. Only one term - CRUSADER - was explicitly confirmed as a zero-result query and is recorded as such in the capture file. Permit counts are used as corroboration of SF activity, never as proof of current authority to contract; Servadei Service Inc (1,525 permits, license canceled in 2002) is the worked example of why.",
+    "unverified_candidates": [
+      {
+        "name": "BR Troika Inc. dba Mr Rooter Plumbing",
+        "license": "812845",
+        "sf_permits": 318,
+        "reason": "Third Mr. Rooter license entity and by far the most SF-permit-active of the three. CSLB record NOT captured in this pass."
+      },
+      {
+        "name": "Costello's Plumbing",
+        "license": "1018923",
+        "sf_permits": 20,
+        "reason": "Appears in the SF open-data extract. CSLB record NOT captured in this pass."
+      },
+      {
+        "name": "Hydro Plumbing & Rooter Inc",
+        "license": "922974",
+        "sf_permits": 5,
+        "reason": "Appears in the SF open-data extract. CSLB record NOT captured in this pass."
+      },
+      {
+        "name": "X-Ray Plumbing And Drain LLC",
+        "license": "1099220",
+        "sf_permits": 6,
+        "reason": "Sibling entity of the verified X-Ray corporation (1129001). CSLB record NOT captured in this pass."
+      },
+      {
+        "name": "Repipe Specialists",
+        "license": null,
+        "sf_permits": null,
+        "reason": "Relevant only as a galvanized-repipe fallback. No CSLB license number could be confirmed; an earlier attribution to 1099220 was withdrawn as incorrect."
+      },
+      {
+        "name": "Crusader Plumbing",
+        "license": null,
+        "sf_permits": 0,
+        "reason": "Recommended in SF community threads. No CSLB license number found and an explicit zero-result SF permit query. NOT hireable on this evidence."
+      },
+      {
+        "name": "Antonio Carcamo Reyes",
+        "license": null,
+        "sf_permits": 0,
+        "reason": "Surfaced during discovery; no CSLB license number located and zero-result SF permit query for 'CARCAMO'."
+      }
+    ]
+  }
+}

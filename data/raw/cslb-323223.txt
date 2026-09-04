@@ -1,0 +1,21 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=323223
+CAPTURED_AT: 2026-09-03T16:54:46Z (page states "Data current as of 9/3/2026 4:54:46 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+NOTE: Verbatim excerpt of the CSLB license detail page.
+
+Contractor's License Detail for License #  323223
+SAN FRANCISCO PLUMBING COMPANY
+200 VALLEY DRIVE SUITE 3
+BRISBANE, CA 94005
+Business Phone Number:(415) 664-2345
+Entity: Corporation
+Issue Date: 08/10/1976
+Reissue Date: 01/23/2001
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800250360, Bond Amount: $25,000, Effective Date: 04/06/2026
+Bond of Qualifying Individual: The qualifying individual CLAYTON MATTHEW HOGAN JR certified that he/she owns 10 percent or more of the voting stock/membership interest of this company; therefore, the Bond of Qualifying Individual is not required. Effective Date: 04/23/2008
+Workers' Compensation: This license has workers compensation insurance with the TECHNOLOGY INSURANCE COMPANY INC, Policy Number: TES4674846, Effective Date: 10/21/2025, Expire Date: 10/21/2026. Workers' compensation classification code(s): 51871 - Plumbing-high wage; 51831 - Plumbing-low wage
+Miscellaneous Information: 01/23/2001 - LICENSE REISSUED TO ANOTHER ENTITY

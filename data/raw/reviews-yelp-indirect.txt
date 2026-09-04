@@ -1,0 +1,83 @@
+##############################################################################
+# YELP (yelp.com) — VERBATIM SNIPPETS OBTAINED INDIRECTLY.
+# NOTE: yelp.com returned HTTP 403 to automated fetch during this research
+# (2026-09-03). Ratings/counts and quoted text below were obtained from
+# search-engine result snippets and cached index text, NOT from a direct
+# fetch of yelp.com. ACCESS is therefore recorded as "indirect" and every
+# such datapoint is badged accordingly on the site. Re-verify manually at
+# the linked Yelp URL before relying on a specific number.
+##############################################################################
+
+===== SOURCE: https://www.yelp.com/biz/ace-plumbing-and-rooter-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: ACE PLUMBING AND ROOTER — San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.7 (1512 reviews)
+SNIPPET VERBATIM (review text): "Called on a Sunday and they were here in an hour. Snaked the shower drain and had water flowing normally again."
+
+===== SOURCE: https://www.yelp.com/biz/atlas-plumbing-and-rooter-san-francisco-2 | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Atlas Plumbing & Rooter - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.3 (481 reviews)
+SNIPPET VERBATIM (review text): "They snaked our kitchen drain and replaced the broken section of pipe under the sink after another plumber couldn't clear it."
+
+===== SOURCE: https://www.yelp.com/biz/lutz-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Lutz Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.6 (312 reviews)
+SNIPPET VERBATIM (review text): "We have a 1920s house with original galvanized plumbing and they knew exactly what they were doing. Diagnosed the corrosion in the tub waste line without tearing anything open."
+
+===== SOURCE: https://www.yelp.com/biz/discount-plumbing-rooter-daly-city | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Discount Plumbing & Rooter - Daly City, CA - Yelp
+SNIPPET VERBATIM:
+4.2 (788 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/magic-plumbing-heating-cooling-and-electric-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Magic Plumbing, Heating, Cooling & Electrical - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.1 (1904 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/red-wrench-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Red Wrench Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.8 (421 reviews)
+SNIPPET VERBATIM (review text): "Excellent work on our bathroom remodel. They do not do drain cleaning / sewer work - you need a rooter company for that."
+
+===== SOURCE: https://www.yelp.com/biz/citywide-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Citywide Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.5 (206 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/whistle-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Whistle Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.7 (93 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/genteel-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Genteel Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.9 (64 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/pipeline-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Pipeline Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.8 (87 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/mr-rooter-plumbing-of-san-francisco-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Mr. Rooter Plumbing of San Francisco - Yelp
+SNIPPET VERBATIM:
+4.3 (166 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/precision-rooter-and-drain-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Precision Rooter & Drain - Yelp
+SNIPPET VERBATIM:
+4.9 (48 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/a-g-quality-plumbing-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: A G Quality Plumbing - San Francisco, CA - Yelp
+SNIPPET VERBATIM:
+4.6 (177 reviews)
+
+===== SOURCE: https://www.yelp.com/biz/cabrillo-plumbing-heating-and-air-san-francisco | CAPTURED: 2026-09-03 | ACCESS: indirect-search-snippet | TIER: official-platform =====
+TITLE: Cabrillo Plumbing, Heating & Air - Yelp
+SNIPPET VERBATIM:
+3.9 (704 reviews)

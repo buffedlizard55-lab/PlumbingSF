@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1100857
+CAPTURED_AT: 2026-09-03T16:31:20Z (page states "Data current as of 9/3/2026 4:31:20 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1100857
+DR DRAIN PLUMBING AND ROOTER
+1043 PINEHURST CT
+MILLBRAE, CA 94030
+Business Phone Number:(650) 686-0757
+Entity: Corporation
+Issue Date: 01/26/2023
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: NORTH RIVER INSURANCE COMPANY (THE), Bond Number: 04CF623125, Bond Amount: $25,000, Effective Date: 11/23/2023
+Bond of Qualifying Individual: The qualifying individual DICKSON CABRAL LIM ... Effective Date: 01/26/2023
+Workers' Compensation: This license is exempt from having workers compensation insurance; they certified that they have no employees at this time. Effective Date: 12/03/2024, Expire Date: None

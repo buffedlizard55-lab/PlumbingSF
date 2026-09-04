@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Generated data artifacts are intentionally COMMITTED (they are the published
+# deliverable and must match the site exactly). Only scratch output is ignored.
+/tmp/
+*.log

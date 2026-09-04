@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=453536
+CAPTURED_AT: 2026-09-03T16:31:23Z (page states "Data current as of 9/3/2026 4:31:23 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  453536
+FERGUSON PLUMBING INC
+dba MR ROOTER PLUMBING
+50 HEGENBERGER LOOP
+OAKLAND, CA 94621
+Business Phone Number:(510) 843-6378
+Entity: Corporation
+Issue Date: 03/12/1984
+Reissue Date: 04/04/2006
+Expire Date: 04/30/2028
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C42 - SANITATION SYSTEM
+Contractor's Bond: FEDERATED MUTUAL INSURANCE COMPANY, Bond Number: 6183187, Bond Amount: $25,000, Effective Date: 07/10/2023
+Bond of Qualifying Individual: The qualifying individual SPENCER ALAN FERGUSON ... Effective Date: 08/14/2025
+Workers' Compensation: An employee service group holds the workers compensation insurance. Policy Number: WC051663742CA, Effective Date: 07/01/2026, Expire Date: 07/01/2027
+Miscellaneous Information: 04/04/2006 - LICENSE REISSUED TO ANOTHER ENTITY

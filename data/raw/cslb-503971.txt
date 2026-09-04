@@ -1,0 +1,17 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=503971
+CAPTURED_AT: 2026-09-03T16:33:11Z (page states "Data current as of 9/3/2026 4:33:11 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  503971
+LUTZ PLUMBING INC
+3123 17TH STREET
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 621-4292
+Entity: Corporation
+Issue Date: 01/12/1987
+Expire Date: 01/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; C16 - FIRE PROTECTION ; C20 - WARM-AIR HEATING, VENTILATING AND AIR-CONDITIONING
+Contractor's Bond: OHIO CASUALTY INSURANCE COMPANY (THE), Bond Number: 198048C, Bond Amount: $25,000, Effective Date: 01/01/2023
+Bond of Qualifying Individual: The qualifying individual JAROSLAV HOTAREK ... Effective Date: 01/12/1987
+Workers' Compensation: SECURITY NATIONAL INSURANCE COMPANY, Policy Number: SNS1617791, Effective Date: 02/25/2026, Expire Date: 02/25/2027

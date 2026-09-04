@@ -1,0 +1,18 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=966458
+CAPTURED_AT: 2026-09-03T16:27:46Z (page states "Data current as of 9/3/2026 4:27:46 PM")
+HTTP_STATUS: 200 (fetched via tool)
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  966458
+RED WRENCH PLUMBING INC
+622 PRECITA AVENUE
+SAN FRANCISCO, CA 94110
+Business Phone Number:(415) 424-0799
+Entity: Corporation
+Issue Date: 10/07/2011
+Expire Date: 10/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING
+Contractor's Bond: ATLANTIC SPECIALTY INSURANCE COMPANY, Bond Number: 800274522, Bond Amount: $25,000, Effective Date: 09/01/2026
+Bond of Qualifying Individual: The qualifying individual SEAN COLLIN MCGRILLEN ... Effective Date: 10/07/2011
+Workers' Compensation: MARKEL INSURANCE COMPANY, Policy Number: MWC010835610, Effective Date: 03/10/2026, Expire Date: 03/10/2027

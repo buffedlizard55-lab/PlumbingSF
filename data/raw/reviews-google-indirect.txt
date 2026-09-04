@@ -1,0 +1,27 @@
+##############################################################################
+# GOOGLE REVIEWS / GOOGLE BUSINESS PROFILE — INDIRECT.
+# NOTE: Google Maps / Google Business review pages could not be fetched
+# directly from this environment (no API access, JS-rendered). Star counts
+# below come from search-engine snippets and from aggregator pages that
+# republish Google review counts. ACCESS recorded as "indirect". Google
+# review counts are also cross-listed on the businesses' BBB profiles where
+# noted. Verify manually at maps.google.com.
+##############################################################################
+
+===== SOURCE: https://www.google.com/maps/place/Atlas+Plumbing+%26+Rooter/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+Atlas Plumbing & Rooter — Google rating reported by aggregator: 4.6 stars.
+
+===== SOURCE: https://www.google.com/maps/place/Discount+Plumbing+%26+Rooter/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+Discount Plumbing & Rooter — Google rating reported by aggregator: 4.5 stars, 2,600+ total Google reviews.
+
+===== SOURCE: https://www.google.com/maps/place/Magic+Plumbing/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+Magic Plumbing, Heating, Cooling & Electrical — Google rating reported by aggregator: 4.5 stars.
+
+===== SOURCE: https://www.google.com/maps/place/Lutz+Plumbing/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+Lutz Plumbing — Google rating reported by aggregator: 4.8 stars.
+
+===== SOURCE: https://www.google.com/maps/place/X-Ray+Plumbing+and+Drain/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+X-Ray Plumbing And Drain — Google rating reported by aggregator: 4.9 stars.
+
+===== SOURCE: https://www.google.com/maps/place/ASAP+Plumbing+Pros/ | CAPTURED: 2026-09-03 | ACCESS: indirect-aggregator | TIER: official-platform =====
+ASAP Plumbing Pros — Google rating reported by aggregator: 5.0 stars.

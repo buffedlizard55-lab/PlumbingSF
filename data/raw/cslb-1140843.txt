@@ -1,0 +1,20 @@
+SOURCE_URL: https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=1140843
+CAPTURED_AT: 2026-09-03T16:29:12Z (page states "Data current as of 9/3/2026 4:29:12 PM")
+TYPE: Official government record - California Contractors State License Board (CSLB)
+
+Contractor's License Detail for License #  1140843
+DISCOUNT PLUMBING ROOTER SERVICES LLC
+1325 HOWARD AVE BLDG 710
+BURLINGAME, CA 94010
+Business Phone Number:(650) 991-2100
+Entity: Ltd Liability
+Issue Date: 07/22/2025
+Expire Date: 07/31/2027
+License Status: This license is current and active. All information below should be reviewed.
+Classifications: C36 - PLUMBING ; A - GENERAL ENGINEERING
+Contractor's Bond: LEXINGTON NATIONAL INSURANCE CORPORATION, Bond Number: L2842122142, Bond Amount: $25,000, Effective Date: 06/09/2025
+LLC EMPLOYEE/WORKER BOND: LEXINGTON NATIONAL INSURANCE CORPORATION, Bond Number: L2842132142, Bond Amount: $100,000, Effective Date: 06/09/2025
+Bond of Qualifying Individual: L2777752142 for DANIEL CHAVEZ $25,000 Effective Date: 02/01/2026 ; L3504082142 for MARY ABIGAIL ABAD DELA CRUZ $25,000 Effective Date: 08/13/2026
+Workers' Compensation: A I U INSURANCE COMPANY, Policy Number: 020396018, Effective Date: 04/01/2025, Expire Date: 04/01/2027
+Liability Insurance: NATIONAL UNION FIRE INSURANCE COMPANY OF PITTSBURGH, PA, Policy Number: 9952707, Amount: $2,000,000, Effective 04/01/2026, Expires 04/01/2027
+Other: Personnel listed on this license (current or disassociated) are listed on other licenses.
